@@ -1,5 +1,5 @@
 import { AiFillBehanceSquare, AiFillLinkedin, AiFillYoutube, AiOutlineWhatsApp } from "react-icons/ai";
-import { ButtonPortfolio } from "../Component/ButtonPortfolio";
+import { ButtonPortfolio } from "../../Components/ButtonPortfolio";
 
 interface ISocialMedia{ 
   icon:JSX.Element, link:string, site:string
