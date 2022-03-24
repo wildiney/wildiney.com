@@ -13,7 +13,7 @@ export default function Home({ data }) {
 }
 
 export const getServerSideProps = async () => {
-  const response = await fetch(`${process.env.BASE_URL}/api/linktree`);
+  const response = await fetch(`${process.env.URL}/api/linktree`);
   const data = await response.json();
   return {
     props: {
