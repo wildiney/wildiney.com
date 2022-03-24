@@ -1,5 +1,5 @@
 import Head from "next/head";
-import LinkTree from "../../Components/LinkTree";
+import LinkTree from "../../Components/MyLinkTree";
 
 export default function Home({ data }) {
   return (
