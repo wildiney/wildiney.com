@@ -1,0 +1,14 @@
+.title {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+}
+.subtitle {
+  color: var(--secondary-color);
+  font-weight: 200;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
