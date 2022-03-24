@@ -1,7 +1,15 @@
+import Head from "next/head";
 import LinkTree from "../../Components/linktree";
 
 export default function Home({ data }) {
-  return <LinkTree data={data} />;
+  return (
+    <>
+      <Head>
+        <title>Wildiney Fernando Pimentel - LinkTree</title>
+      </Head>
+      <LinkTree data={data} />;
+    </>
+  );
 }
 
 export const getServerSideProps = async () => {
