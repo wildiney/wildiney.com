@@ -1,9 +1,5 @@
-import LinkTree from "./LinkTree";
-
+import LinkTree from "./linktree";
 
 export default function Home() {
-  return (
-    <LinkTree/>
-  )
+  return <LinkTree />;
 }
-  
