@@ -7,7 +7,7 @@ export default function Home({ data }) {
       <Head>
         <title>Wildiney Fernando Pimentel - LinkTree</title>
       </Head>
-      <LinkTree data={data} />;
+      <LinkTree data={data} />
     </>
   );
 }
