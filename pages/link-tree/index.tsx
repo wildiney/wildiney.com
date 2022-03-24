@@ -5,7 +5,7 @@ export default function Home({ data }) {
   return (
     <>
       <Head>
-        <title>Wildiney Fernando Pimentel - LinkTree</title>
+        <title>Wildiney Fernando Pimentel - Link-Tree</title>
       </Head>
       <LinkTree data={data} />
     </>
