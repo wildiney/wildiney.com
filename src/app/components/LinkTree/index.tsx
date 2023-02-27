@@ -1,5 +1,5 @@
 import React from "react";
-// import * as reacticons from "react-icons/ai";
+import * as reacticons from "react-icons/ai";
 import { ButtonPortfolio } from "../ButtonPortfolio";
 import styles from "./linktree.module.css";
 
@@ -12,11 +12,12 @@ export default function LinkTree({ data }: any) {
       </h2>
       {data &&
         data.map((button: any, index: any) => {
-          // const TheComponent: any = reacticons[button.icon];
+          //@ts-ignore
+          const TheComponent: any = reacticons[button.icon];
           return (
             <ButtonPortfolio
               key={index}
-              // icon={<TheComponent />}
+              icon={<TheComponent />}
               site={button.site}
               link={button.link}
             />
