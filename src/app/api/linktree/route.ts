@@ -39,8 +39,7 @@ const socialMedia: ISocialMedia[] = [
     link: "mailto:wildiney@gmail.com",
   },
 ];
-async function handler(_: NextApiRequest, res: NextApiResponse) {
-  return res.status(200).json(socialMedia);
-}
 
-export default handler;
+export async function GET(request: Request) {
+  return new Response(JSON.stringify(socialMedia))
+}
