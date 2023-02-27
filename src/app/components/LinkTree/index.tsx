@@ -1,5 +1,5 @@
 import React from "react";
-import * as reacticons from "react-icons/ai";
+// import * as reacticons from "react-icons/ai";
 import { ButtonPortfolio } from "../ButtonPortfolio";
 import styles from "./linktree.module.css";
 
