@@ -1,7 +1,6 @@
 import './globals.css'
-import { useEffect } from 'react'
-import { usePathname } from 'next/navigation'
-import * as gtag from './libs/gtag'
+import GoogleAnalytics from './components/GoogleAnalytics/GoogleAnalytics'
+import { GA_TRACKING_ID } from './libs/gtag'
 
 export const metadata = {
   title: 'Wildiney Di Masi',
@@ -13,16 +12,13 @@ export default function RootLayout ({
 }: {
   children: React.ReactNode
 }) {
-  const pathname = usePathname()
 
-  useEffect(() => {
-    gtag.pageview(pathname)
-  }, [pathname])
+
 
   return (
     <html lang='pt-br'>
       <head>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}></script>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}></script>
 
         <script
           dangerouslySetInnerHTML={{
@@ -30,7 +26,7 @@ export default function RootLayout ({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', '${gtag.GA_TRACKING_ID}', {
+              gtag('config', '${GA_TRACKING_ID}', {
                 page_path: window.location.pathname,
               });
             `,
@@ -38,6 +34,7 @@ export default function RootLayout ({
         />
       </head>
       <body>{children}</body>
+      <GoogleAnalytics />
     </html>
   )
 }
