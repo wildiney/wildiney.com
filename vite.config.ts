@@ -1,6 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+import react from '@vitejs/plugin-react';
+import path from 'path';
+import { defineConfig } from 'vite';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
+
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,5 +14,13 @@ export default defineConfig({
   },
   plugins: [
     react(),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'CNAME', // Caminho do arquivo CNAME na pasta public ou raiz
+          dest: '.' // Destino na pasta de saída
+        }
+      ]
+    })
   ],
 })
