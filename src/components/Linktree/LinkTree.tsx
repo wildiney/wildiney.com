@@ -1,6 +1,5 @@
 import { ButtonPortfolio } from "@/components/PortfolioButton/PortfolioButton";
-import { IconKey, ISocialMedia } from "@/data/data";
-import * as reacticons from "react-icons/ai";
+import { ISocialMedia } from "@/data/data";
 
 export default function LinkTree ({ data }: { data: ISocialMedia[] }) {
   return (
@@ -10,14 +9,14 @@ export default function LinkTree ({ data }: { data: ISocialMedia[] }) {
 
       {data &&
         data.map((button, index) => {
-          const Icon = ({ icon }: { icon: IconKey }) => {
-            const IconComponent = reacticons[icon];
+          const Icon = ({ icon }: { icon: React.ComponentType }) => {
+            const IconComponent = icon;
             return <IconComponent />
           }
           return (
             <ButtonPortfolio
               key={index}
-              icon={<Icon icon={button.icon as IconKey} />}
+              icon={<Icon icon={button.icon} />}
               site={button.site}
               link={button.link}
             />
