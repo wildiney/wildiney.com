@@ -12,7 +12,7 @@ export default {
       colors: {
         "primary": '#fafafa',
         "secondary": '#83c3c2',
-        "tertiary": '#927691',
+        "tertiary": '#633561',
         "quaternary": '#848ca4',
         "accent": '#613a45'
       }
