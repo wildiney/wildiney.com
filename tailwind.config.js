@@ -13,7 +13,7 @@ export default {
         "primary": '#fafafa',
         "secondary": '#83c3c2',
         "tertiary": '#633561',
-        "quaternary": '#848ca4',
+        "quaternary": '#606F9B',
         "accent": '#613a45'
       }
     },
