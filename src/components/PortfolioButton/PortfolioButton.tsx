@@ -3,7 +3,7 @@ import ReactGA from 'react-ga4';
 
 export function ButtonPortfolio ({ icon, site, link }: { icon: React.ReactNode, site: string, link: string }) {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault
+    e.preventDefault()
     ReactGA.event({ category: "link", action: "click", label: site });
     setTimeout(() => {
       window.open(link, '_blank');
