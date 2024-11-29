@@ -2,14 +2,14 @@
 
 @layer components {
   .btn {
-    @apply flex justify-center border border-tertiary bg-white opacity-80 text-quaternary p-4 rounded-md shadow-md  items-center font-medium mb-3 overflow-hidden relative w-full h-[70px];
+    @apply flex justify-center border-2 border-secondary bg-white opacity-80 text-quaternary p-4 rounded-md shadow-md  items-center font-medium mb-3 overflow-hidden relative w-full h-[70px];
   }
   .btn:hover {
-    @apply bg-[#f6f6f6] text-accent shadow-md mt-[-2px] ml-[-5px] cursor-pointer;
+    @apply bg-[#f6f6f6] text-secondary shadow-md mt-[-2px] ml-[-5px] cursor-pointer;
   }
 
   .btn:after {
-    @apply w-11 h-11 bg-accent rotate-45 absolute right-[-70px] top-[70%] transition-[right] duration-300 ease-in-out;
+    @apply w-11 h-11 bg-secondary rotate-45 absolute right-[-70px] top-[70%] transition-[right] duration-300 ease-in-out;
     content: '';
   }
 
@@ -20,6 +20,6 @@
     @apply flex mr-4 text-4xl;
   }
   .btn .text {
-    @apply flex text-2xl mt-1 min-w-28;
+    @apply flex text-2xl mt-0 min-w-28;
   }
 }

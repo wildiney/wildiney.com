@@ -2,18 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  @apply box-border;
+html,
+body {
+  @apply h-full w-full m-0 p-0 overflow-x-hidden;
 }
 
-html,
-body,
 #root {
-  @apply flex m-0 p-0 w-full min-h-full;
-}
-body {
-  @apply w-full min-h-full bg-gradient-to-br from-tertiary to-accent bg-fixed font-josefin;
-}
-#root {
-  @apply items-center;
+  @apply flex min-h-full w-full;
 }
