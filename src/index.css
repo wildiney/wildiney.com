@@ -4,7 +4,7 @@
 
 html,
 body {
-  @apply h-full w-full m-0 p-0 overflow-x-hidden;
+  @apply h-full w-full m-0 p-0 overflow-x-hidden bg-black;
 }
 
 #root {
