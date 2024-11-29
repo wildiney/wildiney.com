@@ -2,10 +2,10 @@
 
 @layer components {
   .btn {
-    @apply flex justify-center border-2 border-secondary bg-white opacity-80 text-quaternary p-4 rounded-md shadow-md  items-center font-medium mb-3 overflow-hidden relative w-full h-[70px];
+    @apply flex justify-center   bg-white/50 text-quaternary p-4 rounded-md shadow-md  items-center font-medium mb-3 overflow-hidden relative w-full h-[70px];
   }
   .btn:hover {
-    @apply bg-[#f6f6f6] text-secondary shadow-md mt-[-2px] ml-[-5px] cursor-pointer;
+    @apply bg-white/70 text-secondary border-2 border-secondary shadow-md mt-[-2px] ml-[-5px] cursor-pointer transition-all duration-300;
   }
 
   .btn:after {
