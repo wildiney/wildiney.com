@@ -10,7 +10,7 @@ export function ButtonPortfolio ({ icon, site, link, ariaLabel }: { icon: React.
     }, 100);
   }
   return (
-    <div className="relative h-[80px] w-full max-w-xl min-w-80 p-4">
+    <div className="relative h-[80px] w-full max-w-xl min-w-80">
       <a className={styles.btn} target="_blank" href={link} rel="noopener noreferrer" onClick={handleClick} aria-label={ariaLabel}>
         <span className={styles.icon}>{icon}</span>
         <span className={styles.text}>{site}</span>

@@ -12,7 +12,7 @@ export default function Background ({ children }: { children: ReactNode }) {
         <source src={bgMovie} media='(min-width: 1281px)' type="video/mp4" />
         Seu navegador não suporta vídeos.
       </video>
-      <div className="fixed top-0 left-0 w-full h-full bg-black/70" />
+      <div className="fixed top-0 left-0 w-full h-full bg-black/50" />
       <div className="relative z-10 flex flex-col items-center h-full overflow-y-auto text-white">
         {children}
       </div>
