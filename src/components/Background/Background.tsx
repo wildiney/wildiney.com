@@ -2,10 +2,11 @@ import { ReactNode } from 'react'
 import bgMovie from '../../assets/background.mp4'
 import bgMovieDesktop from '../../assets/background1280fast.mp4'
 import bgMovieMobile from '../../assets/background640fast.mp4'
+import backgroundImg from '@/assets/background.png'
 
 export default function Background ({ children }: { children: ReactNode }) {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-screen bg-center bg-cover" style={{ backgroundImage: `url(${backgroundImg})` }}>
       <video autoPlay muted loop className="fixed top-0 left-0 object-cover w-full h-full">
         <source src={bgMovieMobile} media='(max-width: 640px)' type="video/mp4" />
         <source src={bgMovieDesktop} media='(min-width: 641px) and (max-width: 1280px)' type="video/mp4" />
