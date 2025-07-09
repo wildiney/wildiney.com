@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --font-*: initial;
+  --font-josefin: 'Josefin Sans', sans-serif;
+
+  --color-primary: #fafafa;
+  --color-secondary: #004b6b;
+  --color-tertiary: #633561;
+  --color-quaternary: #363636;
+  --color-accent: #613a45;
+}
 
 html,
 body {
