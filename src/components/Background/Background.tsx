@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
-import bgMovie from '../../assets/background.mp4'
-import bgMovieDesktop from '../../assets/background1280fast.mp4'
-import bgMovieMobile from '../../assets/background640fast.mp4'
+import bgMovie from '@/assets/background.mp4'
+import bgMovieDesktop from '@/assets/background1280fast.mp4'
+import bgMovieMobile from '@/assets/background640fast.mp4'
 import backgroundImg from '@/assets/background.png'
 
 export default function Background ({ children }: { children: ReactNode }) {
