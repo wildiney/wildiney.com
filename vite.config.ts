@@ -1,10 +1,10 @@
+import tailwindcss from "@tailwindcss/vite";
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import { defineConfig } from 'vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 
-// https://vitejs.dev/config/
 export default defineConfig({
   base: '/',
   resolve: {
@@ -14,11 +14,12 @@ export default defineConfig({
   },
   plugins: [
     react(),
+    tailwindcss(),
     viteStaticCopy({
       targets: [
         {
-          src: 'CNAME', // Caminho do arquivo CNAME na pasta public ou raiz
-          dest: '.' // Destino na pasta de saída
+          src: 'CNAME',
+          dest: '.'
         }
       ]
     })
