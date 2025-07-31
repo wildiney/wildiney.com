@@ -1,16 +1,26 @@
-import { socialMedia } from '../data/data';
+import Header from '@/components/Header';
 import { usePageTracking } from '@/hooks/usePageTracking';
+import Intro from './sections/intro';
+import About from './sections/about';
+import Contact from './sections/contact';
 
-import Background from '@/components/Background/Background';
-import LinkTree from '@/components/Linktree/LinkTree';
 
 function Home () {
-  usePageTracking("LinkTree")
+  usePageTracking("Home")
+
 
   return (
-    <Background>
-      <LinkTree data={socialMedia} />
-    </Background>
+    <>
+      <Header />
+      <main className='flex w-full flex-col'>
+        <Intro />
+        <About />
+        {/* <div className='w-full h-screen bg-blue-700 p-16' id='portfolio'>
+          <h2 className='text-white'>Portfolio</h2>
+        </div> */}
+        <Contact />
+      </main>
+    </>
   )
 }
 
