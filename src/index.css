@@ -1,10 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
+
+@keyframes bounce-squish {
+  0% {
+    transform: translateY(0);
+  }
+  8% {
+    transform: translateY(-0.5rem) scaleY(1);
+  }
+  16% {
+    transform: translateY(1.2rem) scaleY(0.9);
+  }
+  22% {
+    transform: translateY(-0.2rem) scaleY(1);
+  }
+  28% {
+    transform: translateY(0.7rem) scaleY(0.9);
+  }
+  32% {
+    transform: translateY(0) scaleY(1);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-bounce-squish {
+  animation: bounce-squish 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
 
 @theme {
   --font-*: initial;
+  --font-poppins: 'Poppins', sans-serif;
   --font-josefin: 'Josefin Sans', sans-serif;
 
-  --color-primary: #fafafa;
+  --color-primary: #004a5b;
   --color-secondary: #004b6b;
   --color-tertiary: #633561;
   --color-quaternary: #363636;
@@ -13,7 +43,8 @@
 
 html,
 body {
-  @apply h-full w-full m-0 p-0 overflow-x-hidden bg-black;
+  scroll-behavior: smooth;
+  @apply h-full w-full m-0 p-0 bg-gray-100 font-poppins;
 }
 
 #root {

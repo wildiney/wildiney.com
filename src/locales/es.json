@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "intro": "Inicio",
+    "about": "Acerca de mí",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "intro": {
+    "hello": "Construyo soluciones\nque la gente realmente usa"
+  },
+  "about": {
+    "pageTitle": "About me",
+    "description": "Diseñador con más de 15 años de experiencia en productos digitales, liderando proyectos de experiencia de usuario, diseño visual, investigación y definición estratégica con enfoque en impacto real. Actúo en la creación de experiencias escalables, integrando equipos multidisciplinarios en entornos complejos y multicanal.\nLidero equipos promoviendo una cultura centrada en el usuario, buenas prácticas de diseño y decisiones guiadas por datos. Contribuyo a sistemas de diseño, procesos de descubrimiento y operaciones que aceleran las entregas con autonomía y calidad.\nBusco desafíos donde pueda aplicar visión estratégica, liderazgo y excelencia en diseño, transformando experiencias y escalando soluciones con propósito.",
+    "experience": {
+      "title": "Experience",
+      "globalweb": {
+        "position": "Product Designer en Globalweb Corp.",
+        "description": "He trabajado como consultor, colaborando directamente en el cliente. Soy responsable de todo el proceso de UX y UI Design, enfocado en mejorar sistemas, sitios web y aplicaciones.\nPara validar las soluciones, además de prototipos de baja y alta fidelidad, desarrollo MVPs utilizando Kotlin y React Native para aplicaciones móviles, así como React/NextJS/Angular para plataformas web.",
+        "date": "2022 - 2025"
+      },
+      "indra": {
+        "position": "Designer Senior en Indra Company / Minsait.",
+        "description": "Indra es una empresa española de tecnología presente en más de 140 países y con la segunda mayor base de clientes en Brasil.\nLos proyectos en el área de Comunicación fueron diversos: creación de campañas online y offline, redes sociales, desarrollo de herramientas y aplicaciones internas para monitoreo de desempeño, y participación en eventos importantes como SAP Fórum, CIAB, entre otros.",
+        "date": "2013 - 2022"
+      },
+      "sanrio": {
+        "position": "Product Designer en Sanrio Co.",
+        "description": "Sanrio es una empresa japonesa de licencias, conocida principalmente por Hello Kitty. Fui responsable por la creación del primer e-commerce de la marca, desde la definición de requisitos del proyecto, desarrollo de la plataforma de comercio electrónico, campañas promocionales y de ventas, y, lo más importante, la experiencia del cliente —o mejor dicho, del fan.\nFuimos pioneros en la promoción en redes sociales, identificando los principales hubs de comunicación de la marca, incluso antes del auge de los influencers digitales.",
+        "date": "2022 - 2025"
+      },
+      "estacio": {
+        "position": "UI/UX Designer en Grupo Estacio / UniRadial.",
+        "description": "Estácio forma parte de uno de los mayores grupos educativos de Brasil. Como parte del departamento de marketing, nuestra misión principal era atraer estudiantes a través de campañas en radio, TV y revistas de circulación nacional como VEJA y Época.\nDurante mi paso por la institución, cuando aún era Uniradial, fui responsable por los sitios institucionales y campañas de captación. Logré implementar el concepto de preinscripción online, permitiendo que los estudiantes aprobados en el examen de ingreso adelantaran el proceso enviando sus documentos al sistema, mejorando así la experiencia del nuevo alumno.",
+        "date": "2013 - 2022"
+      }
+    }
+  }
+}
