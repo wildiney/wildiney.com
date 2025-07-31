@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "intro": "Início",
+    "about": "Sobre mim",
+    "portfolio": "Portfólio",
+    "contact": "Contato"
+  },
+  "intro": {
+    "hello": "Eu crio soluções\nque as pessoas\nrealmente usam"
+  },
+  "about": {
+    "pageTitle": "Sobre mim",
+    "description": "Designer com mais de 15 anos de experiência em produtos digitais, liderando projetos de experiência do usuário, design visual, pesquisa e definição estratégica com foco em impacto real. Atuo na criação de experiências escaláveis, integrando times multidisciplinares em ambientes complexos e multicanais.\nLidero equipes promovendo cultura centrada no usuário, boas práticas de design e decisões orientadas por dados. Contribuo para design systems, processos de discovery e operações que aceleram entregas com autonomia e qualidade.\nBusco desafios para aplicar visão estratégica, gestão e excelência em design, transformando experiências e escalando soluções com propósito.",
+    "experience": {
+      "title": "Experiência",
+      "globalweb": {
+        "position": "Product Designer Senior na Globalweb Corp.",
+        "description": "Atuação em projetos digitais com foco em soluções centradas no usuário. Responsável pelo redesign do app do Programa Bolsa Família, conduzindo discovery, pesquisas, jornadas, testes, design system, wireframes e protótipos de alta fidelidade, com entrega estruturada para o time de desenvolvimento.\nDesenvolvimento de MVPs e protótipos em baixa e alta fidelidade utilizando Kotlin, React Native, React, Next.js e Angular. Trabalho estratégico e colaborativo entre produto, design e tecnologia, promovendo entregas ágeis e alinhadas ao negócio.",
+        "date": "2022 - 2025"
+      },
+      "indra": {
+        "position": "Designer Senior na Indra / Minsait.",
+        "description": "Na Indra, empresa global de tecnologia presente em mais de 140 países, atuei em projetos diversos dentro da área de Comunicação, com foco na criação de campanhas integradas e soluções digitais voltadas ao ambiente corporativo. Trabalhei no desenvolvimento de ferramentas internas para monitoramento de performance, além de aplicações orientadas à eficiência operacional e à comunicação institucional. Também participei da concepção de experiências para grandes eventos como SAP Fórum e CIAB, contribuindo com a integração entre design, estratégia e tecnologia em iniciativas de alto impacto.",
+        "date": "2013 - 2022"
+      },
+      "sanrio": {
+        "position": "Product Designer na Sanrio Co.",
+        "description": "Na Sanrio, empresa japonesa reconhecida mundialmente por marcas como a Hello Kitty, liderei a criação do primeiro e-commerce oficial no Brasil. Atuei desde a definição dos pré-requisitos do projeto até o desenvolvimento da plataforma, campanhas de lançamento e estratégias de vendas. Um dos principais focos foi proporcionar uma experiência única ao cliente, conectando o universo emocional dos fãs à jornada digital de compra. Fomos pioneiros em ações nas redes sociais, mapeando e ativando comunidades-chave da marca muito antes do surgimento dos influenciadores digitais como conhecemos hoje, o que gerou forte engajamento e amplificou a presença da marca no ambiente online.",
+        "date": "2009 - 2013"
+      },
+      "estacio": {
+        "position": "UI/UX Designer no Grupo Estácio / UniRadial",
+        "description": "Na Estácio, um dos maiores grupos educacionais do Brasil, atuei no time de Marketing com foco em campanhas nacionais de captação de alunos, com peças veiculadas em rádio, TV e revistas como VEJA e Época. Fui responsável pelos sites institucionais e das campanhas, além de propor e implementar melhorias na jornada do candidato. Uma das principais contribuições foi a introdução do conceito de pré-matrícula online, que permitiu aos aprovados no vestibular enviarem seus documentos antecipadamente, otimizando o processo de matrícula, reduzindo filas e melhorando significativamente a experiência dos novos alunos.",
+        "date": "2007 - 2009"
+      }
+    }
+  }
+}
