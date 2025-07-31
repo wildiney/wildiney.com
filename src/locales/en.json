@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "intro": "Home",
+    "about": "About me",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "intro": {
+    "hello": "I build solutions\nthat people actually use"
+  },
+  "about": {
+    "pageTitle": "About me",
+    "description": "Designer with over 15 years of experience in digital products, leading user experience, visual design, research, and strategic definition projects with a focus on real impact. I work on creating scalable experiences, integrating multidisciplinary teams in complex, omnichannel environments.\nI lead teams by promoting a user-centered culture, design best practices, and data-driven decision-making. I contribute to design systems, discovery processes, and operations that accelerate delivery with autonomy and quality.\nI'm looking for challenges where I can apply strategic vision, leadership, and design excellence, transforming experiences and scaling purposeful solutions.",
+    "experience": {
+      "title": "Experience",
+      "globalweb": {
+        "position": "Product Designer at Globalweb Corp.",
+        "description": "Worked on digital projects focused on user-centered solutions. Led the redesign of the “Programa Bolsa Família” app, covering discovery, research, user journeys, testing, design system, wireframes and high-fidelity prototypes, with a structured handoff to the development team.\nDeveloped MVPs and prototypes using Kotlin, React Native, React, Next.js and Angular. Collaborative and strategic work bridging design, product and tech for agile and business-aligned deliveries.",
+        "date": "2022 - 2025"
+      },
+      "indra": {
+        "position": "Designer Senior at Indra Company / Minsait.",
+        "description": "At Indra, a global technology company present in over 140 countries, I worked on various projects within the Communication department, focusing on the creation of integrated campaigns and digital solutions for the corporate environment. I was involved in the development of internal tools for performance monitoring, as well as applications aimed at operational efficiency and institutional communication.\nI also contributed to the design of experiences for major events such as SAP Forum and CIAB, helping integrate design, strategy, and technology in high-impact initiatives.",
+        "date": "2013 - 2022"
+      },
+      "sanrio": {
+        "position": "Product Designer at Globalweb Corp.",
+        "description": "Sanrio is a Japanese licensing company, best known for Hello Kitty. I led the launch of the brand’s first e-commerce platform in Brazil, overseeing everything from project scoping and development to marketing and sales campaigns — always focused on delivering an exceptional fan experience. We pioneered social media strategies, identifying key communication channels before the rise of digital influencers. I was also responsible for building the team, managing vendors, and presenting performance metrics and KPIs to guide product and marketing decisions.",
+        "date": "2022 - 2025"
+      },
+      "estacio": {
+        "position": "Product Designer at Globalweb Corp.",
+        "description": "Estácio is part of one of the largest educational groups in Brazil. As part of the marketing department, our main mission was to attract students through advertising on radio, TV, and nationally circulated magazines like VEJA and Época.During my time at the institution, when it was still Uniradial, I was responsible for institutional websites and recruitment campaigns. I also introduced the concept of online pre-registration, allowing students approved in entrance exams to submit documents in advance, speeding up enrollment and improving the new student experience.",
+        "date": "2013 - 2022"
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Contact"
+  }
+}
