@@ -3,6 +3,7 @@ import Section from "@/components/Section"
 import Subtitle from "@/components/Subtitles"
 import BolsaFamilia from '@/assets/portfolio/bolsa-familia/bolsa-familia.png'
 import EcommerceSanrio from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio.png'
+import ImgIndra from '@/assets/portfolio/indra/header-indra.png'
 // import { renderLines } from '@/libs/renderLines';
 import { useTranslation } from 'react-i18next';
 
@@ -20,26 +21,42 @@ function Portfolio () {
               <img src={BolsaFamilia} alt="Portfolio image" className="w-full min-h-20" />
             </div>
             <div className="flex flex-col lg:flex-row justify-between py-4 px-2 gap-4 lg:gap-8 items-center">
-              <div>
-                <p className="text-sm text-gray-500">Globalweb</p>
-                <p className="text-lg text-gray-700 font-medium">Aplicativo Bolsa Família</p>
+              <div className="">
+                <p className="text-sm text-gray-500 text-center lg:text-left">Globalweb</p>
+                <p className="text-lg text-gray-700 text-center lg:text-left font-medium">Aplicativo Bolsa Família</p>
               </div>
               <div>
                 <a className="border whitespace-nowrap px-4 py-2 border-primary rounded-full text-sm" href="/#/portfolio/bolsa-familia">Estudo de caso</a>
               </div>
             </div>
           </div>
+
           <div className="flex flex-col w-full">
             <div className="aspect-video bg-gray-300 rounded-md overflow-hidden">
               <img src={EcommerceSanrio} alt="Portfolio image" className="w-full min-h-20" />
             </div>
             <div className="flex flex-col lg:flex-row justify-between py-4 px-2 gap-4 lg:gap-8 items-center">
               <div>
-                <p className="text-sm text-gray-500">Sanrio Co.</p>
+                <p className="text-sm text-gray-500 text-center lg:text-left">Sanrio Co.</p>
                 <p className="text-lg text-gray-700 font-medium">Ecommerce Sanrio Brasil</p>
               </div>
               <div>
                 <a className="border whitespace-nowrap px-4 py-2 border-primary rounded-full text-sm" href="/#/portfolio/sanrio/ecommerce">Estudo de caso</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col w-full">
+            <div className="aspect-video bg-gray-300 rounded-md overflow-hidden">
+              <img src={ImgIndra} alt="Portfolio image" className="w-full min-h-20" />
+            </div>
+            <div className="flex flex-col lg:flex-row justify-between py-4 px-2 gap-4 lg:gap-8 items-center">
+              <div>
+                <p className="text-sm text-gray-500 text-center lg:text-left">Indra / Minsait</p>
+                <p className="text-lg text-gray-700 font-medium">Comunicação Corporativa e Soluções Internas </p>
+              </div>
+              <div>
+                <a className="border whitespace-nowrap px-4 py-2 border-primary rounded-full text-sm" href="/#/portfolio/indra">Estudo de caso</a>
               </div>
             </div>
           </div>
