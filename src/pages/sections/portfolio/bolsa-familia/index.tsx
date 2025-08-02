@@ -17,6 +17,7 @@ function BolsaFamilia () {
 
           <div className="mx-auto w-full max-w-5xl px-8 pb-8 pt-16">
             <h1 className='text-4xl text-primary mb-8 leading-snug font-medium'>{t('bolsafamilia.titlePage')}</h1>
+
             <h2 className='text-3xl text-primary mb-4'>{t('bolsafamilia.titleContext')}</h2>
             <p className="leading-relaxed text-gray-700">{t('bolsafamilia.contextDescription')}</p>
 
