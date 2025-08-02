@@ -7,6 +7,7 @@ import LinkTree from '@/pages/LinkTree';
 import ScrollToAnchor from './ScrollToAnchor';
 import BolsaFamilia from './pages/sections/portfolio/bolsa-familia';
 import EcommerceSanrio from './pages/sections/portfolio/sanrio';
+import Indra from './pages/sections/portfolio/indra';
 import ScrollToTop from '@/components/ScrollToTop';
 
 function App () {
@@ -18,6 +19,7 @@ function App () {
         <Route path="/linktree" element={<LinkTree />} />
         <Route path="/portfolio/bolsa-familia" element={<BolsaFamilia />} />
         <Route path="/portfolio/sanrio/ecommerce" element={<EcommerceSanrio />} />
+        <Route path="/portfolio/indra" element={<Indra />} />
       </Routes>
       <ScrollToAnchor />
     </HashRouter>
