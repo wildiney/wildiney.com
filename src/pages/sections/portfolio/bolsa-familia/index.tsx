@@ -1,9 +1,9 @@
+import ImgBolsaFamilia from '@/assets/portfolio/bolsa-familia/bolsa-familia.webp';
 import Header from "@/components/Header";
-import ImgBolsaFamilia from '@/assets/portfolio/bolsa-familia/bolsa-familia.png'
+import Image from "@/components/portfolio/Header/Image";
 import { renderLines } from '@/libs/renderLines';
 import { useTranslation } from 'react-i18next';
 import Contact from "../../contact";
-import Image from "@/components/portfolio/Header/Image";
 
 function BolsaFamilia () {
   const { t } = useTranslation()

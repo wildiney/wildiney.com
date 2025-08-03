@@ -1,9 +1,9 @@
+import ImgEcommerceSanrio from "@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio.webp";
 import Header from "@/components/Header";
+import Image from "@/components/portfolio/Header/Image";
 import { renderLines } from '@/libs/renderLines';
 import { useTranslation } from 'react-i18next';
 import Contact from "../../contact";
-import Image from "@/components/portfolio/Header/Image";
-import ImgEcommerceSanrio from "@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio.png";
 
 function BolsaFamilia () {
   const { t } = useTranslation()

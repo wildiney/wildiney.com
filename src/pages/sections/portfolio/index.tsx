@@ -1,10 +1,10 @@
 
 import BolsaFamiliaSm from '@/assets/portfolio/bolsa-familia/bolsa-familia-sm.png'
-import BolsaFamilia from '@/assets/portfolio/bolsa-familia/bolsa-familia.png'
+import BolsaFamilia from '@/assets/portfolio/bolsa-familia/bolsa-familia.webp'
 import EcommerceSanrioSm from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio-sm.png'
-import EcommerceSanrio from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio.png'
+import EcommerceSanrio from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio.webp'
 import ImgIndraSm from '@/assets/portfolio/indra/header-indra-sm.png'
-import ImgIndra from '@/assets/portfolio/indra/header-indra.png'
+import ImgIndra from '@/assets/portfolio/indra/header-indra.webp'
 import Section from "@/components/Section"
 import Subtitle from "@/components/Subtitles"
 import { useTranslation } from 'react-i18next'
