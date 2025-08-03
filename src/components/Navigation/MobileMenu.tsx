@@ -20,7 +20,7 @@ const MobileMenu = ({ open, onClose, children }: MobileMenuProps) => {
             onClick={onClose}
             aria-label="Fechar menu"
           >
-            ×
+            &times;
           </button>
           <h2 className='text-center text-2xl mb-6 font-medium text-primary'>Menu</h2>
         </div>
