@@ -12,7 +12,7 @@ function Navigation ({ mobile = false, onNavigate }: NavigationProps) {
   const links = [
     { to: '/#intro', label: t('nav.intro', 'Início'), id: 'intro' },
     { to: '/#about', label: t('nav.about', 'About'), id: 'about' },
-    // { to: '/#portfolio', label: t('nav.portfolio', 'Portfolio'), id: 'portfolio' },
+    { to: '/#portfolio', label: t('nav.portfolio', 'Portfolio'), id: 'portfolio' },
     { to: '/#contact', label: t('nav.contact', 'Contact'), id: 'contact' },
   ];
 
