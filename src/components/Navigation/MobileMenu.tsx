@@ -9,7 +9,7 @@ interface MobileMenuProps {
 const MobileMenu = ({ open, onClose, children }: MobileMenuProps) => {
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50" onClick={onClose}>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-xs" onClick={onClose}>
       <div
         className="bg-white rounded-lg w-10/12 max-w-sm shadow-lg p-6 min-h-72 relative"
         onClick={e => e.stopPropagation()}
@@ -20,7 +20,7 @@ const MobileMenu = ({ open, onClose, children }: MobileMenuProps) => {
             onClick={onClose}
             aria-label="Fechar menu"
           >
-            ×
+            &times;
           </button>
           <h2 className='text-center text-2xl mb-6 font-medium text-primary'>Menu</h2>
         </div>

@@ -11,14 +11,14 @@ import {
 } from 'react-icons/io5'
 import ReactGA from 'react-ga4'
 
-function Contact () {
+function Contact ({ id = "", topColor }: { id?: string, topColor?: string | null }) {
   const { t } = useTranslation()
   return (
     <section
-      id='contact'
-      className='flex flex-col w-full relative min-h-screen bg-[#2F2F2F] pb-6'
+      id={id}
+      className={`flex flex-col w-full relative min-h-screen bg-[#2F2F2F]  pb-6`}
     >
-      <div className='h-17 bg-gray-200'></div>
+      <div className={`h-17 ${topColor ? topColor : 'bg-[#2F2F2F]'}`}></div>
       <div className='p-6 px-8 sm:px-16 w-full overflow-hidden relative'>
         <div className='flex flex-row mt-9 justify-between mb-12'>
           <div className='flex flex-col md:flex-row gap-6 md:items-end'>
