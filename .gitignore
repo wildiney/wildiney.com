@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 
 .env
+
+#other files
+GEMINI.md
+
+# other folders
+resources
