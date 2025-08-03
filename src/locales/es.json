@@ -15,7 +15,7 @@
       "title": "Experience",
       "globalweb": {
         "position": "Product Designer en Globalweb Corp.",
-        "description": "He trabajado como consultor, colaborando directamente en el cliente. Soy responsable de todo el proceso de UX y UI Design, enfocado en mejorar sistemas, sitios web y aplicaciones.\nPara validar las soluciones, además de prototipos de baja y alta fidelidad, desarrollo MVPs utilizando Kotlin y React Native para aplicaciones móviles, así como React/NextJS/Angular para plataformas web.",
+        "description": "He trabajado como consultor, colaborando directamente en el cliente. Soy responsable de todo el proceso de UX y UI Design, enfocado en mejorar sistemas, sitios web y aplicaciones.\nPara validar las soluciones, además de prototipos de baja y alta fidelidad, desarrollo MVPs utilizando Figma, Kotlin y React Native para aplicaciones móviles, así como React/NextJS/Angular para plataformas web.",
         "date": "2022 - 2025"
       },
       "indra": {
@@ -34,6 +34,10 @@
         "date": "2013 - 2022"
       }
     }
+  },
+  "portfolio": {
+    "pageTitle": "Portafolio",
+    "caseStudy": "Estudio de caso"
   },
   "contact": {
     "pageTitle": "Contacto"

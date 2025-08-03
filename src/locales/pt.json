@@ -15,7 +15,7 @@
       "title": "Experiência",
       "globalweb": {
         "position": "Product Designer Senior na Globalweb Corp.",
-        "description": "Atuação em projetos digitais com foco em soluções centradas no usuário. Responsável pelo redesign do app do Programa Bolsa Família, conduzindo discovery, pesquisas, jornadas, testes, design system, wireframes e protótipos de alta fidelidade, com entrega estruturada para o time de desenvolvimento.\nDesenvolvimento de MVPs e protótipos em baixa e alta fidelidade utilizando Kotlin, React Native, React, Next.js e Angular. Trabalho estratégico e colaborativo entre produto, design e tecnologia, promovendo entregas ágeis e alinhadas ao negócio.",
+        "description": "Atuação em projetos digitais com foco em soluções centradas no usuário. Responsável pelo redesign do app do Programa Bolsa Família, conduzindo discovery, pesquisas, jornadas, testes, design system, wireframes e protótipos de alta fidelidade, com entrega estruturada para o time de desenvolvimento.\nDesenvolvimento de MVPs e protótipos em baixa e alta fidelidade utilizando Figma, Kotlin, React Native, React, Next.js e Angular. Trabalho estratégico e colaborativo entre produto, design e tecnologia, promovendo entregas ágeis e alinhadas ao negócio.",
         "date": "2022 - 2025"
       },
       "indra": {
@@ -36,7 +36,8 @@
     }
   },
   "portfolio": {
-    "pageTitle": "Portfolio"
+    "pageTitle": "Portfolio",
+    "caseStudy": "Estudo de caso"
   },
   "contact": {
     "pageTitle": "Contato"

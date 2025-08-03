@@ -15,7 +15,7 @@
       "title": "Experience",
       "globalweb": {
         "position": "Product Designer at Globalweb Corp.",
-        "description": "Worked on digital projects focused on user-centered solutions. Led the redesign of the “Programa Bolsa Família” app, covering discovery, research, user journeys, testing, design system, wireframes and high-fidelity prototypes, with a structured handoff to the development team.\nDeveloped MVPs and prototypes using Kotlin, React Native, React, Next.js and Angular. Collaborative and strategic work bridging design, product and tech for agile and business-aligned deliveries.",
+        "description": "Worked on digital projects focused on user-centered solutions. Led the redesign of the “Programa Bolsa Família” app, covering discovery, research, user journeys, testing, design system, wireframes and high-fidelity prototypes, with a structured handoff to the development team.\nDeveloped MVPs and prototypes using Figma, Kotlin, React Native, React, Next.js and Angular. Collaborative and strategic work bridging design, product and tech for agile and business-aligned deliveries.",
         "date": "2022 - 2025"
       },
       "indra": {
@@ -34,6 +34,10 @@
         "date": "2013 - 2022"
       }
     }
+  },
+  "portfolio": {
+    "pageTitle": "Portfolio",
+    "caseStudy": "Case Study"
   },
   "contact": {
     "pageTitle": "Contact"
