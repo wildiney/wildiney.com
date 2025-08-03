@@ -1,12 +1,14 @@
+import Section from '@/components/Section';
+import Subtitle from '@/components/Subtitles';
 import { renderLines } from '@/libs/renderLines';
 import { useTranslation } from 'react-i18next';
 
 function About () {
   const { t } = useTranslation()
   return (
-    <section id='about' className='flex flex-col w-full min-h-screen relative pb-24 bg-gray-200'>
+    <Section id='about' extraClass="pb-24 bg-gray-200/30">
       <div className='p-6 px-8 sm:px-16 w-full md:w-9/12 lg:w-8/12 xl:w-7/12'>
-        <h2 className='text-5xl md:text-6xl mt-24 text-primary mb-8'>{t('about.pageTitle')}</h2>
+        <Subtitle>{t('about.pageTitle')}</Subtitle>
         <div className='w-full'>
           <p className='mb-4 text-gray-800 whitespace-pre-line'>{
             t('about.description')
@@ -55,7 +57,7 @@ function About () {
 
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 

@@ -3,6 +3,7 @@ import { usePageTracking } from '@/hooks/usePageTracking';
 import Intro from './sections/intro';
 import About from './sections/about';
 import Contact from './sections/contact';
+import Portfolio from './sections/portfolio';
 
 
 function Home () {
@@ -15,10 +16,8 @@ function Home () {
       <main className='flex w-full flex-col'>
         <Intro />
         <About />
-        {/* <div className='w-full h-screen bg-blue-700 p-16' id='portfolio'>
-          <h2 className='text-white'>Portfolio</h2>
-        </div> */}
-        <Contact />
+        <Portfolio />
+        <Contact id='contact' topColor={"bg-gray-100"} />
       </main>
     </>
   )
