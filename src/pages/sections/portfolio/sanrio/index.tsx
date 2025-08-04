@@ -15,7 +15,7 @@ function BolsaFamilia () {
 
           <Image img={ImgEcommerceSanrio} />
 
-          <div className="mx-auto w-full max-w-5xl px-8 pb-8 pt-16">
+          <div className="mx-auto w-full max-w-5xl px-8 pb-8 pt-8 lg:pt-12">
             <h1 className='text-4xl text-primary mb-8 leading-snug font-medium'>{t('sanrioEcommerce.titlePage')}</h1>
             <h2 className='text-3xl text-primary mb-4'>{t('sanrioEcommerce.titleContext')}</h2>
             <p className="leading-relaxed text-gray-700">{t('sanrioEcommerce.contextDescription')}</p>
