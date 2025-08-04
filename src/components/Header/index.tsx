@@ -1,9 +1,8 @@
-// import Logo from '@/assets/logo.svg'
-
 import Navigation from '@/components/Navigation';
-import { MdMenu } from "react-icons/md";
-import { useState } from 'react';
 import MobileMenu from '@/components/Navigation/MobileMenu';
+import { useState } from 'react';
+import { MdMenu } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 
 function Header () {
@@ -12,7 +11,7 @@ function Header () {
     <>
       <div className='fixed flex flex-row justify-between bg-gray-50/30 backdrop-blur-md  px-8 gap-8 sm:flex-row w-full sm:justify-between sm:px-16 py-4 z-20 shadow'>
         <div className='flex whitespace-nowrap gap-4  text-2xl mx-0 sm:text-3xl font-semibold text-primary'>
-          Wildiney Di Masi
+          <Link to="/#intro">Wildiney Di Masi</Link>
         </div>
         <Navigation />
         <button
