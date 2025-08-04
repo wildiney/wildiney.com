@@ -34,7 +34,7 @@ function Indra () {
 
           <Image img={ImgIndra} />
 
-          <div className="mx-auto w-full max-w-5xl px-8 pb-8 pt-16">
+          <div className="mx-auto w-full max-w-5xl px-8 pb-8 pt-8 lg:pt-12">
             <h1 className='text-4xl text-primary mb-8 leading-snug font-medium'>{t('indra.titlePage')}</h1>
 
             <h2 className='text-3xl text-primary mt-8 mb-4'>{t('indra.titleContext')}</h2>

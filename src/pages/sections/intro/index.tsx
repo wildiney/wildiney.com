@@ -9,7 +9,7 @@ function Intro () {
     <section id="intro" className="flex flex-col justify-center w-full h-screen min-h-96 relative sm:justify-end">
       <div className="flex flex-col sm:flex-row w-full p-16 gap-16 sm:gap-0 sm:items-end sm:justify-between justify-evenly">
         <div className="relative inline-block text-primary text-5xl sm:text-[3.5rem] md:text-[5.4rem] lg:text-9xl text-center sm:text-left">
-          <span className="opacity-30 z-20 block">Product</span>
+          <span className="opacity-60 z-20 block">Product</span>
           <span className="relative sm:-mt-4 md:-mt-8 lg:-mt-11 sm:left-[0.65rem] md:left-[1rem] lg:left-[1.35rem] block">Designer</span>
         </div>
         <p className="text-primary text-lg lg:text-2xl text-center sm:text-left whitespace-pre-line">
