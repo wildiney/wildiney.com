@@ -1,9 +1,9 @@
 
-import BolsaFamiliaSm from '@/assets/portfolio/bolsa-familia/bolsa-familia-sm.png'
+import BolsaFamiliaSm from '@/assets/portfolio/bolsa-familia/bolsa-familia-sm.webp'
 import BolsaFamilia from '@/assets/portfolio/bolsa-familia/bolsa-familia.webp'
-import EcommerceSanrioSm from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio-sm.png'
+import EcommerceSanrioSm from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio-sm.webp'
 import EcommerceSanrio from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio.webp'
-import ImgIndraSm from '@/assets/portfolio/indra/header-indra-sm.png'
+import ImgIndraSm from '@/assets/portfolio/indra/header-indra-sm.webp'
 import ImgIndra from '@/assets/portfolio/indra/header-indra.webp'
 import Section from "@/components/Section"
 import Subtitle from "@/components/Subtitles"
@@ -24,7 +24,7 @@ function Portfolio () {
             largeThumb={BolsaFamilia}
             company='Globalweb'
             project={t('bolsafamilia.titlePage')}
-            link='/#/portfolio/bolsa-familia'
+            link='/#/portfolio/globalweb/bolsa-familia'
             linkname={t('portfolio.caseStudy')}
           />
           <ItemPortfolio
