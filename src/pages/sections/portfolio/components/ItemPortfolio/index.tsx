@@ -8,7 +8,7 @@ function ItemPortfolio ({ imageThumb, largeThumb, company, project, link, linkna
       </div>
       <div className="flex flex-col lg:flex-row justify-between py-4 px-2 gap-4 lg:gap-8 items-center lg:items-start">
         <div className="">
-          <p className="text-sm text-gray-500 text-center lg:text-left mb-2">{company}</p>
+          <p className="text-sm text-gray-600 text-center lg:text-left mb-2">{company}</p>
           <p className="text-lg text-gray-700 text-center lg:text-left font-medium">{project}</p>
         </div>
         <div className="lg:mt-8">

@@ -7,21 +7,21 @@ import Contact from "../../contact";
 
 import AdvertisingsIndra from "@/assets/portfolio/indra/advertisings-indra.webp";
 import ImgIndra from "@/assets/portfolio/indra/header-indra.webp";
-import GraphicMaterialSm from "@/assets/portfolio/indra/material-grafico-sm.png";
+import GraphicMaterialSm from "@/assets/portfolio/indra/material-grafico-sm.webp";
 import GraphicMaterial from "@/assets/portfolio/indra/material-grafico.webp";
-import NewsletterSm from "@/assets/portfolio/indra/newsleteter-system-sm.png";
+import NewsletterSm from "@/assets/portfolio/indra/newsleteter-system-sm.webp";
 import Newsletter from "@/assets/portfolio/indra/newsleteter-system.webp";
-import PinsSm from "@/assets/portfolio/indra/pins-sm.png";
+import PinsSm from "@/assets/portfolio/indra/pins-sm.webp";
 import Pins from "@/assets/portfolio/indra/pins.webp";
-import PromotionalContentSm from "@/assets/portfolio/indra/promotional-content-sm.png";
+import PromotionalContentSm from "@/assets/portfolio/indra/promotional-content-sm.webp";
 import PromotionalContent from "@/assets/portfolio/indra/promotional-content.webp";
-import SapSm from "@/assets/portfolio/indra/sap-sm.png";
+import SapSm from "@/assets/portfolio/indra/sap-sm.webp";
 import Sap from "@/assets/portfolio/indra/sap.webp";
-import StandCiabSm from "@/assets/portfolio/indra/stand-ciab-sm.png";
-import StandCiabVtopSm from "@/assets/portfolio/indra/stand-ciab-vtop-sm.png";
+import StandCiabSm from "@/assets/portfolio/indra/stand-ciab-sm.webp";
+import StandCiabVtopSm from "@/assets/portfolio/indra/stand-ciab-vtop-sm.webp";
 import StandCiabVtop from "@/assets/portfolio/indra/stand-ciab-vtop.webp";
 import StandCiab from "@/assets/portfolio/indra/stand-ciab.webp";
-import TrophiesSm from "@/assets/portfolio/indra/trofeus-01-sm.png";
+import TrophiesSm from "@/assets/portfolio/indra/trofeus-01-sm.webp";
 import Trophies from "@/assets/portfolio/indra/trofeus-01.webp";
 
 function Indra () {
