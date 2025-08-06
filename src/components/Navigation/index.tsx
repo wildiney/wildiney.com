@@ -35,7 +35,7 @@ function Navigation ({ mobile = false, onNavigate }: NavigationProps) {
                 onClick={() => {
                   ReactGA.event({
                     category: 'Navigation',
-                    action: `Click ${link.label}`,
+                    action: `Click Nav ${link.id}`,
                     label: link.to
                   });
                   if (onNavigate) onNavigate();
@@ -56,7 +56,13 @@ function Navigation ({ mobile = false, onNavigate }: NavigationProps) {
           {languages.map(l => (
             <button
               key={l.code}
-              onClick={() => i18n.changeLanguage(l.code)}
+              onClick={() => {
+                i18n.changeLanguage(l.code);
+                ReactGA.event({
+                  category: 'Language',
+                  action: `Change Language to ${l.code.toUpperCase()}`,
+                });
+              }}
               className={
                 `px-3 py-1 rounded-full text-sm transition-colors ` +
                 (i18n.language === l.code
@@ -89,7 +95,7 @@ function Navigation ({ mobile = false, onNavigate }: NavigationProps) {
               onClick={() => {
                 ReactGA.event({
                   category: 'Navigation',
-                  action: `Click ${link.label}`,
+                  action: `Click Nav ${link.id}`,
                   label: link.to
                 });
               }}
@@ -109,7 +115,13 @@ function Navigation ({ mobile = false, onNavigate }: NavigationProps) {
         {languages.map(l => (
           <button
             key={l.code}
-            onClick={() => i18n.changeLanguage(l.code)}
+            onClick={() => {
+                i18n.changeLanguage(l.code);
+                ReactGA.event({
+                  category: 'Language',
+                  action: `Change Language to ${l.code.toUpperCase()}`,
+                });
+              }}
             className={
               `px-2 py-1 transition-colors focus:outline-none text-xs cursor-pointer ` +
               (i18n.language === l.code
