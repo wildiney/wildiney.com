@@ -3,7 +3,7 @@ import Modal from "@/components/Modal";
 import Image from "@/components/portfolio/Header/Image";
 import { renderLines } from '@/libs/renderLines';
 import { useTranslation } from 'react-i18next';
-import Contact from "../../contact";
+import Contact from "@/pages/Home/components/Contact";
 
 import AdvertisingsIndra from "@/assets/portfolio/indra/advertisings-indra.webp";
 import ImgIndra from "@/assets/portfolio/indra/header-indra.webp";

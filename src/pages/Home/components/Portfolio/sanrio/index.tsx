@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Image from "@/components/portfolio/Header/Image";
 import { renderLines } from '@/libs/renderLines';
 import { useTranslation } from 'react-i18next';
-import Contact from "../../contact";
+import Contact from "@/pages/Home/components/Contact";
 
 function BolsaFamilia () {
   const { t } = useTranslation()
