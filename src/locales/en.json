@@ -5,6 +5,9 @@
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
+  "loading": {
+    "loadingText": "Loading..."
+  },
   "intro": {
     "hello": "I build solutions\nthat people actually use"
   },
