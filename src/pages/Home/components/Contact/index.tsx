@@ -25,7 +25,7 @@ function Contact ({ id = "", topColor }: { id?: string, topColor?: string | null
             <h2 className='text-5xl text-left md:text-6xl  text-white/90 mb-0'>
               {t('contact.pageTitle')}{' '}
             </h2>
-            <span className='text-white/90 text-left text-2xl font-medium'>(Let's connect)</span>
+            <span className='text-white/90 text-left text-2xl font-medium'>(Let&apos;s connect)</span>
           </div>
 
           <div className='absolute rotate-45 -right-25 top-10 bg-white px-32 py-4 rounded font-bold text-primary text-lg cursor-pointer border border-white/80'>
