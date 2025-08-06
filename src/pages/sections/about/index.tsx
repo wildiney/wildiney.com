@@ -1,7 +1,7 @@
 import Section from '@/components/Section';
 import Subtitle from '@/components/Subtitles';
-import { renderLines } from '@/libs/renderLines';
 import { useTranslation } from 'react-i18next';
+import ExperienceItem from './components/ExperienceItem';
 
 function About () {
   const { t } = useTranslation()
@@ -23,37 +23,26 @@ function About () {
         <div className='mt-16'>
           <h3 className='text-4xl text-primary font-medium mb-6'>{t('about.experience.title')}</h3>
 
-          <div className='flex flex-col md:flex-row gap-12 items-center border-b border-b-gray-400 py-6 justify-between'>
-            <div className='w-full md:max-w-7/12'>
-              <h4 className='text-2xl text-primary font-medium mb-2'>{t('about.experience.globalweb.position')}</h4>
-              <p className='text-gray-700'>{renderLines(t('about.experience.globalweb.description'))}</p>
-            </div>
-            <div className='font-poppins font-bold text-5xl whitespace-nowrap text-gray-800/80'>{t('about.experience.globalweb.date')}</div>
-          </div>
-
-          <div className='flex flex-col md:flex-row gap-12 items-center border-b border-b-gray-400 py-6 justify-between'>
-            <div className='w-full md:max-w-7/12'>
-              <h4 className='text-2xl text-primary font-medium mb-2'>{t('about.experience.indra.position')}</h4>
-              <p className='text-gray-700'>{renderLines(t('about.experience.indra.description'))}</p>
-            </div>
-            <div className='font-poppins font-bold text-5xl whitespace-nowrap text-gray-800/80'>{t('about.experience.indra.date')}</div>
-          </div>
-
-          <div className='flex flex-col md:flex-row gap-12 items-center border-b border-b-gray-400 py-6 justify-between'>
-            <div className='w-full md:max-w-7/12'>
-              <h4 className='text-2xl text-primary font-medium mb-2'>{t('about.experience.sanrio.position')}</h4>
-              <p className='text-gray-700'>{renderLines(t('about.experience.sanrio.description'))}</p>
-            </div>
-            <div className='font-poppins font-bold text-5xl whitespace-nowrap text-gray-800/80'>{t('about.experience.sanrio.date')}</div>
-          </div>
-
-          <div className='flex flex-col md:flex-row gap-12 items-center border-b border-b-gray-400 py-6 justify-between'>
-            <div className='w-full md:max-w-7/12'>
-              <h4 className='text-2xl text-primary font-medium mb-2'>{t('about.experience.estacio.position')}</h4>
-              <p className='text-gray-700'>{renderLines(t('about.experience.estacio.description'))}</p>
-            </div>
-            <div className='font-poppins font-bold text-5xl whitespace-nowrap text-gray-800/80'>{t('about.experience.estacio.date')}</div>
-          </div>
+          <ExperienceItem
+            position={t('about.experience.globalweb.position')}
+            description={t('about.experience.globalweb.description')}
+            period={t('about.experience.globalweb.date')}
+          />
+          <ExperienceItem
+            position={t('about.experience.indra.position')}
+            description={t('about.experience.indra.description')}
+            period={t('about.experience.indra.date')}
+          />
+          <ExperienceItem
+            position={t('about.experience.sanrio.position')}
+            description={t('about.experience.sanrio.description')}
+            period={t('about.experience.sanrio.date')}
+          />
+          <ExperienceItem
+            position={t('about.experience.estacio.position')}
+            description={t('about.experience.estacio.description')}
+            period={t('about.experience.estacio.date')}
+          />
 
         </div>
       </div>
