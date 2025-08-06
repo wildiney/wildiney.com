@@ -1,13 +1,11 @@
 import Header from '@/components/Header';
-import { usePageTracking } from '@/hooks/usePageTracking';
-import Intro from './sections/intro';
 import About from './sections/about';
 import Contact from './sections/contact';
+import Intro from './sections/intro';
 import Portfolio from './sections/portfolio';
 
 
 function Home () {
-  usePageTracking("Home")
 
 
   return (
