@@ -64,7 +64,7 @@ function Navigation ({ mobile = false, onNavigate }: NavigationProps) {
                 });
               }}
               className={
-                `px-3 py-1 rounded-full text-sm transition-colors ` +
+                `px-3 py-1 rounded-full text-sm transition-colors focus:outline-none focus:ring-2 focus:ring-primary/50 ` +
                 (i18n.language === l.code
                   ? 'bg-primary/10 text-primary font-semibold cursor-default border '
                   : 'bg-transparent text-primary hover:bg-primary/10')
@@ -116,14 +116,14 @@ function Navigation ({ mobile = false, onNavigate }: NavigationProps) {
           <button
             key={l.code}
             onClick={() => {
-                i18n.changeLanguage(l.code);
-                ReactGA.event({
-                  category: 'Language',
-                  action: `Change Language to ${l.code.toUpperCase()}`,
-                });
-              }}
+              i18n.changeLanguage(l.code);
+              ReactGA.event({
+                category: 'Language',
+                action: `Change Language to ${l.code.toUpperCase()}`,
+              });
+            }}
             className={
-              `px-2 py-1 transition-colors focus:outline-none text-xs cursor-pointer ` +
+              `px-2 py-1 transition-colors focus:outline-none text-xs cursor-pointer focus:ring-2 focus:ring-primary/50` +
               (i18n.language === l.code
                 ? 'bg-primary/10 text-primary font-semibold cursor-default'
                 : 'bg-transparent text-primary hover:bg-primary/10')
