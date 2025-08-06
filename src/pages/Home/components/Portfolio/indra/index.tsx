@@ -32,7 +32,7 @@ function Indra () {
       <div className="flex flex-col w-full">
         <div className="flex flex-col w-full">
 
-          <Image img={ImgIndra} />
+          <Image img={ImgIndra} alt={t('bolsafamilia.titlePage')} />
 
           <div className="mx-auto w-full max-w-5xl px-8 pb-8 pt-8 lg:pt-12">
             <h1 className='text-4xl text-primary mb-8 leading-snug font-medium'>{t('indra.titlePage')}</h1>
