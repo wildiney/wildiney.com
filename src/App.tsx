@@ -1,5 +1,6 @@
 import './App.css';
 
+import Analytics from '@/components/Analytics';
 import ScrollToTop from '@/components/ScrollToTop';
 import ScrollToAnchor from '@/libs/ScrollToAnchor';
 import Home from '@/pages/Home';
@@ -11,6 +12,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 function App () {
   return (
     <HashRouter>
+      <Analytics />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
