@@ -58,13 +58,13 @@ function Contact ({ id = "", topColor }: { id?: string, topColor?: string | null
             </li>
             <li className=''>
               <Link
-                to='mailto:wildiney@gmail.com'
+                to='mailto:wildiney+business@gmail.com'
                 target='_blank'
                 onClick={() =>
                   ReactGA.event({
                     category: 'Contact',
                     action: 'Click Email',
-                    label: 'wildiney@gmail.com'
+                    label: 'wildiney+business@gmail.com'
                   })
                 }
                 className='flex items-center gap-2'
