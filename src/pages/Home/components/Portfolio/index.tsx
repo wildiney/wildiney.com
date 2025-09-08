@@ -1,10 +1,7 @@
 
 import BolsaFamiliaSm from '@/assets/portfolio/bolsa-familia/bolsa-familia-sm.webp'
-import BolsaFamilia from '@/assets/portfolio/bolsa-familia/bolsa-familia.webp'
 import EcommerceSanrioSm from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio-sm.webp'
-import EcommerceSanrio from '@/assets/portfolio/ecommerce-sanrio/ecommerce-sanrio.webp'
 import ImgIndraSm from '@/assets/portfolio/indra/header-indra-sm.webp'
-import ImgIndra from '@/assets/portfolio/indra/header-indra.webp'
 import Section from "@/components/Section"
 import Subtitle from "@/components/Subtitles"
 import { useTranslation } from 'react-i18next'
@@ -21,7 +18,6 @@ function Portfolio () {
 
           <ItemPortfolio
             imageThumb={BolsaFamiliaSm}
-            largeThumb={BolsaFamilia}
             company='Globalweb'
             project={t('bolsafamilia.titlePage')}
             link='/#/portfolio/globalweb/bolsa-familia'
@@ -29,7 +25,6 @@ function Portfolio () {
           />
           <ItemPortfolio
             imageThumb={EcommerceSanrioSm}
-            largeThumb={EcommerceSanrio}
             company='Sanrio Co.'
             project={t('sanrioEcommerce.titlePage')}
             link='/#/portfolio/sanrio/ecommerce'
@@ -37,7 +32,6 @@ function Portfolio () {
           />
           <ItemPortfolio
             imageThumb={ImgIndraSm}
-            largeThumb={ImgIndra}
             company='Indra / Minsait'
             project={t('indra.titlePage')}
             link='/#/portfolio/indra'
