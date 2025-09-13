@@ -20,21 +20,21 @@ function Portfolio () {
             imageThumb={BolsaFamiliaSm}
             company='Globalweb'
             project={t('bolsafamilia.titlePage')}
-            link='/#/portfolio/globalweb/bolsa-familia'
+            link='/portfolio/globalweb/bolsa-familia'
             linkname={t('portfolio.caseStudy')}
           />
           <ItemPortfolio
             imageThumb={EcommerceSanrioSm}
             company='Sanrio Co.'
             project={t('sanrioEcommerce.titlePage')}
-            link='/#/portfolio/sanrio/ecommerce'
+            link='/portfolio/sanrio/ecommerce'
             linkname={t('portfolio.caseStudy')}
           />
           <ItemPortfolio
             imageThumb={ImgIndraSm}
             company='Indra / Minsait'
             project={t('indra.titlePage')}
-            link='/#/portfolio/indra'
+            link='/portfolio/indra'
             linkname={t('portfolio.caseStudy')}
           />
 
