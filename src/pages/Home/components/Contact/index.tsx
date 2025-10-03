@@ -29,7 +29,15 @@ function Contact ({ id = "", topColor }: { id?: string, topColor?: string | null
           </div>
 
           <div className='absolute rotate-45 -right-25 top-10 bg-white px-32 py-4 rounded font-bold text-primary text-lg cursor-pointer border border-white/80'>
-            <Link to='mailto:wildiney@gmail.com' target='_blank'>
+            <Link
+              to='https://forms.gle/61maagDkPUV1WWNR9' target='_blank'
+              onClick={() =>
+                ReactGA.event({
+                  category: 'Contact',
+                  action: 'Click Hire Me',
+                  label: 'hire me',
+                })
+              }>
               Hire me!
             </Link>
           </div>
