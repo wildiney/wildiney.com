@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // 🔹 Debug do servidor Next.js (SSR, API Routes, etc)
+      "type": "node",
+      "request": "launch",
+      "name": "Next.js: Server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "cwd": "${workspaceFolder}",
+      "port": 9229,
+      "env": {
+        "NODE_OPTIONS": "--inspect"
+      },
+      "console": "integratedTerminal"
+    },
+    {
+      // 🔹 Debug do lado do cliente (React via Chrome)
+      "type": "chrome",
+      "request": "launch",
+      "name": "Next.js: Client (Chrome)",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}",
+      "sourceMaps": true
+    }
+  ],
+  "compounds": [
+    {
+      // 🔹 Inicia os dois ao mesmo tempo (full stack debug)
+      "name": "Next.js: Full Stack",
+      "configurations": [
+        "Next.js: Server",
+        "Next.js: Client (Chrome)"
+      ]
+    }
+  ]
+}

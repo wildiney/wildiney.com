@@ -5,6 +5,13 @@ import { useEffect, useState } from 'react'
 import { useTranslation } from '@/app/i18n/TranslationProvider'
 import { languages, type Lang } from '@/app/i18n'
 
+export function getBaseUrlClient () {
+  if (typeof window !== "undefined") {
+    return `${window.location.protocol}//${window.location.host}`;
+  }
+  return "";
+}
+
 type NavigationProps = {
   mobile?: boolean
   onNavigate?: () => void
@@ -42,11 +49,11 @@ function Navigation ({ mobile = false, onNavigate }: NavigationProps) {
   const currentLang: Lang = (languages.includes(firstSegment as Lang) ? (firstSegment as Lang) : 'pt') as Lang
 
   const links = [
-    { to: '#intro', label: dict.nav.intro, id: 'intro' },
-    { to: '#about', label: dict.nav.about, id: 'about' },
-    { to: '#portfolio', label: dict.nav.portfolio, id: 'portfolio' },
-    { to: '#contact', label: dict.nav.contact, id: 'contact' },
-  ]
+    { to: `/${currentLang}/#intro`, label: dict.nav.intro, id: 'intro' },
+    { to: `/${currentLang}/#about`, label: dict.nav.about, id: 'about' },
+    { to: `/${currentLang}/#portfolio`, label: dict.nav.portfolio, id: 'portfolio' },
+    { to: `/${currentLang}/#contact`, label: dict.nav.contact, id: 'contact' },
+  ];
 
   const getLinkClass = (id: string) =>
     `text-primary px-4 py-2 whitespace-nowrap transition-colors border rounded-full box-content hover:border hover:border-primary ${pathname.includes(id)
