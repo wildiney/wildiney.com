@@ -1,5 +1,7 @@
 import { useTranslations } from 'next-intl'
 
+export const dynamic = 'force-static'
+
 export default function HomePage() {
   const t = useTranslations('nav')
   return (
