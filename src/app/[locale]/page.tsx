@@ -1,13 +1,25 @@
-import { useTranslations } from 'next-intl'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
+import HeroSection from '@/components/home/HeroSection'
+import AboutSection from '@/components/home/AboutSection'
+import PortfolioSection from '@/components/home/PortfolioSection'
+import ArticlesTeaser from '@/components/home/ArticlesTeaser'
+import ContactSection from '@/components/home/ContactSection'
 
 export const dynamic = 'force-static'
 
 export default function HomePage() {
-  const t = useTranslations('nav')
   return (
-    <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1>Wildiney.com — Next.js Migration</h1>
-      <p>Locale working. Nav keys: {t('intro')}, {t('about')}, {t('portfolio')}</p>
-    </main>
+    <>
+      <Header />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <PortfolioSection />
+        <ArticlesTeaser />
+        <ContactSection />
+      </main>
+      <Footer />
+    </>
   )
 }
