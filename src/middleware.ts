@@ -1,10 +1,10 @@
 import createMiddleware from 'next-intl/middleware'
-import { routing } from './src/i18n/routing'
+import { routing } from './i18n/routing'
 
 export default createMiddleware(routing)
 
 export const config = {
   matcher: [
-    '/((?!_next|_vercel|.*\\..*).*)',
+    '/((?!_next|_vercel|.*\..*).*)',
   ],
 }
