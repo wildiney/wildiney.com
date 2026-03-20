@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark text-dark-text py-8 px-6 md:px-12 lg:px-24">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <p className="font-display text-sm">Wildiney Nunes</p>
+        <p className="font-display text-sm">Wildiney Di Masi</p>
         <p className="font-sans text-xs text-muted">
           © {year} · Feito com curiosidade e cuidado
         </p>

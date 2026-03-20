@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react'
 import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
-import { usePathname } from '@/i18n/navigation'
+import { usePathname } from 'next/navigation'
+import { routing } from '@/i18n/routing'
 import { clsx } from 'clsx'
 import MobileMenu from './MobileMenu'
 
@@ -62,7 +63,19 @@ export default function Header() {
 }
 
 function LanguageSwitcher() {
-  const pathname = usePathname()
+  const fullPathname = usePathname() // e.g. '/en/portfolio/bolsa-familia/' or '/'
+
+  // Strip the locale prefix to get the locale-agnostic path
+  let pathname = fullPathname
+  for (const locale of routing.locales) {
+    if (pathname.startsWith(`/${locale}/`)) {
+      pathname = pathname.slice(`/${locale}`.length) || '/'
+      break
+    } else if (pathname === `/${locale}`) {
+      pathname = '/'
+      break
+    }
+  }
 
   const locales = [
     { code: 'pt', label: 'PT' },
