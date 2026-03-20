@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Colors */
+  --color-ink: #1A1A1A;
+  --color-paper: #F5F2EE;
+  --color-surface: #FFFFFF;
+  --color-muted: #6B6560;
+  --color-rule: #E2DDD8;
+  --color-accent: #C94B32;
+  --color-accent-dark: #A33A24;
+  --color-dark: #111111;
+  --color-dark-text: #F0EDE8;
+}
+
+html, body {
+  @apply bg-paper text-ink font-sans;
+  scroll-behavior: smooth;
+}

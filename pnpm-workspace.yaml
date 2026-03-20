@@ -1,5 +1,9 @@
 minimumReleaseAge: 1440
 
 onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@swc/core'
   - '@tailwindcss/oxide'
+  - core-js-pure
   - esbuild
+  - sharp
