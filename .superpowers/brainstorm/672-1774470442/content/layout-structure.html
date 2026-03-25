@@ -1,0 +1,170 @@
+<h2>Como deve ser a estrutura da página inicial?</h2>
+<p class="subtitle">Todos usam a paleta ardósia (#161B22) com destaque laranja. O que muda é o ritmo e a organização do conteúdo.</p>
+
+<div class="cards">
+
+  <!-- A: Full Scroll Narrativo -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#161B22; padding:0; overflow:hidden; font-family:Georgia,serif; position:relative;">
+      <!-- Nav -->
+      <div style="padding:12px 16px; border-bottom:1px solid #21282F; display:flex; justify-content:space-between;">
+        <span style="font-size:12px; font-weight:700; color:#E6EDF3; font-style:italic;">Wildiney</span>
+        <div style="display:flex; gap:10px;">
+          <span style="font-size:9px; color:#656D76; letter-spacing:1px; text-transform:uppercase;">Sobre</span>
+          <span style="font-size:9px; color:#656D76; letter-spacing:1px; text-transform:uppercase;">Portfólio</span>
+          <span style="font-size:9px; color:#C94B32; letter-spacing:1px; text-transform:uppercase;">Contato</span>
+        </div>
+      </div>
+      <!-- Hero: full width, tall -->
+      <div style="padding:24px 16px 20px; border-bottom:1px solid #21282F;">
+        <div style="font-size:8px; color:#C94B32; letter-spacing:3px; text-transform:uppercase; margin-bottom:8px;">PM · Designer · 15 anos</div>
+        <div style="font-size:30px; font-weight:900; line-height:1.1; color:#E6EDF3; margin-bottom:4px;">PM com DNA</div>
+        <div style="font-size:30px; font-weight:900; line-height:1.1; color:#C94B32; margin-bottom:12px;">de designer.</div>
+        <div style="font-size:10px; color:#656D76; line-height:1.8; max-width:260px;">Transformo visão em entrega. Design como ferramenta, dados como bússola, impacto como medida.</div>
+        <div style="margin-top:14px; width:1px; height:20px; background:#C94B32; margin-left:2px;"></div>
+        <div style="font-size:8px; color:#656D76; letter-spacing:2px; text-transform:uppercase; margin-top:4px;">Role para explorar</div>
+      </div>
+      <!-- Section: Sobre -->
+      <div style="padding:16px; border-bottom:1px solid #21282F;">
+        <div style="font-size:8px; color:#C94B32; letter-spacing:2px; text-transform:uppercase; margin-bottom:8px;">Sobre mim</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+          <div style="font-size:9px; color:#E6EDF3; line-height:1.7; font-weight:600;">PM com DNA de designer.</div>
+          <div style="font-size:9px; color:#656D76; line-height:1.7;">15+ anos combinando visão de produto com sensibilidade de design.</div>
+        </div>
+      </div>
+      <!-- Projects list -->
+      <div style="padding:16px 16px 12px;">
+        <div style="font-size:8px; color:#C94B32; letter-spacing:2px; text-transform:uppercase; margin-bottom:10px;">Portfólio</div>
+        <div style="border:1px solid #21282F; padding:10px; margin-bottom:6px; display:flex; justify-content:space-between; align-items:center;">
+          <div>
+            <div style="font-size:8px; color:#C94B32; margin-bottom:2px; letter-spacing:1px;">01 — Gov Tech</div>
+            <div style="font-size:10px; font-weight:700; color:#E6EDF3;">Bolsa Família</div>
+          </div>
+          <span style="font-size:10px; color:#C94B32;">↗</span>
+        </div>
+        <div style="border:1px solid #21282F; padding:10px; opacity:0.5; display:flex; justify-content:space-between; align-items:center;">
+          <div>
+            <div style="font-size:8px; color:#656D76; margin-bottom:2px; letter-spacing:1px;">02 — E-commerce</div>
+            <div style="font-size:10px; color:#E6EDF3;">Sanrio</div>
+          </div>
+          <span style="font-size:10px; color:#656D76;">↗</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Scroll Narrativo</h3>
+      <p>Uma única coluna longa. Hero imponente, depois Sobre, depois Portfólio, depois Contato — como um currículo que você lê do início ao fim. Cada seção ocupa espaço completo. Simples, direcional, sem ambiguidade.</p>
+      <p style="font-size:12px; color:#6B6560; margin-top:6px;"><strong>Melhor para:</strong> narrativa linear, storytelling de carreira.</p>
+    </div>
+  </div>
+
+  <!-- B: Split / Dashboard -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#161B22; padding:0; overflow:hidden; font-family:Georgia,serif;">
+      <!-- Nav -->
+      <div style="padding:12px 16px; border-bottom:1px solid #21282F; display:flex; justify-content:space-between;">
+        <span style="font-size:12px; font-weight:700; color:#E6EDF3; font-style:italic;">Wildiney</span>
+        <div style="display:flex; gap:10px; align-items:center;">
+          <span style="font-size:9px; color:#656D76; letter-spacing:1px; text-transform:uppercase;">Sobre</span>
+          <span style="font-size:9px; color:#656D76; letter-spacing:1px; text-transform:uppercase;">Portfólio</span>
+          <span style="font-size:9px; color:#C94B32; letter-spacing:1px; text-transform:uppercase; border:1px solid #C94B32; padding:2px 8px;">Contato</span>
+        </div>
+      </div>
+      <!-- Hero: Split 2 col -->
+      <div style="display:grid; grid-template-columns:1.1fr 0.9fr; border-bottom:1px solid #21282F;">
+        <div style="padding:18px 16px; border-right:1px solid #21282F;">
+          <div style="font-size:8px; color:#C94B32; letter-spacing:3px; text-transform:uppercase; margin-bottom:10px;">Product Manager</div>
+          <div style="font-size:24px; font-weight:900; line-height:1.15; color:#E6EDF3; margin-bottom:4px;">PM com DNA</div>
+          <div style="font-size:24px; font-weight:900; line-height:1.15; color:#C94B32; margin-bottom:14px;">de designer.</div>
+          <div style="font-size:9px; color:#656D76; line-height:1.8;">Transformo visão em entrega.</div>
+          <div style="margin-top:14px; font-size:9px; color:#C94B32; border:1px solid #C94B32; display:inline-block; padding:4px 10px; letter-spacing:1px; text-transform:uppercase;">Ver trabalhos →</div>
+        </div>
+        <div style="padding:18px 14px; display:flex; flex-direction:column; gap:8px;">
+          <div style="font-size:7px; color:#C94B32; letter-spacing:2px; text-transform:uppercase; margin-bottom:4px;">Projetos</div>
+          <div style="background:#1D242C; border:1px solid #21282F; padding:8px;">
+            <div style="font-size:8px; color:#C94B32; margin-bottom:3px;">01</div>
+            <div style="font-size:9px; color:#E6EDF3; font-weight:700; margin-bottom:3px;">Bolsa Família</div>
+            <div style="display:flex; gap:4px; flex-wrap:wrap;">
+              <span style="font-size:7px; border:1px solid #21282F; color:#656D76; padding:1px 5px; letter-spacing:0.5px;">Gov Tech</span>
+              <span style="font-size:7px; border:1px solid #21282F; color:#656D76; padding:1px 5px; letter-spacing:0.5px;">UX</span>
+            </div>
+          </div>
+          <div style="background:#1D242C; border:1px solid #21282F; padding:8px; opacity:0.6;">
+            <div style="font-size:8px; color:#656D76; margin-bottom:3px;">02</div>
+            <div style="font-size:9px; color:#E6EDF3; margin-bottom:3px;">Sanrio</div>
+            <div style="display:flex; gap:4px;">
+              <span style="font-size:7px; border:1px solid #21282F; color:#656D76; padding:1px 5px;">E-commerce</span>
+            </div>
+          </div>
+          <div style="background:#1D242C; border:1px solid #21282F; padding:8px; opacity:0.4;">
+            <div style="font-size:8px; color:#656D76; margin-bottom:3px;">03</div>
+            <div style="font-size:9px; color:#E6EDF3; margin-bottom:3px;">Indra</div>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom strip: bio -->
+      <div style="padding:10px 16px; display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:8px; color:#656D76; letter-spacing:1px;">15 anos · São Paulo</span>
+        <div style="display:flex; gap:12px;">
+          <span style="font-size:8px; color:#656D76; letter-spacing:1px; text-transform:uppercase;">LinkedIn</span>
+          <span style="font-size:8px; color:#656D76; letter-spacing:1px; text-transform:uppercase;">GitHub</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Split / Painel</h3>
+      <p>Hero divide em 2 colunas: esquerda com apresentação, direita com cards dos projetos imediatos. Tudo visível sem rolar. Transmite organização e mentalidade de produto — como um dashboard pessoal.</p>
+      <p style="font-size:12px; color:#6B6560; margin-top:6px;"><strong>Melhor para:</strong> mostrar trabalho imediatamente, recrutadores com pouco tempo.</p>
+    </div>
+  </div>
+
+  <!-- C: Index Minimalista -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#161B22; padding:0; overflow:hidden; font-family:Georgia,serif;">
+      <!-- Nav linha única -->
+      <div style="padding:12px 16px; border-bottom:1px solid #21282F; display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:12px; font-weight:700; color:#E6EDF3; font-style:italic; letter-spacing:1px;">W. Di Masi</span>
+        <span style="font-size:9px; color:#C94B32; border-bottom:1px solid #C94B32; padding-bottom:1px; letter-spacing:1px;">Disponível para projetos</span>
+      </div>
+      <!-- Bloco central: apenas texto, muito espaço -->
+      <div style="padding:22px 16px 18px; border-bottom:1px solid #21282F;">
+        <div style="font-size:9px; color:#656D76; letter-spacing:2px; text-transform:uppercase; margin-bottom:12px;">São Paulo · BR</div>
+        <div style="font-size:22px; font-weight:800; line-height:1.2; color:#E6EDF3; margin-bottom:4px;">Product Manager.</div>
+        <div style="font-size:22px; font-weight:800; line-height:1.2; color:#E6EDF3; margin-bottom:4px;">Designer de formação.</div>
+        <div style="font-size:22px; font-weight:300; line-height:1.2; color:#656D76;">15 anos de entrega.</div>
+      </div>
+      <!-- Index de trabalhos: lista limpa -->
+      <div style="padding:0 16px;">
+        <div style="padding:10px 0; border-bottom:1px solid #21282F; display:flex; justify-content:space-between; align-items:baseline;">
+          <div style="display:flex; gap:12px; align-items:baseline;">
+            <span style="font-size:8px; color:#C94B32; letter-spacing:1px;">2022</span>
+            <span style="font-size:11px; font-weight:700; color:#E6EDF3;">Programa Bolsa Família</span>
+          </div>
+          <span style="font-size:8px; color:#656D76; letter-spacing:1px; text-transform:uppercase;">Gov Tech</span>
+        </div>
+        <div style="padding:10px 0; border-bottom:1px solid #21282F; display:flex; justify-content:space-between; align-items:baseline;">
+          <div style="display:flex; gap:12px; align-items:baseline;">
+            <span style="font-size:8px; color:#656D76; letter-spacing:1px;">2013</span>
+            <span style="font-size:11px; color:#656D76;">Sanrio E-commerce</span>
+          </div>
+          <span style="font-size:8px; color:#21282F; letter-spacing:1px; text-transform:uppercase;">Varejo</span>
+        </div>
+        <div style="padding:10px 0; display:flex; justify-content:space-between; align-items:baseline;">
+          <div style="display:flex; gap:12px; align-items:baseline;">
+            <span style="font-size:8px; color:#656D76; letter-spacing:1px;">2009</span>
+            <span style="font-size:11px; color:#656D76;">Indra / Minsait</span>
+          </div>
+          <span style="font-size:8px; color:#21282F; letter-spacing:1px; text-transform:uppercase;">Corp.</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Index Minimalista</h3>
+      <p>Sem hero convencional. Apresentação em 3 linhas tipográficas + lista de projetos numerada por ano, como um índice de livro. Extremamente limpo — a confiança está na ausência de ornamentos. Quem entende, entende.</p>
+      <p style="font-size:12px; color:#6B6560; margin-top:6px;"><strong>Melhor para:</strong> sêniors que querem transmitir maturidade e curadoria.</p>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:20px; text-align:center;">Pode selecionar mais de um se quiser combinar elementos de layouts diferentes.</p>
