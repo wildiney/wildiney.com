@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../../layouts/PageLayout.astro'
+import { getCaseStudy } from '../../../lib/caseStudies'
+import { getTranslations } from '../../../i18n/index'
+import { renderMarkdown } from '../../../lib/markdown'
+
+const locale = 'es'
+const cs = getCaseStudy('indra', locale)
+const t = getTranslations(locale)
+const contentHtml = await renderMarkdown(cs.content)
+---
+
+<PageLayout title={`${cs.title} — Wildiney Di Masi`} locale={locale}>
+  <!-- Dark header -->
+  <div class="min-h-[60vh] bg-dark flex items-end px-6 md:px-12 lg:px-24 pt-32 pb-16 border-b border-dark-border">
+    <div class="max-w-5xl mx-auto w-full">
+      <p class="text-xs text-accent uppercase tracking-widest mb-3">{t.portfolio.caseStudy}</p>
+      <h1 class="font-display text-4xl md:text-5xl font-black text-dark-text mb-6">{cs.title}</h1>
+      <div class="flex flex-wrap gap-6 text-sm text-muted">
+        {cs.company && <span>{cs.company}</span>}
+        {cs.role && <span>{cs.role}</span>}
+        {cs.year && <span>{cs.year}</span>}
+      </div>
+    </div>
+  </div>
+
+  <!-- Light body -->
+  <div class="bg-paper text-ink px-6 md:px-12 lg:px-24 py-20">
+    <div class="max-w-3xl mx-auto prose prose-lg" set:html={contentHtml} />
+  </div>
+</PageLayout>

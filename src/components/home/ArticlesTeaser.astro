@@ -1,0 +1,45 @@
+---
+import Section from '../ui/Section.astro'
+import Button from '../ui/Button.astro'
+import { getLocalePath, type Locale } from '../../i18n/index'
+import { getArticles } from '../../lib/articles'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const articles = getArticles(locale).slice(0, 2)
+---
+
+<Section id="articles">
+  <div class="flex flex-col md:flex-row gap-12 items-start">
+    <div class="md:w-1/3">
+      <p class="text-xs text-accent uppercase tracking-widest mb-4">Artigos</p>
+      <h2 class="font-display text-3xl font-black text-dark-text mb-4">Perspectivas</h2>
+      <p class="text-muted text-sm leading-relaxed mb-6">Reflexões sobre produto, design e liderança.</p>
+      <Button href={`${getLocalePath(locale)}articles/`} variant="ghost">Ver todos →</Button>
+    </div>
+    <div class="md:w-2/3 flex flex-col gap-4">
+      {articles.length > 0 ? articles.map(article => (
+        <a
+          href={`${getLocalePath(locale)}articles/${article.slug}/`}
+          class="group border border-dark-border p-5 hover:border-accent transition-colors"
+        >
+          <h3 class="text-sm font-semibold text-dark-text group-hover:text-accent transition-colors mb-2">
+            {article.title}
+          </h3>
+          {article.description && <p class="text-xs text-muted">{article.description}</p>}
+        </a>
+      )) : (
+        <>
+          <div class="border border-dark-border p-5 opacity-40">
+            <p class="text-xs text-muted uppercase tracking-wider mb-2">Em breve</p>
+            <p class="text-sm text-dark-text">Product Discovery na prática</p>
+          </div>
+          <div class="border border-dark-border p-5 opacity-40">
+            <p class="text-xs text-muted uppercase tracking-wider mb-2">Em breve</p>
+            <p class="text-sm text-dark-text">O papel do design em times de produto</p>
+          </div>
+        </>
+      )}
+    </div>
+  </div>
+</Section>

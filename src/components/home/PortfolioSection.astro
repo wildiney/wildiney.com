@@ -1,0 +1,64 @@
+---
+import Section from '../ui/Section.astro'
+import Tag from '../ui/Tag.astro'
+import { getTranslations, getLocalePath, type Locale } from '../../i18n/index'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+
+const projects = [
+  {
+    num: '01',
+    title: 'App Programa Bolsa Família',
+    company: 'Globalweb Corp.',
+    description: 'Redesign completo de um app governamental com 14 milhões de usuários. Discovery, design system e entrega orientada por WCAG AA.',
+    tags: ['Product Design', 'Design System', 'Acessibilidade'],
+    href: `${getLocalePath(locale)}portfolio/globalweb/bolsa-familia/`,
+  },
+  {
+    num: '02',
+    title: 'E-commerce Sanrio Brasil',
+    company: 'Sanrio Co.',
+    description: 'Criação do primeiro e-commerce oficial da Sanrio no Brasil, do estudo de viabilidade ao lançamento — 4.500 visitantes únicos no primeiro dia.',
+    tags: ['Product Strategy', 'E-commerce', 'Service Design'],
+    href: `${getLocalePath(locale)}portfolio/sanrio/ecommerce/`,
+  },
+  {
+    num: '03',
+    title: 'Branding & Soluções Internas',
+    company: 'Indra / Minsait',
+    description: 'Gestão da identidade de marca no Brasil por 9 anos e desenvolvimento de ferramentas digitais internas adotadas por toda a empresa.',
+    tags: ['Brand Management', 'Product Ops', 'Comunicação'],
+    href: `${getLocalePath(locale)}portfolio/indra/`,
+  },
+]
+---
+
+<Section id="portfolio">
+  <p class="text-xs text-accent uppercase tracking-widest mb-4">{t.portfolio.pageTitle}</p>
+  <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-12">Trabalhos selecionados.</h2>
+
+  <div class="space-y-0">
+    {projects.map((project) => (
+      <a
+        href={project.href}
+        class="group flex flex-col md:flex-row gap-6 border-t border-dark-border py-8 hover:border-accent transition-colors"
+      >
+        <span class="text-sm font-mono text-accent w-8 flex-shrink-0">{project.num}</span>
+        <div class="flex-1">
+          <p class="text-xs text-muted uppercase tracking-wider mb-2">{project.company}</p>
+          <h3 class="text-lg font-semibold text-dark-text group-hover:text-accent transition-colors mb-3">
+            {project.title}
+          </h3>
+          <p class="text-sm text-muted leading-relaxed mb-4">{project.description}</p>
+          <div class="flex flex-wrap gap-2">
+            {project.tags.map(tag => <Tag>{tag}</Tag>)}
+          </div>
+        </div>
+        <span class="hidden md:flex items-center text-muted group-hover:text-accent transition-colors text-xl">→</span>
+      </a>
+    ))}
+    <div class="border-t border-dark-border"></div>
+  </div>
+</Section>

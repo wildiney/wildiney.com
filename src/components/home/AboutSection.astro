@@ -1,0 +1,51 @@
+---
+import Section from '../ui/Section.astro'
+import Tag from '../ui/Tag.astro'
+import { getTranslations, type Locale } from '../../i18n/index'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+const t = getTranslations(locale)
+const about = t.about
+
+const experience = [
+  { position: about.experience.globalweb.position, date: about.experience.globalweb.date },
+  { position: about.experience.indra.position, date: about.experience.indra.date },
+  { position: about.experience.sanrio.position, date: about.experience.sanrio.date },
+  { position: about.experience.estacio.position, date: about.experience.estacio.date },
+]
+
+const skills = ['Product Strategy', 'Discovery', 'Roadmapping', 'OKRs', 'Design Systems', 'UX Research', 'Agile', 'Stakeholder Management']
+---
+
+<Section id="about">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+    <!-- Left: Bio -->
+    <div>
+      <p class="text-xs text-accent uppercase tracking-widest mb-4">{about.pageTitle}</p>
+      <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-6">PM com DNA de designer.</h2>
+      <div class="text-muted leading-relaxed space-y-4">
+        {about.description.split('\n').map(para => para.trim() && <p>{para.trim()}</p>)}
+      </div>
+    </div>
+
+    <!-- Right: Experience + Skills -->
+    <div>
+      <h3 class="text-xs text-muted uppercase tracking-widest mb-6">{about.experience.title}</h3>
+      <div class="space-y-5 mb-10">
+        {experience.map(exp => (
+          <div class="flex gap-4 border-l-2 border-dark-border pl-4">
+            <div class="flex-1">
+              <p class="text-sm text-dark-text">{exp.position}</p>
+              <p class="text-xs text-muted mt-1">{exp.date}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="flex flex-wrap gap-2">
+        {skills.map(skill => <Tag>{skill}</Tag>)}
+      </div>
+    </div>
+  </div>
+</Section>

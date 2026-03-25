@@ -1,0 +1,22 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro'
+import { getArticles } from '../../lib/articles'
+
+const articles = getArticles('pt')
+---
+
+<PageLayout title="Artigos — Wildiney Di Masi" locale="pt">
+  <div class="max-w-5xl mx-auto px-6 md:px-12 lg:px-24 py-24 pt-32">
+    <p class="text-xs text-accent uppercase tracking-widest mb-4">Artigos</p>
+    <h1 class="font-display text-4xl font-black text-dark-text mb-12">Perspectivas</h1>
+    <div class="space-y-4">
+      {articles.map(article => (
+        <a href={`/articles/${article.slug}/`} class="group flex flex-col border border-dark-border p-6 hover:border-accent transition-colors">
+          <h2 class="text-lg font-semibold text-dark-text group-hover:text-accent transition-colors mb-2">{article.title}</h2>
+          {article.description && <p class="text-sm text-muted">{article.description}</p>}
+        </a>
+      ))}
+      {articles.length === 0 && <p class="text-muted">Artigos em breve.</p>}
+    </div>
+  </div>
+</PageLayout>
