@@ -35,3 +35,9 @@ resources
 # Next.js
 .next/
 out/
+
+# Astro generated
+.astro/
+
+# Superpowers brainstorm sessions
+.superpowers/
