@@ -9,10 +9,11 @@ const t = getTranslations(locale)
 const about = t.about
 
 const experience = [
-  { position: about.experience.globalweb.position, date: about.experience.globalweb.date },
-  { position: about.experience.indra.position, date: about.experience.indra.date },
-  { position: about.experience.sanrio.position, date: about.experience.sanrio.date },
-  { position: about.experience.estacio.position, date: about.experience.estacio.date },
+  { position: about.experience.nttdata.position,   date: about.experience.nttdata.date,   impact: about.experience.nttdata.impact },
+  { position: about.experience.globalweb.position, date: about.experience.globalweb.date, impact: about.experience.globalweb.impact },
+  { position: about.experience.indra.position,     date: about.experience.indra.date,     impact: about.experience.indra.impact },
+  { position: about.experience.sanrio.position,    date: about.experience.sanrio.date,    impact: about.experience.sanrio.impact },
+  { position: about.experience.estacio.position,   date: about.experience.estacio.date,   impact: about.experience.estacio.impact },
 ]
 
 const skills = ['Product Strategy', 'Discovery', 'Roadmapping', 'OKRs', 'Design Systems', 'UX Research', 'Agile', 'Stakeholder Management']
@@ -23,7 +24,7 @@ const skills = ['Product Strategy', 'Discovery', 'Roadmapping', 'OKRs', 'Design 
     <!-- Left: Bio -->
     <div>
       <p class="text-xs text-accent uppercase tracking-widest mb-4">{about.pageTitle}</p>
-      <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-6">PM com DNA de designer.</h2>
+      <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-6">Discovery, Strategy & Delivery</h2>
       <div class="text-muted leading-relaxed space-y-4">
         {about.description.split('\n').map(para => para.trim() && <p>{para.trim()}</p>)}
       </div>
@@ -38,6 +39,7 @@ const skills = ['Product Strategy', 'Discovery', 'Roadmapping', 'OKRs', 'Design 
             <div class="flex-1">
               <p class="text-sm text-dark-text">{exp.position}</p>
               <p class="text-xs text-muted mt-1">{exp.date}</p>
+              {exp.impact && <p class="text-xs text-accent mt-1">{exp.impact}</p>}
             </div>
           </div>
         ))}
