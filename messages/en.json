@@ -15,32 +15,32 @@
   "about": {
     "pageTitle": "About me",
     "description": "Designer with over 15 years of experience in digital products, leading user experience, visual design, research, and strategic definition projects with a focus on real impact. I work on creating scalable experiences, integrating multidisciplinary teams in complex, omnichannel environments.\nI lead teams by promoting a user-centered culture, design best practices, and data-driven decision-making. I contribute to design systems, discovery processes, and operations that accelerate delivery with autonomy and quality.\nI'm looking for challenges where I can apply strategic vision, leadership, and design excellence, transforming experiences and scaling purposeful solutions.",
-    “experience”: {
-      “title”: “Experience”,
-      “nttdata”: {
-        “position”: “Senior Product Designer | Product Strategy”,
-        “date”: “2025 – present”,
-        “impact”: “Design system for Brazil’s largest financial institution — governance, scalability and WCAG AA”
+    "experience": {
+      "title": "Experience",
+      "nttdata": {
+        "position": "Senior Product Designer | Product Strategy",
+        "date": "2025 – present",
+        "impact": "Design system for Brazil’s largest financial institution — governance, scalability and WCAG AA"
       },
-      “globalweb”: {
-        “position”: “Senior Product Designer | Product Strategy & Discovery”,
-        “date”: “2022 – 2025”,
-        “impact”: “Redesign of Bolsa Família app (14M families) + Open Finance for Caixa (Central Bank compliance)”
+      "globalweb": {
+        "position": "Senior Product Designer | Product Strategy & Discovery",
+        "date": "2022 – 2025",
+        "impact": "Redesign of Bolsa Família app (14M families) + Open Finance for Caixa (Central Bank compliance)"
       },
-      “indra”: {
-        “position”: “Senior Designer”,
-        “date”: “2014 – 2022”,
-        “impact”: “8 years leading international projects; stakeholder management with senior leadership in Madrid”
+      "indra": {
+        "position": "Senior Designer",
+        "date": "2014 – 2022",
+        "impact": "8 years leading international projects; stakeholder management with senior leadership in Madrid"
       },
-      “sanrio”: {
-        “position”: “Senior Product Designer”,
-        “date”: “2009 – 2013”,
-        “impact”: “First Hello Kitty e-commerce in Brazil — from scratch: product, logistics, analytics and integrations”
+      "sanrio": {
+        "position": "Senior Product Designer",
+        "date": "2009 – 2013",
+        "impact": "First Hello Kitty e-commerce in Brazil — from scratch: product, logistics, analytics and integrations"
       },
-      “estacio”: {
-        “position”: “UI/UX Designer”,
-        “date”: “2007 – 2009”,
-        “impact”: null
+      "estacio": {
+        "position": "UI/UX Designer",
+        "date": "2007 – 2009",
+        "impact": null
       }
     }
   },
@@ -72,7 +72,7 @@
   "sanrioEcommerce": {
     "titlePage": "Sanrio E‑commerce",
     "titleContext": "Context",
-    "contextDescription": "I was hired to lead the development of Sanrio’s e‑commerce in Brazil. The brand was already considering expanding its digital presence, but there had been no in‑depth studies of technical, logistical or market feasibility yet. I was responsible for structuring the project from discovery to final delivery of the product, serving as the link between strategy, design, technology and operations. I conducted feasibility analyses and logistical modeling, defined buying processes and flows, selected packaging materials and developed the complete digital experience of the e‑commerce. The brand’s purpose—“Small Gift, Big Smile”—was considered in every decision, ensuring the experience was enchanting from click to customer delivery.",
+    "contextDescription": "I was hired to lead the development of Sanrio’s e‑commerce in Brazil. The brand was already considering expanding its digital presence, but there had been no in‑depth studies of technical, logistical or market feasibility yet. I was responsible for structuring the project from discovery to final delivery of the product, serving as the link between strategy, design, technology and operations. I conducted feasibility analyses and logistical modeling, defined buying processes and flows, selected packaging materials and developed the complete digital experience of the e‑commerce. The brand’s purpose—\"Small Gift, Big Smile\"—was considered in every decision, ensuring the experience was enchanting from click to customer delivery.",
     "titleChallenge": "Challenges",
     "contextChallenge": "• Build the entire e‑commerce project from scratch\n• Carry out technical, logistical and commercial feasibility studies\n• Model the customer journey, considering all stages and stakeholders involved\n• Ensure integration with the company’s ERP and billing systems (Protheus)\n• Implement a fluid and emotionally relevant purchasing flow\n• Simultaneously meet the expectations of the end consumer and Sanrio’s international headquarters",
     "titleTarget": "Target Audience",
