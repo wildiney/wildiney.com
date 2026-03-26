@@ -7,27 +7,27 @@ const { locale } = Astro.props
 
 const heroCopy = {
   pt: {
-    label: 'Product Manager · Designer',
-    headline: 'PM com DNA\nde designer.',
-    sub: 'Transformo visão em entrega. Design como ferramenta, dados como bússola, impacto como medida.',
-    cta1: 'Ver trabalhos',
-    cta2: 'Entrar em contato',
+    label: 'Product Manager · Design Lead · 15 anos',
+    headline: 'Product Manager.\nDiscovery, estratégia e entrega.',
+    sub: 'Atuei na maior instituição financeira do Brasil, no redesign que impactou 14M de famílias e em projetos com conformidade regulatória do Banco Central.',
+    cta1: 'Ver contextos de atuação',
+    cta2: 'Conversar',
     scroll: 'Role para explorar',
   },
   en: {
-    label: 'Product Manager · Designer',
-    headline: "PM with a\ndesigner's DNA.",
-    sub: 'I turn vision into delivery. Design as a tool, data as compass, impact as measure.',
-    cta1: 'See work',
+    label: 'Product Manager · Design Lead · 15 years',
+    headline: 'Product Manager.\nDiscovery, strategy and delivery.',
+    sub: "I've worked at Brazil's largest financial institution, on the redesign that impacted 14M families, and on projects requiring Central Bank regulatory compliance.",
+    cta1: 'See work contexts',
     cta2: 'Get in touch',
     scroll: 'Scroll to explore',
   },
   es: {
-    label: 'Product Manager · Diseñador',
-    headline: 'PM con ADN\nde diseñador.',
-    sub: 'Transformo visión en entrega. Diseño como herramienta, datos como brújula, impacto como medida.',
-    cta1: 'Ver trabajos',
-    cta2: 'Contactar',
+    label: 'Product Manager · Design Lead · 15 años',
+    headline: 'Product Manager.\nDiscovery, estrategia y entrega.',
+    sub: 'Trabajé en la mayor institución financiera de Brasil, en el rediseño que impactó a 14M de familias y en proyectos con conformidad regulatoria del Banco Central.',
+    cta1: 'Ver contextos de actuación',
+    cta2: 'Conversar',
     scroll: 'Desplázate para explorar',
   },
 }
@@ -36,20 +36,23 @@ const copy = heroCopy[locale]
 const projects = [
   {
     num: '01',
-    category: 'Gov Tech',
-    title: 'Programa Bolsa Família',
+    category: 'Gov Tech · Regulatório',
+    title: 'App Bolsa Família',
+    metric: '14M de famílias · WCAG AA',
     href: `${getLocalePath(locale)}portfolio/globalweb/bolsa-familia/`,
   },
   {
     num: '02',
-    category: 'E-commerce',
+    category: 'E-commerce · Lançamento',
     title: 'Sanrio Brasil',
+    metric: '1º e-commerce Hello Kitty no BR',
     href: `${getLocalePath(locale)}portfolio/sanrio/ecommerce/`,
   },
   {
     num: '03',
-    category: 'Branding & Produto',
+    category: 'Enterprise · Internacional',
     title: 'Indra / Minsait',
+    metric: '8 anos · Times em 4 países',
     href: `${getLocalePath(locale)}portfolio/indra/`,
   },
 ]
@@ -87,7 +90,8 @@ const projects = [
               <span class="text-xs text-accent font-mono tracking-widest">{p.num}</span>
               <div>
                 <p class="text-xs text-muted uppercase tracking-wider mb-1">{p.category}</p>
-                <p class="text-sm font-semibold text-dark-text group-hover:text-accent transition-colors">{p.title}</p>
+                <p class="text-sm text-dark-text group-hover:text-accent transition-colors">{p.title}</p>
+                {p.metric && <p class="text-xs text-accent mt-1">{p.metric}</p>}
               </div>
             </div>
             <span class="text-muted group-hover:text-accent transition-colors text-lg">↗</span>
