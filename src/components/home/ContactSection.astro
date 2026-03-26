@@ -1,20 +1,90 @@
 ---
-import Button from '../ui/Button.astro'
 import { type Locale } from '../../i18n/index'
 
 interface Props { locale: Locale }
 const { locale } = Astro.props
+
+const copy = {
+  pt: {
+    label: 'Contato',
+    headline: 'Vamos conversar.',
+    sub: 'Aberto a posições de Product Manager e Design Lead em empresas que levam produto a sério.',
+    namePlaceholder: 'Nome',
+    emailPlaceholder: 'Email',
+    messagePlaceholder: 'Mensagem',
+    submit: 'Enviar mensagem',
+    tagline: 'Boas perguntas constroem bons produtos.',
+  },
+  en: {
+    label: 'Contact',
+    headline: "Let's talk.",
+    sub: 'Open to Product Manager and Design Lead positions at companies that take product seriously.',
+    namePlaceholder: 'Name',
+    emailPlaceholder: 'Email',
+    messagePlaceholder: 'Message',
+    submit: 'Send message',
+    tagline: 'Good questions build good products.',
+  },
+  es: {
+    label: 'Contacto',
+    headline: 'Hablemos.',
+    sub: 'Abierto a posiciones de Product Manager y Design Lead en empresas que se toman el producto en serio.',
+    namePlaceholder: 'Nombre',
+    emailPlaceholder: 'Email',
+    messagePlaceholder: 'Mensaje',
+    submit: 'Enviar mensaje',
+    tagline: 'Las buenas preguntas construyen buenos productos.',
+  },
+}
+const c = copy[locale]
 ---
 
 <section id="contact" class="bg-dark border-t border-dark-border py-24 px-6 md:px-12 lg:px-24">
   <div class="max-w-5xl mx-auto">
-    <p class="text-xs text-accent uppercase tracking-widest mb-4">Contato</p>
-    <h2 class="font-display text-4xl md:text-5xl font-black text-dark-text mb-6">Vamos conversar.</h2>
-    <p class="text-muted text-lg leading-relaxed max-w-lg mb-10">
-      Aberto a projetos, colaborações e boas conversas sobre produto.
+    <p class="text-xs text-accent uppercase tracking-widest mb-4">{c.label}</p>
+    <h2 class="font-display text-4xl md:text-5xl font-black text-dark-text mb-6">{c.headline}</h2>
+    <p class="text-muted text-lg leading-relaxed max-w-lg mb-10">{c.sub}</p>
+
+    <form
+      action="https://formsubmit.co/wildiney@gmail.com"
+      method="POST"
+      class="flex flex-col gap-4 max-w-lg"
+    >
+      <input type="text" name="_honey" style="display:none">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://wildiney.com">
+
+      <input
+        type="text"
+        name="name"
+        placeholder={c.namePlaceholder}
+        required
+        class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder={c.emailPlaceholder}
+        required
+        class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors"
+      />
+      <textarea
+        name="message"
+        placeholder={c.messagePlaceholder}
+        required
+        rows="5"
+        class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors resize-none"
+      ></textarea>
+      <button
+        type="submit"
+        class="bg-accent text-white px-6 py-3 text-sm uppercase tracking-widest hover:bg-accent-dark transition-colors self-start"
+      >
+        {c.submit}
+      </button>
+    </form>
+
+    <p class="text-muted text-sm italic mt-16">
+      "{c.tagline}"
     </p>
-    <Button href="https://forms.gle/placeholder" variant="primary" class="text-base px-8 py-4">
-      Entre em contato →
-    </Button>
   </div>
 </section>
