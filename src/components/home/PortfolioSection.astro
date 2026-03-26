@@ -12,24 +12,24 @@ const projects = [
     num: '01',
     title: 'App Programa Bolsa Família',
     company: 'Globalweb Corp.',
-    description: 'Redesign completo de um app governamental com 14 milhões de usuários. Discovery, design system e entrega orientada por WCAG AA.',
-    tags: ['Product Design', 'Design System', 'Acessibilidade'],
+    description: 'Redesign de aplicativo gov com 14M de usuários ativos. Liderei discovery, critérios de acessibilidade e estrutura do design system. Conformidade WCAG AA entregue.',
+    tags: ['Gov Tech', 'Discovery', 'Acessibilidade'],
     href: `${getLocalePath(locale)}portfolio/globalweb/bolsa-familia/`,
   },
   {
     num: '02',
     title: 'E-commerce Sanrio Brasil',
     company: 'Sanrio Co.',
-    description: 'Criação do primeiro e-commerce oficial da Sanrio no Brasil, do estudo de viabilidade ao lançamento — 4.500 visitantes únicos no primeiro dia.',
-    tags: ['Product Strategy', 'E-commerce', 'Service Design'],
+    description: 'Primeiro e-commerce Hello Kitty no Brasil — do zero. Defini estratégia de produto, coordenei pesquisa, tecnologia (Magento), logística e analytics. 4.500 visitantes no dia de lançamento.',
+    tags: ['E-commerce', 'Product Strategy', 'Lançamento'],
     href: `${getLocalePath(locale)}portfolio/sanrio/ecommerce/`,
   },
   {
     num: '03',
-    title: 'Branding & Soluções Internas',
+    title: 'Produto & Comunicação Corporativa',
     company: 'Indra / Minsait',
-    description: 'Gestão da identidade de marca no Brasil por 9 anos e desenvolvimento de ferramentas digitais internas adotadas por toda a empresa.',
-    tags: ['Brand Management', 'Product Ops', 'Comunicação'],
+    description: 'Time internacional respondendo à sede em Madri. 8 anos coordenando projetos multidisciplinares, representando área em decisões estratégicas com diretoria.',
+    tags: ['Enterprise', 'Stakeholder Management', 'Internacional'],
     href: `${getLocalePath(locale)}portfolio/indra/`,
   },
 ]
@@ -37,7 +37,7 @@ const projects = [
 
 <Section id="portfolio">
   <p class="text-xs text-accent uppercase tracking-widest mb-4">{t.portfolio.pageTitle}</p>
-  <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-12">Trabalhos selecionados.</h2>
+  <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-12">Contextos de atuação.</h2>
 
   <div class="space-y-0">
     {projects.map((project) => (
