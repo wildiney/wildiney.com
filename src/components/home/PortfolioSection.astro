@@ -7,37 +7,93 @@ interface Props { locale: Locale }
 const { locale } = Astro.props
 const t = getTranslations(locale)
 
-const projects = [
-  {
-    num: '01',
-    title: 'App Programa Bolsa Família',
-    company: 'Globalweb Corp.',
-    description: 'Redesign de aplicativo gov com 14M de usuários ativos. Liderei discovery, critérios de acessibilidade e estrutura do design system. Conformidade WCAG AA entregue.',
-    tags: ['Gov Tech', 'Discovery', 'Acessibilidade'],
-    href: `${getLocalePath(locale)}portfolio/globalweb/bolsa-familia/`,
-  },
-  {
-    num: '02',
-    title: 'E-commerce Sanrio Brasil',
-    company: 'Sanrio Co.',
-    description: 'Primeiro e-commerce Hello Kitty no Brasil — do zero. Defini estratégia de produto, coordenei pesquisa, tecnologia (Magento), logística e analytics. 4.500 visitantes no dia de lançamento.',
-    tags: ['E-commerce', 'Product Strategy', 'Lançamento'],
-    href: `${getLocalePath(locale)}portfolio/sanrio/ecommerce/`,
-  },
-  {
-    num: '03',
-    title: 'Produto & Comunicação Corporativa',
-    company: 'Indra / Minsait',
-    description: 'Time internacional respondendo à sede em Madri. 8 anos coordenando projetos multidisciplinares, representando área em decisões estratégicas com diretoria.',
-    tags: ['Enterprise', 'Stakeholder Management', 'Internacional'],
-    href: `${getLocalePath(locale)}portfolio/indra/`,
-  },
-]
+const projectsByLocale = {
+  pt: [
+    {
+      num: '01',
+      title: 'App Programa Bolsa Família',
+      company: 'Globalweb Corp.',
+      description: 'Redesign de aplicativo gov com 14M de usuários ativos. Liderei discovery, critérios de acessibilidade e estrutura do design system. Conformidade WCAG AA entregue.',
+      tags: ['Gov Tech', 'Discovery', 'Acessibilidade'],
+      href: `${getLocalePath('pt')}portfolio/globalweb/bolsa-familia/`,
+    },
+    {
+      num: '02',
+      title: 'E-commerce Sanrio Brasil',
+      company: 'Sanrio Co.',
+      description: 'Primeiro e-commerce Hello Kitty no Brasil — do zero. Defini estratégia de produto, coordenei pesquisa, tecnologia (Magento), logística e analytics. 4.500 visitantes no dia de lançamento.',
+      tags: ['E-commerce', 'Product Strategy', 'Lançamento'],
+      href: `${getLocalePath('pt')}portfolio/sanrio/ecommerce/`,
+    },
+    {
+      num: '03',
+      title: 'Produto & Comunicação Corporativa',
+      company: 'Indra / Minsait',
+      description: 'Time internacional respondendo à sede em Madri. 8 anos coordenando projetos multidisciplinares, representando área em decisões estratégicas com diretoria.',
+      tags: ['Enterprise', 'Stakeholder Management', 'Internacional'],
+      href: `${getLocalePath('pt')}portfolio/indra/`,
+    },
+  ],
+  en: [
+    {
+      num: '01',
+      title: 'Bolsa Família Program App',
+      company: 'Globalweb Corp.',
+      description: 'Redesign of a gov app with 14M active users. Led discovery, accessibility criteria, and design system structure. WCAG AA compliance delivered.',
+      tags: ['Gov Tech', 'Discovery', 'Accessibility'],
+      href: `${getLocalePath('en')}portfolio/globalweb/bolsa-familia/`,
+    },
+    {
+      num: '02',
+      title: 'Sanrio Brazil E-commerce',
+      company: 'Sanrio Co.',
+      description: "Brazil's first Hello Kitty e-commerce — built from scratch. Defined product strategy, coordinated research, technology (Magento), logistics, and analytics. 4,500 visitors on launch day.",
+      tags: ['E-commerce', 'Product Strategy', 'Launch'],
+      href: `${getLocalePath('en')}portfolio/sanrio/ecommerce/`,
+    },
+    {
+      num: '03',
+      title: 'Product & Corporate Communications',
+      company: 'Indra / Minsait',
+      description: 'International team reporting to headquarters in Madrid. 8 years coordinating multidisciplinary projects, representing the area in strategic decisions with executive leadership.',
+      tags: ['Enterprise', 'Stakeholder Management', 'International'],
+      href: `${getLocalePath('en')}portfolio/indra/`,
+    },
+  ],
+  es: [
+    {
+      num: '01',
+      title: 'App Programa Bolsa Família',
+      company: 'Globalweb Corp.',
+      description: 'Rediseño de una app gubernamental con 14M de usuarios activos. Lideré el discovery, los criterios de accesibilidad y la estructura del design system. Conformidad WCAG AA entregada.',
+      tags: ['Gov Tech', 'Discovery', 'Accesibilidad'],
+      href: `${getLocalePath('es')}portfolio/globalweb/bolsa-familia/`,
+    },
+    {
+      num: '02',
+      title: 'E-commerce Sanrio Brasil',
+      company: 'Sanrio Co.',
+      description: 'Primer e-commerce Hello Kitty en Brasil, construido desde cero. Definí la estrategia de producto, coordiné investigación, tecnología (Magento), logística y analytics. 4.500 visitantes el día del lanzamiento.',
+      tags: ['E-commerce', 'Product Strategy', 'Lanzamiento'],
+      href: `${getLocalePath('es')}portfolio/sanrio/ecommerce/`,
+    },
+    {
+      num: '03',
+      title: 'Producto & Comunicación Corporativa',
+      company: 'Indra / Minsait',
+      description: 'Equipo internacional respondiendo a la sede en Madrid. 8 años coordinando proyectos multidisciplinarios, representando el área en decisiones estratégicas con la dirección.',
+      tags: ['Enterprise', 'Stakeholder Management', 'Internacional'],
+      href: `${getLocalePath('es')}portfolio/indra/`,
+    },
+  ],
+}
+
+const projects = projectsByLocale[locale]
 ---
 
 <Section id="portfolio">
   <p class="text-xs text-accent uppercase tracking-widest mb-4">{t.portfolio.pageTitle}</p>
-  <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-12">Contextos de atuação.</h2>
+  <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-12">{t.portfolio.heading}</h2>
 
   <div class="space-y-0">
     {projects.map((project) => (

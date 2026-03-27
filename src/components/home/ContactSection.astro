@@ -1,5 +1,6 @@
 ---
 import { type Locale } from '../../i18n/index'
+import Button from '../ui/Button.astro'
 
 interface Props { locale: Locale }
 const { locale } = Astro.props
@@ -9,9 +10,12 @@ const copy = {
     label: 'Contato',
     headline: 'Vamos conversar.',
     sub: 'Aberto a posições de Product Manager e Design Lead em empresas que levam produto a sério.',
-    namePlaceholder: 'Nome',
-    emailPlaceholder: 'Email',
-    messagePlaceholder: 'Mensagem',
+    nameLabel: 'Nome',
+    emailLabel: 'Email',
+    messageLabel: 'Mensagem',
+    namePlaceholder: 'Seu nome',
+    emailPlaceholder: 'seu@email.com',
+    messagePlaceholder: 'Como posso ajudar?',
     submit: 'Enviar mensagem',
     tagline: 'Boas perguntas constroem bons produtos.',
   },
@@ -19,9 +23,12 @@ const copy = {
     label: 'Contact',
     headline: "Let's talk.",
     sub: 'Open to Product Manager and Design Lead positions at companies that take product seriously.',
-    namePlaceholder: 'Name',
-    emailPlaceholder: 'Email',
-    messagePlaceholder: 'Message',
+    nameLabel: 'Name',
+    emailLabel: 'Email',
+    messageLabel: 'Message',
+    namePlaceholder: 'Your name',
+    emailPlaceholder: 'you@email.com',
+    messagePlaceholder: 'How can I help?',
     submit: 'Send message',
     tagline: 'Good questions build good products.',
   },
@@ -29,9 +36,12 @@ const copy = {
     label: 'Contacto',
     headline: 'Hablemos.',
     sub: 'Abierto a posiciones de Product Manager y Design Lead en empresas que se toman el producto en serio.',
-    namePlaceholder: 'Nombre',
-    emailPlaceholder: 'Email',
-    messagePlaceholder: 'Mensaje',
+    nameLabel: 'Nombre',
+    emailLabel: 'Email',
+    messageLabel: 'Mensaje',
+    namePlaceholder: 'Tu nombre',
+    emailPlaceholder: 'tu@email.com',
+    messagePlaceholder: '¿Cómo puedo ayudarte?',
     submit: 'Enviar mensaje',
     tagline: 'Las buenas preguntas construyen buenos productos.',
   },
@@ -48,43 +58,50 @@ const c = copy[locale]
     <form
       action="https://formsubmit.co/wildiney@gmail.com"
       method="POST"
-      class="flex flex-col gap-4 max-w-lg"
+      class="flex flex-col gap-5 max-w-lg"
     >
       <input type="text" name="_honey" style="display:none">
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_next" value="https://wildiney.com">
 
-      <input
-        type="text"
-        name="name"
-        placeholder={c.namePlaceholder}
-        required
-        class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors"
-      />
-      <input
-        type="email"
-        name="email"
-        placeholder={c.emailPlaceholder}
-        required
-        class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors"
-      />
-      <textarea
-        name="message"
-        placeholder={c.messagePlaceholder}
-        required
-        rows="5"
-        class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors resize-none"
-      ></textarea>
-      <button
-        type="submit"
-        class="bg-accent text-white px-6 py-3 text-sm uppercase tracking-widest hover:bg-accent-dark transition-colors self-start"
-      >
-        {c.submit}
-      </button>
+      <div class="flex flex-col gap-1.5">
+        <label for="contact-name" class="text-xs text-muted uppercase tracking-widest">{c.nameLabel}</label>
+        <input
+          id="contact-name"
+          type="text"
+          name="name"
+          placeholder={c.namePlaceholder}
+          required
+          class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors"
+        />
+      </div>
+
+      <div class="flex flex-col gap-1.5">
+        <label for="contact-email" class="text-xs text-muted uppercase tracking-widest">{c.emailLabel}</label>
+        <input
+          id="contact-email"
+          type="email"
+          name="email"
+          placeholder={c.emailPlaceholder}
+          required
+          class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors"
+        />
+      </div>
+
+      <div class="flex flex-col gap-1.5">
+        <label for="contact-message" class="text-xs text-muted uppercase tracking-widest">{c.messageLabel}</label>
+        <textarea
+          id="contact-message"
+          name="message"
+          placeholder={c.messagePlaceholder}
+          required
+          rows="5"
+          class="bg-dark-surface border border-dark-border text-dark-text placeholder-muted px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors resize-none"
+        ></textarea>
+      </div>
+
+      <Button type="submit" variant="primary" class="self-start">{c.submit}</Button>
     </form>
 
-    <p class="text-muted text-sm italic mt-16">
-      "{c.tagline}"
-    </p>
   </div>
 </section>

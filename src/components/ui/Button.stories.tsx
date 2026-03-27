@@ -1,3 +1,4 @@
+import React from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 // Since our actual Button is .astro, this story documents the design
@@ -7,11 +8,11 @@ function Button({ variant = 'primary', size = 'md', children }: {
   size?: 'sm' | 'md' | 'lg'
   children: React.ReactNode
 }) {
-  const base = 'inline-flex items-center justify-center font-semibold tracking-wide transition-colors'
+  const base = 'inline-flex items-center justify-center font-sans font-semibold tracking-wide transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-dark'
   const variants = {
-    primary: 'bg-[#C94B32] text-white hover:bg-[#A33A24]',
-    secondary: 'border border-[#21282F] text-[#E6EDF3] hover:border-[#656D76]',
-    ghost: 'text-[#C94B32] underline underline-offset-4',
+    primary: 'bg-accent text-ink font-semibold hover:bg-accent-dark',
+    secondary: 'border border-dark-border text-dark-text hover:border-muted',
+    ghost: 'text-accent underline underline-offset-4 hover:text-accent-dark',
   }
   const sizes = {
     sm: 'px-3 py-1.5 text-sm',

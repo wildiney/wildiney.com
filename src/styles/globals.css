@@ -7,7 +7,7 @@
   --color-dark-surface: #1D242C;   /* elevated surfaces on dark */
   --color-dark-border:  #21282F;   /* borders on dark */
   --color-dark-text:    #E6EDF3;   /* primary text on dark */
-  --color-muted:        #656D76;   /* secondary/muted text */
+  --color-muted:        #8B949E;   /* secondary/muted text — 5.6:1 on dark, 5.1:1 on surface */
 
   /* === LIGHT (case study body content) === */
   --color-paper:        #F5F2EE;   /* warm beige background */
@@ -16,8 +16,8 @@
   --color-rule:         #E2DDD8;   /* borders on light */
 
   /* === ACCENT (single highlight color) === */
-  --color-accent:       #C94B32;   /* orange-rust, used sparingly */
-  --color-accent-dark:  #A33A24;   /* darker accent for hover states */
+  --color-accent:       #4db8e7;   /* sky blue — use with text-ink for WCAG AA */
+  --color-accent-dark:  #2a9fd0;   /* hover state — 3:1 on white, 5.8:1 on dark */
 
   /* === TYPOGRAPHY === */
   --font-display: 'Fraunces', serif;

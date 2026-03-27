@@ -46,7 +46,13 @@
   },
   "portfolio": {
     "pageTitle": "Contextos de Actuación",
+    "heading": "Casos de estudio.",
     "caseStudy": "Estudio de caso"
+  },
+  "articles": {
+    "heading": "Perspectivas",
+    "sub": "Reflexiones sobre producto, diseño y liderazgo.",
+    "viewAll": "Ver todos"
   },
   "contact": {
     "pageTitle": "Contacto"
