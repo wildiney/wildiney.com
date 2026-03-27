@@ -1,37 +1,39 @@
 ---
-title: "Gestão de Marca & Soluções Digitais — Indra Minsait"
+title: "Soluções Digitais & Gestão de Marca — Indra Minsait"
 company: "Indra / Minsait"
-role: "Brand Lead"
-year: "2013–2022"
-tags: ["Brand Management", "Brand Governance", "Comunicação Corporativa", "Digital Tools"]
+role: "Designer Sênior"
+year: "2014–2022"
+tags: ["Design Systems", "Brand Governance", "Comunicação Corporativa", "Soluções Digitais"]
 thumbnail: "/images/portfolio/indra/header-indra.webp"
 ---
 
 ## Contexto
 
-Fui responsável pela gestão da marca Indra Minsait no Brasil, empresa global de tecnologia e consultoria presente em mais de 140 países. Atuei como referência e guardião da marca no país, orientando equipes e fornecedores enquanto traduzia diretrizes globais em iniciativas relevantes para o mercado brasileiro. Além da governança da marca, participei diretamente no desenvolvimento de soluções digitais internas, exercendo papel de gestão ao lado de stakeholders técnicos e de negócio, da definição de escopo ao acompanhamento de KPIs.
+Atuei por oito anos como Designer Sênior na Indra Minsait, empresa global de tecnologia e consultoria presente em mais de 140 países, respondendo diretamente à sede em Madri em um time internacional. A atuação cobriu três frentes complementares: governança e gestão de marca no Brasil, liderança de equipes no desenvolvimento de soluções digitais corporativas, e comunicação estratégica com lideranças sênior em contextos de alta pressão.
 
-## Problemas e Oportunidades
-
-Necessidade de fortalecer a presença da marca Indra Minsait no Brasil e garantir consistência entre a comunicação local e os padrões internacionais. Identificação de lacunas na comunicação interna e na eficiência dos processos operacionais, criando oportunidade para desenvolver soluções digitais customizadas para o ambiente corporativo.
+Como referência de design no país, orientei equipes e fornecedores na aplicação das diretrizes globais, mantendo consistência entre a comunicação local e os padrões internacionais. No desenvolvimento de produtos digitais, liderei as decisões de design e estruturei os processos que garantiram coerência entre design, tecnologia e objetivos de negócio ao longo de projetos de alto impacto.
 
 ## Desafios
 
-- Gerenciar e controlar o orçamento de iniciativas locais, garantindo alinhamento com as diretrizes da matriz espanhola
-- Criar e gerenciar campanhas institucionais em múltiplos formatos, orientadas por métricas de performance
-- Integrar diferentes áreas, fornecedores e stakeholders em cronogramas complexos com múltiplas entregas simultâneas
+- Responder diretamente à sede em Madri, alinhando expectativas entre a operação local e as diretrizes globais da empresa
+- Liderar equipes multidisciplinares no desenvolvimento de aplicações responsivas, acessíveis e sites corporativos
+- Estruturar processos de design e governança de design system em um ambiente de múltiplos projetos simultâneos
+- Conduzir comunicação corporativa e gestão de crises com relacionamento direto com lideranças sênior
+- Garantir entregas orientadas a métricas e alinhadas aos objetivos de clientes internos e externos
 
 ## Metodologias e Processos
 
-**Governança de marca:** aprovação de todos os materiais produzidos no Brasil, aplicação de brand guidelines globais em contexto local e gestão do relacionamento com a matriz.
+**Governança de marca e design system:** estruturação e manutenção de design systems, aprovação de materiais produzidos no Brasil, aplicação de brand guidelines globais em contexto local e gestão do relacionamento com a matriz.
 
-**Planejamento e comunicação integrada:** definição de pautas, cronograma editorial, alinhamento com stakeholders e aplicação de guidelines globais em iniciativas locais.
+**Liderança de equipes digitais:** direção de times de design no desenvolvimento de interfaces responsivas e acessíveis, garantindo consistência entre design, tecnologia e objetivos de negócio.
 
-**Criação de soluções digitais internas:** mapeamento de necessidades dos usuários internos, prototipação de ferramentas e validação com áreas operacionais.
+**Planejamento e comunicação integrada:** definição de pautas, cronograma editorial, alinhamento com stakeholders e governança de marca em iniciativas locais.
 
-**Gestão de produto e performance:** levantamento de requisitos, organização do backlog, definição de escopo mínimo viável (MVP), acompanhamento de KPIs.
+**Gestão de produto e performance:** levantamento de requisitos, organização do backlog, definição de escopo mínimo viável, acompanhamento de KPIs.
 
-**Experiência em eventos:** concepção de estandes, ativações promocionais em grandes eventos como SAP Fórum e CIAB.
+**Comunicação corporativa e gestão de crises:** condução de projetos de comunicação em contextos de alta pressão, com alinhamento estratégico junto a lideranças sênior.
+
+**Experiência em eventos:** concepção de estandes e ativações em grandes eventos do setor, como SAP Fórum e CIAB.
 
 ## Frameworks de Produto
 
@@ -39,24 +41,26 @@ Necessidade de fortalecer a presença da marca Indra Minsait no Brasil e garanti
 
 **Entrega:** Kanban, MVP
 
+**Design Systems:** Atomic Design, Design Systems Governance
+
 **Estratégia & Métricas:** OKRs, KPI Dashboards
 
-**Stakeholders & Comunicação:** Stakeholder Mapping, RACI Matrix, Comunicação Assíncrona com Matriz Internacional
+**Stakeholders & Comunicação:** Stakeholder Mapping, RACI Matrix, comunicação assíncrona com sede internacional
 
 ## Tecnologias e Ferramentas
 
+- Figma e Adobe XD para design de interfaces e prototipação
 - Adobe Illustrator, Photoshop e InDesign para materiais gráficos
-- Adobe XD, InVision e Marvel App para prototipação e design de interfaces
 - Adobe Premiere e After Effects para vídeos institucionais
 - Blender 3D para visualizações e animações
 - Mailchimp e ferramentas internas para newsletters
 - Excel, Power BI e Python & Pandas para relatórios e controle orçamentário
-- Analytics para acompanhamento de métricas e performance
 - TypeScript, React e Next.js para desenvolvimento de soluções digitais internas
 
 ## Resultados
 
-- Fortalecimento da marca no Brasil com aumento da visibilidade e alinhamento global
-- Ferramentas digitais internas adotadas por colaboradores por anos após entrega
-- Relatórios recorrentes à matriz possibilitaram acompanhamento estratégico das ações locais
-- Participação em grandes eventos gerou impacto positivo na percepção da marca
+- Design system estruturado e adotado como referência para as equipes locais e integrado às diretrizes globais
+- Soluções digitais internas responsivas e acessíveis adotadas por colaboradores por anos após a entrega
+- Alinhamento consistente com a sede de Madri em projetos de alta complexidade e múltiplos stakeholders
+- Comunicação institucional fortalecida, com presença relevante nos principais eventos do setor
+- Capacidade de alinhamento estratégico consolidada em contextos de alta pressão e gestão de crises

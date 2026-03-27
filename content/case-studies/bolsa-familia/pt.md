@@ -1,7 +1,7 @@
 ---
 title: "Aplicativo Programa Bolsa Família"
 company: "Globalweb Corp."
-role: "Product Designer Senior → PM Lead"
+role: "Senior Product Designer"
 year: "2022–2025"
 tags: ["UX Research", "Design System", "Acessibilidade", "Gov Tech"]
 thumbnail: "/images/portfolio/bolsa-familia/bolsa-familia.webp"
@@ -9,67 +9,64 @@ thumbnail: "/images/portfolio/bolsa-familia/bolsa-familia.webp"
 
 ## Contexto
 
-O aplicativo do Programa Bolsa Família é um dos principais canais de comunicação e autoatendimento entre o Governo Federal e mais de 14 milhões de beneficiários em todo o país. Além de oferecer informações oficiais sobre o programa, o app permite que os usuários acompanhem o status do benefício, consultem o calendário de pagamentos, realizem o rastreamento do cartão, e efetuem ações como bloqueio e desbloqueio do cartão do Bolsa Família.
+Liderei o redesign completo do aplicativo do Programa Bolsa Família, um dos principais canais de autoatendimento entre o Governo Federal e mais de 14 milhões de famílias beneficiárias em todo o país. O app permite acompanhar o status do benefício, consultar calendários de pagamento, rastrear o cartão e realizar ações como bloqueio e desbloqueio. Antes do redesenho, o aplicativo enfrentava problemas de acessibilidade, navegação pouco clara e interface desalinhada à identidade institucional do Ministério do Desenvolvimento e Assistência Social.
 
-Antes do redesenho, o aplicativo enfrentava diversos desafios: visual desatualizado, baixa aderência às diretrizes de acessibilidade, dificuldade de navegação e apresentação pouco clara das informações. Havia ainda a necessidade de alinhar a interface à identidade institucional do Ministério do Desenvolvimento e às novas diretrizes do programa social.
+No mesmo período, atuei no projeto de Open Finance da Caixa Econômica Federal, atendendo às demandas obrigatórias do Banco Central e garantindo conformidade regulatória e integração dos sistemas financeiros.
+
+Em ambos os projetos, trabalhei estrategicamente junto a produto, design e tecnologia, colaborando com times de desenvolvimento e entregando documentação detalhada que viabilizou a execução técnica.
 
 ## Desafios
 
-Redesenhar completamente a experiência do aplicativo, considerando os seguintes objetivos:
-
-- Tornar o app acessível a todos os públicos, atendendo aos critérios WCAG AA
-- Melhorar a usabilidade, clareza das informações e fluxo de navegação
-- Alinhar o visual à identidade institucional do Ministério do Desenvolvimento
-- Apoiar a evolução tecnológica e a integração com novos serviços e APIs
-- Envolver diferentes públicos e stakeholders em um processo colaborativo e transparente
+- Redesenhar a experiência de um app de escala nacional, com usuários de diferentes níveis de letramento digital
+- Garantir conformidade com os critérios WCAG 2.1 AA em todas as telas e fluxos
+- Alinhar a interface à identidade institucional do Ministério e às diretrizes atualizadas do programa
+- Engajar diferentes stakeholders (governo, desenvolvimento, acessibilidade) em um processo colaborativo e transparente
+- Criar e implementar um design system reutilizável, escalável e acessível adotado pelo time de desenvolvimento
 
 ## Público-Alvo
 
-- Cidadãos brasileiros beneficiários do programa (com diferentes níveis de letramento digital)
+- Cidadãos brasileiros beneficiários do programa, com diferentes perfis sociais e geográficos
 - Equipes técnicas e de conteúdo do governo
-- Time de acessibilidade e desenvolvimento
-- Gestores públicos responsáveis por aprovar e orientar a evolução do app
+- Times de acessibilidade e desenvolvimento
+- Gestores públicos responsáveis pela evolução do app
 
 ## Metodologias e Processos
 
-**Discovery e Imersão:** análise crítica do app existente, benchmark de apps públicos e privados, e levantamento de limitações técnicas e funcionais.
+**Discovery e imersão:** análise crítica do app existente, benchmarks de apps públicos e privados, e mapeamento de limitações técnicas e funcionais.
 
-**Mapeamento de jornadas e matriz CSD:** identificação das dores, certezas e dúvidas dos usuários e stakeholders sobre a experiência atual.
+**Pesquisa com usuários:** entrevistas, jornadas e grupos com beneficiários de diferentes perfis, e matriz CSD para mapear certezas, suposições e dúvidas.
 
-**Entrevistas e grupos com usuários:** coleta de feedback qualitativo com beneficiários de diferentes perfis sociais e geográficos.
+**Co-criação com stakeholders:** sessões com PO, equipe técnica, especialistas em acessibilidade e representantes do Ministério para validação das decisões de produto.
 
-**Co-criação e validação com stakeholders:** sessões com PO, equipe técnica, acessibilidade e representantes do Ministério.
+**Design system:** criação e implementação de sistema visual baseado na identidade do Ministério, com componentes reutilizáveis alinhados ao Material Design e às melhores práticas de acessibilidade.
 
-**Design system:** criação de um novo sistema visual baseado na identidade do Ministério do Desenvolvimento, com componentes alinhados ao Material Design.
+**Prototipação:** wireframes e protótipos de baixa e alta fidelidade no Figma, com testes navegáveis e validações com usuários no Maze.
 
-**Prototipação de alta fidelidade:** wireframes, testes navegáveis e validações com usuários no Maze.
+**Service blueprint:** mapeamento de APIs e serviços envolvidos para garantir uma experiência técnica e funcional robusta.
 
-**Service blueprint:** mapeamento de APIs e serviços envolvidos para desenhar uma experiência técnica e funcional robusta.
-
-**Acessibilidade digital:** todo o projeto seguiu as diretrizes WCAG 2.1 nível AA, com validações em conjunto com o time especializado.
+**Acessibilidade digital:** projeto conduzido seguindo as diretrizes WCAG 2.1 AA, com validações junto ao time especializado em todas as etapas.
 
 ## Soluções
 
 - Interface redesenhada para máxima legibilidade, simplicidade e clareza na navegação
-- Novo design system institucional modular, escalável e acessível
-- Componentes desenvolvidos com base no Material Design, otimizados para mobile
-- Integração transparente com novos serviços por meio do blueprint técnico
-- Validação constante com usuários reais em diferentes regiões do país
-- Inclusão ativa do time de acessibilidade desde os primeiros protótipos
+- Design system institucional modular, escalável e acessível, implementado e adotado pelo time de desenvolvimento
+- Componentes baseados no Material Design, otimizados para mobile e validados em acessibilidade
+- Documentação detalhada entregue ao time de desenvolvimento para viabilizar a execução técnica
+- Processo de aprovação com o Ministério estruturado em ciclos curtos e iterativos
 
 ## Frameworks de Produto
 
-**Discovery & Research:** Double Diamond, Design Thinking, Jobs to be Done (JTBD), CSD Matrix, Service Blueprint
+**Discovery & Research:** Double Diamond, Design Thinking, Jobs to be Done, CSD Matrix, Service Blueprint
 
 **Priorização:** MoSCoW, RICE, Backlog Refinement
 
-**Entrega:** Scrum, Kanban, Definition of Done (DoD)
+**Entrega:** Scrum, Kanban, Definition of Done
 
 **Estratégia & Métricas:** OKRs, North Star Metric, KPI Dashboards
 
-**Stakeholders & Comunicação:** Stakeholder Mapping, RACI Matrix
-
 **Acessibilidade:** Inclusive Design, WCAG 2.1 AA
+
+**Stakeholders & Comunicação:** Stakeholder Mapping, RACI Matrix
 
 ## Tecnologias e Ferramentas
 
@@ -77,13 +74,12 @@ Redesenhar completamente a experiência do aplicativo, considerando os seguintes
 - Maze para testes com usuários
 - Miro para matriz CSD, jornadas e blueprint
 - Google Forms e entrevistas qualitativas para pesquisa
-- WCAG Guidelines e ferramentas de validação de acessibilidade
+- Ferramentas de validação de acessibilidade (WCAG Guidelines)
 
 ## Resultados
 
-- Novo app com experiência mais intuitiva, clara e respeitosa com o público-alvo
-- Conformidade com os critérios de acessibilidade digital (WCAG 2.1 AA)
-- Maior independência do cidadão para entender e acompanhar seus benefícios
-- Redução de dúvidas e dependência de canais paralelos (como telefone e atendimento presencial)
-- Fortalecimento da comunicação institucional do programa
-- Time interno mais alinhado e empoderado para sustentar a evolução do app
+- App redesenhado com experiência mais intuitiva, clara e acessível para mais de 14 milhões de beneficiários
+- Conformidade com os critérios WCAG 2.1 AA garantida em todos os fluxos
+- Maior independência do cidadão para acompanhar e entender seus benefícios
+- Design system implementado como referência para a evolução contínua do app
+- Time interno mais alinhado e capacitado para sustentar as próximas iterações
