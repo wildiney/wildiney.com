@@ -3,7 +3,7 @@ title: "Se hoje é possível sair da ideia ao produto em minutos, o que ainda ju
 date: "2026-03-03"
 description: "A IA reduziu drasticamente o custo da execução, mas não reduziu o custo da decisão. E decisões mal tomadas apenas escalam desperdício com mais eficiência."
 tags: ["inteligência artificial", "processo", "velocidade", "decisão", "estratégia de produto", "discovery"]
-thumbnail: "/images/articles/velocidade-nao-substitui-decisao/cover.png"
+thumbnail: "/images/articles/velocidade-nao-substitui-decisao/cover.webp"
 ---
 
 Nos últimos meses uma narrativa tem dominado o feed, da ideia ao produto em minutos, design systems criados por prompt, interfaces geradas sem discovery. A velocidade é real e muda radicalmente o custo de construir.

@@ -3,7 +3,7 @@ title: "Harrison Bergeron não era ficção"
 date: "2026-04-14"
 description: "Alunos que escrevem bem estão sendo sinalizados como suspeitos de uso de IA. O sinal foi invertido: competência virou evidência de trapaça. Isso vai além das escolas."
 tags: ["inteligência artificial", "educação", "trabalho", "habilidades", "competência"]
-thumbnail: "/images/articles/harrison-bergeron-nao-era-ficcao/cover.png"
+thumbnail: "/images/articles/harrison-bergeron-nao-era-ficcao/cover.webp"
 ---
 
 Um aluno escreveu uma redação sobre Harrison Bergeron, o conto de Kurt Vonnegut sobre uma sociedade que pune quem se destaca. A redação foi sinalizada como 18% gerada por IA. O motivo? Uma única palavra: "devoid". Ao trocá-la por "without", a pontuação caiu para zero.

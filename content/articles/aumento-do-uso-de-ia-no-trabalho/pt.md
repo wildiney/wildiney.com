@@ -3,7 +3,7 @@ title: "Aumento do uso de IA no trabalho"
 date: "2026-02-17"
 description: "Maturidade não está em usar mais IA. Está em saber onde usar, por que usar e quanto isso realmente entrega de valor — sem confundir velocidade com avanço."
 tags: ["inteligência artificial", "produtividade", "trabalho", "automação", "habilidades"]
-thumbnail: "/images/articles/aumento-do-uso-de-ia-no-trabalho/cover.png"
+thumbnail: "/images/articles/aumento-do-uso-de-ia-no-trabalho/cover.webp"
 ---
 
 Todo mundo está comemorando que o uso de IA no trabalho cresceu. A pergunta que quase ninguém faz é: **cresceu para fazer o quê?**

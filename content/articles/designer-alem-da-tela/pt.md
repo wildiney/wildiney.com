@@ -3,7 +3,7 @@ title: "Existe um momento na carreira de todo designer em que a tela para de ser
 date: "2026-03-17"
 description: "Quando a ferramenta, o método ou a rotina viram o objetivo, o produto fica em segundo plano. O maior desperdício de talento em design não é fazer algo feio — é fazer algo lindo que nunca deveria ter existido."
 tags: ["design", "carreira", "estratégia", "stakeholders", "decisão", "negócio"]
-thumbnail: "/images/articles/designer-alem-da-tela/cover.png"
+thumbnail: "/images/articles/designer-alem-da-tela/cover.webp"
 ---
 
 Não porque ela deixou de importar. Mas porque o problema que precisa ser resolvido já não cabe nela.

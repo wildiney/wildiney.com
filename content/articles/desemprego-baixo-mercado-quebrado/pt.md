@@ -3,7 +3,7 @@ title: "Desemprego baixo, mercado quebrado. Por que os números não batem com a
 date: "2026-03-10"
 description: "A taxa de desemprego está baixa, mas o LinkedIn conta outra história. O problema não é a economia — é a métrica. Os indicadores macro não estão mentindo. Eles só estão olhando para o lugar errado."
 tags: ["mercado de trabalho", "desemprego", "layoffs", "salários", "tecnologia", "inteligência artificial", "métricas"]
-thumbnail: "/images/articles/desemprego-baixo-mercado-quebrado/cover.jpg"
+thumbnail: "/images/articles/desemprego-baixo-mercado-quebrado/cover.webp"
 ---
 
 As estatísticas dizem que o desemprego está baixo. O LinkedIn diz outra coisa.

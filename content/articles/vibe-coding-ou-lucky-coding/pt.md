@@ -3,7 +3,7 @@ title: "Vibe coding ou Lucky coding?"
 date: "2026-03-24"
 description: "A IA democratizou a execução. Mas não democratizou o julgamento. Lucky code é só achismo com interface moderna."
 tags: ["vibe coding", "inteligência artificial", "engenharia ágil", "decisão", "desenvolvimento de produto", "karpathy"]
-thumbnail: "/images/articles/vibe-coding-ou-lucky-coding/cover.png"
+thumbnail: "/images/articles/vibe-coding-ou-lucky-coding/cover.webp"
 ---
 
 Vibe coding virou buzzword. E como toda buzzword, perdeu precisão no caminho. Mas a história começa antes disso.

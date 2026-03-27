@@ -3,7 +3,7 @@ title: "A falsa modernização dos produtos guiados por IA"
 date: "2026-01-27"
 description: "Automatizar o achismo não o transforma em estratégia. O problema de usar IA para 'modernizar' produtos sem contexto, sem dados e sem critério."
 tags: ["inteligência artificial", "design", "usabilidade", "estratégia de produto"]
-thumbnail: "/images/articles/a-falsa-modernizacao-dos-produtos-guiados-por-ia/cover.png"
+thumbnail: "/images/articles/a-falsa-modernizacao-dos-produtos-guiados-por-ia/cover.webp"
 ---
 
 Tenho visto um padrão curioso surgir entre pessoas recém-chegadas ao universo da IA. Um entusiasmo quase infantil com o que essas ferramentas são capazes de produzir. Bastam alguns prompts, alguns adjetivos vagos como "mais moderno", "mais inovador", "que chame mais a atenção", e pronto: sites inteiros são reformulados por IAs como Lovable, Replit e afins.
