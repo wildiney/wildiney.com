@@ -1,5 +1,6 @@
 import { readFileSync, existsSync, readdirSync } from 'fs'
-import { join } from 'path'
+import { join, dirname } from 'path'
+import { fileURLToPath } from 'url'
 import matter from 'gray-matter'
 
 export interface ArticleMeta {
@@ -15,7 +16,19 @@ export interface Article extends ArticleMeta {
   content: string
 }
 
-const CONTENT_DIR = join(process.cwd(), 'content', 'articles')
+function resolveContentDir(): string {
+  // process.cwd() is the project root when running astro dev/build
+  const fromCwd = join(process.cwd(), 'content', 'articles')
+  if (existsSync(fromCwd)) return fromCwd
+  // Fallback: resolve relative to this file (ESM context)
+  try {
+    return join(dirname(fileURLToPath(import.meta.url)), '../../content/articles')
+  } catch {
+    return fromCwd
+  }
+}
+
+const CONTENT_DIR = resolveContentDir()
 
 function getLocalizedFile(slug: string, locale: string): string {
   const localePath = join(CONTENT_DIR, slug, `${locale}.md`)
@@ -37,10 +50,19 @@ export function getArticles(locale = 'pt'): ArticleMeta[] {
   const slugs = readdirSync(CONTENT_DIR, { withFileTypes: true })
     .filter(d => d.isDirectory())
     .map(d => d.name)
-  return slugs.map(slug => {
-    const { content: _c, ...meta } = getArticle(slug, locale)
-    return meta
-  })
+  const today = new Date().toISOString().slice(0, 10)
+  return slugs
+    .map(slug => {
+      const { content: _c, ...meta } = getArticle(slug, locale)
+      return meta
+    })
+    .filter(meta => !meta.date || meta.date <= today)
+    .sort((a, b) => {
+      if (!a.date && !b.date) return 0
+      if (!a.date) return 1
+      if (!b.date) return -1
+      return b.date.localeCompare(a.date)
+    })
 }
 
 export function getAllArticleSlugs(): string[] {

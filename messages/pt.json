@@ -14,7 +14,7 @@
   },
   "about": {
     "pageTitle": "Sobre mim",
-    "description": "Product Manager com 15 anos em produtos digitais. Atuo no ciclo completo — discovery, estratégia e entrega — com histórico em contextos de alta complexidade: gov tech, regulatório, e-commerce e enterprise.\nTrabalhei na maior instituição financeira do Brasil, no redesign que impactou 14 milhões de famílias e em projetos com conformidade regulatória do Banco Central. Tenho formação em design, o que me dá vantagem na comunicação com times de produto e na qualidade das decisões.\nEscrevo sobre produto, decisão e o que não deve ser construído.",
+    "description": "Product Manager com 15 anos em produtos digitais. Atuo no ciclo completo — discovery, strategy & delivery — com histórico em contextos de alta complexidade: gov tech, regulatório, e-commerce e enterprise.\nTrabalhei na maior instituição financeira do Brasil, no redesign que impactou 14 milhões de famílias e em projetos com conformidade regulatória do Banco Central. Tenho formação em design, o que me dá vantagem na comunicação com times de produto e na qualidade das decisões.\nEscrevo sobre produto, decisão e o que talvez não deva ser construído.",
     "experience": {
       "title": "Experiência",
       "nttdata": {
@@ -46,7 +46,13 @@
   },
   "portfolio": {
     "pageTitle": "Contextos de Atuação",
+    "heading": "Contextos de atuação.",
     "caseStudy": "Estudo de caso"
+  },
+  "articles": {
+    "heading": "Perspectivas",
+    "sub": "Reflexões sobre produto, design e liderança.",
+    "viewAll": "Ver todos"
   },
   "contact": {
     "pageTitle": "Contato"

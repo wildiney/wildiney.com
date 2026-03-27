@@ -1,29 +1,29 @@
 ---
-title: "Branding & Digital Solutions — Indra Minsait"
+title: "Brand Management & Digital Solutions — Indra Minsait"
 company: "Indra / Minsait"
-role: "Senior Designer"
+role: "Brand Lead"
 year: "2013–2022"
-tags: ["Brand Management", "Product Ops", "Corporate Communications", "Digital Tools"]
-thumbnail: "/images/portfolio/indra/header-indra-sm.webp"
+tags: ["Brand Management", "Brand Governance", "Corporate Communications", "Digital Tools"]
+thumbnail: "/images/portfolio/indra/header-indra.webp"
 ---
 
 ## Context
 
-Designer responsible for institutional communication and brand management in Brazil. I worked as a multidisciplinary designer at Indra Minsait, a global technology and consulting company present in over 140 countries. I led brand management in Brazil and ensured alignment with corporate standards set by the Spanish headquarters.
-
-Beyond branding responsibilities, I worked on initiatives focused on developing and evolving internal digital solutions, directly collaborating on requirements definition, feature prioritization, and delivery tracking with technical and business stakeholders. At various points, I performed product management functions, leading discovery initiatives, demand prioritization, and KPI monitoring.
+I was responsible for Indra Minsait's brand management in Brazil, a global technology and consulting company present in over 140 countries. I served as the brand reference and guardian in the country, guiding teams and vendors while translating global guidelines into initiatives relevant to the Brazilian market. Beyond brand governance, I was directly involved in developing internal digital solutions, playing a management role alongside technical and business stakeholders, from scope definition to KPI monitoring.
 
 ## Problems and Opportunities
 
-Need to strengthen Indra Minsait's brand in Brazil and align institutional communication with international standards. Identification of gaps in internal communication and operational process efficiency, creating an opportunity to develop customized digital solutions for the corporate environment.
+Need to strengthen Indra Minsait's brand presence in Brazil and ensure consistency between local communications and international standards. Identification of gaps in internal communication and operational process efficiency, creating opportunities to develop customized digital solutions for the corporate environment.
 
 ## Challenges
 
-- Working with a limited budget on local initiatives while ensuring alignment with the Spanish headquarters' guidelines
-- Adapting campaigns and materials to different formats (print, digital, events) while maintaining visual consistency
-- Integrating different departments and vendors within complex schedules with multiple simultaneous deliverables
+- Managing and controlling the budget for local initiatives while ensuring alignment with the Spanish headquarters' guidelines
+- Creating and managing institutional campaigns across multiple formats, driven by performance metrics
+- Integrating different departments, vendors, and stakeholders within complex schedules with multiple simultaneous deliverables
 
 ## Methodologies and Processes
+
+**Brand governance:** approval of all materials produced in Brazil, application of global brand guidelines in local context, and management of the relationship with headquarters.
 
 **Planning and integrated communication:** defining editorial agendas and schedules, aligning with stakeholders, and applying global guidelines to local initiatives.
 
@@ -33,12 +33,26 @@ Need to strengthen Indra Minsait's brand in Brazil and align institutional commu
 
 **Events experience:** designing booths and promotional activations at major events such as SAP Forum and CIAB.
 
+## Product Frameworks
+
+**Discovery & Research:** Design Thinking, Empathy Mapping
+
+**Delivery:** Kanban, MVP
+
+**Strategy & Metrics:** OKRs, KPI Dashboards
+
+**Stakeholders & Communication:** Stakeholder Mapping, RACI Matrix, Async Communication with International Headquarters
+
 ## Technologies and Tools
 
 - Adobe Illustrator, Photoshop, and InDesign for graphic materials
+- Adobe XD, InVision, and Marvel App for prototyping and interface design
 - Adobe Premiere and After Effects for institutional videos
+- Blender 3D for visualizations and animations
 - Mailchimp and internal tools for newsletters
-- Excel and Power BI for reports and budget control
+- Excel, Power BI, and Python & Pandas for reports and budget control
+- Analytics for metrics and performance tracking
+- TypeScript, React, and Next.js for internal digital solution development
 
 ## Results
 

@@ -1,5 +1,6 @@
 ---
 import { getTranslations, getLocalePath, type Locale } from '../../i18n/index'
+import Button from '../ui/Button.astro'
 
 interface Props {
   locale: Locale
@@ -8,9 +9,11 @@ interface Props {
 const { locale } = Astro.props
 const t = getTranslations(locale)
 
+const home = getLocalePath(locale)
 const navLinks = [
-  { label: t.nav.about, href: '#about' },
-  { label: t.nav.portfolio, href: '#portfolio' },
+  { label: t.nav.about, href: `${home}#about` },
+  { label: t.nav.portfolio, href: `${home}#portfolio` },
+  { label: t.nav.articles, href: getLocalePath(locale, 'articles/') },
 ]
 
 const localeLinks = [
@@ -20,11 +23,11 @@ const localeLinks = [
 ]
 ---
 
-<header class="fixed top-0 left-0 right-0 z-50 border-b border-dark-border bg-dark/90 backdrop-blur-sm">
-  <div class="max-w-5xl mx-auto px-6 md:px-12 lg:px-24 h-16 flex items-center justify-between">
+<header class="fixed top-0 left-0 right-0 z-50 border-b border-dark-border bg-dark/90 backdrop-blur-sm px-6 md:px-12 lg:px-24">
+  <div class="max-w-5xl mx-auto h-16 flex items-center justify-between">
     <!-- Logo -->
     <a href={getLocalePath(locale)} class="font-display text-dark-text font-bold text-lg italic hover:text-accent transition-colors">
-      Wildiney
+      Wildiney Di Masi
     </a>
 
     <!-- Desktop Nav -->
@@ -60,12 +63,7 @@ const localeLinks = [
       </div>
 
       <!-- Contact CTA -->
-      <a
-        href="#contact"
-        class="text-xs bg-accent text-white px-4 py-2 uppercase tracking-widest hover:bg-accent-dark transition-colors"
-      >
-        {t.nav.contact}
-      </a>
+      <Button href={`${home}#contact`} variant="primary" size="sm">{t.nav.contact}</Button>
     </div>
 
     <!-- Mobile hamburger -->
@@ -111,12 +109,7 @@ const localeLinks = [
         {link.label}
       </a>
     ))}
-    <a
-      href="#contact"
-      class="mobile-menu-link bg-accent text-white text-sm px-8 py-3 uppercase tracking-widest hover:bg-accent-dark transition-colors mt-4"
-    >
-      {t.nav.contact}
-    </a>
+    <Button href={`${home}#contact`} variant="primary" size="lg" class="mobile-menu-link mt-4">{t.nav.contact}</Button>
     <!-- Locale switcher -->
     <div class="flex gap-4 text-sm mt-4">
       {localeLinks.map(l => (

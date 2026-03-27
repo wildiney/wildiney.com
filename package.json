@@ -26,9 +26,9 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
-    "@storybook/addon-essentials": "^8.6.0",
-    "@storybook/react": "^8.6.18",
-    "@storybook/react-vite": "^8.6.18",
+    "@storybook/addon-a11y": "^10.3.3",
+    "@storybook/react": "^10.3.3",
+    "@storybook/react-vite": "^10.3.3",
     "@tailwindcss/postcss": "^4.1.0",
     "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^24.5.2",
@@ -41,7 +41,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "gh-pages": "^6.3.0",
     "globals": "^16.4.0",
-    "storybook": "^8.6.0",
+    "storybook": "^10.3.3",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.44.1"

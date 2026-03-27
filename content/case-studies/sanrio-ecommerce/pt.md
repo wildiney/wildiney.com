@@ -1,21 +1,23 @@
 ---
 title: "E-commerce Sanrio Brasil"
 company: "Sanrio Co."
-role: "Product Designer"
+role: "E-commerce Lead"
 year: "2009–2013"
 tags: ["Product Strategy", "E-commerce", "Service Design", "UX Research"]
-thumbnail: "/images/portfolio/ecommerce-sanrio/ecommerce-sanrio-sm.webp"
+thumbnail: "/images/portfolio/ecommerce-sanrio/ecommerce-sanrio.webp"
 ---
 
 ## Contexto
 
-Fui contratado para liderar o desenvolvimento do e-commerce da Sanrio no Brasil. A marca já considerava expandir sua presença digital, mas ainda não havia estudos aprofundados de viabilidade técnica, logística ou de mercado. Assumi a responsabilidade por estruturar esse projeto desde a fase de descoberta até a entrega final do produto, atuando como elo entre estratégia, design, tecnologia e operação.
+Fui contratado para liderar, do zero, o primeiro e-commerce da Sanrio no Brasil — num período em que mal se falava em smartphones e o conceito de Product Management ainda não era mainstream no mercado.
 
-Conduzi estudos de viabilidade e modelagem logística, defini processos e fluxos de compra, selecionei materiais para embalagem e desenvolvi a experiência digital completa do e-commerce. O propósito da marca — "Small gift, big smile" — foi considerado em cada decisão, garantindo que a experiência fosse encantadora do clique até a chegada do produto na casa do cliente.
+A iniciativa nasceu de uma conversa entre mim, um gerente de marketing e a diretoria de vendas. A partir daí, assumi a responsabilidade integral pelo projeto: conduzi os estudos de viabilidade técnica, logística e comercial; realizei o levantamento de custos; coordenei a contratação de pessoal e fornecedores; conduzi a seleção do mix de produtos; defini a estratégia de precificação; e organizei toda a produção fotográfica do catálogo.
+
+Além da estruturação operacional, desenvolvi a experiência digital completa — desde os fluxos de compra até a integração com o ERP Protheus. O propósito da marca — "Small gift, big smile" — guiou cada decisão, garantindo que a experiência fosse encantadora do clique à entrega.
 
 ## Desafios
 
-- Estruturar todo o projeto do e-commerce do zero
+- Estruturar todo o projeto do e-commerce do zero, sem precedentes internos na operação brasileira
 - Realizar o estudo de viabilidade técnica, logística e comercial
 - Modelar a jornada do cliente considerando todas as etapas e stakeholders envolvidos
 - Garantir a integração com os sistemas de ERP e faturamento da empresa (Protheus)
@@ -49,6 +51,16 @@ Conduzi estudos de viabilidade e modelagem logística, defini processos e fluxos
 - Fluxo de navegação e compra pensado para maximizar encantamento e reduzir fricções
 - Rastreamento de pedidos e comunicação pós-compra ativa
 - Gestão contínua de métricas de sucesso com relatórios mensais para stakeholders internacionais
+
+## Frameworks de Produto
+
+**Discovery & Research:** User Journey Mapping, Service Blueprint, Competitive Analysis
+
+**Entrega:** Lean Startup, MVP
+
+**Métricas:** OKRs, NPS, LTV/CAC
+
+**Stakeholders & Comunicação:** Stakeholder Mapping, RACI Matrix
 
 ## Tecnologias e Ferramentas
 

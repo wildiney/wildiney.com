@@ -4,7 +4,7 @@ company: "Globalweb Corp."
 role: "Senior Product Designer → PM Lead"
 year: "2022–2025"
 tags: ["UX Research", "Design System", "Accessibility", "Gov Tech"]
-thumbnail: "/images/portfolio/bolsa-familia/bolsa-familia-sm.webp"
+thumbnail: "/images/portfolio/bolsa-familia/bolsa-familia.webp"
 ---
 
 ## Context
@@ -32,7 +32,7 @@ Completely redesign the app experience with the following goals:
 
 ## Methodologies and Processes
 
-**Rediscovery and Immersion:** critical analysis of the existing app, benchmarking of public and private apps, and mapping of technical and functional limitations.
+**Discovery and Immersion:** critical analysis of the existing app, benchmarking of public and private apps, and mapping of technical and functional limitations.
 
 **Journey mapping and CSD matrix:** identifying user and stakeholder pain points, certainties, and doubts about the current experience.
 
@@ -56,6 +56,20 @@ Completely redesign the app experience with the following goals:
 - Transparent integration with new services via the technical blueprint
 - Continuous validation with real users across different regions of the country
 - Active inclusion of the accessibility team from the earliest prototypes
+
+## Product Frameworks
+
+**Discovery & Research:** Double Diamond, Design Thinking, Jobs to be Done (JTBD), CSD Matrix, Service Blueprint
+
+**Prioritization:** MoSCoW, RICE, Backlog Refinement
+
+**Delivery:** Scrum, Kanban, Definition of Done (DoD)
+
+**Strategy & Metrics:** OKRs, North Star Metric, KPI Dashboards
+
+**Stakeholders & Communication:** Stakeholder Mapping, RACI Matrix
+
+**Accessibility:** Inclusive Design, WCAG 2.1 AA
 
 ## Technologies and Tools
 

@@ -1,21 +1,23 @@
 ---
 title: "Sanrio Brazil E-commerce"
 company: "Sanrio Co."
-role: "Product Designer"
+role: "E-commerce Lead"
 year: "2009–2013"
 tags: ["Product Strategy", "E-commerce", "Service Design", "UX Research"]
-thumbnail: "/images/portfolio/ecommerce-sanrio/ecommerce-sanrio-sm.webp"
+thumbnail: "/images/portfolio/ecommerce-sanrio/ecommerce-sanrio.webp"
 ---
 
 ## Context
 
-I was brought in to lead the development of Sanrio's e-commerce platform in Brazil. The brand was already considering expanding its digital presence, but there were no in-depth technical, logistical, or market feasibility studies yet. I took responsibility for structuring the project from discovery through final delivery, acting as the bridge between strategy, design, technology, and operations.
+I was brought in to lead, from scratch, Sanrio's first e-commerce platform in Brazil — at a time when smartphones were barely a thing and Product Management wasn't yet a mainstream concept in the market.
 
-I conducted feasibility studies and logistics modeling, defined purchasing processes and flows, selected packaging materials, and developed the complete digital e-commerce experience. The brand's purpose — "Small gift, big smile" — was considered in every decision, ensuring the experience was delightful from the first click to product delivery at the customer's door.
+The initiative started with a conversation between me, a marketing manager, and the sales director. From there, I took full ownership of the project: I conducted technical, logistical, and commercial feasibility studies; performed cost analysis; coordinated the hiring of staff and vendors; led product mix selection; defined the pricing strategy; and organized the entire catalog photography production.
+
+Beyond operational structuring, I developed the complete digital experience — from purchase flows to ERP integration. The brand's purpose — "Small gift, big smile" — guided every decision, ensuring the experience was delightful from the first click to product delivery.
 
 ## Challenges
 
-- Structure the entire e-commerce project from scratch
+- Structure the entire e-commerce project from scratch, with no internal precedent in the Brazilian operation
 - Conduct technical, logistical, and commercial feasibility studies
 - Model the customer journey considering all stages and stakeholders involved
 - Ensure integration with the company's ERP and billing systems (Protheus)
@@ -49,6 +51,16 @@ I conducted feasibility studies and logistics modeling, defined purchasing proce
 - Navigation and purchase flow designed to maximize delight and reduce friction
 - Order tracking and active post-purchase communication
 - Continuous management of success metrics with monthly reports for international stakeholders
+
+## Product Frameworks
+
+**Discovery & Research:** User Journey Mapping, Service Blueprint, Competitive Analysis
+
+**Delivery:** Lean Startup, MVP
+
+**Metrics:** OKRs, NPS, LTV/CAC
+
+**Stakeholders & Communication:** Stakeholder Mapping, RACI Matrix
 
 ## Technologies and Tools
 

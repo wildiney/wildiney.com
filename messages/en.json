@@ -46,7 +46,13 @@
   },
   "portfolio": {
     "pageTitle": "Work Contexts",
+    "heading": "Case studies.",
     "caseStudy": "Case Study"
+  },
+  "articles": {
+    "heading": "Perspectives",
+    "sub": "Thoughts on product, design and leadership.",
+    "viewAll": "View all"
   },
   "contact": {
     "pageTitle": "Contact"
