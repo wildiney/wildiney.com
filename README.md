@@ -1,55 +1,73 @@
-# 🌐 Personal Portfolio – Wildiney Fernando Di Masi
+# Personal Portfolio – Wildiney Fernando Di Masi
 
-This repository contains the source code for my personal website and professional portfolio. It showcases selected projects where I worked as a Product Designer, UX Designer, and Visual Designer, along with case studies that detail my process, methodology, and product thinking.
+This repository contains the source code for my personal website and professional portfolio. It showcases selected projects where I worked as a Product Designer and UX Researcher, along with case studies that detail my process, methodology, and product thinking.
 
-🔗 **Live site**: [wildiney.com](https://wildiney.com)
+**Live site**: [wildiney.com](https://wildiney.com)
 
-## ✨ About the Project
+## About the Project
 
-My portfolio was created with clarity, accessibility, and performance in mind. It highlights work developed for various industries, from e-commerce to public service, with a focus on design quality, user experience, and product strategy.
+My portfolio was built with clarity, accessibility, and performance in mind. It highlights work developed for various industries, from e-commerce to public service, with a focus on design quality, user experience, and product strategy.
 
-The site is responsive, fast, SEO-friendly, and optimized for mobile devices and assistive technologies.
+The site is responsive, fast, SEO-friendly, and available in three languages: Portuguese (default), English, and Spanish.
 
-## 🧰 Tech Stack
+## Tech Stack
 
-- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Vite](https://vitejs.dev/)
+- [Astro 5](https://astro.build/) — static site generator with file-based routing and native i18n
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS 4](https://tailwindcss.com/) — utility-first styling via `@tailwindcss/vite`
+- [Storybook 8](https://storybook.js.org/) — component development and documentation
 - Deployed via **GitHub Pages**
 
-## 📂 Project Structure
+## Commands
 
 ```bash
+pnpm dev              # Start dev server (localhost:4321)
+pnpm build            # Build static site to dist/
+pnpm preview          # Preview built site
+pnpm lint             # ESLint
+pnpm storybook        # Start Storybook (localhost:6006)
+pnpm deploy           # Build + deploy to GitHub Pages
+```
+
+## Project Structure
+
+```
 .
-├── public/           # public folder
-│   └── assets/       # public assets
+├── content/
+│   ├── articles/[slug]/     # Markdown articles (pt.md, en.md, es.md)
+│   └── case-studies/[slug]/ # Markdown case studies (pt.md, en.md, es.md)
+├── messages/                # i18n strings (pt.json, en.json, es.json)
+├── public/
+│   └── images/              # WebP images
 ├── src/
-│   ├── assets/       # Images
-│   ├── components/   # Reusable UI elements
-│   ├── hooks/        # React Hooks
-│   ├── libs/         # Common Libs
-│   ├── locales/      # Translation files
-│   ├── pages/        # Main page templates
-│   └── main.tsx      # Entry point
-├── eslint.config.js
-├── index.html
-├── tailwind.config.js
+│   ├── components/          # Astro components
+│   ├── integrations/        # Custom Astro integrations (llms-txt)
+│   ├── lib/                 # Content utilities (articles, case studies)
+│   ├── pages/               # File-based routes
+│   └── styles/globals.css   # Tailwind directives + design tokens
+├── astro.config.mjs
 └── README.md
 ```
 
-## 🧾 Featured Projects
+## i18n
 
-- **Sanrio Brazil** – Launch of the official e-commerce store  
-- **Bolsa Família App** – Complete redesign with a strong focus on accessibility and inclusive UX  
-- **Indra Minsait** – Corporate communication and internal design solutions  
+Three locales: Portuguese (default, no URL prefix), English (`/en/`), Spanish (`/es/`). Content falls back to `pt.md` if a locale file is missing.
 
-> Explore the site for detailed case studies and design insights.
+## LLM-friendly content
 
-## 📬 Contact
+The site generates `llms.txt` files at build time for each locale:
 
-Feel free to connect:
+- `https://wildiney.com/llms.txt`
+- `https://wildiney.com/en/llms.txt`
+- `https://wildiney.com/es/llms.txt`
 
-- 🌐 [wildiney.com](https://wildiney.com)
-- 💼 [LinkedIn](https://linkedin.com/in/wildiney)
-- 📧 [wildiney@email.com](mailto:wildiney@email.com)
+## Featured Projects
+
+- **Sanrio Brazil** – Launch of the official e-commerce store
+- **Bolsa Família App** – Complete redesign with a focus on accessibility and inclusive UX
+- **Indra Minsait** – Corporate communication and internal design solutions
+
+## Contact
+
+- [wildiney.com](https://wildiney.com)
+- [LinkedIn](https://linkedin.com/in/wildiney)
