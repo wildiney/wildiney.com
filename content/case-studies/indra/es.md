@@ -1,37 +1,39 @@
 ---
-title: "Gestión de Marca & Soluciones Digitales — Indra Minsait"
+title: "Soluciones Digitales & Gestión de Marca — Indra Minsait"
 company: "Indra / Minsait"
-role: "Brand Lead"
-year: "2013–2022"
-tags: ["Brand Management", "Brand Governance", "Comunicación Corporativa", "Digital Tools"]
+role: "Diseñador Sénior"
+year: "2014–2022"
+tags: ["Design Systems", "Brand Governance", "Comunicación Corporativa", "Soluciones Digitales"]
 thumbnail: "/images/portfolio/indra/header-indra.webp"
 ---
 
 ## Contexto
 
-Fui responsable de la gestión de marca de Indra Minsait en Brasil, empresa global de tecnología y consultoría presente en más de 140 países. Actué como referencia y guardián de la marca en el país, orientando equipos y proveedores mientras traducía directrices globales en iniciativas relevantes para el mercado brasileño. Además de la gobernanza de marca, participé directamente en el desarrollo de soluciones digitales internas, ejerciendo un rol de gestión junto a stakeholders técnicos y de negocio, desde la definición del alcance hasta el seguimiento de KPIs.
+Trabajé durante ocho años como Diseñador Sénior en Indra Minsait, empresa global de tecnología y consultoría presente en más de 140 países, respondiendo directamente a la sede en Madrid como parte de un equipo internacional. El trabajo cubrió tres frentes complementarios: gobernanza y gestión de marca en Brasil, liderazgo de equipos en el desarrollo de soluciones digitales corporativas, y comunicación estratégica con liderazgos senior en contextos de alta presión.
 
-## Problemas y Oportunidades
-
-Necesidad de fortalecer la presencia de la marca Indra Minsait en Brasil y garantizar coherencia entre la comunicación local y los estándares internacionales. Identificación de brechas en la comunicación interna y en la eficiencia de los procesos operativos, generando oportunidades para desarrollar soluciones digitales personalizadas para el entorno corporativo.
+Como referencia de diseño en el país, orienté equipos y proveedores en la aplicación de directrices globales, manteniendo consistencia entre la comunicación local y los estándares internacionales. En el desarrollo de productos digitales, lideré las decisiones de diseño y estructuré los procesos que garantizaron coherencia entre diseño, tecnología y objetivos de negocio en proyectos de alto impacto.
 
 ## Desafíos
 
-- Gestionar y controlar el presupuesto de iniciativas locales, garantizando la alineación con las directrices de la sede española
-- Crear y gestionar campañas institucionales en múltiples formatos, orientadas por métricas de performance
-- Integrar distintas áreas, proveedores y stakeholders en cronogramas complejos con múltiples entregas simultáneas
+- Responder directamente a la sede en Madrid, alineando expectativas entre la operación local y las directrices globales de la empresa
+- Liderar equipos multidisciplinarios en el desarrollo de aplicaciones internas responsivas, accesibles y sitios corporativos
+- Estructurar procesos de diseño y gobernanza de design system en un entorno de múltiples proyectos simultáneos
+- Conducir comunicación corporativa y gestión de crisis con relacionamiento directo con liderazgos senior
+- Garantizar entregas orientadas a métricas y alineadas a los objetivos de clientes internos y externos
 
 ## Metodologías y Procesos
 
-**Gobernanza de marca:** aprobación de todos los materiales producidos en Brasil, aplicación de brand guidelines globales en contexto local y gestión de la relación con la sede central.
+**Gobernanza de marca y design system:** estructuración y mantenimiento de design systems, aprobación de materiales producidos en Brasil, aplicación de brand guidelines globales en contexto local y gestión de la relación con la sede.
 
-**Planificación y comunicación integrada:** definición de agendas editoriales y cronogramas, alineación con stakeholders y aplicación de directrices globales en iniciativas locales.
+**Liderazgo de equipos digitales:** dirección de equipos de diseño en el desarrollo de interfaces responsivas y accesibles, garantizando consistencia entre diseño, tecnología y objetivos de negocio.
 
-**Desarrollo de soluciones digitales internas:** mapeo de necesidades de usuarios internos, prototipado de herramientas y validación con áreas operativas.
+**Planificación y comunicación integrada:** definición de agendas editoriales, cronogramas, alineamiento con stakeholders y gobernanza de marca en iniciativas locales.
 
-**Gestión de producto y performance:** relevamiento de requisitos, organización del backlog, definición de alcance mínimo viable (MVP) y seguimiento de KPIs.
+**Gestión de producto y performance:** levantamiento de requisitos, organización del backlog, definición de alcance mínimo viable y seguimiento de KPIs.
 
-**Experiencia en eventos:** diseño de stands y activaciones promocionales en grandes eventos como SAP Forum y CIAB.
+**Comunicación corporativa y gestión de crisis:** conducción de proyectos de comunicación en contextos de alta presión, con alineamiento estratégico junto a liderazgos senior.
+
+**Experiencia en eventos:** concepción de stands y activaciones en grandes eventos del sector, como SAP Forum y CIAB.
 
 ## Frameworks de Producto
 
@@ -39,24 +41,26 @@ Necesidad de fortalecer la presencia de la marca Indra Minsait en Brasil y garan
 
 **Entrega:** Kanban, MVP
 
+**Design Systems:** Atomic Design, Design Systems Governance
+
 **Estrategia & Métricas:** OKRs, KPI Dashboards
 
-**Stakeholders & Comunicación:** Stakeholder Mapping, Matriz RACI, Comunicación Asíncrona con Sede Internacional
+**Stakeholders & Comunicación:** Stakeholder Mapping, Matriz RACI, comunicación asíncrona con sede internacional
 
 ## Tecnologías y Herramientas
 
+- Figma y Adobe XD para diseño de interfaces y prototipado
 - Adobe Illustrator, Photoshop e InDesign para materiales gráficos
-- Adobe XD, InVision y Marvel App para prototipado y diseño de interfaces
-- Adobe Premiere y After Effects para vídeos institucionales
+- Adobe Premiere y After Effects para videos institucionales
 - Blender 3D para visualizaciones y animaciones
 - Mailchimp y herramientas internas para newsletters
-- Excel, Power BI y Python & Pandas para informes y control presupuestario
-- Analytics para seguimiento de métricas y performance
+- Excel, Power BI y Python & Pandas para reportes y control presupuestario
 - TypeScript, React y Next.js para desarrollo de soluciones digitales internas
 
 ## Resultados
 
-- Fortalecimiento de la marca en Brasil con mayor visibilidad y alineación global
-- Herramientas digitales internas adoptadas por colaboradores durante años tras su entrega
-- Informes recurrentes a la sede central posibilitaron el seguimiento estratégico de las acciones locales
-- La participación en grandes eventos generó un impacto positivo en la percepción de la marca
+- Design system estructurado y adoptado como referencia por los equipos locales, integrado a las directrices globales
+- Soluciones digitales internas responsivas y accesibles adoptadas por colaboradores durante años tras la entrega
+- Alineamiento consistente con la sede de Madrid en proyectos de alta complejidad y múltiples stakeholders
+- Comunicación institucional fortalecida, con presencia relevante en los principales eventos del sector
+- Capacidad de alineamiento estratégico consolidada en contextos de alta presión y gestión de crisis

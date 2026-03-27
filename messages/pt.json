@@ -2,7 +2,7 @@
   "nav": {
     "intro": "Início",
     "about": "Sobre mim",
-    "portfolio": "Portfólio",
+    "portfolio": "Estudos de caso",
     "articles": "Artigos",
     "contact": "Contato"
   },
@@ -45,8 +45,8 @@
     }
   },
   "portfolio": {
-    "pageTitle": "Contextos de Atuação",
-    "heading": "Contextos de atuação.",
+    "pageTitle": "Estudos de caso",
+    "heading": "Contextos",
     "caseStudy": "Estudo de caso"
   },
   "articles": {

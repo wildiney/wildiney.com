@@ -1,7 +1,7 @@
 ---
 title: "Bolsa Família Program App"
 company: "Globalweb Corp."
-role: "Senior Product Designer → PM Lead"
+role: "Senior Product Designer"
 year: "2022–2025"
 tags: ["UX Research", "Design System", "Accessibility", "Gov Tech"]
 thumbnail: "/images/portfolio/bolsa-familia/bolsa-familia.webp"
@@ -9,67 +9,64 @@ thumbnail: "/images/portfolio/bolsa-familia/bolsa-familia.webp"
 
 ## Context
 
-The Bolsa Família Program app is one of the federal government's main communication and self-service channels, serving over 14 million beneficiaries across Brazil. Beyond providing official program information, the app allows users to track benefit status, view payment calendars, track their card, and perform actions like blocking and unblocking their Bolsa Família card.
+I led the complete redesign of the Bolsa Família program app, one of the main self-service channels between the Federal Government and over 14 million beneficiary families across the country. The app allows users to track benefit status, check payment calendars, trace their card, and perform actions such as blocking and unblocking it. Before the redesign, the app had accessibility issues, unclear navigation, and an interface misaligned with the institutional identity of the Ministry of Social Development.
 
-Before the redesign, the app faced significant challenges: an outdated visual, low adherence to accessibility guidelines, poor navigation, and unclear information presentation. There was also a need to align the interface with the Ministry of Development's institutional identity and the program's new guidelines.
+During the same period, I also worked on the Open Finance project for Caixa Econômica Federal, addressing mandatory Central Bank requirements and ensuring regulatory compliance and financial system integration.
+
+Across both projects, I worked strategically alongside product, design, and technology teams, collaborating with development and delivering detailed documentation that enabled technical execution.
 
 ## Challenges
 
-Completely redesign the app experience with the following goals:
-
-- Make the app accessible to all audiences, meeting WCAG AA criteria
-- Improve usability, information clarity, and navigation flow
-- Align the visual with the Ministry of Development's institutional identity
-- Support technology evolution and integration with new services and APIs
-- Involve diverse stakeholders in a collaborative and transparent process
+- Redesign the experience of a national-scale app serving users with widely varying levels of digital literacy
+- Ensure compliance with WCAG 2.1 AA criteria across all screens and flows
+- Align the interface with the Ministry's institutional identity and the program's updated guidelines
+- Engage diverse stakeholders (government, development, accessibility teams) in a collaborative and transparent process
+- Create and implement a reusable, scalable, and accessible design system adopted by the development team
 
 ## Target Audience
 
-- Brazilian citizens benefiting from the program (with varying digital literacy levels)
+- Brazilian citizens who are Bolsa Família beneficiaries, with diverse social and geographic profiles
 - Government technical and content teams
 - Accessibility and development teams
-- Public managers responsible for approving and guiding the app's evolution
+- Public managers responsible for the app's evolution
 
 ## Methodologies and Processes
 
-**Discovery and Immersion:** critical analysis of the existing app, benchmarking of public and private apps, and mapping of technical and functional limitations.
+**Discovery and immersion:** critical analysis of the existing app, benchmarking public and private apps, and mapping technical and functional limitations.
 
-**Journey mapping and CSD matrix:** identifying user and stakeholder pain points, certainties, and doubts about the current experience.
+**User research:** interviews, journey mapping, and group sessions with beneficiaries from diverse profiles, and CSD matrix to map certainties, assumptions, and doubts.
 
-**User interviews and groups:** collecting qualitative feedback from beneficiaries across different social and geographic profiles.
+**Stakeholder co-creation:** sessions with PO, technical team, accessibility specialists, and Ministry representatives to validate product decisions.
 
-**Co-creation and stakeholder validation:** sessions with the PO, technical team, accessibility specialists, and Ministry representatives.
+**Design system:** creation and implementation of a visual system based on the Ministry's identity, with reusable components aligned with Material Design and accessibility best practices.
 
-**Design system:** building a new visual system based on the Ministry of Development's identity, with Material Design-aligned components.
+**Prototyping:** low and high-fidelity wireframes and prototypes in Figma, with navigable tests and user validations in Maze.
 
-**High-fidelity prototyping:** wireframes, navigable prototypes, and Maze user validation.
+**Service blueprint:** mapping APIs and services involved to ensure a robust technical and functional experience.
 
-**Service blueprint:** mapping APIs and involved services to build a robust technical and functional experience.
-
-**Digital accessibility:** the entire project followed WCAG 2.1 AA guidelines, validated in collaboration with the specialized team.
+**Digital accessibility:** project conducted following WCAG 2.1 AA guidelines, with validations alongside the specialized accessibility team at every stage.
 
 ## Solutions
 
-- Redesigned interface for maximum legibility, simplicity, and navigation clarity
-- New modular, scalable, and accessible institutional design system
-- Components built on Material Design, optimized for mobile
-- Transparent integration with new services via the technical blueprint
-- Continuous validation with real users across different regions of the country
-- Active inclusion of the accessibility team from the earliest prototypes
+- Interface redesigned for maximum readability, simplicity, and navigation clarity
+- Modular, scalable, and accessible institutional design system, implemented and adopted by the development team
+- Components built on Material Design, mobile-optimized and accessibility-validated
+- Detailed documentation delivered to the development team to enable technical execution
+- Approval process with the Ministry structured around short and iterative delivery cycles
 
 ## Product Frameworks
 
-**Discovery & Research:** Double Diamond, Design Thinking, Jobs to be Done (JTBD), CSD Matrix, Service Blueprint
+**Discovery & Research:** Double Diamond, Design Thinking, Jobs to be Done, CSD Matrix, Service Blueprint
 
 **Prioritization:** MoSCoW, RICE, Backlog Refinement
 
-**Delivery:** Scrum, Kanban, Definition of Done (DoD)
+**Delivery:** Scrum, Kanban, Definition of Done
 
 **Strategy & Metrics:** OKRs, North Star Metric, KPI Dashboards
 
-**Stakeholders & Communication:** Stakeholder Mapping, RACI Matrix
-
 **Accessibility:** Inclusive Design, WCAG 2.1 AA
+
+**Stakeholders & Communication:** Stakeholder Mapping, RACI Matrix
 
 ## Technologies and Tools
 
@@ -77,13 +74,12 @@ Completely redesign the app experience with the following goals:
 - Maze for user testing
 - Miro for CSD matrix, journeys, and blueprint
 - Google Forms and qualitative interviews for research
-- WCAG Guidelines and accessibility validation tools
+- Accessibility validation tools (WCAG Guidelines)
 
 ## Results
 
-- New app with a more intuitive, clear, and respectful experience for the target audience
-- Compliance with digital accessibility criteria (WCAG 2.1 AA)
-- Greater citizen independence in understanding and tracking their benefits
-- Reduced reliance on parallel channels (phone support and in-person service)
-- Strengthened institutional communication of the program
-- More aligned and empowered internal team to sustain the app's evolution
+- App redesigned with a more intuitive, clear, and accessible experience for over 14 million beneficiaries
+- WCAG 2.1 AA compliance ensured across all flows
+- Greater citizen independence in tracking and understanding their benefits
+- Design system implemented as the reference for the app's ongoing evolution
+- Internal team more aligned and capable of sustaining future iterations
