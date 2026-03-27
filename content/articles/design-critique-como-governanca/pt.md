@@ -3,7 +3,7 @@ title: "Design Critique"
 date: "2026-04-07"
 description: "Do ponto de vista de produto, design critique bem conduzido é governança. É o momento em que decisões ainda baratas de reverter são examinadas antes de se tornarem caras."
 tags: ["design critique", "governança", "usabilidade", "decisão", "feedback", "qualidade de produto"]
-thumbnail: "/images/articles/design-critique-como-governanca/cover.png"
+thumbnail: "/images/articles/design-critique-como-governanca/cover.webp"
 ---
 
 Jakob Nielsen publicou recentemente uma análise detalhada sobre por que design critiques falham. Foram 13 razões mapeadas, mas por trás de todas elas, um padrão único se repete: a reunião deixa de avaliar o design e passa a refletir hierarquia, gosto pessoal e política organizacional.

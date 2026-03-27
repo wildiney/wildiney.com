@@ -3,7 +3,7 @@ title: "Toma essa métrica: \"Todos os seres humanos juntos piscam centenas de t
 date: "2026-01-20"
 description: "Uma métrica só é útil quando força uma decisão. Se ela sobe, algo muda. Se ela cai, algo muda. Se nada muda, não é métrica — é entretenimento analítico."
 tags: ["métricas", "dados", "decisão", "produto", "analytics", "OKRs"]
-thumbnail: "/images/articles/metricas-que-nao-orientam-decisao/cover.png"
+thumbnail: "/images/articles/metricas-que-nao-orientam-decisao/cover.webp"
 ---
 
 Uma pessoa pisca, em média, 15 vezes por minuto. Multiplique pela população mundial e chegamos a centenas de trilhões de piscadas humanas por dia.

@@ -3,7 +3,7 @@ title: "WebMCP do Google: o nascimento do produto AI-friendly"
 date: "2026-02-24"
 description: "O WebMCP propõe algo estrutural: permitir que sites exponham suas capacidades de maneira declarativa para modelos de IA. Produtos mais legíveis para máquinas tendem, paradoxalmente, a se tornar mais claros para humanos também."
 tags: ["inteligência artificial", "webmcp", "google", "ai-friendly", "design system", "acessibilidade", "estratégia de produto"]
-thumbnail: "/images/articles/webmcp-google-produto-ai-friendly/cover.png"
+thumbnail: "/images/articles/webmcp-google-produto-ai-friendly/cover.webp"
 ---
 
 Durante anos falamos sobre produtos user-friendly, mobile-first, accessibility-first, data-driven. Parecia que já tínhamos um checklist relativamente estável de maturidade digital.

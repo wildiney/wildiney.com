@@ -3,7 +3,7 @@ title: "OpenClaw"
 date: "2026-02-10"
 description: "O OpenClaw não está fazendo sucesso apenas porque é tecnicamente impressionante. Ele está fazendo sucesso porque promete algo que muita gente vem desejando silenciosamente: delegar tudo. Não só tarefas, mas responsabilidade."
 tags: ["agentes autônomos", "decisão", "governança", "automação", "segurança", "inteligência artificial"]
-thumbnail: "/images/articles/openclaw-autonomia-sem-governanca/cover.png"
+thumbnail: "/images/articles/openclaw-autonomia-sem-governanca/cover.webp"
 ---
 
 Várias matérias recentes estão alertando para os riscos do **OpenClaw**: agente de IA open source, acesso total ao computador do usuário, vazamento de credenciais, Cisco chamando de pesadelo. Tudo isso é sério. Mas não é o ponto mais interessante dessa história.

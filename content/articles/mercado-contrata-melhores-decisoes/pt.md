@@ -3,7 +3,7 @@ title: "O mercado não está contratando mais gente. Está contratando melhores 
 date: "2026-02-03"
 description: "O mercado não está premiando quem executa melhor. Está premiando quem decide melhor. Quanto mais complexo o sistema, mais cara fica uma decisão ruim — e menos reversível ela se torna."
 tags: ["mercado de trabalho", "decisão", "produto", "design", "inteligência artificial", "governança"]
-thumbnail: "/images/articles/mercado-contrata-melhores-decisoes/cover.png"
+thumbnail: "/images/articles/mercado-contrata-melhores-decisoes/cover.webp"
 ---
 
 Listas de "empregos em alta" costumam provocar o mesmo efeito: ansiedade.

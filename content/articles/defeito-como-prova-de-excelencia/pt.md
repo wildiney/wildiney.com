@@ -3,7 +3,7 @@ title: "E se o defeito fosse prova de excelência?"
 date: "2026-01-13"
 description: "Peças defeituosas da LEGO valem mais que o original — não por serem defeituosas, mas porque o erro é raríssimo num sistema altamente confiável. O que isso revela sobre excelência em produto?"
 tags: ["qualidade", "excelência", "produto", "branding", "estratégia"]
-thumbnail: "/images/articles/defeito-como-prova-de-excelencia/cover.jpg"
+thumbnail: "/images/articles/defeito-como-prova-de-excelencia/cover.webp"
 ---
 
 A LEGO é obcecada por qualidade. Suas peças encaixam perfeitamente há décadas, mantêm padrões industriais rigorosos e raramente falham. Ainda assim, quando uma falha acontece, uma minifigura com impressão errada, por exemplo, o mercado não rejeita. Ele valoriza.

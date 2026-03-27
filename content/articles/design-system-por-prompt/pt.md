@@ -3,7 +3,7 @@ title: "Design system por prompt"
 date: "2026-03-31"
 description: "O DESIGN.md pode exportar as regras. Ele não exporta o raciocínio por trás delas. Ferramentas ficam obsoletas. Julgamento, não."
 tags: ["design system", "inteligência artificial", "google stitch", "figma", "produto", "decisão"]
-thumbnail: "/images/articles/design-system-por-prompt/cover.png"
+thumbnail: "/images/articles/design-system-por-prompt/cover.webp"
 ---
 
 A ação da Figma caiu 8,8% em um único dia. O motivo foi o Google Stitch anunciar que agora cria um design system completo a partir de um prompt.
