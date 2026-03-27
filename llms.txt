@@ -1,0 +1,650 @@
+# Wildiney
+
+> Designer de produto e pesquisador de UX
+
+Portfolio pessoal com artigos, estudos de caso e agenda de contato.
+
+## Artigos
+
+### Vibe coding ou Lucky coding?
+URL: https://wildiney.com/articles/vibe-coding-ou-lucky-coding/
+Date: 2026-03-24
+Description: A IA democratizou a execução. Mas não democratizou o julgamento. Lucky code é só achismo com interface moderna.
+
+Vibe coding virou buzzword. E como toda buzzword, perdeu precisão no caminho. Mas a história começa antes disso.
+
+Quando os modelos de linguagem explodiram, surgiu o prompt engineering: uma abordagem metódica para guiar a IA com clareza, contexto e intenção. Chegou a ser considerada uma das profissões mais quentes de 2023. Dois anos depois, estava praticamente obsoleta.
+
+O mercado não evoluiu. Ele trocou método por vibes.
+
+Em fevereiro de 2025, Andrej Karpathy, cofundador da OpenAI, cunhou o termo vibe coding: "dar as vibes para a IA, abraçar os exponenciais e esquecer que o código existe." A ideia era para projetos rápidos e descartáveis. O mercado transformou isso em metodologia de produção.
+
+E criou dois perfis que quase ninguém nomeia.
+
+Existe o que eu chamo de lucky code: você escreve um prompt, torce para a sorte te ajudar e chama o resultado de produtividade. Funciona às vezes. Por acaso. E quando para de funcionar, ninguém sabe exatamente por quê, então o próximo passo é tentar outro prompt aleatório e torcer de novo.
+
+E existe o uso profissional e estruturado: antes de qualquer prompt, você cria um PRD, Product Requirements Document, que define o propósito, as funcionalidades e o comportamento do produto. É ele que orienta a IA dentro de um raciocínio claro. Quando algo precisa ser ajustado, você atualiza os parâmetros. Não reza um novo prompt esperando um milagre diferente.
+
+Curiosamente, em fevereiro de 2026, exatamente um ano depois, o próprio Karpathy voltou com um novo termo para esse uso profissional: agentic engineering. "Agentic porque você orquestra agentes, engineering para enfatizar que existe arte, ciência e expertise nisso."
+
+O mercado foi de prompt engineering para vibe coding e voltou para engenharia. Com outro nome.
+
+Mas há um problema que antecede qualquer termo.
+
+Muita gente nem chega a ter uma ideia própria. Não pesquisa o problema. Não valida se existe valor real no que quer construir. Não testa com usuários reais. E então manda a IA executar, usando como referência aquele benchmarking tão celebrado nas apresentações corporativas, que na prática significa copiar o concorrente pixel a pixel.
+
+O produto original que você está replicando já tem um time inteiro trabalhando nos problemas que você não consegue ver na interface. Você está copiando a fachada e herdando todos os defeitos estruturais que eles já estão correndo para corrigir.
+
+A IA democratizou a execução. Mas não democratizou o julgamento.
+
+Lucky code é só achismo com interface moderna.
+
+---
+
+### Existe um momento na carreira de todo designer em que a tela para de ser suficiente
+URL: https://wildiney.com/articles/designer-alem-da-tela/
+Date: 2026-03-17
+Description: Quando a ferramenta, o método ou a rotina viram o objetivo, o produto fica em segundo plano. O maior desperdício de talento em design não é fazer algo feio — é fazer algo lindo que nunca deveria ter existido.
+
+Não porque ela deixou de importar. Mas porque o problema que precisa ser resolvido já não cabe nela.
+
+Trabalhei com designers que entravam em colapso se a ordem dos projetos mudava. Com os que aplicavam o mesmo estilo visual em qualquer contexto, porque ficou bonito uma vez e virou assinatura. Com os que declaravam que toda tecnologia nova não ia funcionar, curiosamente sem testar nada.
+
+E os dois extremos que parecem opostos mas têm a mesma raiz: o que trata qualquer mudança como afronta pessoal, e o que executa qualquer instrução sem questionar.
+
+O que todos têm em comum? Confundiram o meio com o fim.
+
+Quando a ferramenta, o método ou a rotina viram o objetivo, o produto fica em segundo plano. E a conversa estratégica simplesmente não tem espaço para esse profissional.
+
+Entender de negócio não é saber fazer planilha de ROI. Não é virar PM. É conseguir responder três perguntas antes de abrir o Figma: por que esse produto existe, para quem ele resolve um problema real, e o que acontece com o negócio se essa decisão de design estiver errada.
+
+Stakeholders não pensam em fluxos e componentes. Pensam em risco, custo e prazo. "Essa decisão reduz abandono nos pontos críticos do onboarding" comunica o mesmo que "a experiência ficou mais fluida", mas com peso completamente diferente para uma audiência completamente diferente. Isso não significa abandonar o vocabulário de design. Significa ser bilíngue.
+
+E quanto mais cedo um designer entra nessa conversa, mais cedo consegue influenciar o que será construído. E principalmente o que não será.
+
+Porque o maior desperdício de talento em design não é fazer algo feio.
+
+É fazer algo lindo que nunca deveria ter existido.
+
+---
+
+### Desemprego baixo, mercado quebrado. Por que os números não batem com a realidade
+URL: https://wildiney.com/articles/desemprego-baixo-mercado-quebrado/
+Date: 2026-03-10
+Description: A taxa de desemprego está baixa, mas o LinkedIn conta outra história. O problema não é a economia — é a métrica. Os indicadores macro não estão mentindo. Eles só estão olhando para o lugar errado.
+
+As estatísticas dizem que o desemprego está baixo. O LinkedIn diz outra coisa.
+
+Layoffs em massa, profissionais experientes fora do mercado há meses, salários em queda, juniors sem porta de entrada e sêniors sem poder de negociação. As duas coisas parecem incompatíveis, mas não são.
+
+O problema não é a economia. É a métrica.
+
+A taxa de desemprego mede apenas quem está sem trabalho e procurando ativamente. Ela ignora subemprego, informalidade, precarização e pessoas altamente qualificadas trabalhando muito abaixo do seu nível. O próprio IBGE trata isso como subutilização da força de trabalho, um número significativamente maior do que a taxa de desemprego isolada.
+
+Além disso, o mercado de trabalho não é homogêneo.
+
+Enquanto setores de menor remuneração seguem contratando, o mercado de trabalho qualificado passa por uma reestruturação profunda. Dados públicos do layoffs.fyi mostram ondas recorrentes de layoffs em tecnologia desde 2022, impulsionadas por eficiência extrema, globalização salarial e automação via IA.
+
+A esse fenômeno já foi dado um nome: mercado em formato de K.
+
+Uma parte da força de trabalho melhora (o braço ascendente), outra piora (o braço descendente). O desenho se divide. A média parece estável, mas as trajetórias individuais se afastam.
+
+Emprego cresce.
+Salário encolhe.
+Estabilidade desaparece.
+O tempo de recolocação aumenta.
+
+Plataformas de dados salariais como o Glassdoor mostram estagnação ou queda real em áreas como produto, design e tecnologia, especialmente fora do topo da pirâmide.
+
+Quando alguém diz "conheço um monte de gente que está desempregada" ou "ganhando menos", isso não é histeria coletiva. É recorte.
+
+Os indicadores macro não estão exatamente mentindo. Eles só estão olhando para o lugar errado.
+
+Para quem trabalha com produto, design e tecnologia, insistir em ler apenas essas métricas é como tentar entender o futuro olhando para o retrovisor.
+
+Dito isso, o intuito aqui não é ser pessimista nem alarmista. É entender e aceitar a realidade: não é apenas a sua competência ou qualificação que está em jogo. Existe um mercado sendo moldado em busca de melhor custo-benefício.
+
+Quando a oferta de profissionais qualificados supera a demanda, o processo de contratação deixa de ser humano, artesanal ou meritocrático. Ele se torna massivo, automatizado e estatístico.
+
+Currículos feitos por IA, para vagas escritas por IA, selecionados por IA.
+
+Quase como em um jogo de poker, onde quem blefa melhor continua na mesa.
+
+---
+
+### Se hoje é possível sair da ideia ao produto em minutos, o que ainda justifica processo?
+URL: https://wildiney.com/articles/velocidade-nao-substitui-decisao/
+Date: 2026-03-03
+Description: A IA reduziu drasticamente o custo da execução, mas não reduziu o custo da decisão. E decisões mal tomadas apenas escalam desperdício com mais eficiência.
+
+Nos últimos meses uma narrativa tem dominado o feed, da ideia ao produto em minutos, design systems criados por prompt, interfaces geradas sem discovery. A velocidade é real e muda radicalmente o custo de construir.
+Mas a pergunta que realmente importa é outra, se posso construir mais rápido, errar mais rápido e corrigir mais rápido, ainda faz sentido investir tanto tempo tentando evitar o erro?
+
+Se lançar ficou barato, por que estruturar hipóteses com cuidado, mapear jornadas, entrevistar usuários, priorizar com rigor?
+
+Aqui está o ponto central, nem todo erro é barato. Existe o erro pequeno, reversível, que cabe em um experimento controlado. Mas existe o erro estrutural, aquele que desalinha o produto da sua proposta de valor, que adiciona complexidade sem impacto real, que fragmenta a narrativa estratégica e acumula dívida invisível.
+
+A IA reduziu drasticamente o custo da execução, mas não reduziu o custo da decisão. E decisões mal tomadas, apenas escalam desperdício com mais eficiência.
+
+O que ficou rápido foi produzir telas, gerar variações, escrever código inicial. O que continua raro é escolher o problema certo, priorizar sob restrições reais, sustentar coerência de produto, gerir expectativas quando surgem demandas urgentes, equilibrar promessas comerciais com estratégia de longo prazo, evitar que a tentação de adicionar IA apenas para acompanhar o mercado desvie o foco do que realmente gera valor.
+
+O processo certamente vai mudar, menos ritual, menos formalismo, menos apego a etapas rígidas. Mas pensamento estruturado não se torna obsoleto porque a execução ficou mais rápida. Quanto menor a barreira de execução, maior o impacto de uma decisão mal tomada.
+
+Talvez o novo equilíbrio seja descoberta suficiente para reduzir riscos críticos, execução rápida para validar hipóteses, observabilidade contínua para aprender com comportamento real. Nem paralisia por análise, nem shipping impulsivo.
+
+Porque no fim, quando tudo pode ser construído em minutos, o verdadeiro risco deixa de ser não entregar rápido o suficiente. Passa a ser entregar rápido demais aquilo que nunca deveria ter sido criado. E é aí que estratégia deixa de ser discurso e passa a ser responsabilidade.
+
+---
+
+### WebMCP do Google: o nascimento do produto AI-friendly
+URL: https://wildiney.com/articles/webmcp-google-produto-ai-friendly/
+Date: 2026-02-24
+Description: O WebMCP propõe algo estrutural: permitir que sites exponham suas capacidades de maneira declarativa para modelos de IA. Produtos mais legíveis para máquinas tendem, paradoxalmente, a se tornar mais claros para humanos também.
+
+Durante anos falamos sobre produtos user-friendly, mobile-first, accessibility-first, data-driven. Parecia que já tínhamos um checklist relativamente estável de maturidade digital.
+
+Talvez esse checklist esteja ficando incompleto. O WebMCP, iniciativa em evolução do Google, propõe algo estrutural: permitir que sites exponham suas capacidades, estados e ações de maneira declarativa para modelos de IA. Em vez de depender exclusivamente da interface visual e de interpretação heurística, agentes poderiam interagir com sistemas a partir de contexto formalizado.
+
+Ainda é cedo. Pode ganhar tração, pode mudar bastante ou pode simplesmente não se consolidar. Isso faz parte do ciclo de inovação da indústria. Mas independentemente do destino específico do WebMCP, a discussão que ele levanta é difícil de ignorar.
+
+A web já passou por uma transformação semelhante quando acessibilidade deixou de ser detalhe opcional e passou a exigir semântica consistente, estrutura clara e intenção explícita nos componentes. Times que trataram isso apenas como conformidade fizeram o mínimo necessário. Times que entenderam como disciplina de arquitetura acabaram fortalecendo design system, clareza de estado e coerência de produto.
+
+A ideia de AI-friendly pode seguir o mesmo caminho. Não como uma camada extra para agradar modelos, mas como um incentivo para explicitar melhor o que o sistema faz, em que estado está e quais ações realmente executa. Produtos mais legíveis para máquinas tendem, paradoxalmente, a se tornar mais claros para humanos também.
+
+Para quem trabalha com produto, a pergunta começa a mudar de forma: seu sistema é apenas utilizável por pessoas ou é estruturalmente operável?
+User-friendly continua sendo obrigatório. Mas talvez estejamos entrando em uma fase em que projetar apenas para humanos já não seja suficiente.
+
+---
+
+### Aumento do uso de IA no trabalho
+URL: https://wildiney.com/articles/aumento-do-uso-de-ia-no-trabalho/
+Date: 2026-02-17
+Description: Maturidade não está em usar mais IA. Está em saber onde usar, por que usar e quanto isso realmente entrega de valor — sem confundir velocidade com avanço.
+
+Todo mundo está comemorando que o uso de IA no trabalho cresceu. A pergunta que quase ninguém faz é: **cresceu para fazer o quê?**
+
+Hoje, "usar IA" virou um conceito elástico. Vale desde pedir ajuda para escrever um e-mail até copiar e colar um prompt escrito por um guru de IA e chamar isso de produtividade. Tudo entra na mesma conta. A métrica sobe, o entendimento nem sempre acompanha.
+
+Um estudo recente da Anthropic trouxe um dado incômodo. Na programação, a IA ajuda em diversas tarefas, mas quem passa a depender demais dela tem pior desempenho para entender código, depurar erros e explicar o que foi feito. Em média, 17% pior. Mais rápido para começar, mais frágil para sustentar a longo prazo.
+
+Isso não me surpreende. Basta ficar algumas semanas longe da rotina para sentir como o raciocínio enferruja. Agora imagine meses delegando tudo. A questão interessante não é se isso piora o domínio técnico hoje, mas se isso vai continuar sendo relevante no futuro próximo.
+
+Se a própria IA implementa, testa e corrige o código sozinha, talvez o valor não esteja mais na linha de código, mas no desenho da solução, na arquitetura, nas decisões de trade off. O problema é que isso não foi medido. Estamos debatendo perda de habilidade em um eixo, sem saber se houve ganho real em outro.
+
+E tem outro ponto pouco falado: IA não é um loop barato rodando em background. Cada prompt custa. Cada token conta. Cada automação "inteligente" entra direto no custo de adquirir, atender e manter um usuário. Em algum momento, alguém vai ter que responder se a solução moderna realmente vale mais do que uma abordagem simples, previsível e barata. Usar mais, nesse caso, também significa gastar mais.
+
+Nada disso é um argumento contra IA. Pelo contrário. É um convite a usar melhor.
+
+O uso vai continuar crescendo. E isso é ótimo. Mas maturidade não está em usar mais. Está em saber onde usar, por que usar e quanto isso realmente entrega de valor, sem confundir velocidade com avanço.
+
+---
+
+### OpenClaw
+URL: https://wildiney.com/articles/openclaw-autonomia-sem-governanca/
+Date: 2026-02-10
+Description: O OpenClaw não está fazendo sucesso apenas porque é tecnicamente impressionante. Ele está fazendo sucesso porque promete algo que muita gente vem desejando silenciosamente: delegar tudo. Não só tarefas, mas responsabilidade.
+
+Várias matérias recentes estão alertando para os riscos do **OpenClaw**: agente de IA open source, acesso total ao computador do usuário, vazamento de credenciais, Cisco chamando de pesadelo. Tudo isso é sério. Mas não é o ponto mais interessante dessa história.
+
+O **OpenClaw** não está fazendo sucesso apenas porque é tecnicamente impressionante. Ele está fazendo sucesso porque promete algo que muita gente vem desejando silenciosamente: delegar tudo. Não só tarefas, mas responsabilidade. Não só execução, mas decisão.
+
+Ele não é um copiloto. Ele é um operador. Usa o computador como um humano, navega por ferramentas, acessa arquivos, conecta sistemas e simplesmente resolve. Ou pelo menos aparenta resolver. O modelo mental por trás disso é simples e perigosamente sedutor: "resolve aí". Sem briefing claro. Sem critério explícito. Sem métrica. Sem plano.
+
+Do ponto de vista de Product Management, isso não é inovação disruptiva. É um espelho desconfortável. Mostra o quanto estamos dispostos a trocar clareza por conveniência e pensamento por velocidade.
+
+Quando um agente recebe autonomia total, ele não está só executando. Ele está interpretando objetivos, definindo prioridades e tomando decisões no seu lugar. E na maioria dos casos, sem que você consiga explicar depois por que algo deu certo ou errado. O famoso resultado que parece mágico quando funciona e inexplicável quando falha.
+
+Existe uma frase clássica atribuída ao Peter Drucker: o que não pode ser medido, não pode ser gerenciado. Independente da autoria exata, a lógica é implacável. Se você não define critérios, se não estabelece limites, se não mede, você não está automatizando. Você está terceirizando julgamento.
+
+E aí o problema deixa de ser só segurança da informação. Passa a ser segurança cognitiva.
+
+Um estudo recente da Anthropic já aponta para isso: o uso indiscriminado de IA na tomada de decisão enfraquece o hábito humano de pensar, avaliar alternativas e antecipar consequências. Não porque a IA pensa demais. Mas porque o humano pensa menos.
+
+Não é um discurso contra agentes autônomos. Eles são inevitáveis e, bem desenhados, extremamente poderosos. O problema começa quando autonomia vira caixa-preta e conveniência vira desculpa para abdicar da responsabilidade.
+
+Como PM, o papel não é impedir a automação. É criar guardrails. Definir o que pode ser delegado e o que exige julgamento humano. Exigir explicabilidade. Criar checkpoints. Autonomia sem governança não é produtividade. É ilusão.
+
+No fim, o OpenClaw não escancara apenas um risco técnico. Ele expõe algo mais incômodo: a nossa pressa em parar de decidir.
+
+A pergunta não é se vamos automatizar. Isso já aconteceu.
+
+A pergunta é: quem ainda está pensando?
+
+---
+
+### O mercado não está contratando mais gente. Está contratando melhores decisões
+URL: https://wildiney.com/articles/mercado-contrata-melhores-decisoes/
+Date: 2026-02-03
+Description: O mercado não está premiando quem executa melhor. Está premiando quem decide melhor. Quanto mais complexo o sistema, mais cara fica uma decisão ruim — e menos reversível ela se torna.
+
+Listas de "empregos em alta" costumam provocar o mesmo efeito: ansiedade.
+Quem está subindo. Quem ficou para trás. Qual título colocar no currículo.
+
+Mas algumas listas não falam sobre cargos.
+Falam sobre o tipo de problema que as empresas estão tentando resolver.
+
+E isso muda tudo.
+
+Os dados mais recentes mostram crescimento acelerado de funções ligadas a produto, tecnologia avançada, IA e governança. Não é exatamente uma surpresa. A surpresa está em outro lugar.
+
+O mercado não está premiando quem executa melhor.
+Está premiando quem decide melhor.
+
+Produtos digitais deixaram de ser "entregas".
+Viraram sistemas. Infraestruturas. Plataformas que concentram dados sensíveis, decisões automatizadas, regras regulatórias e impactos reais na vida de pessoas reais.
+
+Quanto mais complexo o sistema, mais cara fica uma decisão ruim.
+E menos reversível ela se torna.
+
+É por isso que Product Management cresce.
+Não porque escrever roadmap ficou mais sofisticado, mas porque alinhar estratégia, negócio, tecnologia e risco ficou mais difícil.
+
+É por isso que IA cresce.
+Não só pelo hype, mas porque alguém precisa transformar modelos estatísticos em algo utilizável, compreensível e defensável.
+
+É por isso que auditoria de TI entra na conversa.
+Porque, em algum momento, alguém precisa perguntar se tudo isso faz sentido, se é seguro e se está de pé.
+
+Agora, a pergunta inevitável.
+
+Onde entra o Product Design?
+
+Entra no espaço que ninguém gosta muito de ocupar.
+Entre a decisão técnica e a consequência humana.
+Entre o dado e o comportamento.
+Entre o que é possível construir e o que realmente deveria existir.
+
+À medida que as organizações amadurecem, o design deixa de ser a etapa onde "a coisa ganha forma".
+Passa a ser a disciplina que estrutura as escolhas, antes mesmo de elas chegarem a um cargo, um comitê ou um roadmap.
+
+Critério sobre o que simplificar.
+O que explicar.
+O que automatizar.
+E, principalmente, o que não fazer.
+
+Existe uma ironia silenciosa aqui.
+
+Quanto mais estratégico o produto se torna, menos o design aparece explicitamente nas listas de cargos em alta. Não porque perdeu relevância, mas porque deixou de ser isolável. Ele se espalha. Vira método. Vira linguagem comum. Vira filtro de decisão.
+
+O problema começa quando esse espaço existe…
+…mas ninguém assume a responsabilidade de ocupá-lo.
+
+No fim, talvez a pergunta não seja quais cargos mais crescem.
+Mas quem está preparado para decidir quando não há resposta óbvia.
+
+Porque, em produtos digitais maduros, quase nunca há.
+
+—
+
+Este artigo foi inspirado nos dados publicados pelo LinkedIn em "Empregos em alta em 2026".
+
+---
+
+### A falsa modernização dos produtos guiados por IA
+URL: https://wildiney.com/articles/a-falsa-modernizacao-dos-produtos-guiados-por-ia/
+Date: 2026-01-27
+Description: Automatizar o achismo não o transforma em estratégia. O problema de usar IA para 'modernizar' produtos sem contexto, sem dados e sem critério.
+
+Tenho visto um padrão curioso surgir entre pessoas recém-chegadas ao universo da IA. Um entusiasmo quase infantil com o que essas ferramentas são capazes de produzir. Bastam alguns prompts, alguns adjetivos vagos como "mais moderno", "mais inovador", "que chame mais a atenção", e pronto: sites inteiros são reformulados por IAs como Lovable, Replit e afins.
+
+Sem contexto. Sem métrica. Sem qualquer evidência de que o layout atual não funciona.
+
+Não há análise de conversão, dados de comportamento, testes A/B, sequer uma hipótese clara. O pedido é simples e perigoso: "adeque o site X ao meu gosto pessoal". E aqui mora o problema.
+
+Projetar um produto nunca foi, nem nunca será, sobre atender aos desejos de quem está projetando. Não é sobre a cor que eu acho mais bonita, a tipografia que me agrada mais ou a estética que conversa com o meu repertório pessoal. Design não é expressão artística individual. É decisão informada.
+
+Quando alguém usa IA para "modernizar" um produto sem compreender o que já funciona, está apenas substituindo um conjunto de decisões possivelmente embasadas por outro conjunto completamente arbitrário.
+
+Automatizar o achismo não o transforma em estratégia.
+
+Há ainda um efeito colateral recorrente: a IA estética ignora critérios básicos como acessibilidade em favor de preferências subjetivas. Contraste ruim, hierarquia confusa, tipografia ilegível.
+
+Fica mais bonito. Nem sempre mais usável.
+
+Não há dúvida sobre o potencial da IA generativa. Assim como não há dúvida sobre o potencial de uma Ferrari. Ambas são poderosas. E ambas, nas mãos erradas, causam estragos.
+
+O problema nunca foi o que a tecnologia pode fazer. A pergunta correta sempre foi: como eu a direciono para fazer o que é melhor para o meu produto e, principalmente, para o meu usuário?
+
+Isso exige algo que nenhuma IA entrega pronta: critério.
+
+Exige reconhecer que "eu não sou o público-alvo", ainda que eu faça parte dele. Exige entender a história daquele produto, por quais decisões ele passou, quais compromissos foram feitos, quais problemas foram resolvidos e quais ainda permanecem. Um produto não surge do nada, e não deveria ser redesenhado como se fosse uma folha em branco.
+
+A obsessão contemporânea por disrupção também merece cuidado. Causar impacto é sedutor. É fácil confundir barulho com avanço. Mas nem todo impacto é positivo. (Pergunte aos dinossauros)
+
+Disrupção sem direção é só ruptura. E ruptura sem propósito costuma custar caro.
+
+IA pode acelerar processos, ampliar repertórios, sugerir caminhos e até revelar possibilidades invisíveis. Mas ela não substitui a responsabilidade de quem decide. Não substitui o entendimento do usuário, nem o compromisso com resultados reais.
+
+No fim, usar IA para design sem contexto não é inovação. É apenas trocar o "acho que" humano pelo "parece que" algorítmico.
+
+E isso, definitivamente, não torna nenhum produto melhor.
+
+---
+
+### Toma essa métrica: "Todos os seres humanos juntos piscam centenas de trilhões de vezes por dia"
+URL: https://wildiney.com/articles/metricas-que-nao-orientam-decisao/
+Date: 2026-01-20
+Description: Uma métrica só é útil quando força uma decisão. Se ela sobe, algo muda. Se ela cai, algo muda. Se nada muda, não é métrica — é entretenimento analítico.
+
+Uma pessoa pisca, em média, 15 vezes por minuto. Multiplique pela população mundial e chegamos a centenas de trilhões de piscadas humanas por dia.
+
+É impressionante. É correto. É inútil.
+
+Não indica problema. Não orienta decisão. Não muda absolutamente nada.
+
+Se amanhã esse número dobrar, ninguém faz nada. Se cair pela metade, também não. Ele existe apenas porque era possível medi-lo. Soa familiar?
+
+Em produto, nunca foi tão fácil medir tudo. Cliques, tempo, rolagem, eventos, engajamento. A exigência de ser data-driven virou padrão. O problema é que, para muita gente, medir virou o objetivo, não o meio.
+
+Números viraram protagonistas. Pensamento crítico, coadjuvante.
+
+Correlação vira explicação. Curiosidade vira KPI. E dashboards começam a orientar decisões que não têm ligação clara com valor, problema ou resultado real.
+
+É assim que surgem OKRs impecáveis…
+…e produtos medíocres.
+
+Uma métrica só é útil quando força uma decisão.
+Se ela sobe, algo muda.
+Se ela cai, algo muda.
+
+Se nada muda, não é métrica. É entretenimento analítico.
+
+Bonito de ver. Inofensivo. Como saber quantas vezes a humanidade pisca por dia.
+
+Se você lidera produto, tecnologia ou dados e já se perguntou se seus números estão orientando decisões ou apenas preenchendo slides, vale continuar essa conversa.
+
+---
+
+### E se o defeito fosse prova de excelência?
+URL: https://wildiney.com/articles/defeito-como-prova-de-excelencia/
+Date: 2026-01-13
+Description: Peças defeituosas da LEGO valem mais que o original — não por serem defeituosas, mas porque o erro é raríssimo num sistema altamente confiável. O que isso revela sobre excelência em produto?
+
+A LEGO é obcecada por qualidade. Suas peças encaixam perfeitamente há décadas, mantêm padrões industriais rigorosos e raramente falham. Ainda assim, quando uma falha acontece, uma minifigura com impressão errada, por exemplo, o mercado não rejeita. Ele valoriza.
+
+Peças defeituosas da LEGO podem valer muito mais do que o produto original. Não porque são defeituosas, mas porque o erro é raríssimo dentro de um sistema extremamente confiável. O defeito não destrói valor. Ele revela o quanto aquele valor já existia antes.
+
+Isso deveria incomodar quem trabalha com Produto.
+
+Falhas só viram "aprendizado" quando o produto já construiu confiança, identidade e consistência. Sem isso, erro não é exceção histórica, é só descuido recorrente. O mercado sabe a diferença.
+
+A pergunta, então, não é "como errar mais rápido?", mas: o que precisa estar sólido para que o erro não seja interpretado como incompetência?
+
+Produtos realmente bons criam um padrão tão claro que qualquer desvio vira narrativa. Produtos frágeis criam ruído. Neles, o erro não vira história, vira churn.
+
+A LEGO não nos ensina que falhar é bom. Ela mostra algo mais desconfortável: só pode falhar quem já provou, repetidamente, que sabe entregar excelência.
+
+Talvez o verdadeiro objetivo em Produto não seja construir algo que tolere falhas, mas algo tão consistente que até o erro seja reconhecido como exceção, e não como padrão.
+
+---
+
+### Se Product Management parece confuso, é porque paramos de seguir manuais e começamos a pensar
+URL: https://wildiney.com/articles/product-management-confusao-evolucao/
+Date: 2026-01-03
+Description: O papel de PM nunca foi estático. Do plano fixo ao Agile, do Product Owner ao estrategista, a função evoluiu com os mercados — e a IA expõe quem decide bem de quem apenas executa processos.
+
+Toda vez que alguém tenta definir Product Management como um conjunto fixo de responsabilidades, algo fica de fora. Não por falta de teoria, mas porque o papel nunca foi estático.
+
+Durante muito tempo, construir produtos significava seguir planos. O sucesso era previsibilidade, controle e entrega conforme o combinado. Existia responsabilidade sobre o produto, claro, mas ele era consequência do projeto, não o centro das decisões.
+
+Quando produtos digitais passaram a mudar rápido demais para caber em planos rígidos, esse modelo começou a falhar.
+
+O Agile surge como resposta. O foco sai do plano e vai para o aprendizado. Entregar passa a ser menos importante do que entender se aquilo faz sentido. O Product Owner aparece como alguém próximo do time, conectado ao feedback e à priorização contínua.
+
+Mas logo fica claro que priorizar backlog não resolve tudo.
+
+À medida que produtos crescem e mercados ficam mais complexos, alguém precisa olhar além da próxima sprint. Visão, estratégia, métricas e impacto começam a importar mais do que velocidade isolada. É nesse espaço que o Product Manager se consolida como uma função estratégica, e não apenas operacional.
+
+Enquanto isso, o design também muda. O design gráfico migra para o digital, vira interface. A interface vira experiência. A experiência vira decisão. Quando designers passam a participar da definição do problema e da validação de soluções, surge o Product Designer.
+
+É aqui que muitos enxergam confusão de papéis. Mas a sobreposição não é erro. É sintoma.
+
+Product Managers e Product Designers passaram a atuar no mesmo território: descoberta, formulação de hipóteses e tomada de decisão. O que muda é a lente, não o objetivo.
+
+E então entra a inteligência artificial.
+
+A IA não cria um novo papel de Product Management. Ela remove atrito. Automatiza análises, acelera aprendizado e expõe algo desconfortável: se a decisão não for boa, já não dá mais para culpar a falta de dados.
+
+No fim, Product Management nunca foi sobre cargos, frameworks ou rituais. Sempre foi sobre adaptação ao contexto. E o contexto continua mudando.
+
+Talvez a pergunta mais honesta não seja "qual é o papel do PM?", mas: estamos formando profissionais para pensar produto ou apenas para executar processos cada vez mais sofisticados?
+
+---
+
+## Estudos de Caso
+
+### Aplicativo Programa Bolsa Família
+URL: https://wildiney.com/case-studies/bolsa-familia/
+Company: Globalweb Corp.
+Role: Senior Product Designer
+Year: 2022–2025
+
+## Contexto
+
+Liderei o redesign completo do aplicativo do Programa Bolsa Família, um dos principais canais de autoatendimento entre o Governo Federal e mais de 14 milhões de famílias beneficiárias em todo o país. O app permite acompanhar o status do benefício, consultar calendários de pagamento, rastrear o cartão e realizar ações como bloqueio e desbloqueio. Antes do redesenho, o aplicativo enfrentava problemas de acessibilidade, navegação pouco clara e interface desalinhada à identidade institucional do Ministério do Desenvolvimento e Assistência Social.
+
+No mesmo período, atuei no projeto de Open Finance da Caixa Econômica Federal, atendendo às demandas obrigatórias do Banco Central e garantindo conformidade regulatória e integração dos sistemas financeiros.
+
+Em ambos os projetos, trabalhei estrategicamente junto a produto, design e tecnologia, colaborando com times de desenvolvimento e entregando documentação detalhada que viabilizou a execução técnica.
+
+## Desafios
+
+- Redesenhar a experiência de um app de escala nacional, com usuários de diferentes níveis de letramento digital
+- Garantir conformidade com os critérios WCAG 2.1 AA em todas as telas e fluxos
+- Alinhar a interface à identidade institucional do Ministério e às diretrizes atualizadas do programa
+- Engajar diferentes stakeholders (governo, desenvolvimento, acessibilidade) em um processo colaborativo e transparente
+- Criar e implementar um design system reutilizável, escalável e acessível adotado pelo time de desenvolvimento
+
+## Público-Alvo
+
+- Cidadãos brasileiros beneficiários do programa, com diferentes perfis sociais e geográficos
+- Equipes técnicas e de conteúdo do governo
+- Times de acessibilidade e desenvolvimento
+- Gestores públicos responsáveis pela evolução do app
+
+## Metodologias e Processos
+
+**Discovery e imersão:** análise crítica do app existente, benchmarks de apps públicos e privados, e mapeamento de limitações técnicas e funcionais.
+
+**Pesquisa com usuários:** entrevistas, jornadas e grupos com beneficiários de diferentes perfis, e matriz CSD para mapear certezas, suposições e dúvidas.
+
+**Co-criação com stakeholders:** sessões com PO, equipe técnica, especialistas em acessibilidade e representantes do Ministério para validação das decisões de produto.
+
+**Design system:** criação e implementação de sistema visual baseado na identidade do Ministério, com componentes reutilizáveis alinhados ao Material Design e às melhores práticas de acessibilidade.
+
+**Prototipação:** wireframes e protótipos de baixa e alta fidelidade no Figma, com testes navegáveis e validações com usuários no Maze.
+
+**Service blueprint:** mapeamento de APIs e serviços envolvidos para garantir uma experiência técnica e funcional robusta.
+
+**Acessibilidade digital:** projeto conduzido seguindo as diretrizes WCAG 2.1 AA, com validações junto ao time especializado em todas as etapas.
+
+## Soluções
+
+- Interface redesenhada para máxima legibilidade, simplicidade e clareza na navegação
+- Design system institucional modular, escalável e acessível, implementado e adotado pelo time de desenvolvimento
+- Componentes baseados no Material Design, otimizados para mobile e validados em acessibilidade
+- Documentação detalhada entregue ao time de desenvolvimento para viabilizar a execução técnica
+- Processo de aprovação com o Ministério estruturado em ciclos curtos e iterativos
+
+## Frameworks de Produto
+
+**Discovery & Research:** Double Diamond, Design Thinking, Jobs to be Done, CSD Matrix, Service Blueprint
+
+**Priorização:** MoSCoW, RICE, Backlog Refinement
+
+**Entrega:** Scrum, Kanban, Definition of Done
+
+**Estratégia & Métricas:** OKRs, North Star Metric, KPI Dashboards
+
+**Acessibilidade:** Inclusive Design, WCAG 2.1 AA
+
+**Stakeholders & Comunicação:** Stakeholder Mapping, RACI Matrix
+
+## Tecnologias e Ferramentas
+
+- Figma para design system, protótipos e documentação
+- Maze para testes com usuários
+- Miro para matriz CSD, jornadas e blueprint
+- Google Forms e entrevistas qualitativas para pesquisa
+- Ferramentas de validação de acessibilidade (WCAG Guidelines)
+
+## Resultados
+
+- App redesenhado com experiência mais intuitiva, clara e acessível para mais de 14 milhões de beneficiários
+- Conformidade com os critérios WCAG 2.1 AA garantida em todos os fluxos
+- Maior independência do cidadão para acompanhar e entender seus benefícios
+- Design system implementado como referência para a evolução contínua do app
+- Time interno mais alinhado e capacitado para sustentar as próximas iterações
+
+---
+
+### Soluções Digitais & Gestão de Marca — Indra Minsait
+URL: https://wildiney.com/case-studies/indra/
+Company: Indra / Minsait
+Role: Designer Sênior
+Year: 2014–2022
+
+## Contexto
+
+Atuei por oito anos como Designer Sênior na Indra Minsait, empresa global de tecnologia e consultoria presente em mais de 140 países, respondendo diretamente à sede em Madri em um time internacional. A atuação cobriu três frentes complementares: governança e gestão de marca no Brasil, liderança de equipes no desenvolvimento de soluções digitais corporativas, e comunicação estratégica com lideranças sênior em contextos de alta pressão.
+
+Como referência de design no país, orientei equipes e fornecedores na aplicação das diretrizes globais, mantendo consistência entre a comunicação local e os padrões internacionais. No desenvolvimento de produtos digitais, liderei as decisões de design e estruturei os processos que garantiram coerência entre design, tecnologia e objetivos de negócio ao longo de projetos de alto impacto.
+
+## Desafios
+
+- Responder diretamente à sede em Madri, alinhando expectativas entre a operação local e as diretrizes globais da empresa
+- Liderar equipes multidisciplinares no desenvolvimento de aplicações responsivas, acessíveis e sites corporativos
+- Estruturar processos de design e governança de design system em um ambiente de múltiplos projetos simultâneos
+- Conduzir comunicação corporativa e gestão de crises com relacionamento direto com lideranças sênior
+- Garantir entregas orientadas a métricas e alinhadas aos objetivos de clientes internos e externos
+
+## Metodologias e Processos
+
+**Governança de marca e design system:** estruturação e manutenção de design systems, aprovação de materiais produzidos no Brasil, aplicação de brand guidelines globais em contexto local e gestão do relacionamento com a matriz.
+
+**Liderança de equipes digitais:** direção de times de design no desenvolvimento de interfaces responsivas e acessíveis, garantindo consistência entre design, tecnologia e objetivos de negócio.
+
+**Planejamento e comunicação integrada:** definição de pautas, cronograma editorial, alinhamento com stakeholders e governança de marca em iniciativas locais.
+
+**Gestão de produto e performance:** levantamento de requisitos, organização do backlog, definição de escopo mínimo viável, acompanhamento de KPIs.
+
+**Comunicação corporativa e gestão de crises:** condução de projetos de comunicação em contextos de alta pressão, com alinhamento estratégico junto a lideranças sênior.
+
+**Experiência em eventos:** concepção de estandes e ativações em grandes eventos do setor, como SAP Fórum e CIAB.
+
+## Frameworks de Produto
+
+**Discovery & Research:** Design Thinking, Empathy Mapping
+
+**Entrega:** Kanban, MVP
+
+**Design Systems:** Atomic Design, Design Systems Governance
+
+**Estratégia & Métricas:** OKRs, KPI Dashboards
+
+**Stakeholders & Comunicação:** Stakeholder Mapping, RACI Matrix, comunicação assíncrona com sede internacional
+
+## Tecnologias e Ferramentas
+
+- Figma e Adobe XD para design de interfaces e prototipação
+- Adobe Illustrator, Photoshop e InDesign para materiais gráficos
+- Adobe Premiere e After Effects para vídeos institucionais
+- Blender 3D para visualizações e animações
+- Mailchimp e ferramentas internas para newsletters
+- Excel, Power BI e Python & Pandas para relatórios e controle orçamentário
+- TypeScript, React e Next.js para desenvolvimento de soluções digitais internas
+
+## Resultados
+
+- Design system estruturado e adotado como referência para as equipes locais e integrado às diretrizes globais
+- Soluções digitais internas responsivas e acessíveis adotadas por colaboradores por anos após a entrega
+- Alinhamento consistente com a sede de Madri em projetos de alta complexidade e múltiplos stakeholders
+- Comunicação institucional fortalecida, com presença relevante nos principais eventos do setor
+- Capacidade de alinhamento estratégico consolidada em contextos de alta pressão e gestão de crises
+
+---
+
+### E-commerce Sanrio Brasil
+URL: https://wildiney.com/case-studies/sanrio-ecommerce/
+Company: Sanrio Co.
+Role: Senior Product Designer
+Year: 2009–2013
+
+## Contexto
+
+Liderei projetos digitais estratégicos da Sanrio no Brasil, atuando como ponto de contato entre a operação local e equipes internacionais em São Francisco, Japão, Peru, Chile e Itália. O trabalho envolveu construir a presença digital da marca do zero e expandir seu alcance para novos canais e plataformas.
+
+O ponto de partida foi o primeiro site em português da Sanrio, que estabeleceu a identidade digital da marca no país. A partir dessa base, coordenei o time multidisciplinar e os fornecedores responsáveis pelo lançamento do primeiro e-commerce da Hello Kitty no Brasil, liderando as decisões de produto, estratégia comercial e experiência do usuário ao longo de todo o projeto.
+
+O propósito da marca, "Small gift, big smile", foi o norte para cada decisão tomada com o time, garantindo que a experiência fosse encantadora do clique à entrega.
+
+## Desafios
+
+- Construir a presença digital da Sanrio no Brasil sem precedentes internos na operação local
+- Alinhar expectativas entre o consumidor brasileiro, as áreas internas e as sedes internacionais da marca
+- Definir a estratégia de produto e coordenar a execução com times de tecnologia, logística, marketing e operações
+- Garantir integração entre a plataforma de e-commerce, o ERP Microsiga e os meios de pagamento
+- Expandir a presença da marca para novas plataformas mantendo consistência de identidade
+
+## Público-Alvo
+
+- Consumidores brasileiros apaixonados pelas marcas da Sanrio, com destaque para Hello Kitty
+- Fãs e influenciadores mobilizados pelo Programa de Embaixadores da Hello Kitty
+- Stakeholders internacionais nas sedes de São Francisco, Japão, Peru, Chile e Itália
+- Áreas internas como logística, financeiro, marketing e atendimento ao cliente
+
+## Metodologias e Processos
+
+**Descoberta e pesquisa:** mapeamento de jornada do usuário, pesquisas de mercado e benchmarks nacionais e internacionais para embasar as decisões de produto.
+
+**Blueprints e service design:** criação de service blueprints para alinhar o time sobre o backstage da operação e garantir fluidez entre os pontos de contato visíveis e invisíveis ao usuário.
+
+**Planejamento estratégico:** definição de OKRs e KPIs junto às lideranças desde o início do projeto. Entre os OKRs: garantir experiência encantadora, lançar com excelência logística e alcançar alta visibilidade no lançamento.
+
+**Prototipação e testes:** direção dos ciclos de wireframe, protótipo e teste de usabilidade com o time de design, com ajustes iterativos baseados em feedback real.
+
+**Viabilidade operacional:** condução dos estudos de picking, packing, rastreabilidade e integração logística junto às equipes de operações e fornecedores.
+
+**Métricas e analytics:** definição dos indicadores de performance e estruturação do modelo de acompanhamento para suporte à tomada de decisões.
+
+## Soluções
+
+- Primeiro site em português da Sanrio, construído com o time local e alinhado à identidade global da marca
+- Plataforma Magento para o e-commerce da Hello Kitty, desenvolvida pelo time de tecnologia com supervisão de produto
+- Integração com o Microsiga para faturamento e controle de estoque, viabilizada junto à equipe de TI e ao fornecedor
+- Fluxo de compra e integração com meios de pagamento definidos com foco em reduzir fricção e maximizar encantamento
+- Introdução da Sanrio do Brasil nas redes sociais, com estratégia integrada ao e-commerce
+- Programa de Embaixadores da Hello Kitty, criado com o time de marketing para ampliar o alcance orgânico via fãs e influenciadores
+- Aplicativo "Hello Kitty and Friends" para Smart TVs da LG, desenvolvido em parceria com a equipe de produto e o time de tecnologia
+- Contribuição para o design e branding do primeiro smartphone Hello Kitty, em colaboração com as equipes internacionais
+
+## Frameworks de Produto
+
+**Discovery & Research:** User Journey Mapping, Service Blueprint, Competitive Analysis
+
+**Entrega:** Lean Startup, MVP
+
+**Métricas:** OKRs, NPS, LTV/CAC, Analytics
+
+**Stakeholders & Comunicação:** Stakeholder Mapping, RACI Matrix
+
+## Tecnologias e Ferramentas
+
+- Magento como base da loja virtual
+- Microsiga como sistema ERP para integração logística e de faturamento
+- Google Analytics para análise de comportamento e performance
+- Facebook e Twitter para presença e engajamento da marca
+- Adobe Photoshop e Illustrator para criação de layouts e assets visuais
+
+## Resultados
+
+- Primeiro site em português e primeiro e-commerce da Hello Kitty no Brasil lançados com sucesso
+- Plataforma operando com alta estabilidade e integração de ponta a ponta
+- Experiência do usuário consistente com o posicionamento da marca, da navegação à entrega
+- Média de 4.500 visitantes únicos diários na primeira semana
+- Alto engajamento e recompra no segmento de produtos licenciados
+- Alcance orgânico ampliado pelo Programa de Embaixadores, com fãs e influenciadores como canais de divulgação
+- Presença da marca expandida para Smart TVs e para o primeiro smartphone Hello Kitty
+- Reconhecimento pela matriz pela excelência na operação local e adesão aos valores da marca
+
+---
