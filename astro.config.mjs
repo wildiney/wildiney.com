@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config'
 import tailwindcss from '@tailwindcss/vite'
 import sitemap from '@astrojs/sitemap'
+import { llmsTxt } from './src/integrations/llms-txt'
 
 export default defineConfig({
   site: 'https://wildiney.com',
@@ -14,7 +15,8 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) => !page.includes('/agenda/')
-    })
+    }),
+    llmsTxt()
   ],
   vite: {
     plugins: [tailwindcss()]
