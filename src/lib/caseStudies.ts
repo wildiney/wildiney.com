@@ -1,4 +1,4 @@
-import { readFileSync, existsSync } from 'fs'
+import { readFileSync, existsSync, readdirSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
 import matter from 'gray-matter'
@@ -28,6 +28,13 @@ function resolveContentDir(): string {
 }
 
 const CONTENT_DIR = resolveContentDir()
+
+export function getAllCaseStudySlugs(): string[] {
+  if (!existsSync(CONTENT_DIR)) return []
+  return readdirSync(CONTENT_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+}
 
 export function getCaseStudy(slug: string, locale = 'pt'): CaseStudy {
   const localePath = join(CONTENT_DIR, slug, `${locale}.md`)

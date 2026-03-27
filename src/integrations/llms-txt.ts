@@ -1,9 +1,9 @@
-import { writeFileSync, mkdirSync, readdirSync, existsSync } from 'fs'
+import { writeFileSync, mkdirSync } from 'fs'
 import { join } from 'path'
 import { fileURLToPath } from 'url'
 import type { AstroIntegration } from 'astro'
 import { getAllArticleSlugs, getArticle } from '../lib/articles.js'
-import { getCaseStudy } from '../lib/caseStudies.js'
+import { getAllCaseStudySlugs, getCaseStudy } from '../lib/caseStudies.js'
 
 const SITE = 'https://wildiney.com'
 
@@ -44,14 +44,6 @@ function caseStudyUrl(slug: string, locale: string): string {
   return `${SITE}${prefix}/case-studies/${slug}/`
 }
 
-function getCaseStudySlugs(): string[] {
-  const dir = join(process.cwd(), 'content', 'case-studies')
-  if (!existsSync(dir)) return []
-  return readdirSync(dir, { withFileTypes: true })
-    .filter(d => d.isDirectory())
-    .map(d => d.name)
-}
-
 function buildLlmsTxt(locale: string): string {
   const { tagline, description } = HEADERS[locale]
   const today = new Date().toISOString().slice(0, 10)
@@ -78,7 +70,7 @@ function buildLlmsTxt(locale: string): string {
   }
 
   // Case studies
-  const caseStudySlugs = getCaseStudySlugs()
+  const caseStudySlugs = getAllCaseStudySlugs()
   if (caseStudySlugs.length > 0) {
     lines.push(`## ${CASE_STUDY_LABELS[locale]}`, ``)
     for (const slug of caseStudySlugs) {
