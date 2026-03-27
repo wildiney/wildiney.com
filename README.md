@@ -15,7 +15,7 @@ The site is responsive, fast, SEO-friendly, and available in three languages: Po
 - [Astro 5](https://astro.build/) — static site generator with file-based routing and native i18n
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS 4](https://tailwindcss.com/) — utility-first styling via `@tailwindcss/vite`
-- [Storybook 8](https://storybook.js.org/) — component development and documentation
+- [Storybook 10](https://storybook.js.org/) — component development and documentation
 - Deployed via **GitHub Pages**
 
 ## Commands
@@ -60,12 +60,6 @@ The site generates `llms.txt` files at build time for each locale:
 - `https://wildiney.com/llms.txt`
 - `https://wildiney.com/en/llms.txt`
 - `https://wildiney.com/es/llms.txt`
-
-## Featured Projects
-
-- **Sanrio Brazil** – Launch of the official e-commerce store
-- **Bolsa Família App** – Complete redesign with a focus on accessibility and inclusive UX
-- **Indra Minsait** – Corporate communication and internal design solutions
 
 ## Contact
 
