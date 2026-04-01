@@ -23,7 +23,7 @@ const localeLinks = [
 ]
 ---
 
-<header class="fixed top-0 left-0 right-0 z-50 border-b border-dark-border bg-dark/90 backdrop-blur-sm px-6 md:px-12 lg:px-24">
+<header class="fixed top-0 left-0 right-0 z-50 border-b border-dark-border bg-dark/90 backdrop-blur-md shadow-[0_1px_12px_rgba(0,0,0,0.5)] px-6 md:px-12 lg:px-24">
   <div class="max-w-5xl mx-auto h-16 flex items-center justify-between">
     <!-- Logo -->
     <a href={getLocalePath(locale)} class="font-display text-dark-text font-bold text-lg italic hover:text-accent transition-colors">
@@ -138,6 +138,8 @@ const localeLinks = [
     menu?.setAttribute('aria-hidden', 'false')
     btn?.setAttribute('aria-expanded', 'true')
     document.body.style.overflow = 'hidden'
+    const firstLink = menu?.querySelector<HTMLElement>('a, button')
+    firstLink?.focus()
   }
 
   function closeMenu() {

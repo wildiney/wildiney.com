@@ -1,13 +1,13 @@
 ---
 interface Props {
   id?: string
-  dark?: boolean
   light?: boolean
+  surface?: boolean
   class?: string
 }
-const { id, dark = false, light = false, class: className } = Astro.props
+const { id, light = false, surface = false, class: className } = Astro.props
 
-const bg = light ? 'bg-paper text-ink' : 'bg-dark text-dark-text'
+const bg = light ? 'bg-paper text-ink' : surface ? 'bg-dark-surface text-dark-text' : 'bg-dark text-dark-text'
 ---
 <section
   id={id}

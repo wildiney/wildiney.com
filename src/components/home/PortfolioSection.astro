@@ -95,13 +95,13 @@ const projects = projectsByLocale[locale]
   <p class="text-xs text-accent uppercase tracking-widest mb-4">{t.portfolio.pageTitle}</p>
   <h2 class="font-display text-3xl md:text-4xl font-black text-dark-text mb-12">{t.portfolio.heading}</h2>
 
-  <div class="space-y-0">
+  <div class="space-y-4">
     {projects.map((project) => (
       <a
         href={project.href}
-        class="group flex flex-col md:flex-row gap-6 border-t border-dark-border py-8 hover:border-accent transition-colors"
+        class="group flex flex-col md:flex-row gap-6 bg-dark-surface border border-dark-border p-6 md:p-8 shadow-[var(--shadow-card)] hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)] hover:border-accent/50 transition-all duration-200"
       >
-        <span class="text-sm font-mono text-accent w-8 flex-shrink-0">{project.num}</span>
+        <span class="text-sm font-mono text-accent w-8 flex-shrink-0 pt-1">{project.num}</span>
         <div class="flex-1">
           <p class="text-xs text-muted uppercase tracking-wider mb-2">{project.company}</p>
           <h3 class="text-lg font-semibold text-dark-text group-hover:text-accent transition-colors mb-3">
@@ -115,6 +115,5 @@ const projects = projectsByLocale[locale]
         <span class="hidden md:flex items-center text-muted group-hover:text-accent transition-colors text-xl">→</span>
       </a>
     ))}
-    <div class="border-t border-dark-border"></div>
   </div>
 </Section>
