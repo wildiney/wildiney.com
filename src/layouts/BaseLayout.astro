@@ -15,8 +15,9 @@ const {
   noindex = false,
 } = Astro.props
 
-const gtmId = import.meta.env.PUBLIC_GTM_ID ?? 'GTM-NNX4S37'
-const clarityId = import.meta.env.PUBLIC_CLARITY_ID ?? 'vygjr8jgps'
+const isProd = import.meta.env.PROD
+const gtmId = isProd ? (import.meta.env.PUBLIC_GTM_ID ?? 'GTM-NNX4S37') : null
+const clarityId = isProd ? (import.meta.env.PUBLIC_CLARITY_ID ?? 'vygjr8jgps') : null
 ---
 
 <!doctype html>
@@ -64,6 +65,9 @@ const clarityId = import.meta.env.PUBLIC_CLARITY_ID ?? 'vygjr8jgps'
         />
       </noscript>
     )}
+    <a href="#main-content" class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-[200] focus-visible:px-4 focus-visible:py-2 focus-visible:bg-accent focus-visible:text-dark focus-visible:text-sm focus-visible:font-medium">
+      Pular para o conteúdo
+    </a>
     <slot />
   </body>
 </html>
