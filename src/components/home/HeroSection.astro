@@ -58,14 +58,17 @@ const projects = [
 ]
 ---
 
-<section class="min-h-screen flex items-center bg-dark px-6 md:px-12 lg:px-24 pt-16">
-  <div class="max-w-5xl mx-auto w-full py-20">
+<section class="relative min-h-screen flex items-center bg-dark px-6 md:px-12 lg:px-24 pt-16 overflow-hidden">
+  <!-- Ambient glow -->
+  <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_28%_40%,rgba(77,184,231,0.06)_0%,transparent_70%)]" aria-hidden="true"></div>
+
+  <div class="relative max-w-5xl mx-auto w-full py-20">
     <div class="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-16 items-center">
 
       <!-- Left: Intro -->
       <div>
         <p class="text-xs text-accent uppercase tracking-widest mb-6">{copy.label}</p>
-        <h1 class="font-display text-4xl md:text-5xl font-black text-dark-text leading-tight mb-6">
+        <h1 class="font-display text-4xl md:text-5xl xl:text-6xl font-black text-dark-text leading-tight mb-6">
           {copy.headline.split('\n').map((line, i) => (
             i < copy.headline.split('\n').length - 1 ? <>{line}<br/></> : <>{line}</>
           ))}
@@ -84,7 +87,7 @@ const projects = [
         {projects.map(p => (
           <a
             href={p.href}
-            class="group flex items-center justify-between border border-dark-border bg-dark-surface px-5 py-4 hover:border-accent transition-colors"
+            class="group flex items-center justify-between border border-dark-border bg-dark-surface px-5 py-4 hover:border-accent/60 hover:-translate-y-0.5 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-all duration-200"
           >
             <div class="flex items-center gap-4">
               <span class="text-xs text-accent font-mono tracking-widest">{p.num}</span>
@@ -94,7 +97,7 @@ const projects = [
                 {p.metric && <p class="text-xs text-accent mt-1">{p.metric}</p>}
               </div>
             </div>
-            <span class="text-muted group-hover:text-accent transition-colors text-lg">↗</span>
+            <span class="text-muted group-hover:text-accent transition-colors text-lg">→</span>
           </a>
         ))}
       </div>
