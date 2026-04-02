@@ -57,6 +57,9 @@
   "contact": {
     "pageTitle": "Contact"
   },
+  "footer": {
+    "tagline": "Good questions build good products"
+  },
   "bolsafamilia": {
     "titlePage": "App Programa Bolsa Família",
     "titleContext": "Context",
