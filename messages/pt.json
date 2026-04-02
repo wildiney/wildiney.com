@@ -57,6 +57,9 @@
   "contact": {
     "pageTitle": "Contato"
   },
+  "footer": {
+    "tagline": "Boas perguntas constroem bons produtos"
+  },
   "bolsafamilia": {
     "titlePage": "Aplicativo Programa Bolsa Família",
     "titleContext": "Contexto",
