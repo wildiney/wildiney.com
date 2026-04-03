@@ -9,436 +9,438 @@ Portafolio personal con artículos, casos de estudio y agenda de contacto.
 ### Design system por prompt
 URL: https://wildiney.com/es/articles/design-system-por-prompt/
 Date: 2026-03-31
-Description: O DESIGN.md pode exportar as regras. Ele não exporta o raciocínio por trás delas. Ferramentas ficam obsoletas. Julgamento, não.
+Description: El DESIGN.md puede exportar las reglas. No puede exportar el razonamiento detrás de ellas. Las herramientas se vuelven obsoletas. El criterio, no.
 
-A ação da Figma caiu 8,8% em um único dia. O motivo foi o Google Stitch anunciar que agora cria um design system completo a partir de um prompt.
+Las acciones de Figma cayeron un 8,8% en un solo día. El motivo: Google Stitch anunció que ahora crea un design system completo a partir de un prompt.
 
-Cores, tipografia, espaçamento, componentes. Tudo que times levam semanas para construir e documentar, gerado em minutos e exportado num arquivo de texto legível por qualquer agente de IA. O Google chama esse formato de DESIGN.md: um arquivo que qualquer ferramenta do mercado consegue ler, interpretar e aplicar.
+Colores, tipografía, espaciado, componentes. Todo lo que los equipos tardan semanas en construir y documentar, generado en minutos y exportado en un archivo de texto legible por cualquier agente de IA. Google llama a este formato DESIGN.md: un archivo que cualquier herramienta del mercado puede leer, interpretar y aplicar.
 
-O mercado reagiu como se o design system tivesse sido commoditizado. Nessa reação está uma confissão: durante anos, tratamos o artefato como se fosse o valor.
+El mercado reaccionó como si el design system hubiera sido convertido en commodity. En esa reacción hay una confesión: durante años, tratamos el artefacto como si fuera el valor.
 
-O DESIGN.md pode exportar as regras. Ele não exporta o raciocínio por trás delas. Não captura o critério que definiu o que o sistema não deveria ter, nem a percepção de quando uma regra precisa mudar porque o produto cresceu numa direção que o sistema não antecipou.
+El DESIGN.md puede exportar las reglas. No puede exportar el razonamiento detrás de ellas. No captura el criterio que definió qué no debería tener el sistema, ni la percepción de cuándo una regla necesita cambiar porque el producto creció en una dirección que el sistema no anticipó.
 
-Construir o artefato sempre foi a etapa mais tangível. A mais difícil era outra: saber quais regras valem a pena criar, quando quebrá-las e quando o sistema todo precisa ser revisto.
+Construir el artefacto siempre fue la etapa más tangible. La más difícil era otra: saber qué reglas vale la pena crear, cuándo romperlas y cuándo el sistema entero necesita ser revisado.
 
-Isso não muda com um prompt.
+Eso no cambia con un prompt.
 
-Mas há uma mudança real que o Stitch trouxe e que a maioria está ignorando na discussão sobre a queda da Figma. Design systems que não forem legíveis por agentes de IA vão virar legado. Não porque são piores, mas porque ficam fora do fluxo. O mercado está se reorganizando em torno de sistemas que máquinas conseguem operar, e bibliotecas encapsuladas em ferramentas proprietárias não entram nesse circuito.
+Pero hay un cambio real que Stitch trajo y que la mayoría está ignorando en la discusión sobre la caída de Figma. Los design systems que no sean legibles por agentes de IA se volverán legado. No porque sean peores, sino porque quedan fuera del flujo. El mercado se está reorganizando en torno a sistemas que las máquinas puedan operar, y las bibliotecas encapsuladas en herramientas propietarias no entran en ese circuito.
 
-Ferramentas ficam obsoletas. Julgamento, não.
+Las herramientas se vuelven obsoletas. El criterio, no.
 
-O que o Stitch revelou, sem querer, é que a parte do design system que pode ser automatizada sempre foi a menos valiosa. Era necessária, mas não diferenciava.
+Lo que Stitch reveló, sin querer, es que la parte del design system que puede automatizarse siempre fue la menos valiosa. Era necesaria, pero no diferenciaba.
 
-O que diferencia é o que não tem como exportar.
-
----
-
-Fonte: https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/
+Lo que diferencia es lo que no tiene forma de exportarse.
 
 ---
 
-### Vibe coding ou Lucky coding?
+Fuente: https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/
+
+---
+
+### ¿Vibe coding o Lucky coding?
 URL: https://wildiney.com/es/articles/vibe-coding-ou-lucky-coding/
 Date: 2026-03-24
-Description: A IA democratizou a execução. Mas não democratizou o julgamento. Lucky code é só achismo com interface moderna.
+Description: La IA democratizó la ejecución. Pero no democratizó el criterio. El lucky code es solo suposición con interfaz moderna.
 
-Vibe coding virou buzzword. E como toda buzzword, perdeu precisão no caminho. Mas a história começa antes disso.
+El vibe coding se convirtió en buzzword. Y como toda buzzword, perdió precisión en el camino. Pero la historia empieza antes.
 
-Quando os modelos de linguagem explodiram, surgiu o prompt engineering: uma abordagem metódica para guiar a IA com clareza, contexto e intenção. Chegou a ser considerada uma das profissões mais quentes de 2023. Dois anos depois, estava praticamente obsoleta.
+Cuando los modelos de lenguaje explotaron, surgió el prompt engineering: un enfoque metódico para guiar a la IA con claridad, contexto e intención. Llegó a considerarse una de las profesiones más prometedoras de 2023. Dos años después, estaba prácticamente obsoleta.
 
-O mercado não evoluiu. Ele trocou método por vibes.
+El mercado no evolucionó. Cambió método por vibes.
 
-Em fevereiro de 2025, Andrej Karpathy, cofundador da OpenAI, cunhou o termo vibe coding: "dar as vibes para a IA, abraçar os exponenciais e esquecer que o código existe." A ideia era para projetos rápidos e descartáveis. O mercado transformou isso em metodologia de produção.
+En febrero de 2025, Andrej Karpathy, cofundador de OpenAI, acuñó el término vibe coding: "darle las vibes a la IA, abrazar los exponenciales y olvidar que el código existe". La idea era para proyectos rápidos y desechables. El mercado lo transformó en metodología de producción.
 
-E criou dois perfis que quase ninguém nomeia.
+Y creó dos perfiles que casi nadie nombra.
 
-Existe o que eu chamo de lucky code: você escreve um prompt, torce para a sorte te ajudar e chama o resultado de produtividade. Funciona às vezes. Por acaso. E quando para de funcionar, ninguém sabe exatamente por quê, então o próximo passo é tentar outro prompt aleatório e torcer de novo.
+Existe lo que llamo lucky code: escribes un prompt, le rezas a la suerte y llamas al resultado productividad. Funciona a veces. Por casualidad. Y cuando deja de funcionar, nadie sabe exactamente por qué, así que el siguiente paso es intentar otro prompt aleatorio y volver a rezar.
 
-E existe o uso profissional e estruturado: antes de qualquer prompt, você cria um PRD, Product Requirements Document, que define o propósito, as funcionalidades e o comportamento do produto. É ele que orienta a IA dentro de um raciocínio claro. Quando algo precisa ser ajustado, você atualiza os parâmetros. Não reza um novo prompt esperando um milagre diferente.
+Y existe el uso profesional y estructurado: antes de cualquier prompt, creas un PRD, Product Requirements Document, que define el propósito, las funcionalidades y el comportamiento del producto. Es él quien orienta a la IA dentro de un razonamiento claro. Cuando algo necesita ajustarse, actualizas los parámetros. No rezas un nuevo prompt esperando un milagro diferente.
 
-Curiosamente, em fevereiro de 2026, exatamente um ano depois, o próprio Karpathy voltou com um novo termo para esse uso profissional: agentic engineering. "Agentic porque você orquestra agentes, engineering para enfatizar que existe arte, ciência e expertise nisso."
+Curiosamente, en febrero de 2026, exactamente un año después, el propio Karpathy volvió con un nuevo término para ese uso profesional: agentic engineering. "Agentic porque orquestas agentes, engineering para enfatizar que existe arte, ciencia y expertise en eso".
 
-O mercado foi de prompt engineering para vibe coding e voltou para engenharia. Com outro nome.
+El mercado fue de prompt engineering al vibe coding y volvió a la ingeniería. Con otro nombre.
 
-Mas há um problema que antecede qualquer termo.
+Pero hay un problema que antecede cualquier término.
 
-Muita gente nem chega a ter uma ideia própria. Não pesquisa o problema. Não valida se existe valor real no que quer construir. Não testa com usuários reais. E então manda a IA executar, usando como referência aquele benchmarking tão celebrado nas apresentações corporativas, que na prática significa copiar o concorrente pixel a pixel.
+Mucha gente ni siquiera llega a tener una idea propia. No investiga el problema. No valida si existe valor real en lo que quiere construir. No prueba con usuarios reales. Y entonces manda a la IA ejecutar, usando como referencia ese benchmarking tan celebrado en las presentaciones corporativas, que en la práctica significa copiar al competidor pixel a pixel.
 
-O produto original que você está replicando já tem um time inteiro trabalhando nos problemas que você não consegue ver na interface. Você está copiando a fachada e herdando todos os defeitos estruturais que eles já estão correndo para corrigir.
+El producto original que estás replicando ya tiene un equipo entero trabajando en los problemas que no puedes ver en la interfaz. Estás copiando la fachada y heredando todos los defectos estructurales que ellos ya están corriendo para corregir.
 
-A IA democratizou a execução. Mas não democratizou o julgamento.
+La IA democratizó la ejecución. Pero no democratizó el criterio.
 
-Lucky code é só achismo com interface moderna.
+El lucky code es solo suposición con interfaz moderna.
 
 ---
 
-### Existe um momento na carreira de todo designer em que a tela para de ser suficiente
+### Existe un momento en la carrera de todo diseñador en que la pantalla deja de ser suficiente
 URL: https://wildiney.com/es/articles/designer-alem-da-tela/
 Date: 2026-03-17
-Description: Quando a ferramenta, o método ou a rotina viram o objetivo, o produto fica em segundo plano. O maior desperdício de talento em design não é fazer algo feio — é fazer algo lindo que nunca deveria ter existido.
+Description: Cuando la herramienta, el método o la rutina se convierten en el objetivo, el producto pasa a segundo plano. El mayor desperdicio de talento en diseño no es hacer algo feo — es hacer algo hermoso que nunca debería haber existido.
 
-Não porque ela deixou de importar. Mas porque o problema que precisa ser resolvido já não cabe nela.
+No porque haya dejado de importar. Sino porque el problema que necesita resolverse ya no cabe en ella.
 
-Trabalhei com designers que entravam em colapso se a ordem dos projetos mudava. Com os que aplicavam o mesmo estilo visual em qualquer contexto, porque ficou bonito uma vez e virou assinatura. Com os que declaravam que toda tecnologia nova não ia funcionar, curiosamente sem testar nada.
+Trabajé con diseñadores que colapsaban si el orden de los proyectos cambiaba. Con quienes aplicaban el mismo estilo visual en cualquier contexto, porque quedó bonito una vez y se convirtió en firma. Con quienes declaraban que toda tecnología nueva no iba a funcionar, curiosamente sin probar nada.
 
-E os dois extremos que parecem opostos mas têm a mesma raiz: o que trata qualquer mudança como afronta pessoal, e o que executa qualquer instrução sem questionar.
+Y los dos extremos que parecen opuestos pero tienen la misma raíz: el que trata cualquier cambio como una afrenta personal, y el que ejecuta cualquier instrucción sin cuestionar.
 
-O que todos têm em comum? Confundiram o meio com o fim.
+¿Qué tienen todos en común? Confundieron el medio con el fin.
 
-Quando a ferramenta, o método ou a rotina viram o objetivo, o produto fica em segundo plano. E a conversa estratégica simplesmente não tem espaço para esse profissional.
+Cuando la herramienta, el método o la rutina se convierten en el objetivo, el producto pasa a segundo plano. Y la conversación estratégica simplemente no tiene espacio para ese profesional.
 
-Entender de negócio não é saber fazer planilha de ROI. Não é virar PM. É conseguir responder três perguntas antes de abrir o Figma: por que esse produto existe, para quem ele resolve um problema real, e o que acontece com o negócio se essa decisão de design estiver errada.
+Entender de negocio no es saber hacer una planilla de ROI. No es convertirse en PM. Es poder responder tres preguntas antes de abrir Figma: por qué existe este producto, para quién resuelve un problema real, y qué le pasa al negocio si esta decisión de diseño está equivocada.
 
-Stakeholders não pensam em fluxos e componentes. Pensam em risco, custo e prazo. "Essa decisão reduz abandono nos pontos críticos do onboarding" comunica o mesmo que "a experiência ficou mais fluida", mas com peso completamente diferente para uma audiência completamente diferente. Isso não significa abandonar o vocabulário de design. Significa ser bilíngue.
+Los stakeholders no piensan en flujos y componentes. Piensan en riesgo, costo y plazo. "Esta decisión reduce el abandono en los puntos críticos del onboarding" comunica lo mismo que "la experiencia quedó más fluida", pero con un peso completamente diferente para una audiencia completamente diferente. Eso no significa abandonar el vocabulario del diseño. Significa ser bilingüe.
 
-E quanto mais cedo um designer entra nessa conversa, mais cedo consegue influenciar o que será construído. E principalmente o que não será.
+Y cuanto antes un diseñador entre en esa conversación, antes puede influir en lo que se construirá. Y principalmente en lo que no se construirá.
 
-Porque o maior desperdício de talento em design não é fazer algo feio.
+Porque el mayor desperdicio de talento en diseño no es hacer algo feo.
 
-É fazer algo lindo que nunca deveria ter existido.
+Es hacer algo hermoso que nunca debería haber existido.
 
 ---
 
-### Desemprego baixo, mercado quebrado. Por que os números não batem com a realidade
+### Desempleo bajo, mercado roto. Por qué los números no coinciden con la realidad
 URL: https://wildiney.com/es/articles/desemprego-baixo-mercado-quebrado/
 Date: 2026-03-10
-Description: A taxa de desemprego está baixa, mas o LinkedIn conta outra história. O problema não é a economia — é a métrica. Os indicadores macro não estão mentindo. Eles só estão olhando para o lugar errado.
+Description: La tasa de desempleo está baja, pero LinkedIn cuenta otra historia. El problema no es la economía — es la métrica. Los indicadores macro no están mintiendo. Solo están mirando al lugar equivocado.
 
-As estatísticas dizem que o desemprego está baixo. O LinkedIn diz outra coisa.
+Las estadísticas dicen que el desempleo está bajo. LinkedIn dice otra cosa.
 
-Layoffs em massa, profissionais experientes fora do mercado há meses, salários em queda, juniors sem porta de entrada e sêniors sem poder de negociação. As duas coisas parecem incompatíveis, mas não são.
+Despidos masivos, profesionales experimentados fuera del mercado durante meses, salarios cayendo, juniors sin puerta de entrada y seniors sin poder de negociación. Las dos cosas parecen incompatibles, pero no lo son.
 
-O problema não é a economia. É a métrica.
+El problema no es la economía. Es la métrica.
 
-A taxa de desemprego mede apenas quem está sem trabalho e procurando ativamente. Ela ignora subemprego, informalidade, precarização e pessoas altamente qualificadas trabalhando muito abaixo do seu nível. O próprio IBGE trata isso como subutilização da força de trabalho, um número significativamente maior do que a taxa de desemprego isolada.
+La tasa de desempleo mide solo a quienes están sin trabajo y buscando activamente. Ignora el subempleo, la informalidad, la precarización y a personas altamente calificadas trabajando muy por debajo de su nivel. El propio IBGE trata esto como subutilización de la fuerza laboral, un número significativamente mayor que la tasa de desempleo por sí sola.
 
-Além disso, o mercado de trabalho não é homogêneo.
+Además, el mercado laboral no es homogéneo.
 
-Enquanto setores de menor remuneração seguem contratando, o mercado de trabalho qualificado passa por uma reestruturação profunda. Dados públicos do layoffs.fyi mostram ondas recorrentes de layoffs em tecnologia desde 2022, impulsionadas por eficiência extrema, globalização salarial e automação via IA.
+Mientras los sectores de menor remuneración siguen contratando, el mercado laboral calificado atraviesa una reestructuración profunda. Datos públicos de layoffs.fyi muestran olas recurrentes de despidos en tecnología desde 2022, impulsadas por eficiencia extrema, globalización salarial y automatización vía IA.
 
-A esse fenômeno já foi dado um nome: mercado em formato de K.
+A este fenómeno ya se le dio un nombre: mercado en formato de K.
 
-Uma parte da força de trabalho melhora (o braço ascendente), outra piora (o braço descendente). O desenho se divide. A média parece estável, mas as trajetórias individuais se afastam.
+Una parte de la fuerza laboral mejora (el brazo ascendente), otra empeora (el brazo descendente). El diseño se divide. El promedio parece estable, pero las trayectorias individuales se alejan.
 
-Emprego cresce.
-Salário encolhe.
-Estabilidade desaparece.
-O tempo de recolocação aumenta.
+El empleo crece.
+El salario se reduce.
+La estabilidad desaparece.
+El tiempo de recolocación aumenta.
 
-Plataformas de dados salariais como o Glassdoor mostram estagnação ou queda real em áreas como produto, design e tecnologia, especialmente fora do topo da pirâmide.
+Plataformas de datos salariales como Glassdoor muestran estancamiento o caída real en áreas como producto, diseño y tecnología, especialmente fuera de la cima de la pirámide.
 
-Quando alguém diz "conheço um monte de gente que está desempregada" ou "ganhando menos", isso não é histeria coletiva. É recorte.
+Cuando alguien dice "conozco mucha gente que está desempleada" o "ganando menos", eso no es histeria colectiva. Es un recorte.
 
-Os indicadores macro não estão exatamente mentindo. Eles só estão olhando para o lugar errado.
+Los indicadores macro no están exactamente mintiendo. Solo están mirando al lugar equivocado.
 
-Para quem trabalha com produto, design e tecnologia, insistir em ler apenas essas métricas é como tentar entender o futuro olhando para o retrovisor.
+Para quienes trabajan en producto, diseño y tecnología, insistir en leer solo esas métricas es como intentar entender el futuro mirando por el espejo retrovisor.
 
-Dito isso, o intuito aqui não é ser pessimista nem alarmista. É entender e aceitar a realidade: não é apenas a sua competência ou qualificação que está em jogo. Existe um mercado sendo moldado em busca de melhor custo-benefício.
+Dicho eso, la intención aquí no es ser pesimista ni alarmista. Es entender y aceptar la realidad: no es solo tu competencia o calificación lo que está en juego. Existe un mercado siendo moldeado en busca de mejor relación costo-beneficio.
 
-Quando a oferta de profissionais qualificados supera a demanda, o processo de contratação deixa de ser humano, artesanal ou meritocrático. Ele se torna massivo, automatizado e estatístico.
+Cuando la oferta de profesionales calificados supera la demanda, el proceso de contratación deja de ser humano, artesanal o meritocrático. Se vuelve masivo, automatizado y estadístico.
 
-Currículos feitos por IA, para vagas escritas por IA, selecionados por IA.
+Currículums escritos por IA, para puestos redactados por IA, seleccionados por IA.
 
-Quase como em um jogo de poker, onde quem blefa melhor continua na mesa.
+Casi como en un juego de póker, donde quien farolea mejor sigue en la mesa.
 
 ---
 
-### Se hoje é possível sair da ideia ao produto em minutos, o que ainda justifica processo?
+### Si hoy es posible ir de la idea al producto en minutos, ¿qué justifica aún el proceso?
 URL: https://wildiney.com/es/articles/velocidade-nao-substitui-decisao/
 Date: 2026-03-03
-Description: A IA reduziu drasticamente o custo da execução, mas não reduziu o custo da decisão. E decisões mal tomadas apenas escalam desperdício com mais eficiência.
+Description: La IA redujo drásticamente el costo de la ejecución, pero no redujo el costo de la decisión. Y las decisiones mal tomadas solo escalan el desperdicio con más eficiencia.
 
-Nos últimos meses uma narrativa tem dominado o feed, da ideia ao produto em minutos, design systems criados por prompt, interfaces geradas sem discovery. A velocidade é real e muda radicalmente o custo de construir.
-Mas a pergunta que realmente importa é outra, se posso construir mais rápido, errar mais rápido e corrigir mais rápido, ainda faz sentido investir tanto tempo tentando evitar o erro?
+En los últimos meses una narrativa ha dominado el feed: de la idea al producto en minutos, design systems creados por prompt, interfaces generadas sin discovery. La velocidad es real y cambia radicalmente el costo de construir.
 
-Se lançar ficou barato, por que estruturar hipóteses com cuidado, mapear jornadas, entrevistar usuários, priorizar com rigor?
+Pero la pregunta que realmente importa es otra: si puedo construir más rápido, fallar más rápido y corregir más rápido, ¿sigue teniendo sentido invertir tanto tiempo tratando de evitar el error?
 
-Aqui está o ponto central, nem todo erro é barato. Existe o erro pequeno, reversível, que cabe em um experimento controlado. Mas existe o erro estrutural, aquele que desalinha o produto da sua proposta de valor, que adiciona complexidade sem impacto real, que fragmenta a narrativa estratégica e acumula dívida invisível.
+Si lanzar se volvió barato, ¿por qué estructurar hipótesis con cuidado, mapear recorridos, entrevistar usuarios, priorizar con rigor?
 
-A IA reduziu drasticamente o custo da execução, mas não reduziu o custo da decisão. E decisões mal tomadas, apenas escalam desperdício com mais eficiência.
+Aquí está el punto central: no todo error es barato. Está el error pequeño, reversible, que cabe en un experimento controlado. Pero está el error estructural, el que desalinea el producto de su propuesta de valor, que agrega complejidad sin impacto real, que fragmenta la narrativa estratégica y acumula deuda invisible.
 
-O que ficou rápido foi produzir telas, gerar variações, escrever código inicial. O que continua raro é escolher o problema certo, priorizar sob restrições reais, sustentar coerência de produto, gerir expectativas quando surgem demandas urgentes, equilibrar promessas comerciais com estratégia de longo prazo, evitar que a tentação de adicionar IA apenas para acompanhar o mercado desvie o foco do que realmente gera valor.
+La IA redujo drásticamente el costo de la ejecución, pero no redujo el costo de la decisión. Y las decisiones mal tomadas solo escalan el desperdicio con más eficiencia.
 
-O processo certamente vai mudar, menos ritual, menos formalismo, menos apego a etapas rígidas. Mas pensamento estruturado não se torna obsoleto porque a execução ficou mais rápida. Quanto menor a barreira de execução, maior o impacto de uma decisão mal tomada.
+Lo que se volvió rápido fue producir pantallas, generar variaciones, escribir código inicial. Lo que sigue siendo raro es elegir el problema correcto, priorizar bajo restricciones reales, sostener la coherencia del producto, gestionar expectativas cuando surgen demandas urgentes, equilibrar promesas comerciales con estrategia a largo plazo, evitar que la tentación de agregar IA solo para seguir el mercado desvíe el foco de lo que realmente genera valor.
 
-Talvez o novo equilíbrio seja descoberta suficiente para reduzir riscos críticos, execução rápida para validar hipóteses, observabilidade contínua para aprender com comportamento real. Nem paralisia por análise, nem shipping impulsivo.
+El proceso ciertamente va a cambiar: menos ritual, menos formalismo, menos apego a etapas rígidas. Pero el pensamiento estructurado no se vuelve obsoleto porque la ejecución se volvió más rápida. Cuanto menor es la barrera de ejecución, mayor es el impacto de una decisión mal tomada.
 
-Porque no fim, quando tudo pode ser construído em minutos, o verdadeiro risco deixa de ser não entregar rápido o suficiente. Passa a ser entregar rápido demais aquilo que nunca deveria ter sido criado. E é aí que estratégia deixa de ser discurso e passa a ser responsabilidade.
+Quizás el nuevo equilibrio sea: discovery suficiente para reducir riesgos críticos, ejecución rápida para validar hipótesis, observabilidad continua para aprender del comportamiento real. Ni parálisis por análisis, ni shipping impulsivo.
+
+Porque al final, cuando todo puede construirse en minutos, el verdadero riesgo deja de ser no entregar suficientemente rápido. Pasa a ser entregar demasiado rápido lo que nunca debería haberse creado. Y es ahí donde la estrategia deja de ser discurso y pasa a ser responsabilidad.
 
 ---
 
-### WebMCP do Google: o nascimento do produto AI-friendly
+### WebMCP de Google: el nacimiento del producto AI-friendly
 URL: https://wildiney.com/es/articles/webmcp-google-produto-ai-friendly/
 Date: 2026-02-24
-Description: O WebMCP propõe algo estrutural: permitir que sites exponham suas capacidades de maneira declarativa para modelos de IA. Produtos mais legíveis para máquinas tendem, paradoxalmente, a se tornar mais claros para humanos também.
+Description: El WebMCP propone algo estructural: permitir que los sitios expongan sus capacidades de forma declarativa para los modelos de IA. Los productos más legibles para las máquinas tienden, paradójicamente, a volverse más claros para los humanos también.
 
-Durante anos falamos sobre produtos user-friendly, mobile-first, accessibility-first, data-driven. Parecia que já tínhamos um checklist relativamente estável de maturidade digital.
+Durante años hablamos de productos user-friendly, mobile-first, accessibility-first, data-driven. Parecía que ya teníamos una lista de verificación relativamente estable de madurez digital.
 
-Talvez esse checklist esteja ficando incompleto. O WebMCP, iniciativa em evolução do Google, propõe algo estrutural: permitir que sites exponham suas capacidades, estados e ações de maneira declarativa para modelos de IA. Em vez de depender exclusivamente da interface visual e de interpretação heurística, agentes poderiam interagir com sistemas a partir de contexto formalizado.
+Quizás esa lista esté volviéndose incompleta. El WebMCP, iniciativa en evolución de Google, propone algo estructural: permitir que los sitios expongan sus capacidades, estados y acciones de forma declarativa para los modelos de IA. En lugar de depender exclusivamente de la interfaz visual y de la interpretación heurística, los agentes podrían interactuar con los sistemas a partir de contexto formalizado.
 
-Ainda é cedo. Pode ganhar tração, pode mudar bastante ou pode simplesmente não se consolidar. Isso faz parte do ciclo de inovação da indústria. Mas independentemente do destino específico do WebMCP, a discussão que ele levanta é difícil de ignorar.
+Todavía es pronto. Puede ganar tracción, puede cambiar bastante o simplemente puede no consolidarse. Eso forma parte del ciclo de innovación de la industria. Pero independientemente del destino específico del WebMCP, la discusión que plantea es difícil de ignorar.
 
-A web já passou por uma transformação semelhante quando acessibilidade deixou de ser detalhe opcional e passou a exigir semântica consistente, estrutura clara e intenção explícita nos componentes. Times que trataram isso apenas como conformidade fizeram o mínimo necessário. Times que entenderam como disciplina de arquitetura acabaram fortalecendo design system, clareza de estado e coerência de produto.
+La web ya pasó por una transformación similar cuando la accesibilidad dejó de ser un detalle opcional y pasó a exigir semántica consistente, estructura clara e intención explícita en los componentes. Los equipos que lo trataron solo como cumplimiento hicieron el mínimo necesario. Los equipos que lo entendieron como disciplina de arquitectura terminaron fortaleciendo el design system, la claridad de estado y la coherencia del producto.
 
-A ideia de AI-friendly pode seguir o mesmo caminho. Não como uma camada extra para agradar modelos, mas como um incentivo para explicitar melhor o que o sistema faz, em que estado está e quais ações realmente executa. Produtos mais legíveis para máquinas tendem, paradoxalmente, a se tornar mais claros para humanos também.
+La idea de AI-friendly puede seguir el mismo camino. No como una capa extra para complacer modelos, sino como un incentivo para explicitar mejor qué hace el sistema, en qué estado se encuentra y qué acciones realmente ejecuta. Los productos más legibles para las máquinas tienden, paradójicamente, a volverse más claros para los humanos también.
 
-Para quem trabalha com produto, a pergunta começa a mudar de forma: seu sistema é apenas utilizável por pessoas ou é estruturalmente operável?
-User-friendly continua sendo obrigatório. Mas talvez estejamos entrando em uma fase em que projetar apenas para humanos já não seja suficiente.
+Para quienes trabajan en producto, la pregunta empieza a cambiar de forma: ¿tu sistema es solo utilizable por personas o es estructuralmente operable?
+
+El user-friendly sigue siendo obligatorio. Pero quizás estemos entrando en una fase en que diseñar solo para humanos ya no sea suficiente.
 
 ---
 
-### Aumento do uso de IA no trabalho
+### El aumento del uso de IA en el trabajo
 URL: https://wildiney.com/es/articles/aumento-do-uso-de-ia-no-trabalho/
 Date: 2026-02-17
-Description: Maturidade não está em usar mais IA. Está em saber onde usar, por que usar e quanto isso realmente entrega de valor — sem confundir velocidade com avanço.
+Description: La madurez no está en usar más IA. Está en saber dónde usarla, por qué usarla y cuánto valor realmente genera, sin confundir velocidad con avance.
 
-Todo mundo está comemorando que o uso de IA no trabalho cresceu. A pergunta que quase ninguém faz é: **cresceu para fazer o quê?**
+Todos están celebrando que el uso de IA en el trabajo creció. La pregunta que casi nadie hace es: **¿creció para hacer qué?**
 
-Hoje, "usar IA" virou um conceito elástico. Vale desde pedir ajuda para escrever um e-mail até copiar e colar um prompt escrito por um guru de IA e chamar isso de produtividade. Tudo entra na mesma conta. A métrica sobe, o entendimento nem sempre acompanha.
+Hoy, "usar IA" se convirtió en un concepto elástico. Vale desde pedir ayuda para escribir un correo hasta copiar y pegar un prompt escrito por un gurú de IA y llamar eso productividad. Todo entra en la misma cuenta. La métrica sube; el entendimiento no siempre acompaña.
 
-Um estudo recente da Anthropic trouxe um dado incômodo. Na programação, a IA ajuda em diversas tarefas, mas quem passa a depender demais dela tem pior desempenho para entender código, depurar erros e explicar o que foi feito. Em média, 17% pior. Mais rápido para começar, mais frágil para sustentar a longo prazo.
+Un estudio reciente de Anthropic trajo un dato incómodo. En programación, la IA ayuda en diversas tareas, pero quienes dependen demasiado de ella tienen peor desempeño para entender código, depurar errores y explicar lo que se hizo. En promedio, un 17% peor. Más rápidos para empezar, más frágiles para sostener a largo plazo.
 
-Isso não me surpreende. Basta ficar algumas semanas longe da rotina para sentir como o raciocínio enferruja. Agora imagine meses delegando tudo. A questão interessante não é se isso piora o domínio técnico hoje, mas se isso vai continuar sendo relevante no futuro próximo.
+Eso no me sorprende. Basta unas semanas alejado de la rutina para sentir cómo el razonamiento se oxida. Ahora imagina meses delegando todo. La pregunta interesante no es si esto empeora el dominio técnico hoy, sino si eso seguirá siendo relevante en el futuro próximo.
 
-Se a própria IA implementa, testa e corrige o código sozinha, talvez o valor não esteja mais na linha de código, mas no desenho da solução, na arquitetura, nas decisões de trade off. O problema é que isso não foi medido. Estamos debatendo perda de habilidade em um eixo, sem saber se houve ganho real em outro.
+Si la propia IA implementa, prueba y corrige código sola, quizás el valor ya no está en la línea de código, sino en el diseño de la solución, la arquitectura, las decisiones de trade-off. El problema es que eso no se midió. Estamos debatiendo pérdida de habilidad en un eje, sin saber si hubo ganancia real en otro.
 
-E tem outro ponto pouco falado: IA não é um loop barato rodando em background. Cada prompt custa. Cada token conta. Cada automação "inteligente" entra direto no custo de adquirir, atender e manter um usuário. Em algum momento, alguém vai ter que responder se a solução moderna realmente vale mais do que uma abordagem simples, previsível e barata. Usar mais, nesse caso, também significa gastar mais.
+Y hay otro punto poco mencionado: la IA no es un loop barato corriendo en segundo plano. Cada prompt tiene un costo. Cada token cuenta. Cada automatización "inteligente" va directamente al costo de adquirir, atender y mantener un usuario. En algún momento, alguien tendrá que responder si la solución moderna realmente vale más que un enfoque simple, predecible y barato. Usar más, en ese caso, también significa gastar más.
 
-Nada disso é um argumento contra IA. Pelo contrário. É um convite a usar melhor.
+Nada de esto es un argumento contra la IA. Al contrario. Es una invitación a usarla mejor.
 
-O uso vai continuar crescendo. E isso é ótimo. Mas maturidade não está em usar mais. Está em saber onde usar, por que usar e quanto isso realmente entrega de valor, sem confundir velocidade com avanço.
+El uso seguirá creciendo. Y eso es genial. Pero la madurez no está en usar más. Está en saber dónde usarla, por qué usarla y cuánto valor realmente genera, sin confundir velocidad con avance.
 
 ---
 
 ### OpenClaw
 URL: https://wildiney.com/es/articles/openclaw-autonomia-sem-governanca/
 Date: 2026-02-10
-Description: O OpenClaw não está fazendo sucesso apenas porque é tecnicamente impressionante. Ele está fazendo sucesso porque promete algo que muita gente vem desejando silenciosamente: delegar tudo. Não só tarefas, mas responsabilidade.
+Description: OpenClaw no está teniendo éxito solo porque es técnicamente impresionante. Está teniendo éxito porque promete algo que mucha gente viene deseando en silencio: delegar todo. No solo tareas, sino responsabilidad.
 
-Várias matérias recentes estão alertando para os riscos do **OpenClaw**: agente de IA open source, acesso total ao computador do usuário, vazamento de credenciais, Cisco chamando de pesadelo. Tudo isso é sério. Mas não é o ponto mais interessante dessa história.
+Varios artículos recientes están alertando sobre los riesgos de **OpenClaw**: agente de IA open source, acceso total al computador del usuario, filtración de credenciales, Cisco llamándolo una pesadilla. Todo eso es serio. Pero no es el punto más interesante de esta historia.
 
-O **OpenClaw** não está fazendo sucesso apenas porque é tecnicamente impressionante. Ele está fazendo sucesso porque promete algo que muita gente vem desejando silenciosamente: delegar tudo. Não só tarefas, mas responsabilidade. Não só execução, mas decisão.
+**OpenClaw** no está teniendo éxito solo porque es técnicamente impresionante. Está teniendo éxito porque promete algo que mucha gente viene deseando en silencio: delegar todo. No solo tareas, sino responsabilidad. No solo ejecución, sino decisión.
 
-Ele não é um copiloto. Ele é um operador. Usa o computador como um humano, navega por ferramentas, acessa arquivos, conecta sistemas e simplesmente resolve. Ou pelo menos aparenta resolver. O modelo mental por trás disso é simples e perigosamente sedutor: "resolve aí". Sem briefing claro. Sem critério explícito. Sem métrica. Sem plano.
+No es un copiloto. Es un operador. Usa el computador como un humano, navega por herramientas, accede a archivos, conecta sistemas y simplemente resuelve. O al menos aparenta resolver. El modelo mental detrás de eso es simple y peligrosamente seductor: "resuélvelo ahí". Sin brief claro. Sin criterio explícito. Sin métricas. Sin plan.
 
-Do ponto de vista de Product Management, isso não é inovação disruptiva. É um espelho desconfortável. Mostra o quanto estamos dispostos a trocar clareza por conveniência e pensamento por velocidade.
+Desde el punto de vista del Product Management, eso no es innovación disruptiva. Es un espejo incómodo. Muestra cuánto estamos dispuestos a cambiar claridad por conveniencia y pensamiento por velocidad.
 
-Quando um agente recebe autonomia total, ele não está só executando. Ele está interpretando objetivos, definindo prioridades e tomando decisões no seu lugar. E na maioria dos casos, sem que você consiga explicar depois por que algo deu certo ou errado. O famoso resultado que parece mágico quando funciona e inexplicável quando falha.
+Cuando un agente recibe autonomía total, no solo está ejecutando. Está interpretando objetivos, definiendo prioridades y tomando decisiones en tu lugar. Y en la mayoría de los casos, sin que puedas explicar después por qué algo salió bien o mal. El famoso resultado que parece magia cuando funciona e inexplicable cuando falla.
 
-Existe uma frase clássica atribuída ao Peter Drucker: o que não pode ser medido, não pode ser gerenciado. Independente da autoria exata, a lógica é implacável. Se você não define critérios, se não estabelece limites, se não mede, você não está automatizando. Você está terceirizando julgamento.
+Existe una frase clásica atribuida a Peter Drucker: lo que no puede medirse, no puede gestionarse. Independientemente de la autoría exacta, la lógica es implacable. Si no defines criterios, si no estableces límites, si no mides, no estás automatizando. Estás tercerizando el juicio.
 
-E aí o problema deixa de ser só segurança da informação. Passa a ser segurança cognitiva.
+Y ahí el problema deja de ser solo seguridad de la información. Pasa a ser seguridad cognitiva.
 
-Um estudo recente da Anthropic já aponta para isso: o uso indiscriminado de IA na tomada de decisão enfraquece o hábito humano de pensar, avaliar alternativas e antecipar consequências. Não porque a IA pensa demais. Mas porque o humano pensa menos.
+Un estudio reciente de Anthropic ya apunta en esa dirección: el uso indiscriminado de IA en la toma de decisiones debilita el hábito humano de pensar, evaluar alternativas y anticipar consecuencias. No porque la IA piense demasiado. Sino porque el humano piensa menos.
 
-Não é um discurso contra agentes autônomos. Eles são inevitáveis e, bem desenhados, extremamente poderosos. O problema começa quando autonomia vira caixa-preta e conveniência vira desculpa para abdicar da responsabilidade.
+Esto no es un discurso contra los agentes autónomos. Son inevitables y, bien diseñados, extremadamente poderosos. El problema comienza cuando la autonomía se convierte en caja negra y la conveniencia en excusa para abdicar de la responsabilidad.
 
-Como PM, o papel não é impedir a automação. É criar guardrails. Definir o que pode ser delegado e o que exige julgamento humano. Exigir explicabilidade. Criar checkpoints. Autonomia sem governança não é produtividade. É ilusão.
+Como PM, el rol no es impedir la automatización. Es crear guardrails. Definir qué puede delegarse y qué requiere juicio humano. Exigir explicabilidad. Crear checkpoints. Autonomía sin gobernanza no es productividad. Es ilusión.
 
-No fim, o OpenClaw não escancara apenas um risco técnico. Ele expõe algo mais incômodo: a nossa pressa em parar de decidir.
+Al final, OpenClaw no solo expone un riesgo técnico. Revela algo más incómodo: nuestra prisa por dejar de decidir.
 
-A pergunta não é se vamos automatizar. Isso já aconteceu.
+La pregunta no es si vamos a automatizar. Eso ya ocurrió.
 
-A pergunta é: quem ainda está pensando?
+La pregunta es: ¿quién sigue pensando?
 
 ---
 
-### O mercado não está contratando mais gente. Está contratando melhores decisões
+### El mercado no está contratando más gente. Está contratando mejores decisiones
 URL: https://wildiney.com/es/articles/mercado-contrata-melhores-decisoes/
 Date: 2026-02-03
-Description: O mercado não está premiando quem executa melhor. Está premiando quem decide melhor. Quanto mais complexo o sistema, mais cara fica uma decisão ruim — e menos reversível ela se torna.
+Description: El mercado no está premiando a quien ejecuta mejor. Está premiando a quien decide mejor. Cuanto más complejo es el sistema, más cara se vuelve una mala decisión — y menos reversible.
 
-Listas de "empregos em alta" costumam provocar o mesmo efeito: ansiedade.
-Quem está subindo. Quem ficou para trás. Qual título colocar no currículo.
+Las listas de "empleos en alza" suelen provocar el mismo efecto: ansiedad.
+Quién está subiendo. Quién se quedó atrás. Qué título poner en el currículum.
 
-Mas algumas listas não falam sobre cargos.
-Falam sobre o tipo de problema que as empresas estão tentando resolver.
+Pero algunas listas no hablan de cargos.
+Hablan del tipo de problema que las empresas están tratando de resolver.
 
-E isso muda tudo.
+Y eso cambia todo.
 
-Os dados mais recentes mostram crescimento acelerado de funções ligadas a produto, tecnologia avançada, IA e governança. Não é exatamente uma surpresa. A surpresa está em outro lugar.
+Los datos más recientes muestran crecimiento acelerado de funciones vinculadas a producto, tecnología avanzada, IA y gobernanza. No es exactamente una sorpresa. La sorpresa está en otro lugar.
 
-O mercado não está premiando quem executa melhor.
-Está premiando quem decide melhor.
+El mercado no está premiando a quien ejecuta mejor.
+Está premiando a quien decide mejor.
 
-Produtos digitais deixaram de ser "entregas".
-Viraram sistemas. Infraestruturas. Plataformas que concentram dados sensíveis, decisões automatizadas, regras regulatórias e impactos reais na vida de pessoas reais.
+Los productos digitales dejaron de ser "entregas".
+Se convirtieron en sistemas. Infraestructuras. Plataformas que concentran datos sensibles, decisiones automatizadas, reglas regulatorias e impactos reales en la vida de personas reales.
 
-Quanto mais complexo o sistema, mais cara fica uma decisão ruim.
-E menos reversível ela se torna.
+Cuanto más complejo el sistema, más cara se vuelve una mala decisión.
+Y menos reversible.
 
-É por isso que Product Management cresce.
-Não porque escrever roadmap ficou mais sofisticado, mas porque alinhar estratégia, negócio, tecnologia e risco ficou mais difícil.
+Por eso crece el Product Management.
+No porque escribir un roadmap se volvió más sofisticado, sino porque alinear estrategia, negocio, tecnología y riesgo se volvió más difícil.
 
-É por isso que IA cresce.
-Não só pelo hype, mas porque alguém precisa transformar modelos estatísticos em algo utilizável, compreensível e defensável.
+Por eso crece la IA.
+No solo por el hype, sino porque alguien necesita transformar modelos estadísticos en algo utilizable, comprensible y defendible.
 
-É por isso que auditoria de TI entra na conversa.
-Porque, em algum momento, alguém precisa perguntar se tudo isso faz sentido, se é seguro e se está de pé.
+Por eso entra en la conversación la auditoría de TI.
+Porque en algún momento, alguien necesita preguntar si todo esto tiene sentido, si es seguro y si se sostiene.
 
-Agora, a pergunta inevitável.
+Ahora, la pregunta inevitable.
 
-Onde entra o Product Design?
+¿Dónde entra el Product Design?
 
-Entra no espaço que ninguém gosta muito de ocupar.
-Entre a decisão técnica e a consequência humana.
-Entre o dado e o comportamento.
-Entre o que é possível construir e o que realmente deveria existir.
+Entra en el espacio que a nadie le gusta mucho ocupar.
+Entre la decisión técnica y la consecuencia humana.
+Entre el dato y el comportamiento.
+Entre lo que es posible construir y lo que realmente debería existir.
 
-À medida que as organizações amadurecem, o design deixa de ser a etapa onde "a coisa ganha forma".
-Passa a ser a disciplina que estrutura as escolhas, antes mesmo de elas chegarem a um cargo, um comitê ou um roadmap.
+A medida que las organizaciones maduran, el diseño deja de ser la etapa donde "la cosa toma forma".
+Pasa a ser la disciplina que estructura las elecciones, antes incluso de que lleguen a un cargo, un comité o un roadmap.
 
-Critério sobre o que simplificar.
-O que explicar.
-O que automatizar.
-E, principalmente, o que não fazer.
+Criterio sobre qué simplificar.
+Qué explicar.
+Qué automatizar.
+Y, principalmente, qué no hacer.
 
-Existe uma ironia silenciosa aqui.
+Hay una ironía silenciosa aquí.
 
-Quanto mais estratégico o produto se torna, menos o design aparece explicitamente nas listas de cargos em alta. Não porque perdeu relevância, mas porque deixou de ser isolável. Ele se espalha. Vira método. Vira linguagem comum. Vira filtro de decisão.
+Cuanto más estratégico se vuelve el producto, menos aparece el diseño explícitamente en las listas de cargos en alza. No porque perdió relevancia, sino porque dejó de ser aislable. Se expande. Se convierte en método. En lenguaje común. En filtro de decisión.
 
-O problema começa quando esse espaço existe…
-…mas ninguém assume a responsabilidade de ocupá-lo.
+El problema empieza cuando ese espacio existe...
+...pero nadie asume la responsabilidad de ocuparlo.
 
-No fim, talvez a pergunta não seja quais cargos mais crescem.
-Mas quem está preparado para decidir quando não há resposta óbvia.
+Al final, quizás la pregunta no sea qué cargos crecen más.
+Sino quién está preparado para decidir cuando no hay respuesta obvia.
 
-Porque, em produtos digitais maduros, quase nunca há.
-
-—
-
-Este artigo foi inspirado nos dados publicados pelo LinkedIn em "Empregos em alta em 2026".
+Porque en productos digitales maduros, casi nunca la hay.
 
 ---
 
-### A falsa modernização dos produtos guiados por IA
+Este artículo fue inspirado en los datos publicados por LinkedIn en "Empleos en alza en 2026".
+
+---
+
+### La falsa modernización de los productos guiados por IA
 URL: https://wildiney.com/es/articles/a-falsa-modernizacao-dos-produtos-guiados-por-ia/
 Date: 2026-01-27
-Description: Automatizar o achismo não o transforma em estratégia. O problema de usar IA para 'modernizar' produtos sem contexto, sem dados e sem critério.
+Description: Automatizar las suposiciones no las convierte en estrategia. El problema de usar IA para 'modernizar' productos sin contexto, sin datos y sin criterio.
 
-Tenho visto um padrão curioso surgir entre pessoas recém-chegadas ao universo da IA. Um entusiasmo quase infantil com o que essas ferramentas são capazes de produzir. Bastam alguns prompts, alguns adjetivos vagos como "mais moderno", "mais inovador", "que chame mais a atenção", e pronto: sites inteiros são reformulados por IAs como Lovable, Replit e afins.
+He estado observando un patrón curioso entre personas recién llegadas al mundo de la IA. Un entusiasmo casi infantil por lo que estas herramientas son capaces de producir. Bastan algunos prompts, algunos adjetivos vagos como "más moderno", "más innovador", "que llame más la atención", y sitios enteros son reformulados por herramientas como Lovable, Replit y similares.
 
-Sem contexto. Sem métrica. Sem qualquer evidência de que o layout atual não funciona.
+Sin contexto. Sin métricas. Sin ninguna evidencia de que el diseño actual no funcione.
 
-Não há análise de conversão, dados de comportamento, testes A/B, sequer uma hipótese clara. O pedido é simples e perigoso: "adeque o site X ao meu gosto pessoal". E aqui mora o problema.
+No hay análisis de conversión, datos de comportamiento, pruebas A/B, ni siquiera una hipótesis clara. La solicitud es simple y peligrosa: "adecua el sitio X a mi gusto personal". Y ahí radica el problema.
 
-Projetar um produto nunca foi, nem nunca será, sobre atender aos desejos de quem está projetando. Não é sobre a cor que eu acho mais bonita, a tipografia que me agrada mais ou a estética que conversa com o meu repertório pessoal. Design não é expressão artística individual. É decisão informada.
+Diseñar un producto nunca fue, ni será, sobre satisfacer los deseos de quien lo diseña. No se trata del color que me parece más bonito, la tipografía que me agrada más o la estética que conecta con mi repertorio personal. El diseño no es expresión artística individual. Es decisión informada.
 
-Quando alguém usa IA para "modernizar" um produto sem compreender o que já funciona, está apenas substituindo um conjunto de decisões possivelmente embasadas por outro conjunto completamente arbitrário.
+Cuando alguien usa IA para "modernizar" un producto sin entender qué ya funciona, simplemente está reemplazando un conjunto de decisiones posiblemente fundamentadas por otro completamente arbitrario.
 
-Automatizar o achismo não o transforma em estratégia.
+Automatizar las suposiciones no las convierte en estrategia.
 
-Há ainda um efeito colateral recorrente: a IA estética ignora critérios básicos como acessibilidade em favor de preferências subjetivas. Contraste ruim, hierarquia confusa, tipografia ilegível.
+Existe también un efecto secundario recurrente: la IA estética ignora criterios básicos como la accesibilidad en favor de preferencias subjetivas. Contraste pobre, jerarquía confusa, tipografía ilegible.
 
-Fica mais bonito. Nem sempre mais usável.
+Se ve mejor. No siempre es más usable.
 
-Não há dúvida sobre o potencial da IA generativa. Assim como não há dúvida sobre o potencial de uma Ferrari. Ambas são poderosas. E ambas, nas mãos erradas, causam estragos.
+No hay duda sobre el potencial de la IA generativa. Así como no hay duda sobre el potencial de un Ferrari. Ambos son poderosos. Y ambos, en las manos equivocadas, causan daño.
 
-O problema nunca foi o que a tecnologia pode fazer. A pergunta correta sempre foi: como eu a direciono para fazer o que é melhor para o meu produto e, principalmente, para o meu usuário?
+El problema nunca fue lo que la tecnología puede hacer. La pregunta correcta siempre fue: ¿cómo la dirijo para hacer lo que es mejor para mi producto y, principalmente, para mi usuario?
 
-Isso exige algo que nenhuma IA entrega pronta: critério.
+Eso exige algo que ninguna IA entrega listo: criterio.
 
-Exige reconhecer que "eu não sou o público-alvo", ainda que eu faça parte dele. Exige entender a história daquele produto, por quais decisões ele passou, quais compromissos foram feitos, quais problemas foram resolvidos e quais ainda permanecem. Um produto não surge do nada, e não deveria ser redesenhado como se fosse uma folha em branco.
+Exige reconocer que "yo no soy el público objetivo", aunque forme parte de él. Exige entender la historia de ese producto, por qué decisiones pasó, qué compromisos se asumieron, qué problemas se resolvieron y cuáles aún permanecen. Un producto no surge de la nada, y no debería rediseñarse como si fuera una hoja en blanco.
 
-A obsessão contemporânea por disrupção também merece cuidado. Causar impacto é sedutor. É fácil confundir barulho com avanço. Mas nem todo impacto é positivo. (Pergunte aos dinossauros)
+La obsesión contemporánea por la disrupción también merece cuidado. Causar impacto es seductor. Es fácil confundir ruido con avance. Pero no todo impacto es positivo. (Pregúntale a los dinosaurios.)
 
-Disrupção sem direção é só ruptura. E ruptura sem propósito costuma custar caro.
+Disrupción sin dirección es solo ruptura. Y ruptura sin propósito suele costar caro.
 
-IA pode acelerar processos, ampliar repertórios, sugerir caminhos e até revelar possibilidades invisíveis. Mas ela não substitui a responsabilidade de quem decide. Não substitui o entendimento do usuário, nem o compromisso com resultados reais.
+La IA puede acelerar procesos, ampliar repertorios, sugerir caminos e incluso revelar posibilidades invisibles. Pero no reemplaza la responsabilidad de quien decide. No reemplaza el entendimiento del usuario, ni el compromiso con resultados reales.
 
-No fim, usar IA para design sem contexto não é inovação. É apenas trocar o "acho que" humano pelo "parece que" algorítmico.
+Al final, usar IA para diseñar sin contexto no es innovación. Es simplemente cambiar el "creo que" humano por el "parece que" algorítmico.
 
-E isso, definitivamente, não torna nenhum produto melhor.
+Y eso, definitivamente, no hace mejor ningún producto.
 
 ---
 
-### Toma essa métrica: "Todos os seres humanos juntos piscam centenas de trilhões de vezes por dia"
+### Toma esta métrica: "Todos los seres humanos juntos parpadean cientos de billones de veces al día"
 URL: https://wildiney.com/es/articles/metricas-que-nao-orientam-decisao/
 Date: 2026-01-20
-Description: Uma métrica só é útil quando força uma decisão. Se ela sobe, algo muda. Se ela cai, algo muda. Se nada muda, não é métrica — é entretenimento analítico.
+Description: Una métrica solo es útil cuando fuerza una decisión. Si sube, algo cambia. Si baja, algo cambia. Si nada cambia, no es una métrica — es entretenimiento analítico.
 
-Uma pessoa pisca, em média, 15 vezes por minuto. Multiplique pela população mundial e chegamos a centenas de trilhões de piscadas humanas por dia.
+Una persona parpadea, en promedio, 15 veces por minuto. Multiplica por la población mundial y llegamos a cientos de billones de parpadeos humanos por día.
 
-É impressionante. É correto. É inútil.
+Es impresionante. Es correcto. Es inútil.
 
-Não indica problema. Não orienta decisão. Não muda absolutamente nada.
+No indica un problema. No orienta una decisión. No cambia absolutamente nada.
 
-Se amanhã esse número dobrar, ninguém faz nada. Se cair pela metade, também não. Ele existe apenas porque era possível medi-lo. Soa familiar?
+Si mañana ese número se duplica, nadie hace nada. Si cae a la mitad, tampoco. Existe solo porque era posible medirlo. ¿Suena familiar?
 
-Em produto, nunca foi tão fácil medir tudo. Cliques, tempo, rolagem, eventos, engajamento. A exigência de ser data-driven virou padrão. O problema é que, para muita gente, medir virou o objetivo, não o meio.
+En producto, nunca fue tan fácil medirlo todo. Clics, tiempo, desplazamiento, eventos, engagement. La exigencia de ser data-driven se volvió estándar. El problema es que, para mucha gente, medir se convirtió en el objetivo, no en el medio.
 
-Números viraram protagonistas. Pensamento crítico, coadjuvante.
+Los números se convirtieron en protagonistas. El pensamiento crítico, en secundario.
 
-Correlação vira explicação. Curiosidade vira KPI. E dashboards começam a orientar decisões que não têm ligação clara com valor, problema ou resultado real.
+La correlación se vuelve explicación. La curiosidad se convierte en KPI. Y los dashboards empiezan a orientar decisiones que no tienen conexión clara con valor, problema o resultado real.
 
-É assim que surgem OKRs impecáveis…
-…e produtos medíocres.
+Así surgen OKRs impecables...
+...y productos mediocres.
 
-Uma métrica só é útil quando força uma decisão.
-Se ela sobe, algo muda.
-Se ela cai, algo muda.
+Una métrica solo es útil cuando fuerza una decisión.
+Si sube, algo cambia.
+Si baja, algo cambia.
 
-Se nada muda, não é métrica. É entretenimento analítico.
+Si nada cambia, no es una métrica. Es entretenimiento analítico.
 
-Bonito de ver. Inofensivo. Como saber quantas vezes a humanidade pisca por dia.
+Bonito de ver. Inofensivo. Como saber cuántas veces parpadea la humanidad por día.
 
-Se você lidera produto, tecnologia ou dados e já se perguntou se seus números estão orientando decisões ou apenas preenchendo slides, vale continuar essa conversa.
+Si lideras producto, tecnología o datos y alguna vez te preguntaste si tus números están orientando decisiones o solo llenando diapositivas, vale continuar esa conversación.
 
 ---
 
-### E se o defeito fosse prova de excelência?
+### ¿Y si el defecto fuera prueba de excelencia?
 URL: https://wildiney.com/es/articles/defeito-como-prova-de-excelencia/
 Date: 2026-01-13
-Description: Peças defeituosas da LEGO valem mais que o original — não por serem defeituosas, mas porque o erro é raríssimo num sistema altamente confiável. O que isso revela sobre excelência em produto?
+Description: Las piezas defectuosas de LEGO valen más que el original — no porque sean defectuosas, sino porque el error es rarísimo en un sistema altamente confiable. ¿Qué revela esto sobre la excelencia en producto?
 
-A LEGO é obcecada por qualidade. Suas peças encaixam perfeitamente há décadas, mantêm padrões industriais rigorosos e raramente falham. Ainda assim, quando uma falha acontece, uma minifigura com impressão errada, por exemplo, o mercado não rejeita. Ele valoriza.
+LEGO está obsesionada con la calidad. Sus piezas encajan perfectamente desde hace décadas, mantienen estándares industriales rigurosos y raramente fallan. Aun así, cuando ocurre una falla — una minifigura con impresión incorrecta, por ejemplo — el mercado no la rechaza. La valoriza.
 
-Peças defeituosas da LEGO podem valer muito mais do que o produto original. Não porque são defeituosas, mas porque o erro é raríssimo dentro de um sistema extremamente confiável. O defeito não destrói valor. Ele revela o quanto aquele valor já existia antes.
+Las piezas defectuosas de LEGO pueden valer mucho más que el producto original. No porque sean defectuosas, sino porque el error es rarísimo dentro de un sistema extremadamente confiable. El defecto no destruye valor. Revela cuánto valor ya existía antes.
 
-Isso deveria incomodar quem trabalha com Produto.
+Eso debería incomodar a quienes trabajan en Producto.
 
-Falhas só viram "aprendizado" quando o produto já construiu confiança, identidade e consistência. Sem isso, erro não é exceção histórica, é só descuido recorrente. O mercado sabe a diferença.
+Las fallas solo se convierten en "aprendizaje" cuando el producto ya construyó confianza, identidad y consistencia. Sin eso, el error no es una excepción histórica, es solo descuido recurrente. El mercado sabe la diferencia.
 
-A pergunta, então, não é "como errar mais rápido?", mas: o que precisa estar sólido para que o erro não seja interpretado como incompetência?
+La pregunta, entonces, no es "¿cómo fallar más rápido?", sino: ¿qué necesita estar sólido para que el error no se interprete como incompetencia?
 
-Produtos realmente bons criam um padrão tão claro que qualquer desvio vira narrativa. Produtos frágeis criam ruído. Neles, o erro não vira história, vira churn.
+Los productos realmente buenos crean un estándar tan claro que cualquier desvío se convierte en narrativa. Los productos frágiles crean ruido. En ellos, el error no se convierte en historia, se convierte en churn.
 
-A LEGO não nos ensina que falhar é bom. Ela mostra algo mais desconfortável: só pode falhar quem já provou, repetidamente, que sabe entregar excelência.
+LEGO no nos enseña que fallar es bueno. Muestra algo más incómodo: solo puede fallar quien ya demostró, repetidamente, que sabe entregar excelencia.
 
-Talvez o verdadeiro objetivo em Produto não seja construir algo que tolere falhas, mas algo tão consistente que até o erro seja reconhecido como exceção, e não como padrão.
+Quizás el verdadero objetivo en Producto no sea construir algo que tolere fallas, sino algo tan consistente que incluso el error sea reconocido como excepción, y no como norma.
 
 ---
 
-### Se Product Management parece confuso, é porque paramos de seguir manuais e começamos a pensar
+### Si el Product Management parece confuso, es porque dejamos de seguir manuales y empezamos a pensar
 URL: https://wildiney.com/es/articles/product-management-confusao-evolucao/
 Date: 2026-01-03
-Description: O papel de PM nunca foi estático. Do plano fixo ao Agile, do Product Owner ao estrategista, a função evoluiu com os mercados — e a IA expõe quem decide bem de quem apenas executa processos.
+Description: El rol de PM nunca fue estático. Del plan fijo al Agile, del Product Owner al estratega, la función evolucionó con los mercados — y la IA expone quién decide bien de quien solo ejecuta procesos cada vez más sofisticados.
 
-Toda vez que alguém tenta definir Product Management como um conjunto fixo de responsabilidades, algo fica de fora. Não por falta de teoria, mas porque o papel nunca foi estático.
+Cada vez que alguien intenta definir el Product Management como un conjunto fijo de responsabilidades, algo queda afuera. No por falta de teoría, sino porque el rol nunca fue estático.
 
-Durante muito tempo, construir produtos significava seguir planos. O sucesso era previsibilidade, controle e entrega conforme o combinado. Existia responsabilidade sobre o produto, claro, mas ele era consequência do projeto, não o centro das decisões.
+Durante mucho tiempo, construir productos significaba seguir planes. El éxito era previsibilidad, control y entrega conforme a lo acordado. Había responsabilidad sobre el producto, claro, pero era consecuencia del proyecto, no el centro de las decisiones.
 
-Quando produtos digitais passaram a mudar rápido demais para caber em planos rígidos, esse modelo começou a falhar.
+Cuando los productos digitales empezaron a cambiar demasiado rápido como para caber en planes rígidos, ese modelo comenzó a fallar.
 
-O Agile surge como resposta. O foco sai do plano e vai para o aprendizado. Entregar passa a ser menos importante do que entender se aquilo faz sentido. O Product Owner aparece como alguém próximo do time, conectado ao feedback e à priorização contínua.
+El Agile surge como respuesta. El foco sale del plan y va hacia el aprendizaje. Entregar pasa a ser menos importante que entender si aquello tiene sentido. El Product Owner aparece como alguien cercano al equipo, conectado al feedback y a la priorización continua.
 
-Mas logo fica claro que priorizar backlog não resolve tudo.
+Pero pronto queda claro que priorizar el backlog no lo resuelve todo.
 
-À medida que produtos crescem e mercados ficam mais complexos, alguém precisa olhar além da próxima sprint. Visão, estratégia, métricas e impacto começam a importar mais do que velocidade isolada. É nesse espaço que o Product Manager se consolida como uma função estratégica, e não apenas operacional.
+A medida que los productos crecen y los mercados se vuelven más complejos, alguien necesita mirar más allá del próximo sprint. Visión, estrategia, métricas e impacto empiezan a importar más que la velocidad aislada. Es en ese espacio donde el Product Manager se consolida como función estratégica, y no solo operacional.
 
-Enquanto isso, o design também muda. O design gráfico migra para o digital, vira interface. A interface vira experiência. A experiência vira decisão. Quando designers passam a participar da definição do problema e da validação de soluções, surge o Product Designer.
+Mientras tanto, el diseño también cambia. El diseño gráfico migra a lo digital, se vuelve interfaz. La interfaz se vuelve experiencia. La experiencia se vuelve decisión. Cuando los diseñadores empiezan a participar en la definición del problema y la validación de soluciones, surge el Product Designer.
 
-É aqui que muitos enxergam confusão de papéis. Mas a sobreposição não é erro. É sintoma.
+Aquí es donde muchos ven confusión de roles. Pero la superposición no es un error. Es un síntoma.
 
-Product Managers e Product Designers passaram a atuar no mesmo território: descoberta, formulação de hipóteses e tomada de decisão. O que muda é a lente, não o objetivo.
+Los Product Managers y los Product Designers pasaron a actuar en el mismo territorio: descubrimiento, formulación de hipótesis y toma de decisiones. Lo que cambia es la perspectiva, no el objetivo.
 
-E então entra a inteligência artificial.
+Y entonces entra la inteligencia artificial.
 
-A IA não cria um novo papel de Product Management. Ela remove atrito. Automatiza análises, acelera aprendizado e expõe algo desconfortável: se a decisão não for boa, já não dá mais para culpar a falta de dados.
+La IA no crea un nuevo rol de Product Management. Elimina fricción. Automatiza análisis, acelera el aprendizaje y expone algo incómodo: si la decisión no es buena, ya no es posible culpar la falta de datos.
 
-No fim, Product Management nunca foi sobre cargos, frameworks ou rituais. Sempre foi sobre adaptação ao contexto. E o contexto continua mudando.
+Al final, el Product Management nunca fue sobre cargos, frameworks o rituales. Siempre fue sobre adaptación al contexto. Y el contexto sigue cambiando.
 
-Talvez a pergunta mais honesta não seja "qual é o papel do PM?", mas: estamos formando profissionais para pensar produto ou apenas para executar processos cada vez mais sofisticados?
+Quizás la pregunta más honesta no sea "¿cuál es el rol del PM?", sino: ¿estamos formando profesionales para pensar en producto o solo para ejecutar procesos cada vez más sofisticados?
 
 ---
 

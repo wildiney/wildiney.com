@@ -6,439 +6,441 @@ Personal portfolio with articles, case studies, and contact scheduling.
 
 ## Articles
 
-### Design system por prompt
+### Design System by Prompt
 URL: https://wildiney.com/en/articles/design-system-por-prompt/
 Date: 2026-03-31
-Description: O DESIGN.md pode exportar as regras. Ele não exporta o raciocínio por trás delas. Ferramentas ficam obsoletas. Julgamento, não.
+Description: DESIGN.md can export the rules. It cannot export the reasoning behind them. Tools become obsolete. Judgment does not.
 
-A ação da Figma caiu 8,8% em um único dia. O motivo foi o Google Stitch anunciar que agora cria um design system completo a partir de um prompt.
+Figma's stock dropped 8.8% in a single day. The reason: Google Stitch announced it can now create a complete design system from a single prompt.
 
-Cores, tipografia, espaçamento, componentes. Tudo que times levam semanas para construir e documentar, gerado em minutos e exportado num arquivo de texto legível por qualquer agente de IA. O Google chama esse formato de DESIGN.md: um arquivo que qualquer ferramenta do mercado consegue ler, interpretar e aplicar.
+Colors, typography, spacing, components. Everything that teams spend weeks building and documenting, generated in minutes and exported in a text file readable by any AI agent. Google calls this format DESIGN.md: a file that any tool on the market can read, interpret, and apply.
 
-O mercado reagiu como se o design system tivesse sido commoditizado. Nessa reação está uma confissão: durante anos, tratamos o artefato como se fosse o valor.
+The market reacted as if design systems had been commoditized. In that reaction lies a confession: for years, we treated the artifact as if it were the value.
 
-O DESIGN.md pode exportar as regras. Ele não exporta o raciocínio por trás delas. Não captura o critério que definiu o que o sistema não deveria ter, nem a percepção de quando uma regra precisa mudar porque o produto cresceu numa direção que o sistema não antecipou.
+DESIGN.md can export the rules. It cannot export the reasoning behind them. It does not capture the judgment that determined what the system should not include, nor the perception of when a rule needs to change because the product grew in a direction the system never anticipated.
 
-Construir o artefato sempre foi a etapa mais tangível. A mais difícil era outra: saber quais regras valem a pena criar, quando quebrá-las e quando o sistema todo precisa ser revisto.
+Building the artifact was always the most tangible step. The harder part was something else: knowing which rules are worth creating, when to break them, and when the entire system needs to be revisited.
 
-Isso não muda com um prompt.
+That does not change with a prompt.
 
-Mas há uma mudança real que o Stitch trouxe e que a maioria está ignorando na discussão sobre a queda da Figma. Design systems que não forem legíveis por agentes de IA vão virar legado. Não porque são piores, mas porque ficam fora do fluxo. O mercado está se reorganizando em torno de sistemas que máquinas conseguem operar, e bibliotecas encapsuladas em ferramentas proprietárias não entram nesse circuito.
+But there is a real shift that Stitch introduced that most people are ignoring in the debate about Figma's stock drop. Design systems that are not readable by AI agents will become legacy. Not because they are worse, but because they fall outside the flow. The market is reorganizing around systems that machines can operate, and libraries locked inside proprietary tools do not fit that circuit.
 
-Ferramentas ficam obsoletas. Julgamento, não.
+Tools become obsolete. Judgment does not.
 
-O que o Stitch revelou, sem querer, é que a parte do design system que pode ser automatizada sempre foi a menos valiosa. Era necessária, mas não diferenciava.
+What Stitch revealed, unintentionally, is that the part of a design system that can be automated was always the least valuable. It was necessary, but it was not what differentiated.
 
-O que diferencia é o que não tem como exportar.
-
----
-
-Fonte: https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/
+What differentiates is what cannot be exported.
 
 ---
 
-### Vibe coding ou Lucky coding?
+Source: https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/
+
+---
+
+### Vibe Coding or Lucky Coding?
 URL: https://wildiney.com/en/articles/vibe-coding-ou-lucky-coding/
 Date: 2026-03-24
-Description: A IA democratizou a execução. Mas não democratizou o julgamento. Lucky code é só achismo com interface moderna.
+Description: AI democratized execution. But it did not democratize judgment. Lucky code is just guesswork with a modern interface.
 
-Vibe coding virou buzzword. E como toda buzzword, perdeu precisão no caminho. Mas a história começa antes disso.
+Vibe coding became a buzzword. And like every buzzword, it lost precision along the way. But the story starts before that.
 
-Quando os modelos de linguagem explodiram, surgiu o prompt engineering: uma abordagem metódica para guiar a IA com clareza, contexto e intenção. Chegou a ser considerada uma das profissões mais quentes de 2023. Dois anos depois, estava praticamente obsoleta.
+When language models exploded onto the scene, prompt engineering emerged as a methodical approach to guiding AI with clarity, context, and intent. It was briefly considered one of the hottest professions of 2023. Two years later, it was practically obsolete.
 
-O mercado não evoluiu. Ele trocou método por vibes.
+The market did not evolve. It traded method for vibes.
 
-Em fevereiro de 2025, Andrej Karpathy, cofundador da OpenAI, cunhou o termo vibe coding: "dar as vibes para a IA, abraçar os exponenciais e esquecer que o código existe." A ideia era para projetos rápidos e descartáveis. O mercado transformou isso em metodologia de produção.
+In February 2025, Andrej Karpathy, OpenAI co-founder, coined the term vibe coding: "give the vibes to the AI, embrace the exponentials, and forget the code exists." The idea was for quick, throwaway projects. The market turned it into a production methodology.
 
-E criou dois perfis que quase ninguém nomeia.
+And created two profiles that almost nobody names.
 
-Existe o que eu chamo de lucky code: você escreve um prompt, torce para a sorte te ajudar e chama o resultado de produtividade. Funciona às vezes. Por acaso. E quando para de funcionar, ninguém sabe exatamente por quê, então o próximo passo é tentar outro prompt aleatório e torcer de novo.
+There is what I call lucky code: you write a prompt, hope luck helps you out, and call the result productivity. It works sometimes. By chance. And when it stops working, nobody knows exactly why, so the next step is to try another random prompt and hope again.
 
-E existe o uso profissional e estruturado: antes de qualquer prompt, você cria um PRD, Product Requirements Document, que define o propósito, as funcionalidades e o comportamento do produto. É ele que orienta a IA dentro de um raciocínio claro. Quando algo precisa ser ajustado, você atualiza os parâmetros. Não reza um novo prompt esperando um milagre diferente.
+And there is structured, professional use: before any prompt, you create a PRD, a Product Requirements Document, that defines the product's purpose, features, and behavior. That is what guides the AI within a clear line of reasoning. When something needs adjusting, you update the parameters. You do not pray for a new prompt hoping for a different miracle.
 
-Curiosamente, em fevereiro de 2026, exatamente um ano depois, o próprio Karpathy voltou com um novo termo para esse uso profissional: agentic engineering. "Agentic porque você orquestra agentes, engineering para enfatizar que existe arte, ciência e expertise nisso."
+Interestingly, in February 2026, exactly one year later, Karpathy himself came back with a new term for that professional use: agentic engineering. "Agentic because you orchestrate agents, engineering to emphasize that there is art, science, and expertise in this."
 
-O mercado foi de prompt engineering para vibe coding e voltou para engenharia. Com outro nome.
+The market went from prompt engineering to vibe coding and came back to engineering. Under a different name.
 
-Mas há um problema que antecede qualquer termo.
+But there is a problem that predates any term.
 
-Muita gente nem chega a ter uma ideia própria. Não pesquisa o problema. Não valida se existe valor real no que quer construir. Não testa com usuários reais. E então manda a IA executar, usando como referência aquele benchmarking tão celebrado nas apresentações corporativas, que na prática significa copiar o concorrente pixel a pixel.
+Many people do not even start with an idea of their own. They do not research the problem. They do not validate whether there is real value in what they want to build. They do not test with real users. And then they have AI execute, using as reference that celebrated benchmarking from corporate presentations — which in practice means copying the competitor pixel by pixel.
 
-O produto original que você está replicando já tem um time inteiro trabalhando nos problemas que você não consegue ver na interface. Você está copiando a fachada e herdando todos os defeitos estruturais que eles já estão correndo para corrigir.
+The original product you are replicating already has a full team working on the problems you cannot see from the interface. You are copying the facade and inheriting all the structural defects they are already racing to fix.
 
-A IA democratizou a execução. Mas não democratizou o julgamento.
+AI democratized execution. But it did not democratize judgment.
 
-Lucky code é só achismo com interface moderna.
+Lucky code is just guesswork with a modern interface.
 
 ---
 
-### Existe um momento na carreira de todo designer em que a tela para de ser suficiente
+### There Is a Moment in Every Designer's Career When the Screen Is No Longer Enough
 URL: https://wildiney.com/en/articles/designer-alem-da-tela/
 Date: 2026-03-17
-Description: Quando a ferramenta, o método ou a rotina viram o objetivo, o produto fica em segundo plano. O maior desperdício de talento em design não é fazer algo feio — é fazer algo lindo que nunca deveria ter existido.
+Description: When the tool, the method, or the routine becomes the goal, the product falls to second place. The biggest waste of design talent is not making something ugly — it is making something beautiful that never should have existed.
 
-Não porque ela deixou de importar. Mas porque o problema que precisa ser resolvido já não cabe nela.
+Not because it stopped mattering. But because the problem that needs solving no longer fits inside it.
 
-Trabalhei com designers que entravam em colapso se a ordem dos projetos mudava. Com os que aplicavam o mesmo estilo visual em qualquer contexto, porque ficou bonito uma vez e virou assinatura. Com os que declaravam que toda tecnologia nova não ia funcionar, curiosamente sem testar nada.
+I have worked with designers who would fall apart if the order of projects changed. With those who applied the same visual style to any context, because it looked good once and became a signature. With those who declared that every new technology would not work — curiously, without testing any of it.
 
-E os dois extremos que parecem opostos mas têm a mesma raiz: o que trata qualquer mudança como afronta pessoal, e o que executa qualquer instrução sem questionar.
+And both extremes that seem opposites but share the same root: the one who treats any change as a personal offense, and the one who executes every instruction without question.
 
-O que todos têm em comum? Confundiram o meio com o fim.
+What do they all have in common? They confused the means with the end.
 
-Quando a ferramenta, o método ou a rotina viram o objetivo, o produto fica em segundo plano. E a conversa estratégica simplesmente não tem espaço para esse profissional.
+When the tool, the method, or the routine becomes the goal, the product falls to second place. And the strategic conversation simply has no room for that professional.
 
-Entender de negócio não é saber fazer planilha de ROI. Não é virar PM. É conseguir responder três perguntas antes de abrir o Figma: por que esse produto existe, para quem ele resolve um problema real, e o que acontece com o negócio se essa decisão de design estiver errada.
+Understanding business is not about knowing how to build an ROI spreadsheet. It is not about becoming a PM. It is being able to answer three questions before opening Figma: why does this product exist, who does it solve a real problem for, and what happens to the business if this design decision is wrong.
 
-Stakeholders não pensam em fluxos e componentes. Pensam em risco, custo e prazo. "Essa decisão reduz abandono nos pontos críticos do onboarding" comunica o mesmo que "a experiência ficou mais fluida", mas com peso completamente diferente para uma audiência completamente diferente. Isso não significa abandonar o vocabulário de design. Significa ser bilíngue.
+Stakeholders do not think in terms of flows and components. They think in terms of risk, cost, and timeline. "This decision reduces abandonment at the critical points in onboarding" communicates the same thing as "the experience became more fluid," but with entirely different weight for an entirely different audience. This does not mean abandoning the vocabulary of design. It means being bilingual.
 
-E quanto mais cedo um designer entra nessa conversa, mais cedo consegue influenciar o que será construído. E principalmente o que não será.
+And the earlier a designer enters that conversation, the earlier they can influence what gets built. And, more importantly, what does not.
 
-Porque o maior desperdício de talento em design não é fazer algo feio.
+Because the biggest waste of design talent is not making something ugly.
 
-É fazer algo lindo que nunca deveria ter existido.
+It is making something beautiful that never should have existed.
 
 ---
 
-### Desemprego baixo, mercado quebrado. Por que os números não batem com a realidade
+### Low Unemployment, Broken Market. Why the Numbers Do Not Match Reality
 URL: https://wildiney.com/en/articles/desemprego-baixo-mercado-quebrado/
 Date: 2026-03-10
-Description: A taxa de desemprego está baixa, mas o LinkedIn conta outra história. O problema não é a economia — é a métrica. Os indicadores macro não estão mentindo. Eles só estão olhando para o lugar errado.
+Description: Unemployment is low, but LinkedIn tells a different story. The problem is not the economy — it is the metric. Macro indicators are not lying. They are just looking in the wrong place.
 
-As estatísticas dizem que o desemprego está baixo. O LinkedIn diz outra coisa.
+Statistics say unemployment is low. LinkedIn says something else.
 
-Layoffs em massa, profissionais experientes fora do mercado há meses, salários em queda, juniors sem porta de entrada e sêniors sem poder de negociação. As duas coisas parecem incompatíveis, mas não são.
+Mass layoffs, experienced professionals out of the market for months, falling salaries, no entry points for juniors, and no negotiating power for seniors. The two pictures seem incompatible. They are not.
 
-O problema não é a economia. É a métrica.
+The problem is not the economy. It is the metric.
 
-A taxa de desemprego mede apenas quem está sem trabalho e procurando ativamente. Ela ignora subemprego, informalidade, precarização e pessoas altamente qualificadas trabalhando muito abaixo do seu nível. O próprio IBGE trata isso como subutilização da força de trabalho, um número significativamente maior do que a taxa de desemprego isolada.
+The unemployment rate measures only people without work who are actively searching. It ignores underemployment, informality, precarious conditions, and highly qualified people working well below their level. Brazil's own IBGE treats this as workforce underutilization — a number significantly larger than the unemployment rate alone.
 
-Além disso, o mercado de trabalho não é homogêneo.
+The labor market is also not homogeneous.
 
-Enquanto setores de menor remuneração seguem contratando, o mercado de trabalho qualificado passa por uma reestruturação profunda. Dados públicos do layoffs.fyi mostram ondas recorrentes de layoffs em tecnologia desde 2022, impulsionadas por eficiência extrema, globalização salarial e automação via IA.
+While lower-wage sectors continue hiring, the qualified labor market is going through a deep restructuring. Public data from layoffs.fyi shows recurring waves of tech layoffs since 2022, driven by extreme efficiency, salary globalization, and AI-powered automation.
 
-A esse fenômeno já foi dado um nome: mercado em formato de K.
+A name has already been given to this phenomenon: the K-shaped market.
 
-Uma parte da força de trabalho melhora (o braço ascendente), outra piora (o braço descendente). O desenho se divide. A média parece estável, mas as trajetórias individuais se afastam.
+One part of the workforce improves (the ascending arm), another deteriorates (the descending arm). The shape divides. The average looks stable, but individual trajectories move apart.
 
-Emprego cresce.
-Salário encolhe.
-Estabilidade desaparece.
-O tempo de recolocação aumenta.
+Employment grows.
+Wages shrink.
+Stability disappears.
+Time to find a new position increases.
 
-Plataformas de dados salariais como o Glassdoor mostram estagnação ou queda real em áreas como produto, design e tecnologia, especialmente fora do topo da pirâmide.
+Salary data platforms like Glassdoor show stagnation or real decline in areas like product, design, and technology, especially outside the top of the pyramid.
 
-Quando alguém diz "conheço um monte de gente que está desempregada" ou "ganhando menos", isso não é histeria coletiva. É recorte.
+When someone says "I know a lot of people who are unemployed" or "earning less," that is not collective hysteria. It is a specific slice of the picture.
 
-Os indicadores macro não estão exatamente mentindo. Eles só estão olhando para o lugar errado.
+Macro indicators are not exactly lying. They are just looking in the wrong place.
 
-Para quem trabalha com produto, design e tecnologia, insistir em ler apenas essas métricas é como tentar entender o futuro olhando para o retrovisor.
+For people working in product, design, and technology, insisting on reading only those metrics is like trying to understand the future by looking in the rearview mirror.
 
-Dito isso, o intuito aqui não é ser pessimista nem alarmista. É entender e aceitar a realidade: não é apenas a sua competência ou qualificação que está em jogo. Existe um mercado sendo moldado em busca de melhor custo-benefício.
+That said, the intent here is not pessimism or alarm. It is understanding and accepting reality: it is not just your competence or qualifications that are at stake. There is a market being reshaped in pursuit of better cost-efficiency.
 
-Quando a oferta de profissionais qualificados supera a demanda, o processo de contratação deixa de ser humano, artesanal ou meritocrático. Ele se torna massivo, automatizado e estatístico.
+When the supply of qualified professionals exceeds demand, the hiring process stops being human, artisanal, or meritocratic. It becomes mass-scale, automated, and statistical.
 
-Currículos feitos por IA, para vagas escritas por IA, selecionados por IA.
+Resumes written by AI, for positions written by AI, selected by AI.
 
-Quase como em um jogo de poker, onde quem blefa melhor continua na mesa.
+Almost like a poker game, where whoever bluffs better stays at the table.
 
 ---
 
-### Se hoje é possível sair da ideia ao produto em minutos, o que ainda justifica processo?
+### If It Is Now Possible to Go from Idea to Product in Minutes, What Still Justifies Process?
 URL: https://wildiney.com/en/articles/velocidade-nao-substitui-decisao/
 Date: 2026-03-03
-Description: A IA reduziu drasticamente o custo da execução, mas não reduziu o custo da decisão. E decisões mal tomadas apenas escalam desperdício com mais eficiência.
+Description: AI drastically reduced the cost of execution, but not the cost of decision-making. And poorly made decisions only scale waste more efficiently.
 
-Nos últimos meses uma narrativa tem dominado o feed, da ideia ao produto em minutos, design systems criados por prompt, interfaces geradas sem discovery. A velocidade é real e muda radicalmente o custo de construir.
-Mas a pergunta que realmente importa é outra, se posso construir mais rápido, errar mais rápido e corrigir mais rápido, ainda faz sentido investir tanto tempo tentando evitar o erro?
+Over the past few months, a narrative has dominated the feed: idea to product in minutes, design systems created by prompt, interfaces generated without discovery. The speed is real and radically changes the cost of building.
 
-Se lançar ficou barato, por que estruturar hipóteses com cuidado, mapear jornadas, entrevistar usuários, priorizar com rigor?
+But the question that actually matters is different. If I can build faster, fail faster, and correct faster, does it still make sense to invest so much time trying to avoid the mistake?
 
-Aqui está o ponto central, nem todo erro é barato. Existe o erro pequeno, reversível, que cabe em um experimento controlado. Mas existe o erro estrutural, aquele que desalinha o produto da sua proposta de valor, que adiciona complexidade sem impacto real, que fragmenta a narrativa estratégica e acumula dívida invisível.
+If launching has become cheap, why bother structuring hypotheses carefully, mapping journeys, interviewing users, prioritizing with rigor?
 
-A IA reduziu drasticamente o custo da execução, mas não reduziu o custo da decisão. E decisões mal tomadas, apenas escalam desperdício com mais eficiência.
+Here is the central point: not every mistake is cheap. There is the small, reversible mistake that fits inside a controlled experiment. But there is also the structural mistake — the one that misaligns the product from its value proposition, that adds complexity without real impact, that fragments the strategic narrative and accumulates invisible debt.
 
-O que ficou rápido foi produzir telas, gerar variações, escrever código inicial. O que continua raro é escolher o problema certo, priorizar sob restrições reais, sustentar coerência de produto, gerir expectativas quando surgem demandas urgentes, equilibrar promessas comerciais com estratégia de longo prazo, evitar que a tentação de adicionar IA apenas para acompanhar o mercado desvie o foco do que realmente gera valor.
+AI drastically reduced the cost of execution, but not the cost of decision-making. And poorly made decisions only scale waste more efficiently.
 
-O processo certamente vai mudar, menos ritual, menos formalismo, menos apego a etapas rígidas. Mas pensamento estruturado não se torna obsoleto porque a execução ficou mais rápida. Quanto menor a barreira de execução, maior o impacto de uma decisão mal tomada.
+What got faster was producing screens, generating variations, writing initial code. What remains rare is choosing the right problem, prioritizing under real constraints, sustaining product coherence, managing expectations when urgent demands arise, balancing commercial promises with long-term strategy, avoiding the temptation to add AI just to keep up with the market when it diverts focus from what actually generates value.
 
-Talvez o novo equilíbrio seja descoberta suficiente para reduzir riscos críticos, execução rápida para validar hipóteses, observabilidade contínua para aprender com comportamento real. Nem paralisia por análise, nem shipping impulsivo.
+Process will certainly change — less ritual, less formalism, less attachment to rigid stages. But structured thinking does not become obsolete just because execution got faster. The lower the barrier to execution, the greater the impact of a poorly made decision.
 
-Porque no fim, quando tudo pode ser construído em minutos, o verdadeiro risco deixa de ser não entregar rápido o suficiente. Passa a ser entregar rápido demais aquilo que nunca deveria ter sido criado. E é aí que estratégia deixa de ser discurso e passa a ser responsabilidade.
+Maybe the new balance is: enough discovery to reduce critical risks, fast execution to validate hypotheses, continuous observability to learn from real behavior. Neither analysis paralysis nor impulsive shipping.
+
+Because in the end, when everything can be built in minutes, the real risk stops being not delivering fast enough. It becomes delivering too fast something that never should have been created. And that is where strategy stops being discourse and becomes responsibility.
 
 ---
 
-### WebMCP do Google: o nascimento do produto AI-friendly
+### Google's WebMCP: The Birth of the AI-Friendly Product
 URL: https://wildiney.com/en/articles/webmcp-google-produto-ai-friendly/
 Date: 2026-02-24
-Description: O WebMCP propõe algo estrutural: permitir que sites exponham suas capacidades de maneira declarativa para modelos de IA. Produtos mais legíveis para máquinas tendem, paradoxalmente, a se tornar mais claros para humanos também.
+Description: WebMCP proposes something structural: allowing sites to expose their capabilities declaratively to AI models. Products that are more legible to machines tend, paradoxically, to become clearer to humans as well.
 
-Durante anos falamos sobre produtos user-friendly, mobile-first, accessibility-first, data-driven. Parecia que já tínhamos um checklist relativamente estável de maturidade digital.
+For years we talked about user-friendly products, mobile-first, accessibility-first, data-driven. It seemed like we had a fairly stable checklist for digital maturity.
 
-Talvez esse checklist esteja ficando incompleto. O WebMCP, iniciativa em evolução do Google, propõe algo estrutural: permitir que sites exponham suas capacidades, estados e ações de maneira declarativa para modelos de IA. Em vez de depender exclusivamente da interface visual e de interpretação heurística, agentes poderiam interagir com sistemas a partir de contexto formalizado.
+That checklist may be becoming incomplete. WebMCP, an evolving initiative from Google, proposes something structural: allowing sites to expose their capabilities, states, and actions declaratively to AI models. Rather than relying exclusively on the visual interface and heuristic interpretation, agents could interact with systems based on formalized context.
 
-Ainda é cedo. Pode ganhar tração, pode mudar bastante ou pode simplesmente não se consolidar. Isso faz parte do ciclo de inovação da indústria. Mas independentemente do destino específico do WebMCP, a discussão que ele levanta é difícil de ignorar.
+It is still early. It may gain traction, change significantly, or simply never consolidate. That is part of the industry's innovation cycle. But regardless of where WebMCP specifically lands, the discussion it raises is hard to ignore.
 
-A web já passou por uma transformação semelhante quando acessibilidade deixou de ser detalhe opcional e passou a exigir semântica consistente, estrutura clara e intenção explícita nos componentes. Times que trataram isso apenas como conformidade fizeram o mínimo necessário. Times que entenderam como disciplina de arquitetura acabaram fortalecendo design system, clareza de estado e coerência de produto.
+The web went through a similar transformation when accessibility stopped being an optional detail and started demanding consistent semantics, clear structure, and explicit intent in components. Teams that treated it purely as compliance did the minimum required. Teams that understood it as an architectural discipline ended up strengthening their design system, their clarity of state, and their product coherence.
 
-A ideia de AI-friendly pode seguir o mesmo caminho. Não como uma camada extra para agradar modelos, mas como um incentivo para explicitar melhor o que o sistema faz, em que estado está e quais ações realmente executa. Produtos mais legíveis para máquinas tendem, paradoxalmente, a se tornar mais claros para humanos também.
+The idea of AI-friendly could follow the same path. Not as an extra layer to please models, but as an incentive to make explicit what the system does, what state it is in, and what actions it actually performs. Products that are more legible to machines tend, paradoxically, to become clearer to humans as well.
 
-Para quem trabalha com produto, a pergunta começa a mudar de forma: seu sistema é apenas utilizável por pessoas ou é estruturalmente operável?
-User-friendly continua sendo obrigatório. Mas talvez estejamos entrando em uma fase em que projetar apenas para humanos já não seja suficiente.
+For those working in product, the question is beginning to change shape: is your system merely usable by people, or is it structurally operable?
+
+User-friendly remains non-negotiable. But we may be entering a phase where designing only for humans is no longer enough.
 
 ---
 
-### Aumento do uso de IA no trabalho
+### The Rise of AI Use at Work
 URL: https://wildiney.com/en/articles/aumento-do-uso-de-ia-no-trabalho/
 Date: 2026-02-17
-Description: Maturidade não está em usar mais IA. Está em saber onde usar, por que usar e quanto isso realmente entrega de valor — sem confundir velocidade com avanço.
+Description: Maturity is not about using AI more. It is about knowing where to use it, why to use it, and how much value it actually delivers — without confusing speed with progress.
 
-Todo mundo está comemorando que o uso de IA no trabalho cresceu. A pergunta que quase ninguém faz é: **cresceu para fazer o quê?**
+Everyone is celebrating that AI use at work has grown. The question almost no one asks is: **grown to do what?**
 
-Hoje, "usar IA" virou um conceito elástico. Vale desde pedir ajuda para escrever um e-mail até copiar e colar um prompt escrito por um guru de IA e chamar isso de produtividade. Tudo entra na mesma conta. A métrica sobe, o entendimento nem sempre acompanha.
+Today, "using AI" has become an elastic concept. It covers everything from asking for help writing an email to copying and pasting a prompt written by an AI guru and calling that productivity. Everything gets lumped together. The metric goes up; understanding does not always follow.
 
-Um estudo recente da Anthropic trouxe um dado incômodo. Na programação, a IA ajuda em diversas tarefas, mas quem passa a depender demais dela tem pior desempenho para entender código, depurar erros e explicar o que foi feito. Em média, 17% pior. Mais rápido para começar, mais frágil para sustentar a longo prazo.
+A recent Anthropic study surfaced an uncomfortable finding. In programming, AI helps with many tasks, but people who rely on it too heavily perform worse when it comes to understanding code, debugging errors, and explaining what was done. On average, 17% worse. Faster to start, more fragile to sustain over time.
 
-Isso não me surpreende. Basta ficar algumas semanas longe da rotina para sentir como o raciocínio enferruja. Agora imagine meses delegando tudo. A questão interessante não é se isso piora o domínio técnico hoje, mas se isso vai continuar sendo relevante no futuro próximo.
+This does not surprise me. Just a few weeks away from routine is enough to feel how reasoning gets rusty. Now imagine months of delegating everything. The interesting question is not whether this degrades technical mastery today, but whether that will continue to matter in the near future.
 
-Se a própria IA implementa, testa e corrige o código sozinha, talvez o valor não esteja mais na linha de código, mas no desenho da solução, na arquitetura, nas decisões de trade off. O problema é que isso não foi medido. Estamos debatendo perda de habilidade em um eixo, sem saber se houve ganho real em outro.
+If AI itself implements, tests, and fixes code on its own, perhaps the value no longer lies in the line of code but in the design of the solution, the architecture, the trade-off decisions. The problem is that this has not been measured. We are debating skill loss on one axis without knowing whether there has been any real gain on another.
 
-E tem outro ponto pouco falado: IA não é um loop barato rodando em background. Cada prompt custa. Cada token conta. Cada automação "inteligente" entra direto no custo de adquirir, atender e manter um usuário. Em algum momento, alguém vai ter que responder se a solução moderna realmente vale mais do que uma abordagem simples, previsível e barata. Usar mais, nesse caso, também significa gastar mais.
+And there is another point that rarely comes up: AI is not a cheap loop running in the background. Every prompt has a cost. Every token counts. Every "intelligent" automation goes straight into the cost of acquiring, serving, and retaining a user. At some point, someone will have to answer whether the modern solution is actually worth more than a simple, predictable, and cheap approach. Using more, in this case, also means spending more.
 
-Nada disso é um argumento contra IA. Pelo contrário. É um convite a usar melhor.
+None of this is an argument against AI. On the contrary. It is an invitation to use it better.
 
-O uso vai continuar crescendo. E isso é ótimo. Mas maturidade não está em usar mais. Está em saber onde usar, por que usar e quanto isso realmente entrega de valor, sem confundir velocidade com avanço.
+Use will keep growing. And that is great. But maturity is not about using more. It is about knowing where to use it, why to use it, and how much value it actually delivers, without confusing speed with progress.
 
 ---
 
 ### OpenClaw
 URL: https://wildiney.com/en/articles/openclaw-autonomia-sem-governanca/
 Date: 2026-02-10
-Description: O OpenClaw não está fazendo sucesso apenas porque é tecnicamente impressionante. Ele está fazendo sucesso porque promete algo que muita gente vem desejando silenciosamente: delegar tudo. Não só tarefas, mas responsabilidade.
+Description: OpenClaw is not succeeding just because it is technically impressive. It is succeeding because it promises something many people have been quietly wanting: to delegate everything. Not just tasks, but responsibility.
 
-Várias matérias recentes estão alertando para os riscos do **OpenClaw**: agente de IA open source, acesso total ao computador do usuário, vazamento de credenciais, Cisco chamando de pesadelo. Tudo isso é sério. Mas não é o ponto mais interessante dessa história.
+Several recent articles are raising alarms about **OpenClaw**: an open-source AI agent with full access to the user's computer, credential leaks, Cisco calling it a nightmare. All of that is serious. But it is not the most interesting part of the story.
 
-O **OpenClaw** não está fazendo sucesso apenas porque é tecnicamente impressionante. Ele está fazendo sucesso porque promete algo que muita gente vem desejando silenciosamente: delegar tudo. Não só tarefas, mas responsabilidade. Não só execução, mas decisão.
+**OpenClaw** is not succeeding just because it is technically impressive. It is succeeding because it promises something many people have been quietly wanting: to delegate everything. Not just tasks, but responsibility. Not just execution, but decision-making.
 
-Ele não é um copiloto. Ele é um operador. Usa o computador como um humano, navega por ferramentas, acessa arquivos, conecta sistemas e simplesmente resolve. Ou pelo menos aparenta resolver. O modelo mental por trás disso é simples e perigosamente sedutor: "resolve aí". Sem briefing claro. Sem critério explícito. Sem métrica. Sem plano.
+It is not a copilot. It is an operator. It uses the computer like a human does — navigating tools, accessing files, connecting systems, and simply solving. Or at least appearing to solve. The mental model behind it is simple and dangerously seductive: "just handle it." No clear brief. No explicit criteria. No metrics. No plan.
 
-Do ponto de vista de Product Management, isso não é inovação disruptiva. É um espelho desconfortável. Mostra o quanto estamos dispostos a trocar clareza por conveniência e pensamento por velocidade.
+From a Product Management perspective, this is not disruptive innovation. It is an uncomfortable mirror. It shows how willing we are to trade clarity for convenience and thinking for speed.
 
-Quando um agente recebe autonomia total, ele não está só executando. Ele está interpretando objetivos, definindo prioridades e tomando decisões no seu lugar. E na maioria dos casos, sem que você consiga explicar depois por que algo deu certo ou errado. O famoso resultado que parece mágico quando funciona e inexplicável quando falha.
+When an agent receives total autonomy, it is not just executing. It is interpreting goals, defining priorities, and making decisions in your place. And in most cases, without you being able to explain afterward why something went right or wrong. The classic outcome that seems like magic when it works and inexplicable when it fails.
 
-Existe uma frase clássica atribuída ao Peter Drucker: o que não pode ser medido, não pode ser gerenciado. Independente da autoria exata, a lógica é implacável. Se você não define critérios, se não estabelece limites, se não mede, você não está automatizando. Você está terceirizando julgamento.
+There is a phrase commonly attributed to Peter Drucker: what cannot be measured cannot be managed. Regardless of who said it first, the logic is relentless. If you do not define criteria, do not set limits, do not measure, you are not automating. You are outsourcing judgment.
 
-E aí o problema deixa de ser só segurança da informação. Passa a ser segurança cognitiva.
+And then the problem stops being just about information security. It becomes about cognitive security.
 
-Um estudo recente da Anthropic já aponta para isso: o uso indiscriminado de IA na tomada de decisão enfraquece o hábito humano de pensar, avaliar alternativas e antecipar consequências. Não porque a IA pensa demais. Mas porque o humano pensa menos.
+A recent Anthropic study already points in this direction: the indiscriminate use of AI in decision-making weakens the human habit of thinking, evaluating alternatives, and anticipating consequences. Not because AI thinks too much. But because the human thinks less.
 
-Não é um discurso contra agentes autônomos. Eles são inevitáveis e, bem desenhados, extremamente poderosos. O problema começa quando autonomia vira caixa-preta e conveniência vira desculpa para abdicar da responsabilidade.
+This is not a case against autonomous agents. They are inevitable and, well designed, extremely powerful. The problem starts when autonomy becomes a black box and convenience becomes an excuse to abdicate responsibility.
 
-Como PM, o papel não é impedir a automação. É criar guardrails. Definir o que pode ser delegado e o que exige julgamento humano. Exigir explicabilidade. Criar checkpoints. Autonomia sem governança não é produtividade. É ilusão.
+As a PM, the role is not to stop automation. It is to create guardrails. To define what can be delegated and what requires human judgment. To demand explainability. To create checkpoints. Autonomy without governance is not productivity. It is an illusion.
 
-No fim, o OpenClaw não escancara apenas um risco técnico. Ele expõe algo mais incômodo: a nossa pressa em parar de decidir.
+In the end, OpenClaw does not just expose a technical risk. It reveals something more uncomfortable: our urgency to stop deciding.
 
-A pergunta não é se vamos automatizar. Isso já aconteceu.
+The question is not whether we are going to automate. That already happened.
 
-A pergunta é: quem ainda está pensando?
+The question is: who is still thinking?
 
 ---
 
-### O mercado não está contratando mais gente. Está contratando melhores decisões
+### The Market Is Not Hiring More People. It Is Hiring Better Decisions
 URL: https://wildiney.com/en/articles/mercado-contrata-melhores-decisoes/
 Date: 2026-02-03
-Description: O mercado não está premiando quem executa melhor. Está premiando quem decide melhor. Quanto mais complexo o sistema, mais cara fica uma decisão ruim — e menos reversível ela se torna.
+Description: The market is not rewarding those who execute better. It is rewarding those who decide better. The more complex the system, the more expensive a bad decision becomes — and the less reversible it is.
 
-Listas de "empregos em alta" costumam provocar o mesmo efeito: ansiedade.
-Quem está subindo. Quem ficou para trás. Qual título colocar no currículo.
+Lists of "jobs on the rise" tend to produce the same effect: anxiety.
+Who is moving up. Who got left behind. Which title to put on the resume.
 
-Mas algumas listas não falam sobre cargos.
-Falam sobre o tipo de problema que as empresas estão tentando resolver.
+But some lists do not talk about job titles.
+They talk about the type of problem companies are trying to solve.
 
-E isso muda tudo.
+And that changes everything.
 
-Os dados mais recentes mostram crescimento acelerado de funções ligadas a produto, tecnologia avançada, IA e governança. Não é exatamente uma surpresa. A surpresa está em outro lugar.
+The most recent data shows accelerated growth in roles tied to product, advanced technology, AI, and governance. That is not exactly a surprise. The surprise is elsewhere.
 
-O mercado não está premiando quem executa melhor.
-Está premiando quem decide melhor.
+The market is not rewarding those who execute better.
+It is rewarding those who decide better.
 
-Produtos digitais deixaram de ser "entregas".
-Viraram sistemas. Infraestruturas. Plataformas que concentram dados sensíveis, decisões automatizadas, regras regulatórias e impactos reais na vida de pessoas reais.
+Digital products stopped being "deliverables."
+They became systems. Infrastructure. Platforms that concentrate sensitive data, automated decisions, regulatory rules, and real impacts on real people's lives.
 
-Quanto mais complexo o sistema, mais cara fica uma decisão ruim.
-E menos reversível ela se torna.
+The more complex the system, the more expensive a bad decision becomes.
+And the less reversible it is.
 
-É por isso que Product Management cresce.
-Não porque escrever roadmap ficou mais sofisticado, mas porque alinhar estratégia, negócio, tecnologia e risco ficou mais difícil.
+That is why Product Management is growing.
+Not because writing roadmaps has become more sophisticated, but because aligning strategy, business, technology, and risk has become harder.
 
-É por isso que IA cresce.
-Não só pelo hype, mas porque alguém precisa transformar modelos estatísticos em algo utilizável, compreensível e defensável.
+That is why AI is growing.
+Not just because of hype, but because someone needs to turn statistical models into something usable, understandable, and defensible.
 
-É por isso que auditoria de TI entra na conversa.
-Porque, em algum momento, alguém precisa perguntar se tudo isso faz sentido, se é seguro e se está de pé.
+That is why IT auditing enters the conversation.
+Because at some point, someone needs to ask whether all of this makes sense, whether it is safe, and whether it is holding together.
 
-Agora, a pergunta inevitável.
+Now, the inevitable question.
 
-Onde entra o Product Design?
+Where does Product Design fit in?
 
-Entra no espaço que ninguém gosta muito de ocupar.
-Entre a decisão técnica e a consequência humana.
-Entre o dado e o comportamento.
-Entre o que é possível construir e o que realmente deveria existir.
+It fits in the space that nobody particularly likes to occupy.
+Between the technical decision and the human consequence.
+Between the data and the behavior.
+Between what is possible to build and what should actually exist.
 
-À medida que as organizações amadurecem, o design deixa de ser a etapa onde "a coisa ganha forma".
-Passa a ser a disciplina que estrutura as escolhas, antes mesmo de elas chegarem a um cargo, um comitê ou um roadmap.
+As organizations mature, design stops being the stage where "the thing takes shape."
+It becomes the discipline that structures choices, before they even reach a role, a committee, or a roadmap.
 
-Critério sobre o que simplificar.
-O que explicar.
-O que automatizar.
-E, principalmente, o que não fazer.
+Judgment about what to simplify.
+What to explain.
+What to automate.
+And, above all, what not to do.
 
-Existe uma ironia silenciosa aqui.
+There is a quiet irony here.
 
-Quanto mais estratégico o produto se torna, menos o design aparece explicitamente nas listas de cargos em alta. Não porque perdeu relevância, mas porque deixou de ser isolável. Ele se espalha. Vira método. Vira linguagem comum. Vira filtro de decisão.
+The more strategic the product becomes, the less explicitly design shows up in the lists of growing roles. Not because it lost relevance, but because it stopped being isolatable. It spreads. It becomes method. It becomes a shared language. It becomes a decision filter.
 
-O problema começa quando esse espaço existe…
-…mas ninguém assume a responsabilidade de ocupá-lo.
+The problem starts when that space exists...
+...but nobody takes responsibility for occupying it.
 
-No fim, talvez a pergunta não seja quais cargos mais crescem.
-Mas quem está preparado para decidir quando não há resposta óbvia.
+In the end, maybe the question is not which roles are growing the most.
+But who is prepared to decide when there is no obvious answer.
 
-Porque, em produtos digitais maduros, quase nunca há.
-
-—
-
-Este artigo foi inspirado nos dados publicados pelo LinkedIn em "Empregos em alta em 2026".
+Because in mature digital products, there almost never is.
 
 ---
 
-### A falsa modernização dos produtos guiados por IA
+This article was inspired by data published by LinkedIn in "Jobs on the Rise in 2026."
+
+---
+
+### The False Modernization of AI-Driven Products
 URL: https://wildiney.com/en/articles/a-falsa-modernizacao-dos-produtos-guiados-por-ia/
 Date: 2026-01-27
-Description: Automatizar o achismo não o transforma em estratégia. O problema de usar IA para 'modernizar' produtos sem contexto, sem dados e sem critério.
+Description: Automating guesswork does not turn it into strategy. The problem with using AI to 'modernize' products without context, without data, and without judgment.
 
-Tenho visto um padrão curioso surgir entre pessoas recém-chegadas ao universo da IA. Um entusiasmo quase infantil com o que essas ferramentas são capazes de produzir. Bastam alguns prompts, alguns adjetivos vagos como "mais moderno", "mais inovador", "que chame mais a atenção", e pronto: sites inteiros são reformulados por IAs como Lovable, Replit e afins.
+I have been noticing a curious pattern among people new to the world of AI. An almost childlike enthusiasm for what these tools can produce. A few prompts, a handful of vague adjectives like "more modern," "more innovative," "more eye-catching," and entire websites get rebuilt by tools like Lovable, Replit, and similar platforms.
 
-Sem contexto. Sem métrica. Sem qualquer evidência de que o layout atual não funciona.
+No context. No metrics. No evidence whatsoever that the current layout is not working.
 
-Não há análise de conversão, dados de comportamento, testes A/B, sequer uma hipótese clara. O pedido é simples e perigoso: "adeque o site X ao meu gosto pessoal". E aqui mora o problema.
+No conversion analysis, no behavioral data, no A/B tests, not even a clear hypothesis. The request is simple and dangerous: "make site X match my personal taste." And that is exactly where the problem lives.
 
-Projetar um produto nunca foi, nem nunca será, sobre atender aos desejos de quem está projetando. Não é sobre a cor que eu acho mais bonita, a tipografia que me agrada mais ou a estética que conversa com o meu repertório pessoal. Design não é expressão artística individual. É decisão informada.
+Designing a product has never been, and will never be, about satisfying the preferences of the person doing the designing. It is not about the color I find most beautiful, the typography that appeals to me, or the aesthetic that speaks to my personal repertoire. Design is not individual artistic expression. It is informed decision-making.
 
-Quando alguém usa IA para "modernizar" um produto sem compreender o que já funciona, está apenas substituindo um conjunto de decisões possivelmente embasadas por outro conjunto completamente arbitrário.
+When someone uses AI to "modernize" a product without understanding what already works, they are simply replacing one set of possibly grounded decisions with another that is entirely arbitrary.
 
-Automatizar o achismo não o transforma em estratégia.
+Automating guesswork does not turn it into strategy.
 
-Há ainda um efeito colateral recorrente: a IA estética ignora critérios básicos como acessibilidade em favor de preferências subjetivas. Contraste ruim, hierarquia confusa, tipografia ilegível.
+There is also a recurring side effect: aesthetic AI ignores basic criteria like accessibility in favor of subjective preferences. Poor contrast, confusing hierarchy, illegible typography.
 
-Fica mais bonito. Nem sempre mais usável.
+It looks better. It is not always more usable.
 
-Não há dúvida sobre o potencial da IA generativa. Assim como não há dúvida sobre o potencial de uma Ferrari. Ambas são poderosas. E ambas, nas mãos erradas, causam estragos.
+There is no question about the potential of generative AI. Just as there is no question about the potential of a Ferrari. Both are powerful. And both, in the wrong hands, cause damage.
 
-O problema nunca foi o que a tecnologia pode fazer. A pergunta correta sempre foi: como eu a direciono para fazer o que é melhor para o meu produto e, principalmente, para o meu usuário?
+The problem has never been what the technology can do. The right question has always been: how do I direct it toward what is best for my product and, above all, for my user?
 
-Isso exige algo que nenhuma IA entrega pronta: critério.
+That requires something no AI delivers ready-made: judgment.
 
-Exige reconhecer que "eu não sou o público-alvo", ainda que eu faça parte dele. Exige entender a história daquele produto, por quais decisões ele passou, quais compromissos foram feitos, quais problemas foram resolvidos e quais ainda permanecem. Um produto não surge do nada, e não deveria ser redesenhado como se fosse uma folha em branco.
+It requires recognizing that "I am not the target audience," even if I happen to be part of it. It requires understanding the history of that product, the decisions it went through, the trade-offs that were made, the problems that were solved, and the ones that remain. A product does not come from nowhere, and it should not be redesigned as if it were a blank slate.
 
-A obsessão contemporânea por disrupção também merece cuidado. Causar impacto é sedutor. É fácil confundir barulho com avanço. Mas nem todo impacto é positivo. (Pergunte aos dinossauros)
+The contemporary obsession with disruption also deserves caution. Making an impact is seductive. It is easy to confuse noise with progress. But not every impact is positive. (Ask the dinosaurs.)
 
-Disrupção sem direção é só ruptura. E ruptura sem propósito costuma custar caro.
+Disruption without direction is just rupture. And rupture without purpose tends to be expensive.
 
-IA pode acelerar processos, ampliar repertórios, sugerir caminhos e até revelar possibilidades invisíveis. Mas ela não substitui a responsabilidade de quem decide. Não substitui o entendimento do usuário, nem o compromisso com resultados reais.
+AI can speed up processes, expand repertoires, suggest directions, and even reveal invisible possibilities. But it does not replace the responsibility of the person making decisions. It does not replace user understanding, nor the commitment to real results.
 
-No fim, usar IA para design sem contexto não é inovação. É apenas trocar o "acho que" humano pelo "parece que" algorítmico.
+In the end, using AI for design without context is not innovation. It is just swapping the human "I think" for the algorithmic "it seems."
 
-E isso, definitivamente, não torna nenhum produto melhor.
+And that, definitively, does not make any product better.
 
 ---
 
-### Toma essa métrica: "Todos os seres humanos juntos piscam centenas de trilhões de vezes por dia"
+### Take This Metric: "All Humans Together Blink Hundreds of Trillions of Times a Day"
 URL: https://wildiney.com/en/articles/metricas-que-nao-orientam-decisao/
 Date: 2026-01-20
-Description: Uma métrica só é útil quando força uma decisão. Se ela sobe, algo muda. Se ela cai, algo muda. Se nada muda, não é métrica — é entretenimento analítico.
+Description: A metric is only useful when it forces a decision. If it goes up, something changes. If it goes down, something changes. If nothing changes, it is not a metric — it is analytical entertainment.
 
-Uma pessoa pisca, em média, 15 vezes por minuto. Multiplique pela população mundial e chegamos a centenas de trilhões de piscadas humanas por dia.
+A person blinks, on average, 15 times per minute. Multiply by the world population and you get hundreds of trillions of human blinks per day.
 
-É impressionante. É correto. É inútil.
+It is impressive. It is correct. It is useless.
 
-Não indica problema. Não orienta decisão. Não muda absolutamente nada.
+It does not indicate a problem. It does not guide a decision. It does not change anything at all.
 
-Se amanhã esse número dobrar, ninguém faz nada. Se cair pela metade, também não. Ele existe apenas porque era possível medi-lo. Soa familiar?
+If that number doubles tomorrow, nobody does anything. If it drops by half, same thing. It exists only because it was possible to measure. Does that sound familiar?
 
-Em produto, nunca foi tão fácil medir tudo. Cliques, tempo, rolagem, eventos, engajamento. A exigência de ser data-driven virou padrão. O problema é que, para muita gente, medir virou o objetivo, não o meio.
+In product, measuring everything has never been easier. Clicks, time, scroll depth, events, engagement. The requirement to be data-driven has become standard. The problem is that, for many people, measuring has become the goal rather than the means.
 
-Números viraram protagonistas. Pensamento crítico, coadjuvante.
+Numbers became protagonists. Critical thinking became a supporting role.
 
-Correlação vira explicação. Curiosidade vira KPI. E dashboards começam a orientar decisões que não têm ligação clara com valor, problema ou resultado real.
+Correlation becomes explanation. Curiosity becomes a KPI. Dashboards start guiding decisions with no clear link to value, problems, or real outcomes.
 
-É assim que surgem OKRs impecáveis…
-…e produtos medíocres.
+That is how flawless OKRs get created.
+And mediocre products.
 
-Uma métrica só é útil quando força uma decisão.
-Se ela sobe, algo muda.
-Se ela cai, algo muda.
+A metric is only useful when it forces a decision.
+If it goes up, something changes.
+If it goes down, something changes.
 
-Se nada muda, não é métrica. É entretenimento analítico.
+If nothing changes, it is not a metric. It is analytical entertainment.
 
-Bonito de ver. Inofensivo. Como saber quantas vezes a humanidade pisca por dia.
+Nice to look at. Harmless. Like knowing how many times humanity blinks per day.
 
-Se você lidera produto, tecnologia ou dados e já se perguntou se seus números estão orientando decisões ou apenas preenchendo slides, vale continuar essa conversa.
+If you lead product, technology, or data and have ever wondered whether your numbers are guiding decisions or just filling slides, this is a conversation worth continuing.
 
 ---
 
-### E se o defeito fosse prova de excelência?
+### What If a Defect Were Proof of Excellence?
 URL: https://wildiney.com/en/articles/defeito-como-prova-de-excelencia/
 Date: 2026-01-13
-Description: Peças defeituosas da LEGO valem mais que o original — não por serem defeituosas, mas porque o erro é raríssimo num sistema altamente confiável. O que isso revela sobre excelência em produto?
+Description: Defective LEGO pieces are worth more than the original — not because they are defective, but because the error is extremely rare within a highly reliable system. What does this reveal about excellence in product?
 
-A LEGO é obcecada por qualidade. Suas peças encaixam perfeitamente há décadas, mantêm padrões industriais rigorosos e raramente falham. Ainda assim, quando uma falha acontece, uma minifigura com impressão errada, por exemplo, o mercado não rejeita. Ele valoriza.
+LEGO is obsessed with quality. Its pieces have fit together perfectly for decades, maintain rigorous industrial standards, and rarely fail. Yet when a failure does happen — a minifigure with the wrong print, for example — the market does not reject it. It values it.
 
-Peças defeituosas da LEGO podem valer muito mais do que o produto original. Não porque são defeituosas, mas porque o erro é raríssimo dentro de um sistema extremamente confiável. O defeito não destrói valor. Ele revela o quanto aquele valor já existia antes.
+Defective LEGO pieces can be worth far more than the original product. Not because they are defective, but because the error is extremely rare within a highly reliable system. The defect does not destroy value. It reveals how much value already existed before it.
 
-Isso deveria incomodar quem trabalha com Produto.
+This should make anyone who works in product uncomfortable.
 
-Falhas só viram "aprendizado" quando o produto já construiu confiança, identidade e consistência. Sem isso, erro não é exceção histórica, é só descuido recorrente. O mercado sabe a diferença.
+Failures only become "learning opportunities" when the product has already built trust, identity, and consistency. Without that, an error is not a historical exception. It is just recurring carelessness. The market knows the difference.
 
-A pergunta, então, não é "como errar mais rápido?", mas: o que precisa estar sólido para que o erro não seja interpretado como incompetência?
+The question, then, is not "how do we fail faster?" but: what needs to be solid enough that a failure is not read as incompetence?
 
-Produtos realmente bons criam um padrão tão claro que qualquer desvio vira narrativa. Produtos frágeis criam ruído. Neles, o erro não vira história, vira churn.
+Truly good products create such a clear standard that any deviation becomes a narrative. Fragile products create noise. In them, a mistake does not become a story. It becomes churn.
 
-A LEGO não nos ensina que falhar é bom. Ela mostra algo mais desconfortável: só pode falhar quem já provou, repetidamente, que sabe entregar excelência.
+LEGO does not teach us that failure is good. It shows something more uncomfortable: only those who have already proven, repeatedly, that they know how to deliver excellence can afford to fail.
 
-Talvez o verdadeiro objetivo em Produto não seja construir algo que tolere falhas, mas algo tão consistente que até o erro seja reconhecido como exceção, e não como padrão.
+Maybe the real goal in product is not to build something that tolerates failure, but something so consistent that even the mistake is recognized as an exception, not the norm.
 
 ---
 
-### Se Product Management parece confuso, é porque paramos de seguir manuais e começamos a pensar
+### If Product Management Seems Confusing, It Is Because We Stopped Following Manuals and Started Thinking
 URL: https://wildiney.com/en/articles/product-management-confusao-evolucao/
 Date: 2026-01-03
-Description: O papel de PM nunca foi estático. Do plano fixo ao Agile, do Product Owner ao estrategista, a função evoluiu com os mercados — e a IA expõe quem decide bem de quem apenas executa processos.
+Description: The PM role has never been static. From fixed plans to Agile, from Product Owner to strategist, the function evolved with the markets — and AI is exposing who decides well versus who merely executes increasingly sophisticated processes.
 
-Toda vez que alguém tenta definir Product Management como um conjunto fixo de responsabilidades, algo fica de fora. Não por falta de teoria, mas porque o papel nunca foi estático.
+Every time someone tries to define Product Management as a fixed set of responsibilities, something gets left out. Not for lack of theory, but because the role has never been static.
 
-Durante muito tempo, construir produtos significava seguir planos. O sucesso era previsibilidade, controle e entrega conforme o combinado. Existia responsabilidade sobre o produto, claro, mas ele era consequência do projeto, não o centro das decisões.
+For a long time, building products meant following plans. Success was predictability, control, and delivery as agreed. There was accountability for the product, of course, but it was a consequence of the project, not the center of decision-making.
 
-Quando produtos digitais passaram a mudar rápido demais para caber em planos rígidos, esse modelo começou a falhar.
+When digital products started changing too fast to fit inside rigid plans, that model began to fail.
 
-O Agile surge como resposta. O foco sai do plano e vai para o aprendizado. Entregar passa a ser menos importante do que entender se aquilo faz sentido. O Product Owner aparece como alguém próximo do time, conectado ao feedback e à priorização contínua.
+Agile emerged as a response. The focus shifted from the plan to learning. Delivering became less important than understanding whether what was being built actually made sense. The Product Owner appeared as someone close to the team, connected to feedback and continuous prioritization.
 
-Mas logo fica claro que priorizar backlog não resolve tudo.
+But it quickly became clear that prioritizing a backlog does not solve everything.
 
-À medida que produtos crescem e mercados ficam mais complexos, alguém precisa olhar além da próxima sprint. Visão, estratégia, métricas e impacto começam a importar mais do que velocidade isolada. É nesse espaço que o Product Manager se consolida como uma função estratégica, e não apenas operacional.
+As products grew and markets became more complex, someone needed to look beyond the next sprint. Vision, strategy, metrics, and impact started to matter more than speed in isolation. That is the space where the Product Manager consolidated as a strategic function, not just an operational one.
 
-Enquanto isso, o design também muda. O design gráfico migra para o digital, vira interface. A interface vira experiência. A experiência vira decisão. Quando designers passam a participar da definição do problema e da validação de soluções, surge o Product Designer.
+Meanwhile, design also changed. Graphic design migrated to digital, became interface. Interface became experience. Experience became decision. When designers started participating in problem definition and solution validation, the Product Designer emerged.
 
-É aqui que muitos enxergam confusão de papéis. Mas a sobreposição não é erro. É sintoma.
+This is where many people see role confusion. But the overlap is not an error. It is a symptom.
 
-Product Managers e Product Designers passaram a atuar no mesmo território: descoberta, formulação de hipóteses e tomada de decisão. O que muda é a lente, não o objetivo.
+Product Managers and Product Designers began operating in the same territory: discovery, hypothesis formulation, and decision-making. What changes is the lens, not the goal.
 
-E então entra a inteligência artificial.
+Then artificial intelligence entered.
 
-A IA não cria um novo papel de Product Management. Ela remove atrito. Automatiza análises, acelera aprendizado e expõe algo desconfortável: se a decisão não for boa, já não dá mais para culpar a falta de dados.
+AI did not create a new Product Management role. It removed friction. It automates analysis, accelerates learning, and exposes something uncomfortable: if the decision is not good, there is no longer anywhere to hide behind a lack of data.
 
-No fim, Product Management nunca foi sobre cargos, frameworks ou rituais. Sempre foi sobre adaptação ao contexto. E o contexto continua mudando.
+In the end, Product Management was never about titles, frameworks, or rituals. It has always been about adapting to context. And the context keeps changing.
 
-Talvez a pergunta mais honesta não seja "qual é o papel do PM?", mas: estamos formando profissionais para pensar produto ou apenas para executar processos cada vez mais sofisticados?
+Maybe the most honest question is not "what is the PM's role?" but: are we developing professionals to think about products, or just to execute increasingly sophisticated processes?
 
 ---
 
