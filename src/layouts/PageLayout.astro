@@ -40,4 +40,45 @@ const {
     { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
   )
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el))
+
+  // Kinetic headings: split into word spans and reveal on enter
+  const kineticEls = document.querySelectorAll<HTMLElement>('.kinetic-heading')
+  kineticEls.forEach((el) => {
+    let wordIndex = 0
+    const frag = document.createDocumentFragment()
+    Array.from(el.childNodes).forEach((node) => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        const parts = (node.textContent ?? '').split(/(\s+)/)
+        parts.forEach((part) => {
+          if (part === '') return
+          if (part.trim() === '') {
+            frag.appendChild(document.createTextNode(part))
+          } else {
+            const span = document.createElement('span')
+            span.className = 'word'
+            span.style.setProperty('--i', String(wordIndex++))
+            span.textContent = part
+            frag.appendChild(span)
+          }
+        })
+      } else {
+        frag.appendChild(node.cloneNode(true))
+      }
+    })
+    el.innerHTML = ''
+    el.appendChild(frag)
+  })
+
+  const kineticObs = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-in')
+          kineticObs.unobserve(entry.target)
+        }
+      })
+    },
+    { threshold: 0.4 }
+  )
+  kineticEls.forEach((el) => kineticObs.observe(el))
 </script>
