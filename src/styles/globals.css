@@ -63,6 +63,33 @@
   .reveal { opacity: 1; transform: none; transition: none; }
 }
 
+/* Kinetic heading: reveals word-by-word on enter */
+.kinetic-heading .word {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(12px);
+  filter: blur(3px);
+  transition:
+    opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: calc(var(--i) * 55ms);
+  will-change: opacity, transform, filter;
+}
+.kinetic-heading.is-in .word {
+  opacity: 1;
+  transform: none;
+  filter: blur(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .kinetic-heading .word {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+}
+
 /* Accessible focus rings */
 :focus-visible {
   outline: 2px solid var(--color-accent);
