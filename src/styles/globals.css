@@ -48,22 +48,6 @@
   .hero-image, .hero-text { animation: none; }
 }
 
-/* Cursor spotlight overlay */
-#cursor-spotlight {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 1;
-  background: radial-gradient(
-    600px circle at var(--cx, -9999px) var(--cy, -9999px),
-    rgba(77, 184, 231, 0.045),
-    transparent 80%
-  );
-}
-@media (prefers-reduced-motion: reduce) {
-  #cursor-spotlight { display: none; }
-}
-
 /* Scroll-driven reveal animations */
 .reveal {
   opacity: 0;
