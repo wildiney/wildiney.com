@@ -28,4 +28,4 @@ O que diferencia é o que não tem como exportar.
 
 ---
 
-Fonte: https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/
+Fonte: <https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/>

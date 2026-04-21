@@ -1,6 +1,6 @@
 ---
 title: "A embalagem ficou igual para todo mundo"
-date: "2026-04-21"
+date: "2026-04-28"
 description: "A IA democratizou a camada visual dos produtos. Se o visual deixou de ser diferencial, o que separa um produto do outro é o que o template nunca entrega: a decisão do que não colocar na tela."
 tags: ["design", "inteligência artificial", "diferenciação", "produto", "qualidade", "decisão"]
 thumbnail: "/images/articles/embalagem-ficou-igual-para-todo-mundo/cover.webp"

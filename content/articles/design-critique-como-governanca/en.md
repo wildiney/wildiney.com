@@ -1,6 +1,6 @@
 ---
 title: "Design Critique"
-date: "2026-04-07"
+date: "2026-04-14"
 description: "From a product perspective, a well-run design critique is governance. It is the moment when decisions that are still cheap to reverse get examined before they become expensive."
 tags: ["design critique", "governança", "usabilidade", "decisão", "feedback", "qualidade de produto"]
 thumbnail: "/images/articles/design-critique-como-governanca/cover.webp"
@@ -24,4 +24,4 @@ When that moment is wasted, the cost does not disappear. It just moves forward. 
 
 ---
 
-Source: https://lnkd.in/d47mqUeE
+Source: <https://lnkd.in/d47mqUeE>
