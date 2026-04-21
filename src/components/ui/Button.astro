@@ -24,10 +24,11 @@ const sizes = {
 }
 
 const classes = [base, variants[variant], sizes[size], className].filter(Boolean).join(' ')
+const magnetic = variant === 'primary' || variant === 'secondary'
 ---
 
 {href ? (
-  <a href={href} class={classes} {...rest}><slot /></a>
+  <a href={href} class={classes} data-magnetic={magnetic || undefined} {...rest}><slot /></a>
 ) : (
-  <button class={classes} {...rest}><slot /></button>
+  <button class={classes} data-magnetic={magnetic || undefined} {...rest}><slot /></button>
 )}
