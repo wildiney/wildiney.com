@@ -1,6 +1,6 @@
 ---
 title: "Design Critique"
-date: "2026-04-07"
+date: "2026-04-14"
 description: "Do ponto de vista de produto, design critique bem conduzido é governança. É o momento em que decisões ainda baratas de reverter são examinadas antes de se tornarem caras."
 tags: ["design critique", "governança", "usabilidade", "decisão", "feedback", "qualidade de produto"]
 thumbnail: "/images/articles/design-critique-como-governanca/cover.webp"
@@ -24,4 +24,4 @@ Quando esse momento é desperdiçado, o custo não desaparece. Ele só se desloc
 
 ---
 
-Fonte: https://lnkd.in/d47mqUeE
+Fonte: <https://lnkd.in/d47mqUeE>

@@ -1,6 +1,6 @@
 ---
 title: "Harrison Bergeron não era ficção"
-date: "2026-04-14"
+date: "2026-04-21"
 description: "Alunos que escrevem bem estão sendo sinalizados como suspeitos de uso de IA. O sinal foi invertido: competência virou evidência de trapaça. Isso vai além das escolas."
 tags: ["inteligência artificial", "educação", "trabalho", "habilidades", "competência"]
 thumbnail: "/images/articles/harrison-bergeron-nao-era-ficcao/cover.webp"
@@ -26,6 +26,6 @@ Se para sermos críveis tivermos que aprender a nos diminuir, o que isso faz com
 
 Harrison Bergeron era ficção científica. Publicado em 1961.
 
-Às vezes a ficção científica não prevê o futuro. Ela apenas chega antes.
+Às vezes a ficção científica não prevê o futuro. Apenas o encontra antes de todos.
 
-Fonte: https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/
+Fonte: <https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/>

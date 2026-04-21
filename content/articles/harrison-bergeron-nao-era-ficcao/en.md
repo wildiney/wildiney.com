@@ -1,6 +1,6 @@
 ---
 title: "Harrison Bergeron Was Not Fiction"
-date: "2026-04-14"
+date: "2026-04-21"
 description: "Students who write well are being flagged as suspected AI users. The signal has been inverted: competence became evidence of cheating. This goes beyond schools."
 tags: ["inteligência artificial", "educação", "trabalho", "habilidades", "competência"]
 thumbnail: "/images/articles/harrison-bergeron-nao-era-ficcao/cover.webp"
@@ -28,4 +28,4 @@ Harrison Bergeron was science fiction. Published in 1961.
 
 Sometimes science fiction does not predict the future. It just gets there first.
 
-Source: https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/
+Source: <https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/>

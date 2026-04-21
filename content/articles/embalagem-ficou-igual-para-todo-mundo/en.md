@@ -1,6 +1,6 @@
 ---
 title: "The Packaging Looks the Same for Everyone"
-date: "2026-04-21"
+date: "2026-04-28"
 description: "AI democratized the visual layer of products. If the visual is no longer a differentiator, what separates one product from another is what the template never delivers: the decision of what not to put on the screen."
 tags: ["design", "inteligência artificial", "diferenciação", "produto", "qualidade", "decisão"]
 thumbnail: "/images/articles/embalagem-ficou-igual-para-todo-mundo/cover.webp"
