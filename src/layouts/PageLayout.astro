@@ -132,4 +132,31 @@ const {
       })
     })
   }
+
+  // Hero dissolve on scroll (Ideia 3)
+  const dissolveEls = document.querySelectorAll<HTMLElement>('[data-dissolve]')
+  if (dissolveEls.length && !reducedMotion) {
+    let ticking = false
+    const update = () => {
+      dissolveEls.forEach((el) => {
+        const rect = el.getBoundingClientRect()
+        const vh = window.innerHeight
+        const progress = Math.min(1, Math.max(0, -rect.top / vh))
+        const opacity = 1 - progress * 0.95
+        const translate = -progress * 28
+        el.style.opacity = String(opacity)
+        el.style.transform = `translateY(${translate}px)`
+      })
+      ticking = false
+    }
+    const onScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(update)
+        ticking = true
+      }
+    }
+    update()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+  }
 </script>
