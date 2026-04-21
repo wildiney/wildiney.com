@@ -8,7 +8,7 @@ Portafolio personal con artículos, casos de estudio y agenda de contacto.
 
 ### Harrison Bergeron no era ficción
 URL: https://wildiney.com/es/articles/harrison-bergeron-nao-era-ficcao/
-Date: 2026-04-14
+Date: 2026-04-21
 Description: Los alumnos que escriben bien están siendo señalados como sospechosos de uso de IA. La señal se invirtió: la competencia se convirtió en evidencia de trampa. Esto va más allá de las escuelas.
 
 Un alumno escribió un ensayo sobre Harrison Bergeron, el cuento de Kurt Vonnegut sobre una sociedad que castiga a quienes se destacan. El ensayo fue marcado como 18% generado por IA. El motivo: una sola palabra — "devoid". Al reemplazarla por "without", la puntuación cayó a cero.
@@ -33,13 +33,13 @@ Harrison Bergeron era ciencia ficción. Publicado en 1961.
 
 A veces la ciencia ficción no predice el futuro. Solo llega antes.
 
-Fuente: https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/
+Fuente: <https://www.techdirt.com/2026/03/06/were-training-students-to-write-worse-to-prove-theyre-not-robots-and-its-pushing-them-to-use-more-ai/>
 
 ---
 
 ### Design Critique
 URL: https://wildiney.com/es/articles/design-critique-como-governanca/
-Date: 2026-04-07
+Date: 2026-04-14
 Description: Desde el punto de vista de producto, un design critique bien conducido es gobernanza. Es el momento en que las decisiones que aún son baratas de revertir se examinan antes de volverse costosas.
 
 Jakob Nielsen publicó recientemente un análisis detallado sobre por qué los design critiques fracasan. Mapeó 13 razones, pero detrás de todas ellas se repite un único patrón: la reunión deja de evaluar el diseño y pasa a reflejar jerarquía, gusto personal y política organizacional.
@@ -60,7 +60,28 @@ Cuando ese momento se desperdicia, el costo no desaparece. Solo se desplaza haci
 
 ---
 
-Fuente: https://lnkd.in/d47mqUeE
+Fuente: <https://lnkd.in/d47mqUeE>
+
+---
+
+### En 2025, la IA produjo más texto que toda la humanidad desde Gutenberg
+URL: https://wildiney.com/es/articles/ia-produziu-mais-texto-que-humanidade/
+Date: 2026-04-07
+Description: El costo de producir especulación con formato de investigación cayó a cero. Para quienes trabajan en producto, esto cambia cuánto peso pueden darle a un análisis sin verificar de dónde proviene.
+
+El dato proviene de Brett Winton, Chief Futurist de ARK Invest, publicado en X el 26 de marzo. Dos gráficos: producción anual, donde la línea de la IA cruza la humana en 2025, y volumen acumulado, donde la proyección es superar 500 años de escritura humana dentro de esta década.
+
+![Volumen acumulado de texto generado por IA versus humanos](/images/articles/ia-produziu-mais-texto-que-humanidade/chart-02.webp)
+
+Una advertencia antes de sacar conclusiones apresuradas. Este volumen mezcla código, conversaciones de chatbot descartadas en segundos, datos sintéticos para entrenar otros modelos y, sí, informes y documentos que alguien usará para tomar decisiones.
+
+Para quienes trabajan en producto, el punto no es solo el contenido sospechoso. Es que el costo de producir especulación con formato de investigación cayó a cero, y eso cambia cuánto peso se puede dar a un análisis sin verificar en profundidad de dónde proviene.
+
+Quien usa benchmarks, reseñas de usuarios o datos de mercado para decidir siempre supo que los datos malos llevan a conclusiones malas. Basura entra, basura sale. La diferencia ahora es de volumen y velocidad: antes era posible hacer una excepción al verificar el origen porque confiábamos en el canal, en el medio, pero hoy es obligación escavar y conocer todo el contexto antes de considerar el contenido.
+
+Evaluar fuentes siempre fue el tema central del periodismo, pero no siempre en producto. Cuántas veces nos dimos cuenta durante las revisiones de discovery de que la fuente elegida era la que más se acercaba al sesgo de confirmación del diseñador. Lo que hizo la IA fue volver ese descuido mucho más caro y muy bien documentado.
+
+Fuente: Brett Winton (@wintonARK), X, 26 de marzo de 2026
 
 ---
 
