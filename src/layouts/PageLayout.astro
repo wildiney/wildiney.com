@@ -20,7 +20,6 @@ const {
 ---
 
 <BaseLayout title={title} description={description} locale={locale} noindex={noindex}>
-  <div id="cursor-spotlight" aria-hidden="true"></div>
   <Header locale={locale} />
   <main id="main-content" class="pt-16">
     <slot />
@@ -41,18 +40,4 @@ const {
     { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
   )
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el))
-</script>
-
-<script>
-  const spotlight = document.getElementById('cursor-spotlight') as HTMLElement | null
-  if (spotlight && window.matchMedia('(pointer: fine)').matches) {
-    let rafId: number
-    document.addEventListener('mousemove', (e) => {
-      cancelAnimationFrame(rafId)
-      rafId = requestAnimationFrame(() => {
-        spotlight.style.setProperty('--cx', `${e.clientX}px`)
-        spotlight.style.setProperty('--cy', `${e.clientY}px`)
-      })
-    })
-  }
 </script>
