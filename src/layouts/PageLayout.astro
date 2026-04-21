@@ -81,4 +81,55 @@ const {
     { threshold: 0.4 }
   )
   kineticEls.forEach((el) => kineticObs.observe(el))
+
+  // Micro-interactions (Ideia 2): magnetic buttons + 3D tilt cards + link swipe
+  const hasHover = window.matchMedia('(hover: hover)').matches
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+  if (hasHover && !reducedMotion) {
+    // Magnetic buttons
+    document.querySelectorAll<HTMLElement>('[data-magnetic]').forEach((btn) => {
+      const RADIUS = 70
+      const STRENGTH = 0.22
+      btn.addEventListener('mousemove', (e) => {
+        const rect = btn.getBoundingClientRect()
+        const cx = rect.left + rect.width / 2
+        const cy = rect.top + rect.height / 2
+        const dx = e.clientX - cx
+        const dy = e.clientY - cy
+        const dist = Math.hypot(dx, dy)
+        if (dist < rect.width / 2 + RADIUS) {
+          btn.style.transform = `translate(${dx * STRENGTH}px, ${dy * STRENGTH}px)`
+        }
+      })
+      btn.addEventListener('mouseleave', () => {
+        btn.style.transform = ''
+      })
+    })
+
+    // Tilt cards — preserve existing lift
+    document.querySelectorAll<HTMLElement>('[data-tilt]').forEach((card) => {
+      const MAX = 2.5
+      const LIFT = card.classList.contains('hover:-translate-y-1') ? 4 : 2
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect()
+        const px = (e.clientX - rect.left) / rect.width
+        const py = (e.clientY - rect.top) / rect.height
+        const rx = (0.5 - py) * MAX * 2
+        const ry = (px - 0.5) * MAX * 2
+        card.style.transform = `perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-${LIFT}px)`
+      })
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = ''
+      })
+    })
+
+    // Underline swipe leave direction
+    document.querySelectorAll<HTMLElement>('.link-swipe').forEach((link) => {
+      link.addEventListener('mouseleave', () => {
+        link.classList.add('is-leaving')
+        setTimeout(() => link.classList.remove('is-leaving'), 400)
+      })
+    })
+  }
 </script>

@@ -90,6 +90,54 @@
   }
 }
 
+/* Micro-interactions (Ideia 2) */
+@media (hover: hover) {
+  [data-magnetic] {
+    will-change: transform;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s, border-color 0.2s, color 0.2s;
+  }
+  [data-tilt] {
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+}
+
+.link-swipe {
+  position: relative;
+  text-decoration: none;
+}
+.link-swipe::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1px;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+.link-swipe:hover::after,
+.link-swipe:focus-visible::after {
+  transform: scaleX(1);
+}
+.link-swipe.is-leaving::after {
+  transform-origin: right center;
+  transform: scaleX(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-magnetic],
+  [data-tilt] {
+    transition: none !important;
+  }
+  .link-swipe::after {
+    transition: none !important;
+  }
+}
+
 /* Accessible focus rings */
 :focus-visible {
   outline: 2px solid var(--color-accent);
