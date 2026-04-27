@@ -5,6 +5,7 @@ role: "Designer Sênior"
 year: "2014–2022"
 tags: ["Design Systems", "Brand Governance", "Comunicação Corporativa", "Soluções Digitais"]
 thumbnail: "/images/portfolio/indra/header-indra.webp"
+noindex: true
 ---
 
 ## Contexto

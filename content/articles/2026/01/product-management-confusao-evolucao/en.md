@@ -1,6 +1,6 @@
 ---
 title: "If Product Management Seems Confusing, It Is Because We Stopped Following Manuals and Started Thinking"
-date: "2026-01-03"
+date: "2026-01-06"
 description: "The PM role has never been static. From fixed plans to Agile, from Product Owner to strategist, the function evolved with the markets — and AI is exposing who decides well versus who merely executes increasingly sophisticated processes."
 tags: ["product management", "design", "agile", "inteligência artificial"]
 thumbnail: "/images/articles/product-management-confusao-evolucao/cover.webp"

@@ -30,9 +30,29 @@ function resolveContentDir(): string {
 
 const CONTENT_DIR = resolveContentDir()
 
+// Builds slug → absolute folder path map by scanning YYYY/MM/slug structure
+function buildSlugMap(): Map<string, string> {
+  const map = new Map<string, string>()
+  if (!existsSync(CONTENT_DIR)) return map
+  for (const year of readdirSync(CONTENT_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
+    const yearPath = join(CONTENT_DIR, year.name)
+    for (const month of readdirSync(yearPath, { withFileTypes: true }).filter(d => d.isDirectory())) {
+      const monthPath = join(yearPath, month.name)
+      for (const slug of readdirSync(monthPath, { withFileTypes: true }).filter(d => d.isDirectory())) {
+        map.set(slug.name, join(monthPath, slug.name))
+      }
+    }
+  }
+  return map
+}
+
+const SLUG_MAP = buildSlugMap()
+
 function getLocalizedFile(slug: string, locale: string): string {
-  const localePath = join(CONTENT_DIR, slug, `${locale}.md`)
-  const fallbackPath = join(CONTENT_DIR, slug, 'pt.md')
+  const slugDir = SLUG_MAP.get(slug)
+  if (!slugDir) throw new Error(`No content found for article: ${slug}`)
+  const localePath = join(slugDir, `${locale}.md`)
+  const fallbackPath = join(slugDir, 'pt.md')
   if (existsSync(localePath)) return localePath
   if (existsSync(fallbackPath)) return fallbackPath
   throw new Error(`No content found for article: ${slug}`)
@@ -46,12 +66,9 @@ export function getArticle(slug: string, locale = 'pt'): Article {
 }
 
 export function getArticles(locale = 'pt'): ArticleMeta[] {
-  if (!existsSync(CONTENT_DIR)) return []
-  const slugs = readdirSync(CONTENT_DIR, { withFileTypes: true })
-    .filter(d => d.isDirectory())
-    .map(d => d.name)
+  if (SLUG_MAP.size === 0) return []
   const today = new Date().toISOString().slice(0, 10)
-  return slugs
+  return [...SLUG_MAP.keys()]
     .map(slug => {
       const { content: _c, ...meta } = getArticle(slug, locale)
       return meta
@@ -66,8 +83,5 @@ export function getArticles(locale = 'pt'): ArticleMeta[] {
 }
 
 export function getAllArticleSlugs(): string[] {
-  if (!existsSync(CONTENT_DIR)) return []
-  return readdirSync(CONTENT_DIR, { withFileTypes: true })
-    .filter(d => d.isDirectory())
-    .map(d => d.name)
+  return [...SLUG_MAP.keys()]
 }

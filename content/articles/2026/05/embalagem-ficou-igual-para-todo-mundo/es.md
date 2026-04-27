@@ -1,6 +1,6 @@
 ---
 title: "El empaque quedó igual para todos"
-date: "2026-04-28"
+date: "2026-05-19"
 description: "La IA democratizó la capa visual de los productos. Si el visual dejó de ser un diferenciador, lo que separa un producto de otro es lo que el template nunca entrega: la decisión de qué no poner en la pantalla."
 tags: ["design", "inteligência artificial", "diferenciação", "produto", "qualidade", "decisão"]
 thumbnail: "/images/articles/embalagem-ficou-igual-para-todo-mundo/cover.webp"

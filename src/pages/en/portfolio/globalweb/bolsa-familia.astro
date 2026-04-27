@@ -10,7 +10,7 @@ const t = getTranslations(locale)
 const contentHtml = await renderMarkdown(cs.content)
 ---
 
-<PageLayout title={`${cs.title} — Wildiney Di Masi`} locale={locale} noindex={true}>
+<PageLayout title={`${cs.title} — Wildiney Di Masi`} locale={locale} noindex={cs.noindex}>
   <!-- Dark header -->
   <div class="group min-h-[60vh] bg-dark flex items-end px-6 md:px-12 lg:px-24 pt-32 pb-16 border-b border-dark-border relative overflow-hidden">
     {cs.thumbnail && (

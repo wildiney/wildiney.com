@@ -1,6 +1,6 @@
 ---
 title: "Se Product Management parece confuso, é porque paramos de seguir manuais e começamos a pensar"
-date: "2026-01-03"
+date: "2026-01-06"
 description: "O papel de PM nunca foi estático. Do plano fixo ao Agile, do Product Owner ao estrategista, a função evoluiu com os mercados — e a IA expõe quem decide bem de quem apenas executa processos."
 tags: ["product management", "design", "agile", "inteligência artificial"]
 thumbnail: "/images/articles/product-management-confusao-evolucao/cover.webp"

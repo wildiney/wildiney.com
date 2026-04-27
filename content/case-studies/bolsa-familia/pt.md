@@ -5,6 +5,7 @@ role: "Senior Product Designer"
 year: "2022–2025"
 tags: ["UX Research", "Design System", "Acessibilidade", "Gov Tech"]
 thumbnail: "/images/portfolio/bolsa-familia/bolsa-familia.webp"
+noindex: true
 ---
 
 ## Contexto
