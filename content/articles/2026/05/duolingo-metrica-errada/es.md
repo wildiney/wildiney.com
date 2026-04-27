@@ -1,6 +1,6 @@
 ---
 title: "Duolingo y la métrica equivocada"
-date: "2026-06-09"
+date: "2026-05-05"
 description: "Mover una métrica un 2% al mes parece irrelevante. En Duolingo, ese número valía cinco veces más impacto en el crecimiento que cualquier otra variable. El descubrimiento vino de dejar de empujar el DAU y hacer otra pregunta."
 tags: ["métricas", "crecimiento", "gamificación", "decisión", "estrategia de producto", "diseño conductual"]
 ---

@@ -11,6 +11,7 @@ export interface CaseStudyMeta {
   year?: string
   tags?: string[]
   thumbnail?: string
+  noindex?: boolean
 }
 
 export interface CaseStudy extends CaseStudyMeta {
