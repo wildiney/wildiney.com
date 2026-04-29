@@ -6,6 +6,7 @@ interface Props {
   description?: string
   locale?: string
   noindex?: boolean
+  ogImage?: string
 }
 
 const {
@@ -13,13 +14,14 @@ const {
   description = 'Wildiney Di Masi - Product Management. Entregando produtos que geram impacto.',
   locale = 'pt',
   noindex = false,
+  ogImage,
 } = Astro.props
 
 const isProd = import.meta.env.PROD
 const gtmId = isProd ? (import.meta.env.PUBLIC_GTM_ID ?? 'GTM-NNX4S37') : null
 const clarityId = isProd ? (import.meta.env.PUBLIC_CLARITY_ID ?? 'vygjr8jgps') : null
 const siteUrl = new URL(Astro.url.pathname, Astro.site || 'https://wildiney.com')
-const ogImage = new URL('/assets/og-image.jpg', Astro.site || 'https://wildiney.com').toString()
+const ogImageUrl = new URL(ogImage ?? '/assets/og-image.jpg', Astro.site || 'https://wildiney.com').toString()
 ---
 
 <!doctype html>
@@ -33,7 +35,7 @@ const ogImage = new URL('/assets/og-image.jpg', Astro.site || 'https://wildiney.
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImageUrl} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={siteUrl.toString()} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
