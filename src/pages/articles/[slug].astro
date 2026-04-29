@@ -14,7 +14,7 @@ const article = getArticle(slug!, 'pt')
 const contentHtml = await renderMarkdown(article.content)
 ---
 
-<PageLayout title={`${article.title} — Wildiney Di Masi`} locale="pt">
+<PageLayout title={`${article.title} — Wildiney Di Masi`} description={article.description} ogImage={article.thumbnail} locale="pt">
   <!-- Dark header with background image -->
   <div class="relative min-h-[72vh] bg-dark flex items-end pt-24 pb-16 overflow-hidden">
     {article.thumbnail && (

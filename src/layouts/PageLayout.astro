@@ -9,6 +9,7 @@ interface Props {
   description?: string
   locale?: Locale
   noindex?: boolean
+  ogImage?: string
 }
 
 const {
@@ -16,10 +17,11 @@ const {
   description,
   locale = 'pt',
   noindex = false,
+  ogImage,
 } = Astro.props
 ---
 
-<BaseLayout title={title} description={description} locale={locale} noindex={noindex}>
+<BaseLayout title={title} description={description} locale={locale} noindex={noindex} ogImage={ogImage}>
   <Header locale={locale} />
   <main id="main-content" class="pt-16">
     <slot />
