@@ -41,6 +41,7 @@ out/
 
 # Superpowers brainstorm sessions
 .superpowers/
+docs/superpowers/
 
 # Claude Code local settings
 .claude/settings.local.json
