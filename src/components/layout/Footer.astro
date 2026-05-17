@@ -8,6 +8,12 @@ interface Props {
 const { locale } = Astro.props
 const year = new Date().getFullYear()
 const t = getTranslations(locale)
+
+const privacyLink = {
+  pt: { href: '/privacidade/', label: 'Política de Privacidade' },
+  en: { href: '/en/privacy/', label: 'Privacy Policy' },
+  es: { href: '/es/privacidad/', label: 'Política de Privacidad' },
+}[locale]
 ---
 
 <footer class="bg-dark border-t border-dark-border py-8 px-6 md:px-12 lg:px-24">
@@ -19,6 +25,12 @@ const t = getTranslations(locale)
     </div>
 
     <div class="flex items-center gap-6">
+      <a
+        href={privacyLink.href}
+        class="link-swipe text-sm text-muted hover:text-accent transition-colors tracking-widest uppercase"
+      >
+        {privacyLink.label}
+      </a>
       <a
         href="https://linkedin.com/in/wildiney"
         target="_blank"

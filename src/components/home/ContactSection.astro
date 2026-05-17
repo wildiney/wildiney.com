@@ -9,7 +9,7 @@ const copy = {
   pt: {
     label: 'Contato',
     headline: 'Vamos conversar.',
-    sub: 'Aberto a posições de Product Manager e Design Lead em empresas que levam produto a sério.',
+    sub: 'Interessado em conversas sobre produto, estratégia e decisão com empresas que constroem coisas que importam.',
     nameLabel: 'Nome',
     emailLabel: 'Email',
     messageLabel: 'Mensagem',
@@ -21,11 +21,16 @@ const copy = {
     successMsg: 'Mensagem enviada! Retorno em breve.',
     errorMsg: 'Erro ao enviar. Tente novamente.',
     tagline: 'Boas perguntas constroem bons produtos.',
+    privacyNote: 'Nome, e-mail e mensagem são enviados via',
+    privacyProcessor: 'formsubmit.co',
+    privacyPurpose: 'exclusivamente para responder ao seu contato.',
+    privacyLink: 'Política de privacidade',
+    privacyHref: '/privacidade/',
   },
   en: {
     label: 'Contact',
     headline: "Let's talk.",
-    sub: 'Open to Product Manager and Design Lead positions at companies that take product seriously.',
+    sub: 'Interested in conversations about product, strategy and decision-making with companies that build things that matter.',
     nameLabel: 'Name',
     emailLabel: 'Email',
     messageLabel: 'Message',
@@ -37,11 +42,16 @@ const copy = {
     successMsg: 'Message sent! I will get back to you soon.',
     errorMsg: 'Failed to send. Please try again.',
     tagline: 'Good questions build good products.',
+    privacyNote: 'Name, email, and message are sent via',
+    privacyProcessor: 'formsubmit.co',
+    privacyPurpose: 'solely to respond to your inquiry.',
+    privacyLink: 'Privacy policy',
+    privacyHref: '/en/privacy/',
   },
   es: {
     label: 'Contacto',
     headline: 'Hablemos.',
-    sub: 'Abierto a posiciones de Product Manager y Design Lead en empresas que se toman el producto en serio.',
+    sub: 'Interesado en conversaciones sobre producto, estrategia y decisión con empresas que construyen cosas que importan.',
     nameLabel: 'Nombre',
     emailLabel: 'Email',
     messageLabel: 'Mensaje',
@@ -53,6 +63,11 @@ const copy = {
     successMsg: 'Mensaje enviado. Te respondo pronto.',
     errorMsg: 'Error al enviar. Intenta de nuevo.',
     tagline: 'Las buenas preguntas construyen buenos productos.',
+    privacyNote: 'Nombre, correo y mensaje se envían vía',
+    privacyProcessor: 'formsubmit.co',
+    privacyPurpose: 'exclusivamente para responder tu contacto.',
+    privacyLink: 'Política de privacidad',
+    privacyHref: '/es/privacidad/',
   },
 }
 const c = copy[locale]
@@ -114,6 +129,11 @@ const c = copy[locale]
       </div>
 
       <Button id="contact-submit" type="submit" variant="primary" class="self-start">{c.submit}</Button>
+
+      <p class="text-xs text-muted mt-1 leading-relaxed">
+        {c.privacyNote} <a href={`https://formsubmit.co`} target="_blank" rel="noopener noreferrer" class="underline underline-offset-2 hover:text-dark-text transition-colors">{c.privacyProcessor}</a> {c.privacyPurpose}
+        {' '}<a href={c.privacyHref} class="underline underline-offset-2 hover:text-dark-text transition-colors">{c.privacyLink}</a>.
+      </p>
     </form>
 
   </div>

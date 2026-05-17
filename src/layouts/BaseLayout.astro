@@ -1,10 +1,12 @@
 ---
 import '../styles/globals.css'
+import CookieConsent from '../components/CookieConsent.astro'
+import type { Locale } from '../i18n/index'
 
 interface Props {
   title?: string
   description?: string
-  locale?: string
+  locale?: Locale
   noindex?: boolean
   ogImage?: string
 }
@@ -45,39 +47,45 @@ const ogImageUrl = new URL(ogImage ?? '/assets/og-image.jpg', Astro.site || 'htt
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    {gtmId && (
-      <script define:vars={{ gtmId }}>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer',gtmId);
-      </script>
-    )}
-    {clarityId && (
-      <script define:vars={{ clarityId }}>
-        (function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", clarityId);
+    {(gtmId || clarityId) && (
+      <script define:vars={{ gtmId, clarityId }}>
+        window.__initAnalytics = function () {
+          if (['localhost', '127.0.0.1'].includes(window.location.hostname)) return
+          if (localStorage.getItem('lgpd_consent') !== 'accepted') return
+          if (window.__analyticsLoaded) return
+          window.__analyticsLoaded = true
+          if (gtmId) {
+            ;(function (w, d, s, l, i) {
+              w[l] = w[l] || []
+              w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+              var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : ''
+              j.async = true
+              j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+              f.parentNode.insertBefore(j, f)
+            })(window, document, 'script', 'dataLayer', gtmId)
+          }
+          if (clarityId) {
+            ;(function (c, l, a, r, i, t, y) {
+              c[a] = c[a] || function () { ;(c[a].q = c[a].q || []).push(arguments) }
+              t = l.createElement(r)
+              t.async = 1
+              t.src = 'https://www.clarity.ms/tag/' + i
+              y = l.getElementsByTagName(r)[0]
+              y.parentNode.insertBefore(t, y)
+            })(window, document, 'clarity', 'script', clarityId)
+          }
+        }
+        window.__initAnalytics()
       </script>
     )}
   </head>
   <body>
-    {gtmId && (
-      <noscript>
-        <iframe
-          src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
-          height="0"
-          width="0"
-          style="display:none;visibility:hidden"
-        />
-      </noscript>
-    )}
     <a href="#main-content" class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-[200] focus-visible:px-4 focus-visible:py-2 focus-visible:bg-accent focus-visible:text-dark focus-visible:text-sm focus-visible:font-medium">
       Pular para o conteúdo
     </a>
     <slot />
+    <CookieConsent locale={locale} />
   </body>
 </html>
