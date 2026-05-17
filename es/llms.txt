@@ -6,6 +6,56 @@ Portafolio personal con artículos, casos de estudio y agenda de contacto.
 
 ## Artículos
 
+### ¿Quién decidió dar ese acceso?
+URL: https://wildiney.com/es/articles/quem-decidiu-dar-esse-acesso/
+Date: 2026-05-12
+Description: Los empleados comparten documentos sensibles con modelos de IA sin evaluar el riesgo. Casi ninguno de esos accesos fue evaluado como tal porque la persona no estaba pensando en seguridad, estaba pensando en no quedar obsoleta.
+
+Antes analizabas quién te pedía tu teléfono. ¿Para qué quiere mi contacto esta persona? ¿Quiero atender esa llamada? Hoy, cualquiera pide el WhatsApp y, apunta aquí: 9... . El número es el mismo, el riesgo de exponer tu contacto a un desconocido también, pero el costo de dudar se volvió demasiado alto.
+
+En las empresas, el mismo mecanismo está en marcha. El empleado procesa el informe de inteligencia competitiva en un chat porque necesitaba un resumen rápido, sube la propuesta comercial para dar formato al texto, lanza las especificaciones de producto para extraer los próximos pasos. La misma persona que no le mostraría esos documentos al compañero sentado a su lado acaba de compartirlos con un modelo cuyas políticas de entrenamiento nunca ha leído.
+
+Por cierto, cada plataforma tiene su propia política: algunas usan tus inputs por defecto, a menos que desactives la opción; otras solo los usan si lo autorizas, pero la mayoría de los usuarios nunca lee la letra pequeña. Y la mayoría de las empresas tampoco sabe que sus empleados están haciendo este esfuerzo por ellas. ¿De verdad? ¿O es que decidieron abiertamente hacer la vista gorda esperando mejores resultados?
+
+El dato que queda fuera: el 96% de las pequeñas empresas brasileñas conocen la IA generativa, pero solo el 15% la usan con frecuencia (Sebrae, 2025). La sensación de quedarse atrás no refleja el mercado, refleja una industria que se beneficia de mantener esa sensación viva. Los investigadores la llaman FOO, Fear of Obsolescence, que se distingue del FOMO porque no está ligada a ninguna oportunidad específica, sino al miedo permanente a volverse irrelevante como profesional. Distorsiona la comparación porque ves los resultados de tus colegas pero nunca el proceso.
+
+Casi ninguno de esos accesos fue evaluado como un riesgo porque la persona que los otorgó no estaba pensando en seguridad, estaba pensando en no quedarse paralizada y mostrarse productiva.
+
+La pregunta que falta antes del próximo upload: ¿fue esto una decisión, o el miedo a quedar obsoleto decidió por ti?
+
+---
+
+### Duolingo y la métrica equivocada
+URL: https://wildiney.com/es/articles/duolingo-metrica-errada/
+Date: 2026-05-05
+Description: Mover una métrica un 2% al mes parece irrelevante. En Duolingo, ese número valía cinco veces más impacto en el crecimiento que cualquier otra variable. El descubrimiento vino de dejar de empujar el DAU y hacer otra pregunta.
+
+Mover una métrica un 2% al mes parece irrelevante. En Duolingo, ese número valía cinco veces más impacto en el crecimiento que cualquier otra variable que el equipo seguía.
+
+El descubrimiento vino de dejar de empujar el DAU directamente y hacer otra pregunta: ¿qué lo mueve de forma indirecta?
+
+El DAU era demasiado grande, con demasiadas variables y pocas palancas identificables. Entonces construyeron un modelo de Markov que segmentó toda la base en siete estados de engagement y monitoreó las tasas de transición entre ellos.
+
+La métrica que el modelo identificó como la principal palanca fue el CURR, la retención de los usuarios que ya estaban activos. Crearon un equipo dedicado exclusivamente a mover ese número. En cuatro años subió un 21%, el churn de los mejores usuarios cayó un 40% y el DAU creció 4,5 veces.
+
+Antes de los aciertos, dos errores que enseñan más.
+
+Intentaron copiar el contador de movimientos de Gardenscapes, que consumió meses de trabajo y generó un resultado neutro. La mecánica funcionaba en el juego porque cada jugada era estratégica. En Duolingo, sabes la respuesta o no la sabes, entonces el contador era solo ruido. Después, un referral igual al de Uber que excluía exactamente a quienes más refieren: los usuarios que ya tenían el plan premium.
+
+El ex-CPO Jorge Mazal documentó la lección: adapta cuando adoptes. Antes de copiar una feature, entiende por qué funciona en ese contexto.
+
+Lo que vino después funcionó porque el equipo entendió los mecanismos antes de copiar las formas. Los leaderboards explotan la comparación social: competir con alguien de engagement similar retiene más que competir con amigos que ya dejaron de usar el producto. El streak capitaliza la aversión a la pérdida, con el peso psicológico de perder 100 días de historial creciendo cada día que pasa. Las notificaciones se optimizaron con restricción deliberada de volumen y ajustes de timing, copy y localización que aplican refuerzo variable sin destruir el canal.
+
+En 2023, el 90% de los usuarios activos ya estaba en el mismo segmento. La métrica que había salvado el crecimiento se convirtió en un nuevo monolito, demasiado grande para mover, y el ciclo empezó de nuevo.
+
+Toda métrica que funciona lleva una fecha de vencimiento. Lo que fuerza la decisión correcta hoy puede estar cubriendo el problema equivocado mañana.
+
+---
+
+Fuentes: [Jorge Mazal, Lenny's Newsletter](https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth) · [Erin Gustafson, Duolingo Blog](https://blog.duolingo.com/growth-model-duolingo/)
+
+---
+
 ### El ciclo de los tokens
 URL: https://wildiney.com/es/articles/ciclo-dos-tokens/
 Date: 2026-04-28
