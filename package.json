@@ -15,7 +15,7 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.0.0",
     "@tailwindcss/vite": "^4.1.0",
-    "astro": "^6.1.8",
+    "astro": "^6.1.10",
     "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",
     "react": "^19.1.1",
