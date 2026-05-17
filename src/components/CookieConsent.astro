@@ -1,0 +1,73 @@
+---
+import type { Locale } from '../i18n/index'
+import Button from './ui/Button.astro'
+
+interface Props { locale: Locale }
+const { locale } = Astro.props
+
+const copy = {
+  pt: {
+    text: 'Usamos Google Analytics e Microsoft Clarity para entender como o site é usado. Nenhum dado é coletado sem sua autorização.',
+    accept: 'Aceitar',
+    reject: 'Recusar',
+    link: 'Política de privacidade',
+    href: '/privacidade/',
+  },
+  en: {
+    text: 'We use Google Analytics and Microsoft Clarity to understand how this site is used. No data is collected without your consent.',
+    accept: 'Accept',
+    reject: 'Decline',
+    link: 'Privacy policy',
+    href: '/en/privacy/',
+  },
+  es: {
+    text: 'Usamos Google Analytics y Microsoft Clarity para entender cómo se usa el sitio. No se recopilan datos sin tu autorización.',
+    accept: 'Aceptar',
+    reject: 'Rechazar',
+    link: 'Política de privacidad',
+    href: '/es/privacidad/',
+  },
+}
+const c = copy[locale]
+---
+
+<div
+  id="cookie-banner"
+  class="fixed bottom-0 left-0 right-0 z-[100] bg-dark border-t border-dark-border px-6 py-5 hidden"
+  role="dialog"
+  aria-label="Consentimento de cookies"
+>
+  <div class="max-w-5xl mx-auto flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between">
+    <p class="text-sm text-muted leading-relaxed flex-1">
+      {c.text}
+      {' '}
+      <a href={c.href} class="text-accent underline underline-offset-2 hover:text-dark-text transition-colors">{c.link}</a>.
+    </p>
+    <div class="flex gap-3 shrink-0">
+      <Button id="cookie-reject" variant="secondary" size="sm">{c.reject}</Button>
+      <Button id="cookie-accept" variant="primary" size="sm">{c.accept}</Button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const banner = document.getElementById('cookie-banner')
+  const acceptBtn = document.getElementById('cookie-accept')
+  const rejectBtn = document.getElementById('cookie-reject')
+
+  const consent = localStorage.getItem('lgpd_consent')
+  if (!consent && banner) {
+    banner.classList.remove('hidden')
+  }
+
+  acceptBtn?.addEventListener('click', () => {
+    localStorage.setItem('lgpd_consent', 'accepted')
+    banner?.classList.add('hidden')
+    ;(window as Window & { __initAnalytics?: () => void }).__initAnalytics?.()
+  })
+
+  rejectBtn?.addEventListener('click', () => {
+    localStorage.setItem('lgpd_consent', 'rejected')
+    banner?.classList.add('hidden')
+  })
+</script>
