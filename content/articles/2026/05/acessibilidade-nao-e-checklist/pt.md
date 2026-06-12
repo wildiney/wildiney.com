@@ -3,6 +3,7 @@ title: "Acessibilidade não é checklist"
 date: "2026-05-26"
 description: "O Google Research prototipou interfaces que se adaptam em tempo real ao comportamento do usuário, sem menus de acessibilidade. Para times de produto, isso muda o que suportar leitores de tela significa no roadmap."
 tags: ["acessibilidade", "inteligência artificial", "estratégia de produto", "design inclusivo", "interfaces adaptativas"]
+thumbnail: "/images/articles/acessibilidade-nao-e-checklist/cover.webp"
 ---
 
 Imagine que você abre um app e, sem nenhuma configuração prévia, ele adapta o layout ao seu ritmo, descreve em áudio o gráfico que acabou de aparecer na tela e reformata o documento para facilitar a leitura. Seria excelente se algo assim existisse, não é?

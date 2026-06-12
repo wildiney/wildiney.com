@@ -3,6 +3,7 @@ title: "La accesibilidad no es una lista de verificación"
 date: "2026-05-26"
 description: "Google Research prototipó interfaces que se adaptan en tiempo real al comportamiento del usuario, sin menú de accesibilidad. Para equipos de producto, esto cambia lo que significa soportar lectores de pantalla en el roadmap."
 tags: ["accesibilidad", "inteligencia artificial", "estrategia de producto", "diseño inclusivo", "interfaces adaptativas"]
+thumbnail: "/images/articles/acessibilidade-nao-e-checklist/cover.webp"
 ---
 
 Imagina que abres una app y, sin ninguna configuración previa, adapta el layout a tu ritmo, describe en audio el gráfico que acaba de aparecer en pantalla y reformatea el documento para facilitar la lectura. Sería excelente si algo así existiera, ¿no?
