@@ -6,6 +6,107 @@ Portafolio personal con artículos, casos de estudio y agenda de contacto.
 
 ## Artículos
 
+### Cuando la privacidad se convierte en especificación de producto
+URL: https://wildiney.com/es/articles/quando-privacidade-vira-especificacao-de-produto/
+Date: 2026-06-09
+Description: En la WWDC, Apple publicó un white paper técnico describiendo exactamente qué se queda en el dispositivo y qué va a Google. Eso es lo que separa una promesa de privacidad de una especificación verificable.
+
+Cuando le preguntas a Siri AI cuál restaurante queda más cerca del trabajo, la respuesta viene del iPhone. Cuando le mandas el contrato de tres páginas para analizar, la respuesta viene de Google.
+
+Apple no usó exactamente esas palabras ayer en la WWDC, pero publicó un white paper técnico describiendo la arquitectura: tres niveles de procesamiento, con las tareas más complejas enrutadas hacia los servidores de Google Gemini, en un acuerdo de mil millones de dólares al año.
+
+Craig Federighi subió al escenario y afirmó que "la privacidad en IA es innegociable". Ese white paper tiene los detalles: qué solicitudes se quedan en el dispositivo, cuáles van al Private Cloud Compute, cuáles llegan a Google. Investigadores independientes pueden auditar cada capa. La anonimización y tokenización están descritas con precisión técnica.
+
+Publicar ese nivel de detalle técnico antes del comunicado de prensa es lo que transforma una promesa de privacidad en una especificación de producto. Quién puede verificarla, cuándo y con qué instrumentos define si la promesa tiene peso real.
+
+La mayor apuesta de Apple esta semana va más allá de iOS 27 y la Siri rediseñada: en un mercado donde cada competidor ya perdió credibilidad sobre privacidad, la hipótesis es que la transparencia con especificidad puede convertirse en una ventaja competitiva real.
+
+---
+
+### La accesibilidad no es una lista de verificación
+URL: https://wildiney.com/es/articles/acessibilidade-nao-e-checklist/
+Date: 2026-05-26
+Description: Google Research prototipó interfaces que se adaptan en tiempo real al comportamiento del usuario, sin menú de accesibilidad. Para equipos de producto, esto cambia lo que significa soportar lectores de pantalla en el roadmap.
+
+Imagina que abres una app y, sin ninguna configuración previa, adapta el layout a tu ritmo, describe en audio el gráfico que acaba de aparecer en pantalla y reformatea el documento para facilitar la lectura. Sería excelente si algo así existiera, ¿no?
+
+Eso está siendo prototipado ahora y cambia lo que accesibilidad significa para quienes hacen producto.
+
+Google Research publicó en febrero de 2026 el framework Natively Adaptive Interfaces (NAI), donde un agente principal entiende el objetivo del usuario y coordina sub-agentes que reconfiguran la interfaz en tiempo real: ajustan el layout, escalan el texto, generan descripciones de audio para personas ciegas, simplifican páginas para quienes necesitan menos estímulo visual. La adaptación parte de la preferencia y el comportamiento del usuario, no de un diagnóstico. Sin menú de accesibilidad que encontrar. El producto fue diseñado para adaptarse desde el inicio.
+
+Esta lógica ya llegó a los lectores de pantalla. Con Gemini integrado en TalkBack de Android, los lectores de pantalla evolucionaron de herramientas que describen lo que está en pantalla a agentes que responden preguntas sobre el contenido. Para equipos de producto, eso cambia lo que "soportar lectores de pantalla" significa en el roadmap.
+
+Apple también está construyendo infraestructura de producto alrededor de esto. Los Accessibility Nutrition Labels, anunciados en WWDC 2025, permiten que los usuarios busquen apps en la App Store filtrando por soporte de VoiceOver, control por voz y subtítulos. Próximamente obligatorio para nuevas apps y actualizaciones. La accesibilidad se convierte en metadato de producto: visible, buscable, comparable.
+
+Microsoft no diseñó Copilot para accesibilidad. Un estudio de EY mostró que el 76% de los colaboradores neurodivergentes reportaron mejor desempeño con él de todas formas. Los recursos diseñados para una necesidad específica terminan mejorando la experiencia de todos: el control por voz hecho para alguien con limitación motora también sirve al padre con un hijo en brazos.
+
+Son 1.300 millones de personas con discapacidad en el mundo. Durante décadas, la conversación en producto fue sobre cumplir requisitos. Lo que se está construyendo ahora trata la accesibilidad como lo que siempre fue: una decisión de arquitectura. Quienes lo entiendan primero atenderán al segmento más desatendido de la tecnología.
+
+---
+
+Fuentes: [Google Research](https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/) · [Apple Developer](https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels/) · [Microsoft Blog](https://blogs.microsoft.com/blog/2025/03/18/microsoft-ability-summit-2025-accessibility-in-the-ai-era/)
+
+---
+
+### El empaque quedó igual para todos
+URL: https://wildiney.com/es/articles/embalagem-ficou-igual-para-todo-mundo/
+Date: 2026-05-19
+Description: La IA democratizó la capa visual de los productos. Si el visual dejó de ser un diferenciador, lo que separa un producto de otro es lo que el template nunca entrega: la decisión de qué no poner en la pantalla.
+
+Hay tiendas de chocolate donde la gente compra sin siquiera probar el producto. El empaque ya promete calidad antes del primer bocado.
+
+Las interfaces funcionan de la misma manera. La percepción de un buen producto empieza por la apariencia, la consistencia visual, la sensación de que alguien cuidó cada detalle.
+
+El problema es que la IA acaba de democratizar exactamente esa capa.
+
+Hoy cualquier producto puede tener una interfaz refinada en horas. Templates bien construidos, paletas consistentes, tipografía cuidada, todo eso accesible sin un diseñador senior, sin un design system maduro, sin años de iteración.
+
+El resultado es que todo está empezando a parecerse. Y aquí está la paradoja que casi nadie nombra: interfaces más parecidas pueden ser más fáciles de usar. Los patrones familiares reducen la curva de aprendizaje, eliminan fricción, aceleran la adopción.
+
+Pero si el visual dejó de ser un diferenciador, ¿qué separa un producto de otro?
+
+La respuesta siempre estuvo en la capa que el template nunca entrega: la decisión de qué no poner en la pantalla. El flujo que nadie nota porque nunca se traba. La jerarquía de información que guía sin aparecer. La coherencia que se mantiene cuando el producto crece y la presión para agregar funcionalidades aumenta.
+
+El empaque quedó igual para todos. Lo que hay dentro sigue siendo responsabilidad de quien sabe decidir.
+
+---
+
+### La fecha de vencimiento está en el diseño del puesto
+URL: https://wildiney.com/es/articles/prazo-de-validade-esta-no-design-da-funcao/
+Date: 2026-05-19
+Description: Los empleos de entrenador de IA crecieron un 642% en Brasil en 2025. Ese número mide la distancia entre donde están los modelos y donde necesitan llegar. Y tiene una fecha de caducidad incorporada.
+
+La carrera de entrenador de IA creció un 642% en Brasil. Antes de actualizar tu currículum, entiende qué nos dice ese número.
+
+El informe de Deel, publicado en marzo de 2026, registró este crecimiento en 2025. Los salarios varían de US$15 por hora en funciones generalistas a más de US$100 para especialistas. Lo que miden esos números es la distancia entre donde están los modelos de IA y donde necesitan llegar para funcionar sin juicio humano constante.
+
+Cada etiqueta, cada validación de respuesta, cada ajuste fino es una decisión sobre qué significa "bueno" en ese contexto. Medicina, derecho, código, atención al cliente. Hay un humano del otro lado educando al modelo, y si usamos el lanzamiento de ChatGPT como fecha de nacimiento, estamos hablando de un niño de 3 años: ya tiene vocabulario, ya camina solo, pero todavía necesita que le enseñen a no meter el dedo en el enchufe.
+
+Para quienes trabajan en producto, esto cambia cómo lees cualquier sistema de IA: no como tecnología autónoma, sino como infraestructura con trabajo humano incorporado, con todos los errores que eso implica. El copiloto de código tiene revisores, el modelo de triaje médico tiene especialistas validando sus respuestas.
+
+Este crecimiento del 642% durará hasta que el modelo ya no los necesite. La fecha de vencimiento está en el diseño del puesto.
+
+Este refuerzo de aprendizaje no transfiere la responsabilidad. Lo que dice el modelo sigue representando tu marca.
+
+---
+
+### Sin votación, sin comité, solo un post
+URL: https://wildiney.com/es/articles/nenhuma-votacao-nenhum-comite-apenas-um-post/
+Date: 2026-05-12
+Description: En 2020, Google convirtió un post de blog en ley del producto digital. La Prompt API sigue la misma lógica — solo que esta vez el modelo corre en el dispositivo y las reglas se quedan con Google.
+
+En mayo de 2020, Google publicó un post en el blog de Chrome anunciando que tres métricas de rendimiento pasarían a influir en el ranking de búsqueda a partir de 2021. Sin votación, sin comité de estándares, solo un post.
+
+Lo que vino después fueron equipos de producto reescribiendo roadmaps, agencias de SEO reposicionando sus servicios, y Core Web Vitals convirtiéndose en una línea permanente en el backlog de cualquier producto con pretensión de aparecer en Google. No porque alguien decidiera que era buena idea, sino porque Google lo decidió, apoyado en el 67% de cuota de mercado de su navegador.
+
+La Prompt API sigue la misma lógica: Chrome ahora permite que las páginas web envíen instrucciones en lenguaje natural a Gemini Nano, un modelo que corre localmente en el dispositivo sin tráfico hacia servidores. Mozilla presentó una objeción formal en el W3C argumentando que esto fragmenta la web abierta, y técnicamente tiene razón, pero Firefox tiene menos del 3% de cuota de mercado, así que la pelea es legítima sin ser relevante.
+
+El detalle que se está pasando por alto es que usar la Prompt API requiere aceptar la Política de Usos Prohibidos de IA Generativa de Google. El modelo corre en el dispositivo del usuario, pero las reglas de contenido se quedan con Google, sin que el usuario haya firmado nada.
+
+Para quienes construyen productos, la pregunta no es si esto se va a convertir en estándar, porque el historial sugiere que sí. La pregunta es cuándo vas a decidir qué hacer con una capa que ya está entre tu producto y tu usuario, aunque nunca la hayas pedido.
+
+---
+
 ### ¿Quién decidió dar ese acceso?
 URL: https://wildiney.com/es/articles/quem-decidiu-dar-esse-acesso/
 Date: 2026-05-12
@@ -556,39 +657,6 @@ Los productos realmente buenos crean un estándar tan claro que cualquier desví
 LEGO no nos enseña que fallar es bueno. Muestra algo más incómodo: solo puede fallar quien ya demostró, repetidamente, que sabe entregar excelencia.
 
 Quizás el verdadero objetivo en Producto no sea construir algo que tolere fallas, sino algo tan consistente que incluso el error sea reconocido como excepción, y no como norma.
-
----
-
-### Si el Product Management parece confuso, es porque dejamos de seguir manuales y empezamos a pensar
-URL: https://wildiney.com/es/articles/product-management-confusao-evolucao/
-Date: 2026-01-06
-Description: El rol de PM nunca fue estático. Del plan fijo al Agile, del Product Owner al estratega, la función evolucionó con los mercados — y la IA expone quién decide bien de quien solo ejecuta procesos cada vez más sofisticados.
-
-Cada vez que alguien intenta definir el Product Management como un conjunto fijo de responsabilidades, algo queda afuera. No por falta de teoría, sino porque el rol nunca fue estático.
-
-Durante mucho tiempo, construir productos significaba seguir planes. El éxito era previsibilidad, control y entrega conforme a lo acordado. Había responsabilidad sobre el producto, claro, pero era consecuencia del proyecto, no el centro de las decisiones.
-
-Cuando los productos digitales empezaron a cambiar demasiado rápido como para caber en planes rígidos, ese modelo comenzó a fallar.
-
-El Agile surge como respuesta. El foco sale del plan y va hacia el aprendizaje. Entregar pasa a ser menos importante que entender si aquello tiene sentido. El Product Owner aparece como alguien cercano al equipo, conectado al feedback y a la priorización continua.
-
-Pero pronto queda claro que priorizar el backlog no lo resuelve todo.
-
-A medida que los productos crecen y los mercados se vuelven más complejos, alguien necesita mirar más allá del próximo sprint. Visión, estrategia, métricas e impacto empiezan a importar más que la velocidad aislada. Es en ese espacio donde el Product Manager se consolida como función estratégica, y no solo operacional.
-
-Mientras tanto, el diseño también cambia. El diseño gráfico migra a lo digital, se vuelve interfaz. La interfaz se vuelve experiencia. La experiencia se vuelve decisión. Cuando los diseñadores empiezan a participar en la definición del problema y la validación de soluciones, surge el Product Designer.
-
-Aquí es donde muchos ven confusión de roles. Pero la superposición no es un error. Es un síntoma.
-
-Los Product Managers y los Product Designers pasaron a actuar en el mismo territorio: descubrimiento, formulación de hipótesis y toma de decisiones. Lo que cambia es la perspectiva, no el objetivo.
-
-Y entonces entra la inteligencia artificial.
-
-La IA no crea un nuevo rol de Product Management. Elimina fricción. Automatiza análisis, acelera el aprendizaje y expone algo incómodo: si la decisión no es buena, ya no es posible culpar la falta de datos.
-
-Al final, el Product Management nunca fue sobre cargos, frameworks o rituales. Siempre fue sobre adaptación al contexto. Y el contexto sigue cambiando.
-
-Quizás la pregunta más honesta no sea "¿cuál es el rol del PM?", sino: ¿estamos formando profesionales para pensar en producto o solo para ejecutar procesos cada vez más sofisticados?
 
 ---
 
