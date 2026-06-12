@@ -43,5 +43,5 @@ out/
 .superpowers/
 docs/superpowers/
 
-# Claude Code local settings
-.claude/settings.local.json
+# Claude Code
+.claude/
