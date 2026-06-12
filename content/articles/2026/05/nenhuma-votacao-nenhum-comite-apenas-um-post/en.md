@@ -2,7 +2,7 @@
 title: "No vote, no committee, just a blog post"
 date: "2026-05-12"
 description: "In 2020, Google turned a blog post into digital product law. The Prompt API follows the same logic — only this time the model runs on the device while the rules stay with Google."
-tags: []
+tags: ["google", "chrome", "ai", "product", "web", "privacy"]
 thumbnail: "/images/articles/nenhuma-votacao-nenhum-comite-apenas-um-post/cover.webp"
 ---
 

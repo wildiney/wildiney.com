@@ -2,7 +2,7 @@
 title: "O prazo de validade está no design da função"
 date: "2026-05-19"
 description: "A carreira de treinador de IA cresceu 642% no Brasil em 2025. Esse número mede a distância entre onde os modelos estão e onde precisam chegar. E tem data de expiração embutida."
-tags: []
+tags: ["ia", "mercado de trabalho", "treinamento de ia", "produto", "responsabilidade"]
 thumbnail: "/images/articles/prazo-de-validade-esta-no-design-da-funcao/cover.webp"
 ---
 

@@ -2,7 +2,7 @@
 title: "La fecha de vencimiento está en el diseño del puesto"
 date: "2026-05-19"
 description: "Los empleos de entrenador de IA crecieron un 642% en Brasil en 2025. Ese número mide la distancia entre donde están los modelos y donde necesitan llegar. Y tiene una fecha de caducidad incorporada."
-tags: []
+tags: ["ia", "mercado laboral", "entrenamiento de ia", "producto", "responsabilidad"]
 thumbnail: "/images/articles/prazo-de-validade-esta-no-design-da-funcao/cover.webp"
 ---
 

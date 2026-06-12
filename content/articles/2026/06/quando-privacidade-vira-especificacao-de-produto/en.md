@@ -2,7 +2,7 @@
 title: "When privacy becomes a product specification"
 date: "2026-06-09"
 description: "At WWDC, Apple published a technical white paper describing exactly what stays on the device and what goes to Google. That's what separates a privacy promise from a verifiable specification."
-tags: []
+tags: ["apple", "privacy", "ai", "product", "trust", "wwdc"]
 thumbnail: "/images/articles/quando-privacidade-vira-especificacao-de-produto/cover.webp"
 ---
 

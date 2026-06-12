@@ -2,7 +2,7 @@
 title: "Cuando la privacidad se convierte en especificación de producto"
 date: "2026-06-09"
 description: "En la WWDC, Apple publicó un white paper técnico describiendo exactamente qué se queda en el dispositivo y qué va a Google. Eso es lo que separa una promesa de privacidad de una especificación verificable."
-tags: []
+tags: ["apple", "privacidad", "ia", "producto", "confianza", "wwdc"]
 thumbnail: "/images/articles/quando-privacidade-vira-especificacao-de-produto/cover.webp"
 ---
 

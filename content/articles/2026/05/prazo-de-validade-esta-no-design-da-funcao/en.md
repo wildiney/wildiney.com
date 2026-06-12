@@ -2,7 +2,7 @@
 title: "The expiration date is built into the job design"
 date: "2026-05-19"
 description: "AI trainer jobs grew 642% in Brazil in 2025. That number measures the distance between where models are and where they need to get to. And it has a built-in expiration date."
-tags: []
+tags: ["ai", "labor market", "ai training", "product", "responsibility"]
 thumbnail: "/images/articles/prazo-de-validade-esta-no-design-da-funcao/cover.webp"
 ---
 

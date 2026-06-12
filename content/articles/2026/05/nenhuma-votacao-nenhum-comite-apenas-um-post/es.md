@@ -2,7 +2,7 @@
 title: "Sin votación, sin comité, solo un post"
 date: "2026-05-12"
 description: "En 2020, Google convirtió un post de blog en ley del producto digital. La Prompt API sigue la misma lógica — solo que esta vez el modelo corre en el dispositivo y las reglas se quedan con Google."
-tags: []
+tags: ["google", "chrome", "ia", "producto", "web", "privacidad"]
 thumbnail: "/images/articles/nenhuma-votacao-nenhum-comite-apenas-um-post/cover.webp"
 ---
 
