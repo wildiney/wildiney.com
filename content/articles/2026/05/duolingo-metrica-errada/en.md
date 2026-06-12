@@ -3,6 +3,7 @@ title: "Duolingo and the Wrong Metric"
 date: "2026-05-05"
 description: "Moving a metric 2% a month sounds irrelevant. At Duolingo, that number was worth five times more growth impact than any other variable. The discovery came from stopping to push DAU and asking a different question."
 tags: ["metrics", "growth", "gamification", "decision-making", "product strategy", "behavioral design"]
+thumbnail: "/images/articles/duolingo-metrica-errada/cover.webp"
 ---
 
 Moving a metric 2% a month sounds irrelevant. At Duolingo, that number was worth five times more growth impact than any other variable the team was tracking.
