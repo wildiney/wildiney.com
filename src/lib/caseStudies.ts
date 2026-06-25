@@ -1,7 +1,7 @@
 import { readFileSync, existsSync, readdirSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import matter from 'gray-matter'
+import { parseFrontmatter } from './frontmatter'
 
 export interface CaseStudyMeta {
   slug: string
@@ -42,6 +42,6 @@ export function getCaseStudy(slug: string, locale = 'pt'): CaseStudy {
   const fallbackPath = join(CONTENT_DIR, slug, 'pt.md')
   const filePath = existsSync(localePath) ? localePath : fallbackPath
   const raw = readFileSync(filePath, 'utf-8')
-  const { data, content } = matter(raw)
+  const { data, content } = parseFrontmatter(raw)
   return { slug, title: data.title ?? slug, ...data, content }
 }

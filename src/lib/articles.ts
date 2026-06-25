@@ -1,7 +1,7 @@
 import { readFileSync, existsSync, readdirSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import matter from 'gray-matter'
+import { parseFrontmatter } from './frontmatter'
 
 export interface ArticleMeta {
   slug: string
@@ -61,7 +61,7 @@ function getLocalizedFile(slug: string, locale: string): string {
 export function getArticle(slug: string, locale = 'pt'): Article {
   const filePath = getLocalizedFile(slug, locale)
   const raw = readFileSync(filePath, 'utf-8')
-  const { data, content } = matter(raw)
+  const { data, content } = parseFrontmatter(raw)
   return { slug, title: data.title ?? slug, ...data, content }
 }
 
