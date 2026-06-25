@@ -8,7 +8,7 @@ const { locale } = Astro.props
 const copy = {
   pt: {
     label: 'Contato',
-    headline: 'Vamos conversar.',
+    headline: 'Vamos conversar!',
     sub: 'Interessado em conversas sobre produto, estratégia e decisão com empresas que constroem coisas que importam.',
     nameLabel: 'Nome',
     emailLabel: 'Email',
@@ -78,7 +78,7 @@ const c = copy[locale]
     <div class="reveal">
       <p class="text-xs text-accent uppercase tracking-widest mb-4">{c.label}</p>
       <h2 class="kinetic-heading ruled-heading font-display text-4xl md:text-5xl font-black text-dark-text mb-6">{c.headline}</h2>
-      <p class="text-muted text-lg leading-relaxed max-w-lg mb-10">{c.sub}</p>
+      <p class="hidden text-muted text-lg leading-relaxed max-w-lg mb-10">{c.sub}</p>
     </div>
 
     <form
