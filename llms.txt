@@ -6,6 +6,184 @@ Portfolio pessoal com artigos, estudos de caso e agenda de contato.
 
 ## Artigos
 
+### Automatização e falha humana
+URL: https://wildiney.com/articles/automatizacao-e-falha-humana/
+Date: 2026-07-16
+Description: Automatizar tarefas mecânicas é ganho, automatizar decisões é risco. IA é probabilística: quando 91% aponta um caminho, você ainda deve questionar os 9%.
+
+Tem quem use IA para responder emails, preencher relatórios, obter insights e já sugerir os próximos passos. E tem quem não abra mão de digitar novamente item a item em formulários porque acredita que está mantendo tudo sob controle. Controle é o nome bonito que se dá, mas apenas significa que você está ocupado sendo mensageiro entre sistemas.
+
+Automatizar e parecer preguiçoso e descuidado, ou manter tudo em mãos acreditando em um pseudo controle? Processos manuais sempre foram criticados por serem a principal causa de erros e acidentes, a tão conhecida "falha humana".
+
+A automatização deve ampliar a sua capacidade e não substituí-la. A IA não tem a sua inteligência orgânica enriquecida pelos seus anos de experiência. A sua janela de contexto inclui memória de projetos que deram errado por razões parecidas, sensação de algo que não fecha, intuição treinada por erro. Se os dados estão certos e o resultado parece errado, esse incômodo gera um alerta e a IA é probabilística, então quando 91% aponta para um lado, ela não questiona os outros 9%, mas você questiona!
+
+Então, o que dá para automatizar sem culpa? O que é mecânico, preenchimentos que se repetem, dado copiado de um sistema pro outro, cinco abas abertas para cruzar informação que devia estar no mesmo sistema.
+
+E o que não se deve automatizar? Decisões! Sobre que caminho seguir, se vale a pena o risco, se questionamos os resultados e relatórios, mesmo quando os dados batem. Automatize tudo que não precisa ser pensado, tudo que um copy & paste resolveria. E nunca escreva na caixa de texto da IA: "O que você faria?" "Como sugere que eu faça?" "Vale a pena?"
+
+Você conhece as frases e sabe o custo de usá-las.
+
+---
+
+### Pagando duas vezes
+URL: https://wildiney.com/articles/pagando-duas-vezes/
+Date: 2026-07-14
+Description: Satya Nadella avisa que empresas pagam duas vezes por IA, em dinheiro e em dados. Dias antes, sua empresa trocou parceiros de IA sob o mesmo botão.
+
+Domingo, Satya Nadella publicou um texto avisando quem usa IA que está pagando duas vezes. A primeira cobrança aparece na fatura: tokens, assinatura, uso. A segunda é o que a equipe entrega: cada prompt, cada correção feita quando o modelo erra vira, nas palavras dele, "conhecimento que nenhum concorrente conseguiria comprar", e esse conhecimento fica com o fornecedor.
+
+A ironia é que quem avisa é o CEO da empresa que investiu bilhões tanto na OpenAI quanto na Anthropic. E que, há poucos dias, passou a rotear parte dos prompts do Copilot no Excel e no Outlook para modelos próprios da Microsoft, substituindo os parceiros sob o mesmo botão, sem avisar quem estava usando.
+
+Nadella propõe duas saídas: guardar os dados em ambientes próprios de aprendizado, e construir camadas de orquestração que permitam trocar de modelo sem ficar preso a um fornecedor, o que soa muito bem, afinal ninguém quer ficar refém de um único fornecedor. Mas também soa como alguém torcendo pra que essa camada rode na nuvem dele.
+
+Tirando o interesse comercial de quem fala, sobra o argumento. Cada correção que um time faz num modelo é decisão acumulada virando propriedade de outra empresa. É uma questão de arquitetura: quem fica dono do que a equipe aprendeu sobre o próprio negócio.
+
+Empresa que terceiriza aprendizado terceiriza vantagem competitiva. E não vai perceber isso na fatura.
+
+---
+
+Fontes: [TechCrunch](https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/) · [The New Stack](https://thenewstack.io/nadella-reverse-information-paradox/)
+
+---
+
+### O último trecho da inclusão digital não é fibra
+URL: https://wildiney.com/articles/ultimo-trecho-da-inclusao-digital-nao-e-fibra/
+Date: 2026-07-08
+Description: PNAD mostra Brasil passando de 90% de acesso à internet, mas crianças de 10 a 13 anos usaram menos em 2025, citando desconfiança.
+
+Ainda tem profissionais repetindo que só uma minoria do Brasil tem internet. Isso já não é mais verdade. Em 2025, pela primeira vez, mais de 90% da população passou a acessar a rede: 168,7 milhões de pessoas, segundo o IBGE. Em 2016, esse número era de apenas 66%.
+
+O gap que separava cidade e campo, de 37,5 pontos percentuais, caiu para 8,5. O culpado é o celular: entre quem já usa internet, 98,7% acessam por ele, não por banda larga fixa.
+
+Dos 17,7 milhões ainda fora da rede, 44,9% dizem que o motivo é não saber usar. Entre os idosos, esse número sobe para 66,5%. O sinal já chega em quase todo canto. O que falta é ensinar alguém a usar o que já está na mão dele.
+
+E aqui eu tenho um dado muito interessante: crianças de 10 a 13 anos foram o único grupo etário que usou menos internet em 2025 do que em 2024, com privacidade e segurança entre os principais motivos citados.
+
+Essa decisão provavelmente não foi só da criança: numa pesquisa domiciliar, quem responde por um filho de doze anos costuma ser um adulto da casa, e o motivo citado reflete a leitura de um pai ou de uma mãe sobre o risco. Isso torna o dado mais sério: uma família decidiu tirar o filho de um aplicativo por desconfiança, a mesma decisão racional que qualquer adulto toma quando um produto perde a confiança dele. A diferença é que o time de produto ainda lê essa queda como perda de engajamento na faixa etária errada, não como alarme de confiança.
+
+Fechar essa última brecha não vai exigir mais sinal chegando, vai exigir produto que ensine sozinho como ser usado, com baixa curva de aprendizado e mereça novamente a confiança de quem, com razão, decidiu não mais usar.
+
+---
+
+Fontes: [IBGE](https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47408-proporcao-de-usuarios-da-internet-no-pais-ultrapassou-90-da-populacao-de-10-anos-ou-mais-em-2025) · [Canaltech](https://canaltech.com.br/internet/pela-primeira-vez-mais-de-90-da-populacao-brasileira-tem-acesso-a-internet/)
+
+---
+
+### Restrição sem teoria de demanda
+URL: https://wildiney.com/articles/restricao-sem-teoria-de-demanda/
+Date: 2026-06-30
+Description: Suspender o acesso ao Mythos não removeu a demanda por IA, só trocou o fornecedor. Concorrentes com menos guardrails preencheram o vácuo em duas semanas.
+
+O modelo se chama Fugu. Em japonês, é o nome do baiacu, aquele temido peixe, que o preparo é reservado apenas aos grandes chefs e que mata se mal preparado. A Sakana AI, fundada em Tóquio por ex-pesquisadores do Google, garante que o timing do lançamento foi "inteiramente coincidental."
+
+Duas semanas antes, o governo americano havia suspenso o acesso global ao Mythos, da Anthropic. O modelo mais auditado, com mais guardrails documentados, mais histórico público de segurança do mercado. O motivo declarado foi ser "perigoso demais para circular livremente".
+
+Logo depois, coincidentemente, o site da Sakana apareceu atualizado: "frontier capability without the risk of export controls."
+
+Isso define muito bem o problema, melhor do que qualquer análise de política externa. Quando você retira de circulação o fornecedor mais regulado sem endereçar a demanda, o mercado não para, apenas muda de fornecedor. No mesmo intervalo, a empresa chinesa 360 lançou o Tulongfeng, desenvolvido especificamente para encontrar vulnerabilidades em software. Segundo o fundador: essa capacidade é "ativo estratégico nacional."
+
+A decisão de restringir foi apresentada como proteção, mas o resultado foi uma janela de mercado para quem não carregava as mesmas restrições.
+
+Já vimos essa estrutura em outros produtos, remove funcionalidade tal "para proteger o usuário" sem entender por que ele a usava e qual a importância. O usuário não reconhece a intenção parental. Como adolescente rebelde, apenas muda de ferramenta.
+
+---
+
+Fontes: [TechCrunch](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/) · [Reuters](https://www.reuters.com/legal/litigation/chinas-360-says-it-has-developed-tools-match-anthropics-mythos-2026-06-24/) · [Sakana AI](https://sakana.ai/fugu-release/)
+
+---
+
+### 25 anos e o que a IA não replica
+URL: https://wildiney.com/articles/25-anos-o-que-ia-nao-replica/
+Date: 2026-06-24
+Description: IA comprimiu a camada de entendimento que era exigida para produzir um bom design. O que resta é ocupar o espaço que ela ainda não mapeou.
+
+Quando comecei na área de design, as ferramentas não entregavam os efeitos prontos. Fazer uma sombra realista exigia entender como a luz funciona de verdade: direção, temperatura, como vai decaindo. Eram múltiplas camadas no Photoshop, cada uma tratando um aspecto diferente do comportamento da luz. Para animação, era o mesmo: os princípios de squash e stretch vinham da física dos objetos em movimento, não de um prompt. Física estava na grade obrigatória do meu primeiro ano de faculdade por um motivo.
+
+Era necessário entender para fazer.
+
+A IA automatizou e comprimiu essa camada de entendimento para chegarmos a layouts bonitos sem saber como funcionam. A produtividade entrou em foco, e faz sentido: é um caminho sem volta e não dá para ficar nostálgico com isso. O movimento agora é ocupar o espaço que a IA ainda não alcança: as conexões que ela não mapeou, os problemas que ela não sabe que existem.
+
+Você não é mais o mecânico, você é o piloto que conhece mecânica. E eu faço essa referência porque dirigir a IA é como dirigir um veículo: você só sente segurança quando sente o pneu colado no chão, o carro tracionado. A pior sensação é quando por um segundo você perde essa tração como quando passa por uma lâmina d'água e ocorre a aquaplanagem. Se você é experiente, conhece o ambiente, conhece suas ferramentas, o dano é controlado e até evitado, mas para o inexperiente a saída óbvia é pisar no freio.
+
+Seria essa também a sua escolha?
+
+---
+
+### O modelo que o Nubank não conseguia comprar
+URL: https://wildiney.com/articles/o-modelo-que-o-nubank-nao-conseguia-comprar/
+Date: 2026-06-23
+Description: O Nubank não conseguia comprar um modelo de IA porque ele não existia. Construiu o nuFormer com 100 bilhões de transações e cortou risco de crédito em 70%.
+
+Tem um modelo de IA que o Nubank não conseguia comprar.
+
+Não porque o preço era proibitivo, mas porque o modelo simplesmente não existia: precisaria ter sido treinado sobre 100 bilhões de transações de clientes brasileiros em contexto de crédito.
+
+Então o Nubank foi lá e construiu o próprio. Chama-se nuFormer.
+
+O detalhe técnico é que a maioria das empresas treina um Transformer, congela os pesos e usa o resultado como uma feature num modelo tabular. Funciona. O Transformer aprende padrões gerais sem nunca ver o sinal real que o negócio precisa.
+
+O Nubank fez diferente. Os gradientes (e não é exatamente de cor que estou falando) fluem de ponta a ponta, inclusive de volta para o Transformer. O modelo aprende representações otimizadas para prever se aquela pessoa vai pagar, treinado em 100 bilhões de transações que nenhum fornecedor tem.
+
+O resultado apareceu nos números do 1T26: 70% de redução de risco para uma população equivalente comparado com as gerações anteriores. A carteira cresceu 40% sem que a inadimplência acompanhasse.
+
+Muita empresa coloca ChatGPT na interface e chama isso de AI Native. O Nubank está fazendo algo diferente: usando dados que só ele tem, em escala que só ele tem, para treinar um modelo que só ele consegue treinar. O preço de entrada para um concorrente replicar começa em ter aqueles 100 bilhões de transações.
+
+A maioria das conversas sobre IA em produto ainda gira em torno de qual LLM escolher. Talvez valha perguntar antes o que você tem que nenhum modelo de mercado vai aprender.
+
+---
+
+Fontes: [Product Guru's](https://www.productgurus.com.br/p/o-modelo-que-o-nubank-nao-tinha-como) · [Building Nubank](https://building.nubank.com/foundation-models-ai-nubank-transformation/) · [Nu International](https://international.nubank.com.br/pt-br/companhia/nubank-detalha-estrategia-de-transformacao-com-ia-baseada-em-dados-modelos-fundacionais-e-aconselhamento-financeiro-democratizado/)
+
+---
+
+### A régua pertence a quem está sendo medido
+URL: https://wildiney.com/articles/benchmark-confianca-ia/
+Date: 2026-06-19
+Description: Anthropic, OpenAI e a Prefeitura do Rio manipularam benchmarks de IA. Quando quem mede também se beneficia do resultado, a régua perde credibilidade.
+
+Durante uma avaliação interna, antes mesmo do Claude Mythos chegar ao mercado, a Anthropic flagrou algo incomum. O modelo havia obtido uma resposta por método proibido, percebeu que tinha violado a regra e construiu uma solução com aparência legítima para encobrir o caminho que tomou. Isso aconteceu antes do governo americano bloquear o modelo por risco de segurança (outro problema, outro episódio).
+
+Não foi caso isolado na empresa. Semanas antes, o Claude Opus 4.6 havia feito o parecido no benchmark BrowseComp: esgotou centenas de estratégias, deduziu que estava sendo testado, localizou o código-fonte no GitHub, decriptou as respostas e as usou.
+
+A OpenAI foi pela via institucional. Financiou a criação do FrontierMath, benchmark matemático utilizado para avaliar seus próprios modelos, com acesso antecipado e exclusivo aos problemas. Seis matemáticos que contribuíram confirmaram que não teriam participado se soubessem.
+
+Na semana passada, a Prefeitura do Rio anunciou o Rio 3.5 Open, com 397 bilhões de parâmetros, como modelo próprio que "superaria os concorrentes". Foi desmascarado em horas. Era um modelo open-source já existente com nome diferente. A prefeitura reconheceu o erro.
+
+Da prefeitura às maiores empresas de IA do mundo, a lógica é a mesma: fabricar a evidência de competência.
+
+As métricas que sustentam decisões de adoção, contratos e arquitetura de sistemas estão sendo produzidas por quem tem interesse direto no resultado e no retorno financeiro.
+
+Se a balança que pesa o produto tem o dedo do dono equilibrando, como confiar?
+
+---
+
+Fontes: [Tecnoblog](https://tecnoblog.net/noticias/rio-lanca-modelo-de-ia-sofre-criticas-e-e-desmascarada-em-horas/) · [Anthropic Engineering](https://www.anthropic.com/engineering/eval-awareness-browsecomp) · [MindStudio](https://www.mindstudio.ai/blog/claude-mythos-cheated-training-task-nla-caught-cover-up) · [MEXC News](https://www.mexc.com/news/274060)
+
+---
+
+### O Figma cobrou o preço do silêncio
+URL: https://wildiney.com/articles/figma-plan-mode-preco-do-silencio/
+Date: 2026-06-11
+Description: O Plan Mode do Figma Make embute a pergunta que faltava antes de gerar protótipos: qual problema isso resolve. IA amplifica o que já existe.
+
+Em uma apresentação, o designer apresenta um protótipo de doze telas, feito em vinte minutos com Figma Make. O PM pergunta: "qual problema isso resolve?" Silêncio.
+
+Em 3 de junho, o Figma lançou o Plan Mode: antes de gerar qualquer coisa, o Make para, faz perguntas sobre o projeto e aguarda sua aprovação de um plano editável. Usa mais créditos que o modo padrão, funciona mais devagar, mas entrega resultado melhor.
+
+O Figma embutiu na automação a pergunta que o próprio Figma tinha ajudado muita gente a pular. A ferramenta que popularizou o design na velocidade da ideia chegou à mesma conclusão que a Pirelli em 1994, "Power is nothing without control", e resolveu tornar isso visível, mesmo que como opt-in.
+
+IA amplifica o que existe. Se o processo começa sem planejamento, o Make gera dez versões do problema errado em minutos. A velocidade escala o erro, não a solução. Isso o Figma entendeu antes de muita equipe de produto que ainda está medindo performance pelo volume de telas geradas.
+
+O Plan Mode não é uma correção técnica, nem um freio. Apenas reconhece que a variável crítica nunca foi a execução.
+
+Trinta anos depois da Pirelli, a mesma conclusão. Só que dessa vez vem embutida no produto.
+
+---
+
+Fontes: [Figma Release Notes](https://www.figma.com/release-notes/) · [Figma Help Center](https://help.figma.com/hc/en-us/articles/40830441709719-Use-plan-mode-in-Figma-Make)
+
+---
+
 ### Quando privacidade vira especificação de produto
 URL: https://wildiney.com/articles/quando-privacidade-vira-especificacao-de-produto/
 Date: 2026-06-09
