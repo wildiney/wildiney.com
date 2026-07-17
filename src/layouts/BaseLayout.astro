@@ -9,6 +9,7 @@ interface Props {
   locale?: Locale
   noindex?: boolean
   ogImage?: string
+  structuredData?: Record<string, unknown> | Record<string, unknown>[]
 }
 
 const {
@@ -17,13 +18,37 @@ const {
   locale = 'pt',
   noindex = false,
   ogImage,
+  structuredData,
 } = Astro.props
 
 const isProd = import.meta.env.PROD
 const gtmId = isProd ? (import.meta.env.PUBLIC_GTM_ID ?? 'GTM-NNX4S37') : null
 const clarityId = isProd ? (import.meta.env.PUBLIC_CLARITY_ID ?? 'vygjr8jgps') : null
-const siteUrl = new URL(Astro.url.pathname, Astro.site || 'https://wildiney.com')
-const ogImageUrl = new URL(ogImage ?? '/assets/og-image.jpg', Astro.site || 'https://wildiney.com').toString()
+const siteBase = Astro.site || 'https://www.wildiney.com'
+const siteUrl = new URL(Astro.url.pathname, siteBase)
+const ogImageUrl = new URL(ogImage ?? '/assets/og-image.jpg', siteBase).toString()
+
+// Irregular slugs that don't share a path across locales
+const IRREGULAR_ALTERNATES: Record<string, { pt: string; en: string; es: string }> = {
+  '/privacidade/': { pt: '/privacidade/', en: '/en/privacy/', es: '/es/privacidad/' },
+  '/en/privacy/': { pt: '/privacidade/', en: '/en/privacy/', es: '/es/privacidad/' },
+  '/es/privacidad/': { pt: '/privacidade/', en: '/en/privacy/', es: '/es/privacidad/' },
+}
+
+function getAlternates(pathname: string): { pt: string; en: string; es: string } | null {
+  if (IRREGULAR_ALTERNATES[pathname]) return IRREGULAR_ALTERNATES[pathname]
+  let basePath = pathname
+  if (basePath.startsWith('/en/')) basePath = basePath.slice(3)
+  else if (basePath.startsWith('/es/')) basePath = basePath.slice(3)
+  if (basePath === '') basePath = '/'
+  const pt = basePath
+  const en = basePath === '/' ? '/en/' : `/en${basePath}`
+  const es = basePath === '/' ? '/es/' : `/es${basePath}`
+  return { pt, en, es }
+}
+
+const alternates = noindex ? null : getAlternates(Astro.url.pathname)
+const structuredDataList = structuredData ? (Array.isArray(structuredData) ? structuredData : [structuredData]) : []
 ---
 
 <!doctype html>
@@ -34,6 +59,15 @@ const ogImageUrl = new URL(ogImage ?? '/assets/og-image.jpg', Astro.site || 'htt
     <title>{title}</title>
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={siteUrl.toString()} />
+    {alternates && (
+      <>
+        <link rel="alternate" hreflang="pt" href={new URL(alternates.pt, siteBase).toString()} />
+        <link rel="alternate" hreflang="en" href={new URL(alternates.en, siteBase).toString()} />
+        <link rel="alternate" hreflang="es" href={new URL(alternates.es, siteBase).toString()} />
+        <link rel="alternate" hreflang="x-default" href={new URL(alternates.pt, siteBase).toString()} />
+      </>
+    )}
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -41,6 +75,9 @@ const ogImageUrl = new URL(ogImage ?? '/assets/og-image.jpg', Astro.site || 'htt
     <meta property="og:type" content="website" />
     <meta property="og:url" content={siteUrl.toString()} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    {structuredDataList.map((item) => (
+      <script type="application/ld+json" set:html={JSON.stringify(item)} />
+    ))}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
@@ -49,6 +86,7 @@ const ogImageUrl = new URL(ogImage ?? '/assets/og-image.jpg', Astro.site || 'htt
     />
     {(gtmId || clarityId) && (
       <script define:vars={{ gtmId, clarityId }}>
+        /* global gtmId, clarityId -- injected by Astro's define:vars */
         window.__initAnalytics = function () {
           if (['localhost', '127.0.0.1'].includes(window.location.hostname)) return
           if (localStorage.getItem('lgpd_consent') !== 'accepted') return
@@ -82,7 +120,7 @@ const ogImageUrl = new URL(ogImage ?? '/assets/og-image.jpg', Astro.site || 'htt
     )}
   </head>
   <body>
-    <a href="#main-content" class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-[200] focus-visible:px-4 focus-visible:py-2 focus-visible:bg-accent focus-visible:text-dark focus-visible:text-sm focus-visible:font-medium">
+    <a href="#main-content" class="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4 focus-visible:z-200 focus-visible:px-4 focus-visible:py-2 focus-visible:bg-accent focus-visible:text-dark focus-visible:text-sm focus-visible:font-medium">
       Pular para o conteúdo
     </a>
     <slot />
