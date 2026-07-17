@@ -5,9 +5,21 @@ import AboutSection from '../../components/home/AboutSection.astro'
 import PortfolioSection from '../../components/home/PortfolioSection.astro'
 import ArticlesTeaser from '../../components/home/ArticlesTeaser.astro'
 import ContactSection from '../../components/home/ContactSection.astro'
+import { getTranslations } from '../../i18n/index'
+
+const t = getTranslations('es')
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Wildiney Di Masi',
+  jobTitle: 'Product Manager',
+  url: 'https://www.wildiney.com/es/',
+  description: t.about.description,
+  sameAs: ['https://linkedin.com/in/wildiney', 'https://github.com/wildiney'],
+}
 ---
 
-<PageLayout title="Wildiney Di Masi — Product Manager" locale="es">
+<PageLayout title="Wildiney Di Masi — Product Manager" description={t.about.description} locale="es" structuredData={personSchema}>
   <HeroSection locale="es" />
   <AboutSection locale="es" />
   <PortfolioSection locale="es" />

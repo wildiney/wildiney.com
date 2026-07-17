@@ -1,5 +1,6 @@
 ---
 title: "Bolsa Família Program App"
+description: "Full redesign of the Bolsa Família Program app, a self-service channel for over 14 million families, focused on WCAG AA accessibility."
 company: "Globalweb Corp."
 role: "Senior Product Designer"
 year: "2022–2025"

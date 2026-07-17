@@ -10,6 +10,7 @@ interface Props {
   locale?: Locale
   noindex?: boolean
   ogImage?: string
+  structuredData?: Record<string, unknown> | Record<string, unknown>[]
 }
 
 const {
@@ -18,10 +19,11 @@ const {
   locale = 'pt',
   noindex = false,
   ogImage,
+  structuredData,
 } = Astro.props
 ---
 
-<BaseLayout title={title} description={description} locale={locale} noindex={noindex} ogImage={ogImage}>
+<BaseLayout title={title} description={description} locale={locale} noindex={noindex} ogImage={ogImage} structuredData={structuredData}>
   <Header locale={locale} />
   <main id="main-content" class="pt-16">
     <slot />

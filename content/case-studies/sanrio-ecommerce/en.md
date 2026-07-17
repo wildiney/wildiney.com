@@ -1,5 +1,6 @@
 ---
 title: "Sanrio Brazil E-commerce"
+description: "How I led the launch of Brazil's first Hello Kitty e-commerce, from technical feasibility to launch, focused on product, logistics and customer experience."
 company: "Sanrio Co."
 role: "Senior Product Designer"
 year: "2009–2013"

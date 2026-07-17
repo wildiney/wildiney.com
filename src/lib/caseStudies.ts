@@ -6,6 +6,7 @@ import { parseFrontmatter } from './frontmatter'
 export interface CaseStudyMeta {
   slug: string
   title: string
+  description?: string
   company?: string
   role?: string
   year?: string
