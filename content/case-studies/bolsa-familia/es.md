@@ -1,5 +1,6 @@
 ---
 title: "Aplicación Programa Bolsa Família"
+description: "Rediseño completo de la aplicación del Programa Bolsa Família, canal de autoservicio para más de 14 millones de familias, con foco en accesibilidad WCAG AA."
 company: "Globalweb Corp."
 role: "Senior Product Designer"
 year: "2022–2025"

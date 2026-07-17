@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap'
 import { llmsTxt } from './src/integrations/llms-txt'
 
 export default defineConfig({
-  site: 'https://wildiney.com',
+  site: 'https://www.wildiney.com',
   output: 'static',
   trailingSlash: 'always',
   i18n: {

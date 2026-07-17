@@ -52,7 +52,8 @@
   "articles": {
     "heading": "Perspectives",
     "sub": "Thoughts on product, design and leadership.",
-    "viewAll": "View all"
+    "viewAll": "View all",
+    "metaDescription": "Articles about product, decision-making and what maybe shouldn't be built. Perspectives from a Product Manager with over 15 years in digital products."
   },
   "contact": {
     "pageTitle": "Contact"

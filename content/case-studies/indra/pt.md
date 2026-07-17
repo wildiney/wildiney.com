@@ -1,5 +1,6 @@
 ---
 title: "Soluções Digitais & Gestão de Marca — Indra Minsait"
+description: "Oito anos como Designer Sênior na Indra Minsait, liderando governança de marca e soluções digitais corporativas em contexto internacional."
 company: "Indra / Minsait"
 role: "Designer Sênior"
 year: "2014–2022"

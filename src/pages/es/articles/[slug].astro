@@ -12,9 +12,20 @@ export async function getStaticPaths() {
 const { slug } = Astro.params
 const article = getArticle(slug!, 'es')
 const contentHtml = await renderMarkdown(article.content)
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.title,
+  description: article.description,
+  datePublished: article.date,
+  image: article.thumbnail ? new URL(article.thumbnail, 'https://www.wildiney.com').toString() : undefined,
+  author: { '@type': 'Person', name: 'Wildiney Di Masi', url: 'https://www.wildiney.com/es/' },
+  inLanguage: 'es',
+}
 ---
 
-<PageLayout title={`${article.title} — Wildiney Di Masi`} description={article.description} ogImage={article.thumbnail} locale="es">
+<PageLayout title={`${article.title} — Wildiney Di Masi`} description={article.description} ogImage={article.thumbnail} locale="es" structuredData={articleSchema}>
   <!-- Dark header with background image -->
   <div class="relative min-h-[72vh] bg-dark flex items-end pt-24 pb-16 overflow-hidden">
     {article.thumbnail && (
