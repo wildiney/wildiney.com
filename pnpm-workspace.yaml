@@ -12,17 +12,6 @@ onlyBuiltDependencies:
   - esbuild
   - sharp
 
-packageExtensions:
-  '@storybook/react-vite':
-    peerDependencies:
-      vite: '^5.2.0 || ^6 || ^7'
-  '@storybook/builder-vite':
-    peerDependencies:
-      vite: '^5.2.0 || ^6 || ^7'
-  '@joshwooding/vite-plugin-react-docgen-typescript':
-    peerDependencies:
-      vite: '^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0'
-
 overrides:
   esbuild: '>=0.28.1'
   # minimatch@10.2.6 declares brace-expansion@^5.0.8 which does not exist yet; remove once 5.0.8 publishes
