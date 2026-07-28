@@ -18,7 +18,7 @@ There are no automated tests in this project.
 
 ## Architecture
 
-**Stack:** Astro 6 + TypeScript + Tailwind CSS 4 + Storybook 10
+**Stack:** Astro 7 + TypeScript + Tailwind CSS 4 + Storybook 10 (parked — see TODO)
 
 **Routing:** Astro file-based routing with static output. Pages in `src/pages/`. i18n via Astro native routing — PT default at `/`, EN at `/en/`, ES at `/es/`.
 
@@ -57,20 +57,12 @@ Deploys to GitHub Pages via `gh-pages -d dist --dotfiles`. The `--dotfiles` flag
 
 Route `/agenda` (and `/en/agenda`, `/es/agenda`) has `noindex` robots meta and is not in the nav or sitemap — it can be shared directly for scheduling.
 
-## TODO — decision pending (Storybook vs astro 7.x CVEs)
+## TODO — Storybook parked (Vite 8 / rolldown incompatibility)
 
-**Astro is pinned to 6.4.8 (not latest 7.x) because of a Storybook incompatibility. This is now a trade-off decision, not a "check if resolved" task.**
+**Astro is now on 7.1.x. Storybook (`pnpm storybook`, `pnpm build-storybook`) is currently broken and parked.**
 
-- Root cause: Astro 7 hard-requires `vite@^8`. Vite 8's production builds use the `rolldown` bundler internally. `@storybook/builder-vite` breaks on it — every `.stories.tsx` file fails to parse/transform with `[plugin storybook:inject-export-order-plugin] Error: Parse error`.
-- **Last tested 2026-07-28:** storybook 10.5.5 + vite@8.1.5 (rolldown@1.1.5). peerDeps now advertise `^8.0.0` but the runtime transform still fails. **peerDep ranges are NOT a valid signal for this check** — test must include `pnpm build-storybook`.
-- Current workaround: `pnpm-workspace.yaml` has `packageExtensions` narrowing the `vite` peer range on `@storybook/react-vite`, `@storybook/builder-vite`, and `@joshwooding/vite-plugin-react-docgen-typescript` to `^5||^6||^7` (excludes `^8`), forcing `vite@7.x`.
-- **Open CVEs on astro 6.4.8:** 6 XSS vulnerabilities (transition:* directives, View Transition animation properties, spread attribute names), only patched in astro ≥7.1.0. Exploit paths require attacker-controlled content or crafted URLs — low practical exposure on this static GitHub Pages site.
-- **Decision options:**
-  1. Stay on 6.4.8, accept CVEs, recheck Storybook compatibility periodically.
-  2. Upgrade to astro 7.x and drop/park Storybook (no automated tests anyway).
-  3. Report repro to `@storybook/builder-vite` and wait for upstream fix.
-- **If Storybook ever gets fixed:**
-  1. Remove the `packageExtensions` block from `pnpm-workspace.yaml`.
-  2. Bump `astro` to latest, `@astrojs/sitemap` to latest compatible version, `storybook`/`@storybook/*` packages to latest.
-  3. `rm -rf node_modules pnpm-lock.yaml && pnpm install` (fresh resolve).
-  4. Verify: `pnpm build` AND `pnpm build-storybook` — peerDep ranges are insufficient, test the actual build.
+- Root cause: Astro 7 requires `vite@^8`. Vite 8's production builds use `rolldown`. `@storybook/builder-vite` (storybook 10.5.5, tested 2026-07-28) fails at runtime transform on every `.stories.tsx` — `[plugin storybook:inject-export-order-plugin] Error: Parse error`. **peerDep ranges are NOT a valid signal** — they advertised `^8.0.0` but it still breaks.
+- **When to recheck:** Watch `@storybook/builder-vite` release notes for explicit rolldown/Vite 8 fix. When ready:
+  1. `rm -rf node_modules pnpm-lock.yaml && pnpm install` (fresh resolve).
+  2. Verify `pnpm build-storybook` passes — don't trust peerDeps alone.
+  3. Optionally load a story in `pnpm storybook` dev mode in a browser to confirm.
