@@ -25,6 +25,8 @@ packageExtensions:
 
 overrides:
   esbuild: '>=0.28.1'
+  # minimatch@10.2.6 declares brace-expansion@^5.0.8 which does not exist yet; remove once 5.0.8 publishes
+  'minimatch@10.2.6': '10.2.5'
   'minimatch@<3.1.4': '3.1.4'
   'minimatch@>=9.0.0 <9.0.7': '9.0.7'
   'flatted@<3.4.2': '3.4.2'
