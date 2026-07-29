@@ -1,5 +1,5 @@
 ---
-title: "A decisão que não virou código"
+title: "Design System para Builders"
 date: "2026-07-29"
 description: "Designers que também codam quase dobraram em um ano na Figma. Mas até em times com design system pronto, o Figma Make ainda gera código hardcoded."
 tags: ["design system", "figma", "agentes de ia", "decisão"]
