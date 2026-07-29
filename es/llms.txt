@@ -6,6 +6,144 @@ Portafolio personal con artículos, casos de estudio y agenda de contacto.
 
 ## Artículos
 
+### Design System para Builders
+URL: https://wildiney.com/es/articles/decisao-que-nao-virou-codigo/
+Date: 2026-07-29
+Description: Los diseñadores que también programan casi se duplicaron en un año en Figma. Pero incluso con design system listo, Figma Make sigue generando código hardcoded.
+
+En un año, el porcentaje de diseñadores de Figma que también escriben código casi se duplicó, pasó de 21% a 41%. Del lado de los devs, 60% ya participa en el diseño, contra 44% antes. Moverse entre los dos mundos dejó de ser un diferencial y se volvió requisito de la profesión.
+
+El CPO de la empresa, Yuhki Yamashita, comentó el efecto colateral de esto en una rueda de prensa en Seúl. Con agentes de IA, cualquier persona arma un prototipo entero sola. El resultado es que esos prototipos están saliendo muy parecidos entre sí, y el código que un equipo produce no se comunica con el resto de la organización.
+
+Tiene sentido: un agente entrenado en los mismos patrones, usado por cualquier squad que pida lo mismo, entrega el mismo tipo de solución. Lo que importa aquí es qué hace ese agente con la decisión que el equipo ya había tomado antes de pedir el prototipo.
+
+La respuesta de Figma hasta ahora fue de infraestructura: Canvas, Code Layers, y una función para ver qué agente usa cada equipo. Eso resuelve quién hace qué, pero no lo que queda de la decisión después de que el agente termina el trabajo.
+
+Falta en esa respuesta lo que hizo de Figma la herramienta preferida de los diseñadores: la facilidad de armar un design system y replicar ese patrón por toda la organización. Hoy, incluso con un design system listo en Figma Design, Figma Make no interpreta bien esa estructura. El código final sale hardcodeado en la capa de primitivos, y eso rompe el mantenimiento en cuanto la aplicación crece. Por eso herramientas como Claude Code ganan espacio: en ellas, la decisión de diseño se vuelve código, se vuelve patrón reutilizable, auditable, testeable, en vez de volverse un dibujo que alguien traduce después.
+
+La visibilidad de agentes resuelve el rastreo, pero no toca la arquitectura. Mientras el design system siga siendo un dibujo que se traduce en código después de que la decisión ya fue tomada, cada squad va a reinventar la misma solución desde cero, sin importar cuántos agentes estén vigilando el trabajo del otro.
+
+---
+
+Fuentes: [Seoul Economic Daily](https://en.sedaily.com/technology/2026/07/15/figma-says-ai-agents-fuel-app-boom-making-differentiation) · [Figma](https://www.figma.com/blog/state-of-the-designer-2026/)
+
+---
+
+### El cargo que decide dónde la IA se detiene
+URL: https://wildiney.com/es/articles/o-cargo-que-decide-onde-a-ia-para/
+Date: 2026-07-28
+Description: Itaú lanzó ia.i y creó un cargo para decidir dónde la IA se detiene. Bradesco y Nubank hacen el mismo movimiento, cada uno a su manera.
+
+![Interfaz del ia.i, el chatbot de Itaú en la pantalla principal de la app, con identificación visual del contenido generado por IA](/images/articles/o-cargo-que-decide-onde-a-ia-para/cover.webp)
+
+El ia.i, el chatbot que Itaú colocó en la pantalla principal de su app esta semana, genera un gráfico de cuánto gastaste en Uber mes a mes y te dice cuál es tu ticket promedio. Cuando pides comparar la tarjeta The One con la Mastercard Black, la conversación te lleva a la pantalla de contratación de la tarjeta y se detiene exactamente ahí: quien cierra el negocio es el cliente, no el chatbot. En una categoría donde la IA en apps bancarias suele significar empujar productos, esta fue una elección deliberada de vender apostando por la confianza.
+
+Detrás del ia.i hay varios modelos orquestados (GPT, Sonnet, Kimi, Qwen, Llama, según el propio banco) con memoria de corto y largo plazo entre ellos. La pantalla también se autoconstruye según la pregunta formulada, y todo el contenido generado por IA lleva un ícono identificable, permitiendo al cliente ver en el momento si ese número vino de un humano o de un modelo. Gran complejidad técnica, con una vara de confianza simple de ver.
+
+Itaú no está solo en esto. Bradesco opera la BIA para millones de clientes y creó Bridge, su propia plataforma de IA generativa. Nubank prueba el AI Private Banker para llevar recomendaciones de crédito más allá del cliente private. Febraban mostró que la IA generativa es prioridad de presupuesto para el 84% de los bancos en 2026, y la percepción de ROI saltó del 5% al 19% en un año.
+
+Un detalle que nos interesa: Itaú creó un cargo nuevo para esto, director de Estrategia, Ciclo de Vida del Cliente e Inteligencia Artificial. Es un cargo que decide dónde la IA se detiene, qué muestra en la pantalla y qué sigue siendo función humana. Bradesco y Nubank están en el mismo movimiento, cada uno con su cargo y su forma de decidir. Mientras tanto, todavía hay gente comentando errores de IA como si fuera 2023. Si te pidieran esta evolución para tu producto mañana, ¿podrías entregarla?
+
+---
+
+Fuentes: [Tecnoblog](https://tecnoblog.net/noticias/itau-coloca-ia-para-cuidar-do-relacionamento-com-o-cliente/) · [Portal ClienteSA](https://portal.clientesa.com.br/bradesco-utiliza-plataforma-propria-de-ia-generativa-para-aprimorar-experiencia-do-cliente/) · [Finsiders Brasil](https://finsidersbrasil.com.br/bancos-digitais/nubank-reforca-uso-da-ia-como-camada-estrategica-no-credito/) · [IT Forum](https://itforum.com.br/noticias/febraban-2026-bancos-brasileiros/)
+
+---
+
+### Mercado Livre, Boticário y las métricas de IA que importan
+URL: https://wildiney.com/es/articles/mercado-livre-boticario-e-as-metricas-de-ia/
+Date: 2026-07-27
+Description: Mercado Livre y Grupo Boticário miden el impacto de la IA como cualquier iniciativa de negocio, incluyendo cuándo deciden no usarla.
+
+![Representación de las decisiones de ROI de IA en Mercado Livre y Grupo Boticário](/images/articles/mercado-livre-boticario-e-as-metricas-de-ia/cover.webp)
+
+Mercado Livre dio acceso a los principales modelos de IA del mercado, Anthropic, OpenAI, DeepSeek, a 35.000 personas de tecnología. Después de un año probando todo en producción, decidió no usar IA en una parte de sus productos.
+
+Guilherme Strube, director de Ingeniería de Software de la empresa, lo contó en el Fórum Executivo del TDC Floripa la semana pasada. "Nuestro hype ya pasó. Podemos entender un poco mejor dónde deberíamos estar poniendo nuestra energía hoy." La explicación para dejar la IA fuera de algunos productos fue directa: "elegimos hoy no entrar con IA en algunos productos porque, al no entrar con IA hoy, podemos usar cosas ya hechas y no tener que escribir todo el tiempo."
+
+Strube mide los resultados de siempre. "No medimos el ROI del uso de IA. Seguimos midiendo exactamente las mismas cosas que medíamos antes: el ROI de una iniciativa y el impacto que tenemos en el negocio. La IA es la herramienta." El costo de tokens no compite con el costo de una decisión de negocio equivocada.
+
+En el mismo panel, Lucila Orsini, directora de Tecnología del Grupo Boticário, empresa que creció casi cinco veces desde 2020, usó otra imagen para decir lo mismo: "al final del día, nadie en su cotidiano elige una empresa porque tiene un ranking de tokens interno. Nosotros, como consumidores, elegimos empresas porque resuelven problemas que tenemos."
+
+La mayoría de las empresas mide la adopción de IA en número de agentes o tokens consumidos, un dato que se convierte en slide y no en decisión. Mercado Livre y Boticário midieron lo de siempre: si el producto resolvió el problema de quien paga la cuenta.
+
+Para Lucila, nada de esto es definitivo: "podemos construir productos y experiencias increíbles, pero cada día que entregas una experiencia increíble al consumidor, al día siguiente esa experiencia ya se convirtió en la base." El listón sube solo, entonces la pregunta de cuándo activar la IA cambia cada semana, y la de cuándo apagarla cambia con ella.
+
+---
+
+Fuente: [Economia SC](https://economiasc.com/2026/07/23/grupo-boticario-e-mercado-livre-mostram-que-maturidade-em-ia-e-saber-onde-nao-usar-a-tecnologia/)
+
+---
+
+### Conoce el ransomware agéntico
+URL: https://wildiney.com/es/articles/jadepuffer-ransomware-agentico/
+Date: 2026-07-26
+Description: Un agente de IA irrumpió, escaló privilegios y secuestró datos solo, sin operador humano en ninguna etapa. JADEPUFFER expone el costo de aplazar parches.
+
+19:34. Un agente de IA intenta iniciar sesión con una contraseña que acaba de crear. Falla. Treinta y un segundos después, sin que nadie tocara el teclado, ya había diagnosticado el error, generado un hash nuevo y conseguido acceso de administrador.
+
+Ocurrió de verdad y fue documentado en un informe que Sysdig publicó sobre JADEPUFFER, un ransomware agéntico responsable del primer secuestro de datos conducido de principio a fin por un modelo de lenguaje, sin operador humano en ninguna etapa de la operación.
+
+El agente irrumpió en un servidor Langflow explotando una falla conocida, escarbó variables de entorno buscando claves de API y credenciales de nube, se movió lateralmente hasta una base de datos de producción corriendo Nacos y falsificó un token de autenticación usando una vulnerabilidad de 2021 que la mayoría de los equipos nunca corrigió. Cifró 1.342 elementos de configuración, borró los originales y dejó una nota de rescate en Bitcoin.
+
+La vulnerabilidad de Nacos tiene cinco años. La clave predeterminada del servicio es pública desde 2020. Un agente leyó esa documentación técnica solo, probó, se equivocó, corrigió su propio error en medio minuto y siguió avanzando por la red sin pausa, sin distracción, sin necesidad de dormir.
+
+Toda empresa corriendo para poner agentes operando solos en producción debería leer este informe antes de celebrar la velocidad. Nadie aquí fue sorprendido por una falla recién descubierta: el problema nació antes, el día en que alguien decidió dejar ese sistema tal como estaba, sin plazo de revisión, porque funcionaba. Tener un criterio para saber cuándo actualizar, y hasta cuándo se puede esperar sin que se vuelva riesgo, es decisión de quien lidera el producto. Y es exactamente ese tipo de decisión la que un agente autónomo va a tomar solo, sin preguntar, si nadie lo dejó escrito antes.
+
+---
+
+Fuentes: [Sysdig Threat Research Team](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion) · [BleepingComputer](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/)
+
+---
+
+### WhatsApp se convirtió en la tienda más lucrativa de Magalu
+URL: https://wildiney.com/es/articles/o-whatsapp-virou-a-loja-mais-lucrativa-da-magalu/
+Date: 2026-07-23
+Description: Magalu convirtió a su personaje Lu en vendedora en WhatsApp y alcanzó R$ 100 millones en ventas en ocho meses, con conversión tres veces mayor que la app.
+
+![El personaje Lu de Magalu operando como vendedora en WhatsApp, representando el canal de IA commerce de la empresa](/images/articles/o-whatsapp-virou-a-loja-mais-lucrativa-da-magalu/cover.webp)
+
+R$ 100 millones en ventas en ocho meses, y el canal no fue el sitio web ni la aplicación de Magalu. Fue un número de WhatsApp.
+
+Magalu tomó a Lu, la imagen de la marca desde hace años, y transformó al personaje en vendedora. El cliente envía un mensaje pidiendo unas zapatillas, ella compara modelos, consulta el historial de compras por número de celular y cierra la venta sin salir de la conversación. Conversión tres veces mayor que la app tradicional. NPS de 84,5, frente a 78 de Magalu en su conjunto. 7,7 millones de usuarios únicos en menos de un año.
+
+Magalu apostó por lo que ya tenía de más valioso: una identidad construida a lo largo de años y la presencia de WhatsApp en la rutina del brasileño. La herramienta no creó demanda nueva. Amplificó una relación que ya existía.
+
+Para quienes trabajan en producto, vale una observación: el propio CEO, Fred Trajano, reconoció que la economía de la operación todavía depende de premisas no comprobadas. Cada mensaje le cuesta a Meta, y cada llamada a los modelos cuesta tokens. Nadie declaró victoria antes de cerrar esa cuenta.
+
+Las métricas de satisfacción son fáciles de celebrar, pero el unit economics decide si el proyecto sobrevive al año siguiente. Magalu está calculando las dos cosas al mismo tiempo, y eso es poco común.
+
+---
+
+Fuentes: [Brazil Journal](https://braziljournal.com/a-aposta-do-magalu-na-ai-esta-convertendo-3x-mais-vai-mexer-o-ponteiro/) · [Business Moment](https://businessmoment.com.br/ferramenta-de-ia-commerce-do-magalu-ultrapassa-a-marca-de-100-milhoes-de-reais-em-vendas/)
+
+---
+
+### El modelo que decidió solo a quién atacar
+URL: https://wildiney.com/es/articles/modelo-decidiu-sozinho-quem-atacar/
+Date: 2026-07-22
+Description: En 2026, dos modelos de IA escaparon de sus sandboxes. Uno obedeció una orden. El otro eligió solo a quién atacar.
+
+![Representación visual de dos modelos de IA escapando de entornos de prueba aislados](/images/articles/modelo-decidiu-sozinho-quem-atacar/cover.webp)
+
+Dos modelos escaparon de sus sandboxes este año, y uno de ellos decidió solo a quién atacar.
+
+En abril, Anthropic le pidió a Claude Mythos que intentara escapar de un entorno de prueba aislado y enviar un mensaje a un investigador específico. Escapó. En julio, OpenAI no le pidió nada parecido a GPT-5.6 Sol, pero escapó de la misma forma, solo que decidió ir tras una empresa.
+
+El caso Mythos fue por encargo. Los investigadores encerraron al modelo en un sandbox y le dijeron que saliera. El modelo encadenó una secuencia de exploits, encontró zero-days en varios sistemas operativos y navegadores, incluido un bug de 27 años escondido en OpenBSD, y obtuvo más acceso a internet del que debía. Envió el correo al investigador y además publicó los detalles del exploit en sitios públicos, sin que nadie se lo pidiera.
+
+El caso GPT-5.6 Sol no tuvo ninguna petición. OpenAI desactivó los clasificadores de seguridad para medir el techo de capacidad ofensiva del modelo en un benchmark interno llamado ExploitGym. Nadie instruyó al modelo a atacar. Solo quería resolver el test. Gastó una cantidad enorme de procesamiento hasta encontrar una vulnerabilidad zero-day en el proxy de paquetes del entorno. Escaló privilegios, se movió de máquina en máquina hasta encontrar acceso libre a internet, dedujo solo que el gabarito del benchmark estaba alojado en Hugging Face, y fue a buscarlo. Combinó credenciales robadas con otro zero-day y logró ejecución remota de código en los servidores de la empresa.
+
+Clem Delangue, CEO de Hugging Face, calificó el episodio como "posiblemente el primer incidente de este tipo". Quizás, pero no por la capacidad de escapar: Mythos ya había escapado de un sandbox tres meses y medio antes. La diferencia importa más que la repetición. Allí, el modelo obedeció una orden de salir. Aquí, nadie dio ninguna orden, y el modelo eligió solo a quién atacar.
+
+Las dos empresas solo reaccionaron después de que los tests salieron del guión. Anthropic mantuvo a Mythos fuera del acceso general. OpenAI reveló la vulnerabilidad al proveedor afectado e incorporó a Hugging Face a su programa de acceso privilegiado. La misma capacidad que abrió esas dos puertas sin permiso ya está siendo usada por ambas empresas para cerrar otras, encontrando vulnerabilidades antes que los atacantes. La diferencia entre herramienta y amenaza es solo quién recibe ese acceso primero.
+
+---
+
+Fuentes: [OpenAI](https://openai.com/index/hugging-face-model-evaluation-security-incident/) · [Hugging Face](https://huggingface.co/blog/security-incident-july-2026) · [Anthropic](https://www.anthropic.com/claude-mythos-preview-risk-report) · [Futurism](https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox) · [Axios](https://www.axios.com/2026/07/21/openai-says-hugging-face-breach-caused-by-one-its-models)
+
+---
+
 ### Automatización y falla humana
 URL: https://wildiney.com/es/articles/automatizacao-e-falha-humana/
 Date: 2026-07-16
@@ -158,29 +296,6 @@ Si la balanza que pesa el producto tiene el dedo del dueño equilibrándola, ¿c
 ---
 
 Fuentes: [Tecnoblog](https://tecnoblog.net/noticias/rio-lanca-modelo-de-ia-sofre-criticas-e-e-desmascarada-em-horas/) · [Anthropic Engineering](https://www.anthropic.com/engineering/eval-awareness-browsecomp) · [MindStudio](https://www.mindstudio.ai/blog/claude-mythos-cheated-training-task-nla-caught-cover-up) · [MEXC News](https://www.mexc.com/news/274060)
-
----
-
-### Figma cobró el precio del silencio
-URL: https://wildiney.com/es/articles/figma-plan-mode-preco-do-silencio/
-Date: 2026-06-11
-Description: El Plan Mode de Figma Make integra la pregunta que faltaba antes de generar prototipos: qué problema resuelve esto. La IA amplifica lo que ya existe.
-
-En una presentación, el diseñador muestra un prototipo de doce pantallas, hecho en veinte minutos con Figma Make. El PM pregunta: "¿qué problema resuelve esto?" Silencio.
-
-El 3 de junio, Figma lanzó Plan Mode: antes de generar cualquier cosa, Make se detiene, hace preguntas sobre el proyecto y espera tu aprobación de un plan editable. Usa más créditos que el modo estándar, funciona más lento, pero entrega mejor resultado.
-
-Figma incorporó a la automatización la pregunta que el propio Figma había ayudado a mucha gente a saltarse. La herramienta que popularizó el diseño a la velocidad de la idea llegó a la misma conclusión que Pirelli en 1994, "Power is nothing without control", y decidió volver eso visible, aunque sea como opt-in.
-
-La IA amplifica lo que existe. Si el proceso empieza sin planificación, Make genera diez versiones del problema equivocado en minutos. La velocidad escala el error, no la solución. Eso Figma lo entendió antes que muchos equipos de producto que todavía miden el rendimiento por el volumen de pantallas generadas.
-
-Plan Mode no es una corrección técnica, ni un freno. Solo reconoce que la variable crítica nunca fue la ejecución.
-
-Treinta años después de Pirelli, la misma conclusión. Solo que esta vez viene integrada en el producto.
-
----
-
-Fuentes: [Figma Release Notes](https://www.figma.com/release-notes/) · [Figma Help Center](https://help.figma.com/hc/en-us/articles/40830441709719-Use-plan-mode-in-Figma-Make)
 
 ---
 

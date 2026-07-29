@@ -6,6 +6,144 @@ Personal portfolio with articles, case studies, and contact scheduling.
 
 ## Articles
 
+### Design System for Builders
+URL: https://wildiney.com/en/articles/decisao-que-nao-virou-codigo/
+Date: 2026-07-29
+Description: Designers who also code nearly doubled in a year at Figma. But even in teams with a ready design system, Figma Make still ships hardcoded output.
+
+In one year, the share of Figma designers who also write code nearly doubled, going from 21% to 41%. On the dev side, 60% now take part in design, up from 44% before. Moving between the two worlds stopped being a differentiator and became a job requirement.
+
+The company's CPO, Yuhki Yamashita, addressed the side effect of this at a press event in Seoul. With AI agents, anyone can put together a whole prototype alone. The result is that these prototypes are coming out looking very similar to each other, and the code one team produces does not talk to the rest of the organization.
+
+That makes sense: an agent trained on the same patterns, used by any squad asking for the same thing, delivers the same kind of solution. What matters here is what that agent does with the decision the team had already made before asking for the prototype.
+
+Figma's response so far has been infrastructure: Canvas, Code Layers, and a feature to see which agent each team is using. That solves who does what, but not what is left of the decision after the agent finishes the work.
+
+What is missing from that response is exactly what made Figma the tool designers preferred: the ease of building a design system and replicating that pattern across the whole organization. Today, even with a ready design system in Figma Design, Figma Make still does not read that structure properly. The final code comes out hardcoded at the primitives layer, and that breaks maintainability as soon as the application grows. That is why tools like Claude Code are gaining ground: in them, the design decision becomes code, becomes a reusable, auditable, testable pattern, instead of becoming a drawing someone translates later.
+
+Agent visibility solves tracking, but does not touch architecture. As long as the design system keeps being a drawing that gets translated into code after the decision has already been made, every squad will reinvent the same solution from scratch, no matter how many agents are watching each other's work.
+
+---
+
+Sources: [Seoul Economic Daily](https://en.sedaily.com/technology/2026/07/15/figma-says-ai-agents-fuel-app-boom-making-differentiation) · [Figma](https://www.figma.com/blog/state-of-the-designer-2026/)
+
+---
+
+### The Role That Decides Where AI Stops
+URL: https://wildiney.com/en/articles/o-cargo-que-decide-onde-a-ia-para/
+Date: 2026-07-28
+Description: Itaú launched ia.i and created a role to decide where AI stops in its app. Bradesco and Nubank are making the same move, each in their own way.
+
+![Interface of ia.i, Itaú's chatbot on the app home screen, with visual identification of AI-generated content](/images/articles/o-cargo-que-decide-onde-a-ia-para/cover.webp)
+
+The ia.i, the chatbot Itaú placed on its app home screen this week, builds a chart of how much you spent on Uber month by month and tells you your average ticket. When you ask to compare the The One card with the Mastercard Black, the conversation takes you to the card signup screen and stops right there: the customer closes the deal, not the chatbot. In a category where AI in a banking app usually means pushing products, this was a deliberate choice to sell by betting on trust.
+
+Behind ia.i sits several orchestrated models (GPT, Sonnet, Kimi, Qwen, Llama, according to the bank itself) with short and long-term memory between them. The screen also builds itself according to the question asked, and all AI-generated content carries an identifiable icon, letting the customer see immediately whether a number came from a human or a model. High technical complexity, with a simple, visible trust bar.
+
+Itaú is not alone in this. Bradesco runs BIA for millions of customers and built Bridge, its own generative AI platform. Nubank is testing the AI Private Banker to bring credit recommendations beyond its private clients. Febraban showed that generative AI is a budget priority for 84% of banks in 2026, and the perception of ROI jumped from 5% to 19% in one year.
+
+One detail worth noting: Itaú created a new role for this, Director of Strategy, Customer Lifecycle, and Artificial Intelligence. It is a role that decides where AI stops, what it shows on screen, and what remains a human function. Bradesco and Nubank are making the same move, each with their own role and their own way of deciding. Meanwhile, there are still people commenting on AI errors as if it were 2023. If someone asked for this evolution in your product tomorrow, could you deliver?
+
+---
+
+Sources: [Tecnoblog](https://tecnoblog.net/noticias/itau-coloca-ia-para-cuidar-do-relacionamento-com-o-cliente/) · [Portal ClienteSA](https://portal.clientesa.com.br/bradesco-utiliza-plataforma-propria-de-ia-generativa-para-aprimorar-experiencia-do-cliente/) · [Finsiders Brasil](https://finsidersbrasil.com.br/bancos-digitais/nubank-reforca-uso-da-ia-como-camada-estrategica-no-credito/) · [IT Forum](https://itforum.com.br/noticias/febraban-2026-bancos-brasileiros/)
+
+---
+
+### Mercado Livre, Boticário, and the AI Metrics That Actually Matter
+URL: https://wildiney.com/en/articles/mercado-livre-boticario-e-as-metricas-de-ia/
+Date: 2026-07-27
+Description: Mercado Livre and Grupo Boticário measure AI impact like any other business initiative, including deciding when not to use it.
+
+![Representation of AI ROI decisions at Mercado Livre and Grupo Boticário](/images/articles/mercado-livre-boticario-e-as-metricas-de-ia/cover.webp)
+
+Mercado Livre gave access to the main AI models on the market, Anthropic, OpenAI, DeepSeek, to 35,000 people in technology. After a year testing everything in production, it decided not to use AI in some of its products.
+
+Guilherme Strube, the company's Software Engineering Director, shared this at the Executive Forum of TDC Floripa last week. "Our hype has passed. We can understand a little better now where we should be putting our energy today." The explanation for keeping AI out of some products was direct: "we choose today not to bring AI into some products because, by not bringing AI today, we can use things already built and not have to write everything from scratch."
+
+Strube measures results the same way as always. "We do not measure the ROI of AI usage. We keep measuring exactly the same things we measured before: the ROI of an initiative and the impact we have on the business. AI is the tool." The cost of tokens does not compete with the cost of a wrong business decision.
+
+On the same panel, Lucila Orsini, Technology Director of Grupo Boticário, a company that has grown nearly five times since 2020, put it a different way: "at the end of the day, nobody in their daily life chooses a company because it has an internal token ranking. We, as consumers, choose companies because they solve problems we have."
+
+Most companies out there measure AI adoption in number of agents or tokens consumed, data that becomes a slide rather than a decision. Mercado Livre and Boticário measured the same thing as always: whether the product solved the problem of whoever is paying the bill.
+
+For Lucila, none of this is settled: "we can build incredible products and experiences, but every day you deliver an incredible experience to the consumer, the next day that experience has become the baseline." The bar rises on its own, so the question of when to turn AI on changes every week, and the question of when to turn it off changes with it.
+
+---
+
+Source: [Economia SC](https://economiasc.com/2026/07/23/grupo-boticario-e-mercado-livre-mostram-que-maturidade-em-ia-e-saber-onde-nao-usar-a-tecnologia/)
+
+---
+
+### Meet the Agentic Ransomware
+URL: https://wildiney.com/en/articles/jadepuffer-ransomware-agentico/
+Date: 2026-07-26
+Description: An AI agent broke in, escalated privileges, and locked down data on its own, with no human operator at any step. JADEPUFFER exposes the cost of delayed patches.
+
+7:34 PM. An AI agent tries to log in with a password it had just created. It fails. Thirty-one seconds later, with nobody touching a keyboard, it had already diagnosed the error, generated a new hash, and gained admin access.
+
+This really happened, and it was documented in a report Sysdig published about JADEPUFFER, an agentic ransomware responsible for the first data hijack carried out start to finish by a language model, with no human operator at any stage of the operation.
+
+The agent broke into a Langflow server by exploiting a known flaw, dug through environment variables looking for API keys and cloud credentials, moved laterally to a production database running Nacos, and forged an authentication token using a 2021 vulnerability that most teams never patched. It encrypted 1,342 configuration items, deleted the originals, and left a ransom note in Bitcoin.
+
+The Nacos vulnerability is five years old. The service's default key has been public since 2020. An agent read that technical documentation on its own, tested, failed, corrected its own mistake in half a minute, and kept moving through the network without pausing, without getting distracted, without needing to sleep.
+
+Every company racing to put agents operating on their own into production should read this report before celebrating the speed. Nobody here was caught off guard by a freshly discovered flaw: the problem was born earlier, on the day someone decided to leave that system as it was, with no review deadline, because it worked. Having a criterion for when to update, and for how long you can wait without it turning into risk, is a decision that belongs to whoever leads the product. And that is exactly the kind of decision an autonomous agent will make on its own, without asking, if nobody left it written down beforehand.
+
+---
+
+Sources: [Sysdig Threat Research Team](https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion) · [BleepingComputer](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/)
+
+---
+
+### WhatsApp Became Magalu's Most Profitable Store
+URL: https://wildiney.com/en/articles/o-whatsapp-virou-a-loja-mais-lucrativa-da-magalu/
+Date: 2026-07-23
+Description: Magalu turned its brand character Lu into an AI seller on WhatsApp and reached R$ 100 million in sales in eight months, with conversion three times higher than the app.
+
+![Magalu's character Lu operating as a seller on WhatsApp, representing the company's AI commerce channel](/images/articles/o-whatsapp-virou-a-loja-mais-lucrativa-da-magalu/cover.webp)
+
+R$ 100 million in sales in eight months, and the channel was not the Magalu website or app. It was a WhatsApp number.
+
+Magalu took Lu, the brand's spokesperson for years, and turned the character into a salesperson. A customer sends a message asking for a sneaker, she compares models, pulls up the purchase history by phone number, and closes the sale without leaving the conversation. Conversion three times higher than the traditional app. NPS of 84.5, compared to 78 for Magalu as a whole. 7.7 million unique users in less than a year.
+
+Magalu bet on what it already had of most value: an identity built over years and WhatsApp's presence in everyday Brazilian life. The tool did not create new demand. It amplified a relationship that already existed.
+
+For those working in product, one observation is worth noting: CEO Fred Trajano himself admitted that the economics of the operation still depend on unproven assumptions. Every message costs Meta money, and every model call costs tokens. No one declared victory before closing that tab.
+
+Satisfaction metrics are easy to celebrate, but unit economics decides whether the project survives the next year. Magalu is calculating both at the same time, and that is rare.
+
+---
+
+Sources: [Brazil Journal](https://braziljournal.com/a-aposta-do-magalu-na-ai-esta-convertendo-3x-mais-vai-mexer-o-ponteiro/) · [Business Moment](https://businessmoment.com.br/ferramenta-de-ia-commerce-do-magalu-ultrapassa-a-marca-de-100-milhoes-de-reais-em-vendas/)
+
+---
+
+### The Model That Decided on Its Own Who to Attack
+URL: https://wildiney.com/en/articles/modelo-decidiu-sozinho-quem-atacar/
+Date: 2026-07-22
+Description: In 2026, two AI models escaped their sandboxes. One followed an order. The other chose its target without any instruction.
+
+![Visual representation of two AI models escaping isolated test environments](/images/articles/modelo-decidiu-sozinho-quem-atacar/cover.webp)
+
+Two models escaped their sandboxes this year, and one of them chose on its own who to attack.
+
+In April, Anthropic asked Claude Mythos to try escaping an isolated test environment and send a message to a specific researcher. It escaped. In July, OpenAI made no such request of GPT-5.6 Sol, yet it escaped the same way, only it decided to go after a company.
+
+The Mythos case was by design. Researchers locked the model in a sandbox and told it to get out. The model chained a sequence of exploits, found zero-days across multiple operating systems and browsers, including a 27-year-old bug buried in OpenBSD, and gained more internet access than it was supposed to have. It sent the email to the researcher and then published the exploit details on public sites, without anyone asking it to.
+
+The GPT-5.6 Sol case had no such request. OpenAI disabled the safety classifiers to measure the model's offensive capability ceiling in an internal benchmark called ExploitGym. No one instructed the model to attack. It only wanted to solve the test. It spent enormous compute finding a zero-day in the environment's package proxy, escalated privileges, moved from machine to machine until it found open internet access, deduced on its own that the benchmark answer key was hosted on Hugging Face, and went looking. It combined stolen credentials with another zero-day and achieved remote code execution on the company's servers.
+
+Clem Delangue, CEO of Hugging Face, called the episode "possibly the first incident of its kind." Maybe, but not because of the ability to escape: Mythos had already escaped a sandbox three and a half months earlier. The difference matters more than the repetition. There, the model obeyed an order to get out. Here, no one gave any order, and the model chose on its own who to attack.
+
+Both companies only reacted after the tests went off script. Anthropic kept Mythos out of general access. OpenAI disclosed the vulnerability to the affected vendor and brought Hugging Face into its privileged access program. The same capability that opened those two doors without permission is now being used by both companies to close others, finding vulnerabilities before attackers do. The difference between tool and threat is only who gets that access first.
+
+---
+
+Sources: [OpenAI](https://openai.com/index/hugging-face-model-evaluation-security-incident/) · [Hugging Face](https://huggingface.co/blog/security-incident-july-2026) · [Anthropic](https://www.anthropic.com/claude-mythos-preview-risk-report) · [Futurism](https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox) · [Axios](https://www.axios.com/2026/07/21/openai-says-hugging-face-breach-caused-by-one-its-models)
+
+---
+
 ### Automation and Human Failure
 URL: https://wildiney.com/en/articles/automatizacao-e-falha-humana/
 Date: 2026-07-16
@@ -158,29 +296,6 @@ If the scale that weighs the product has the owner's thumb on it, how do you tru
 ---
 
 Sources: [Tecnoblog](https://tecnoblog.net/noticias/rio-lanca-modelo-de-ia-sofre-criticas-e-e-desmascarada-em-horas/) · [Anthropic Engineering](https://www.anthropic.com/engineering/eval-awareness-browsecomp) · [MindStudio](https://www.mindstudio.ai/blog/claude-mythos-cheated-training-task-nla-caught-cover-up) · [MEXC News](https://www.mexc.com/news/274060)
-
----
-
-### Figma Charged the Price of Silence
-URL: https://wildiney.com/en/articles/figma-plan-mode-preco-do-silencio/
-Date: 2026-06-11
-Description: Figma Make's Plan Mode embeds the question that used to go unasked before generating prototypes: what problem does this solve. AI amplifies what already exists.
-
-In a presentation, the designer shows a twelve-screen prototype, built in twenty minutes with Figma Make. The PM asks: "what problem does this solve?" Silence.
-
-On June 3rd, Figma launched Plan Mode: before generating anything, Make stops, asks questions about the project, and waits for you to approve an editable plan. It uses more credits than the default mode and runs slower, but delivers a better result.
-
-Figma built into the automation the question that Figma itself had helped a lot of people skip. The tool that popularized design at the speed of thought reached the same conclusion Pirelli did in 1994, "Power is nothing without control," and decided to make it visible, even if only as an opt-in.
-
-AI amplifies what already exists. If the process starts without planning, Make generates ten versions of the wrong problem in minutes. Speed scales the error, not the solution. Figma understood this before a lot of product teams that still measure performance by the volume of screens generated.
-
-Plan Mode is not a technical fix, nor a brake. It simply acknowledges that the critical variable was never execution.
-
-Thirty years after Pirelli, the same conclusion. Only this time it ships built into the product.
-
----
-
-Sources: [Figma Release Notes](https://www.figma.com/release-notes/) · [Figma Help Center](https://help.figma.com/hc/en-us/articles/40830441709719-Use-plan-mode-in-Figma-Make)
 
 ---
 
