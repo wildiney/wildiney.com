@@ -1,5 +1,5 @@
 ---
-title: "The Ransomware Nobody Piloted"
+title: "Meet the Agentic Ransomware"
 date: "2026-07-26"
 description: "An AI agent broke in, escalated privileges, and locked down data on its own, with no human operator at any step. JADEPUFFER exposes the cost of delayed patches."
 tags: ["security", "agentic ai", "ransomware", "risk", "governance"]

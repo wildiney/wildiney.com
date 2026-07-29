@@ -1,5 +1,5 @@
 ---
-title: "El ransomware que nadie pilotó"
+title: "Conoce el ransomware agéntico"
 date: "2026-07-26"
 description: "Un agente de IA irrumpió, escaló privilegios y secuestró datos solo, sin operador humano en ninguna etapa. JADEPUFFER expone el costo de aplazar parches."
 tags: ["seguridad", "ia agéntica", "ransomware", "riesgo", "gobernanza"]

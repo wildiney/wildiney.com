@@ -1,5 +1,5 @@
 ---
-title: "The Decision That Never Became Code"
+title: "Design System for Builders"
 date: "2026-07-29"
 description: "Designers who also code nearly doubled in a year at Figma. But even in teams with a ready design system, Figma Make still ships hardcoded output."
 tags: ["design system", "figma", "ai agents", "decision-making"]
