@@ -12,10 +12,9 @@ The site is responsive, fast, SEO-friendly, and available in three languages: Po
 
 ## Tech Stack
 
-- [Astro 5](https://astro.build/) — static site generator with file-based routing and native i18n
+- [Astro 7](https://astro.build/) — static site generator with file-based routing and native i18n
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS 4](https://tailwindcss.com/) — utility-first styling via `@tailwindcss/vite`
-- [Storybook 10](https://storybook.js.org/) — component development and documentation
 - Deployed via **GitHub Pages**
 
 ## Commands
@@ -25,7 +24,6 @@ pnpm dev              # Start dev server (localhost:4321)
 pnpm build            # Build static site to dist/
 pnpm preview          # Preview built site
 pnpm lint             # ESLint
-pnpm storybook        # Start Storybook (localhost:6006)
 pnpm deploy           # Build + deploy to GitHub Pages
 ```
 
