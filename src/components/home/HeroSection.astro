@@ -35,29 +35,79 @@ const heroCopy = {
 }
 const copy = heroCopy[locale]
 
-const projects = [
-  {
-    num: '01',
-    category: 'Gov Tech · Regulatório',
-    title: 'App Bolsa Família',
-    metric: '14M de famílias · WCAG AA',
-    href: `${getLocalePath(locale)}portfolio/globalweb/bolsa-familia/`,
-  },
-  {
-    num: '02',
-    category: 'E-commerce · Lançamento',
-    title: 'Sanrio Brasil',
-    metric: '1º e-commerce Hello Kitty no BR',
-    href: `${getLocalePath(locale)}portfolio/sanrio/ecommerce/`,
-  },
-  {
-    num: '03',
-    category: 'Enterprise · Internacional',
-    title: 'Indra / Minsait',
-    metric: '8 anos · Times em 4 países',
-    href: `${getLocalePath(locale)}portfolio/indra/`,
-  },
-]
+const projectsByLocale = {
+  pt: [
+    {
+      num: '01',
+      category: 'Gov Tech · Regulatório',
+      title: 'App Bolsa Família',
+      metric: '+14M de famílias',
+      href: `${getLocalePath('pt')}portfolio/globalweb/bolsa-familia/`,
+    },
+    {
+      num: '02',
+      category: 'E-commerce · Lançamento',
+      title: 'Sanrio Brasil',
+      metric: '1º e-commerce Hello Kitty no BR',
+      href: `${getLocalePath('pt')}portfolio/sanrio/ecommerce/`,
+    },
+    {
+      num: '03',
+      category: 'Enterprise · Internacional',
+      title: 'Indra / Minsait',
+      metric: '8 anos · Projetos internacionais',
+      href: `${getLocalePath('pt')}portfolio/indra/`,
+    },
+  ],
+  en: [
+    {
+      num: '01',
+      category: 'Gov Tech · Regulatory',
+      title: 'Bolsa Família App',
+      metric: '+14M families',
+      href: `${getLocalePath('en')}portfolio/globalweb/bolsa-familia/`,
+    },
+    {
+      num: '02',
+      category: 'E-commerce · Launch',
+      title: 'Sanrio Brazil',
+      metric: '1st Hello Kitty e-commerce in BR',
+      href: `${getLocalePath('en')}portfolio/sanrio/ecommerce/`,
+    },
+    {
+      num: '03',
+      category: 'Enterprise · International',
+      title: 'Indra / Minsait',
+      metric: '8 years · International projects',
+      href: `${getLocalePath('en')}portfolio/indra/`,
+    },
+  ],
+  es: [
+    {
+      num: '01',
+      category: 'Gov Tech · Regulatorio',
+      title: 'App Bolsa Família',
+      metric: '+14M de familias',
+      href: `${getLocalePath('es')}portfolio/globalweb/bolsa-familia/`,
+    },
+    {
+      num: '02',
+      category: 'E-commerce · Lanzamiento',
+      title: 'Sanrio Brasil',
+      metric: '1º e-commerce Hello Kitty en BR',
+      href: `${getLocalePath('es')}portfolio/sanrio/ecommerce/`,
+    },
+    {
+      num: '03',
+      category: 'Enterprise · Internacional',
+      title: 'Indra / Minsait',
+      metric: '8 años · Proyectos internacionales',
+      href: `${getLocalePath('es')}portfolio/indra/`,
+    },
+  ],
+}
+
+const projects = projectsByLocale[locale]
 ---
 
 <section
