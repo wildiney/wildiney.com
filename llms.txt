@@ -6,26 +6,162 @@ Portfolio pessoal com artigos, estudos de caso e agenda de contato.
 
 ## Artigos
 
-### Design System para Builders
-URL: https://wildiney.com/articles/decisao-que-nao-virou-codigo/
-Date: 2026-07-29
-Description: Designers que também codam quase dobraram em um ano na Figma. Mas até em times com design system pronto, o Figma Make ainda gera código hardcoded.
+### Design system tem 18 formas de medir sucesso. Adoção lidera com 41%. ROI vem por último, com 5%.
+URL: https://wildiney.com/articles/design-system-18-formas-medir-roi/
+Date: 2026-09-01
+Description: Uma pesquisa com 147 profissionais de design system listou 18 métricas. Adoção lidera com 41%. ROI fica em último com 5%. O motivo diz muito sobre como o setor justifica orçamento.
 
-Em um ano, o percentual de designers da Figma que também escrevem código quase dobrou, foi de 21% para 41%. Do lado dos devs, 60% já participam do design, contra 44% antes. Transitar entre os dois mundos deixou de ser diferencial e virou requisito da profissão.
+Uma pesquisa com 147 profissionais de design system perguntou o que eles medem. 18 métricas na lista. Adoção lidera com 41%. ROI fica em último, com 5%.
 
-O CPO da empresa, Yuhki Yamashita, comentou o efeito colateral disso numa coletiva em Seul. Com agentes de IA, qualquer pessoa monta um protótipo inteiro sozinha. O resultado é que esses protótipos estão saindo muito parecidos entre si, e o código que um time produz não conversa com o resto da organização.
+A pesquisa é da zeroheight, que vende ferramenta de documentação para design systems, quinta edição do levantamento. 56% acompanham o sistema pelo analytics que já vem embutido no Figma, sem precisar de ferramenta extra, e só 9% tem ferramenta dedicada para rastrear adoção de código. ROI não sai de nenhum analytics pronto, exige análise sob medida, e é por isso que fica no final da lista de métricas.
 
-Faz sentido: um agente treinado nos mesmos padrões, usado por qualquer squad que peça a mesma coisa, entrega o mesmo tipo de solução. O que importa aqui é o que esse agente faz com a decisão que o time já tinha tomado antes de pedir o protótipo.
+Falta de recurso e pessoal é o maior desafio citado pelo setor, 56%, disparado à frente de qualquer outro item da lista. Quem não mede ROI não tem número pra sustentar pedido de mais orçamento ou mais gente.
 
-A resposta da Figma até agora foi de infraestrutura: Canvas, Code Layers, e um recurso pra ver qual agente cada time usa. Isso resolve quem faz o quê, mas não o que sobra da decisão depois que o agente termina o trabalho.
+O mesmo padrão aparece na forma como esses times usam IA. 71% já geram código com a ferramenta, 60% geram documentação. Geração de design fica em 24%, e é a etapa que mais preocupa o setor: 61% apontam como maior risco, contra 35% para código.
 
-Falta nessa resposta o que fez do Figma a ferramenta preferida dos designers: a facilidade de montar um design system e replicar esse padrão pela organização inteira. Hoje, mesmo com um design system pronto no Figma Design, o Figma Make não interpreta essa estrutura direito. O código final sai hardcoded na camada de primitivos, e isso quebra a manutenção assim que a aplicação cresce. É por isso que ferramentas como Claude Code ganham espaço: nelas, a decisão de design vira código, vira padrão reutilizável, auditável, testável, em vez de virar desenho que alguém traduz depois.
+O que o time mede e o que o time delega para IA seguem a mesma lógica: o que é barato e seguro de fazer vem primeiro, o que exige mais critério fica para depois. O motivo: componente errado replica em cada tela que herda aquele token, carregando o erro pelo produto inteiro. Código ou documentação errados se corrigem com um ajuste pontual.
 
-Visibilidade de agente resolve rastreio, mas não toca arquitetura. Enquanto o design system continuar sendo desenho que se traduz em código depois da decisão já tomada, cada squad vai reinventar a mesma solução do zero, não importa quantos agentes estejam de olho no trabalho um do outro.
+O próprio relatório resume assim: "como setor, ainda não descobrimos o que medir". Confirma outro dado: 91% relatam confiança alta ou moderada no design system, mas só 7% relatam adoção plena em todos os times da empresa. Confiança sozinha não resolve o problema de provar o seu valor.
+
+Ter a biblioteca de componentes completa, sem lacuna que obrigue o time a recriar componente na mão, foi o motivo mais citado pelos times bem-sucedidos: 79% apontaram isso como razão principal de adoção, contra 59% de comunicação e 25% de automação.
+
+Antes da próxima atualização do design system, vale escolher uma das 18 métricas que já dá para capturar com o analytics e levar esse número para a próxima conversa sobre prioridades. Cuidado para não escolher apenas métricas de vaidade.
 
 ---
 
-Fontes: [Seoul Economic Daily](https://en.sedaily.com/technology/2026/07/15/figma-says-ai-agents-fuel-app-boom-making-differentiation) · [Figma](https://www.figma.com/blog/state-of-the-designer-2026/)
+Fontes: [zeroheight - Design Systems Report 2026](https://report.zeroheight.com/) · [zeroheight - The Findings](https://zeroheight.com/blog/design-systems-report-2026-the-findings/)
+
+---
+
+### 466 milhões de linhas em 20 horas, nenhum patch sem revisão humana
+URL: https://wildiney.com/articles/alberta-auditoria-seguranca-ia/
+Date: 2026-08-20
+Description: 50 agentes de IA auditaram o código do governo de Alberta em 20 horas. Pelo método tradicional levaria seis anos e meio. Cada patch ainda esperou revisão humana.
+
+50 agentes de IA vasculharam 466 milhões de linhas de código do governo de Alberta, no Canadá, em 20 horas. Pelo método tradicional, a mesma revisão levaria cerca de seis anos e meio, segundo a própria equipe que tocou o projeto.
+
+Uma IA revisando segurança pode inventar uma vulnerabilidade que não existe, ou pior, deixar passar uma que existe. É o motivo mais comum pra travar antes de deixar um agente chegar perto de produção, e é uma preocupação real. Alberta resolveu isso construindo camada em cima de camada de verificação sobre o modelo.
+
+O processo rodou em duas etapas: um motor de regras varria cada repositório atrás de padrões conhecidos, depois um segundo agente revisava cada alerta e citava o arquivo e a linha exata, pra um humano poder checar. Um agente de ataque tentava invadir a aplicação como um invasor tentaria, outro avaliava a defesa contra um padrão internacional de segurança e escrevia o plano de correção. Quase 95 controles checados a cada rodada. Nenhum patch foi pra produção sem revisão e aprovação de um engenheiro da equipe.
+
+O resultado veio de aceitar que a IA erra, e desenhar o processo pra que esse erro nunca chegasse sozinho até produção. Um portal de subsídio que levou cinco meses pra ser feito à mão há 25 anos foi reconstruído em quatro a cinco dias, com o mesmo tanto de revisão humana no fim da linha.
+
+O medo de alucinação trava muita gente antes mesmo de tentar. Alberta mostrou que o tamanho do checkpoint entre o agente e a produção é o que decide se aquele erro chega a importar.
+
+---
+
+Fontes: [Anthropic](https://www.anthropic.com/news/alberta-government-claude-cybersecurity) · [The Logic](https://thelogic.co/briefing/alberta-government-uses-claude-to-check-its-code/)
+
+---
+
+### O agente sobe de nível, mas a decisão nunca muda de dono
+URL: https://wildiney.com/articles/grab-escada-autonomia-analytics/
+Date: 2026-08-20
+Description: A Grab mediu quanto do trabalho de analytics era mecânico, colocou agentes nessas etapas e definiu quatro pontos que nunca delegam: métrica, premissa, causalidade, decisão.
+
+A Grab, superapp do sudeste asiático, mediu quanto do trabalho de um analista de dados era, de fato, análise.
+
+Em fevereiro, 44% dos chamados fechados pela equipe de analytics eram tarefas mecânicas: preparar dado, disparar alerta, escrever relatório. Depois de colocar agentes de IA nessas etapas, a empresa mediu de novo em junho. O número caiu para 30%.
+
+A Grab batizou os próprios degraus de autonomia, inspirada no conceito de cinco níveis que Dan Shapiro criou para código, sem herdar a numeração nem os nomes dele. No nível 2, o agente só sugere um gráfico ou uma primeira versão de consulta; no nível 5, quase todo autônomo. Em cada degrau, quatro pontos continuam sendo do analista: definição de métrica, premissa de negócio, interpretação causal, decisão final. A autonomia sobe degrau por degrau, e esses quatro pontos ficam onde estão. No nível 4, o agente já conduz o fluxo inteiro sozinho, da descoberta do dado até a publicação, e o humano volta a entrar quando o modelo aciona um gate, uma anomalia ou um dado sensível. São os pontos que não delegamos, em produto ou em analytics.
+
+O tempo de ciclo caiu 33%. Em um canal de Slack aberto para autoatendimento, a fatia de perguntas respondidas sem fila de analista subiu de 50% para 81% em consultas SQL e de 63% para 90% em pedidos de dado bruto. A equipe de analytics reinvestiu essa capacidade em análise mais profunda.
+
+A análise aprofundada acontece no gate do nível 4: o agente sinaliza, o humano decide. Em cada degrau da escada, a decisão final continua sendo nossa.
+
+---
+
+Fontes: [Grab Engineering Blog](https://engineering.grab.com/how-ai-is-transforming-analytics) · [InfoQ](https://www.infoq.com/news/2026/08/grab-ai-analytics-agents/)
+
+---
+
+### 27 mil agentes de IA, 200 que importavam
+URL: https://wildiney.com/articles/ifood-27-mil-agentes-metrica/
+Date: 2026-08-18
+Description: O iFood construiu 27 mil agentes de IA em dez meses. 82% economizavam menos de 20 horas por mês. A resposta foi trocar a métrica, não os agentes.
+
+O iFood construiu 27 mil agentes de IA em dez meses. Só 200 deles importavam de verdade.
+
+A meta parecia simples no início: um agente por funcionário, prioridade em volume, erro tratado como parte do processo. Chegaram lá rápido, com 12 mil agentes ativos por mês. Um deles lia doze meses de reuniões e devolvia feedback pronto em 20 minutos. Todo treinamento de IA começava com o mesmo rito de passagem: construir um jogo da cobrinha por comando de voz, sem saber programar.
+
+Só que quando alguém separou o joio do trigo, o resultado foi que 82% dos agentes economizavam menos de 20 horas por mês, do tipo assistente pessoal. Menos de 1% fazia o trabalho de dezenas de pessoas. A empresa tinha estoque de agente e não sabia dizer qual deles importava.
+
+A resposta foi trocar a métrica. A conversa interna saiu de "quantos agentes existem" para "qual problema cada um resolve de verdade", e mudar esse vocabulário em dois meses gerou um desconforto óbvio: gente que tinha acabado de aprender a construir agente ouvindo que o esforço ia ser medido de outro jeito.
+
+Faz sentido incomodar. Contar agente é fácil e não exige julgamento nenhum, é a métrica que enche slide de board. Definir qual skill merece ser escalada é que dói, porque obriga alguém a admitir que as outras 26.800 não valiam o esforço que custaram.
+
+O time de devs do iFood saiu dessa troca com 16% mais produtividade, ganho de time inteiro, não de herói isolado. Métrica existe pra forçar decisão, não pra decorar apresentação.
+
+---
+
+Fontes: [MIT Sloan Management Review Brasil](https://mitsloanreview.com.br/a-metrica-que-substituiu-o-agente-de-ia/) · [Mobile Time](https://www.mobiletime.com.br/noticias/13/05/2026/ifood-14-mil-agentes-ia/)
+
+---
+
+### 237 repositórios, um pacote que nunca existiu
+URL: https://wildiney.com/articles/slopsquatting-hallucinacao-pacotes/
+Date: 2026-08-13
+Description: Uma IA inventou o nome de um pacote npm, e o comando de instalação se espalhou por 237 repositórios sem verificação. Isso tem nome: slopsquatting.
+
+Tem um comando de instalação espalhado por 237 repositórios do GitHub, mandando um agente de IA rodar um pacote que nunca existiu. Uma IA inventou o nome, e um arquivo de instruções foi copiado e recopiado sem verificação em nenhuma etapa.
+
+Chama-se react-codeshift, mistura de jscodeshift com react-codemod. Charlie Eriksen, pesquisador da Aikido Security, rastreou a origem até um único commit de outubro de 2025, com 47 instruções geradas por IA sem revisão humana. Espalhou por fork, virou até tradução em japonês. Eriksen registrou o nome antes que um atacante fizesse isso e viu agentes de verdade tentando instalar o pacote todo santo dia.
+
+Isso tem nome: slopsquatting, termo de Seth Larson, da Python Software Foundation, cruzando slop, o apelido de conteúdo raso feito em massa por IA, com typosquatting, o golpe de registrar nomes parecidos com marcas conhecidas. A IA inventa um pacote plausível, alguém registra o nome de verdade com malware dentro, e o install que devia falhar passa a rodar código de outra pessoa.
+
+Já causou dano real: unused-imports, alucinação de eslint-plugin-unused-imports, seguia com 233 downloads semanais mesmo bloqueado pelo npm. Uma pesquisa independente testou cinco modelos de ponta em quase 200 mil prompts e achou 127 nomes que todos alucinaram igual; 53 continuavam livres pra registro mesmo depois do alerta a PyPI e Socket.dev.
+
+A taxa de alucinação caiu, isso é real, os cinco modelos testados erraram entre 4,6% e 6,1%. Mas essa taxa dispara a cada dependência que um agente escolhe sozinho, e em escala, esse percentual por decisão para de ser detalhe estatístico.
+
+Falta, na maioria dos times, o passo entre a sugestão e o install que confere se o pacote existe de verdade e quem publicou. Esse checkpoint não foi esquecido: alguém decidiu, em algum momento, que o time não precisava dele.
+
+---
+
+Fontes: [Charlie Eriksen, Aikido Security](https://www.aikido.dev/blog/agent-skills-spreading-hallucinated-npx-commands) · [Aleksandr Churilov (arXiv)](https://arxiv.org/pdf/2605.17062) · [Mend.io](https://www.mend.io/blog/the-hallucinated-package-attack-slopsquatting/)
+
+---
+
+### Nubank e Itaú lideram o ranking de IA, e nem olha para o orçamento
+URL: https://wildiney.com/articles/evident-ai-index-talento-vs-orcamento/
+Date: 2026-08-11
+Description: O índice que elegeu os dois bancos mais maduros em IA da América Latina pesa talento em 45%. Orçamento de tecnologia não entra na conta.
+
+O índice que elegeu Nubank e Itaú como os bancos mais maduros em inteligência artificial da América Latina nem olha para o orçamento de tecnologia. A nota da Evident Insights soma mais de 60 indicadores públicos e pesa assim: talento 45%, inovação 30%, liderança 15%, transparência 10%. O Goldman Sachs citou o resultado para justificar a recomendação de compra das duas ações.
+
+Nubank roda o NuFormer, modelo proprietário de crédito, e diz que quase toda a força de trabalho usa IA todos os dias. Itaú tem mais de 500 casos de uso ativos, do Pix pelo WhatsApp à checagem de fraude atrás de cada compra no cartão.
+
+O que separa os dois do resto é o destino do ganho de produtividade. Segundo o Goldman, em vez de cortar gente depois de economizar uma ou duas horas de trabalho por semana com IA, os líderes reinvestem essa economia contratando mais especialistas. O ganho de hoje financia a contratação seguinte.
+
+Para a Evident, essa vantagem tende a se ampliar ano após ano: alcançar quem já saiu na frente fica cada vez mais caro. Apenas 8% dos grandes bancos da região já têm IA generativa avançada rodando em produção. Mais da metade, 58%, ainda não tirou o projeto do papel.
+
+O ranking recompensa a decisão que veio antes do orçamento: colocar as pessoas certas primeiro. O capital seguiu depois. Isso não se compra em um trimestre de capex.
+
+---
+
+Fontes: [The Rio Times](https://www.riotimesonline.com/nubank-itau-top-a-new-artificial-intelligence-bank-ranking/) · [Seu Dinheiro](https://www.seudinheiro.com/2026/empresas/nubank-e-itau-disparam-na-corrida-da-inteligencia-artificial-e-resto-dos-bancos-pode-nao-conseguir-alcanca-los-diz-goldman-sachs-miql/)
+
+---
+
+### O dado que sabota sua decisão de produto
+URL: https://wildiney.com/articles/dado-que-sabota-decisao-produto/
+Date: 2026-08-02
+Description: 29% dos funcionários admitem ter sabotado a estratégia de IA da própria empresa. O que isso faz com sua pesquisa de satisfação e seus testes de feature.
+
+Testaram uma nova feature por duas semanas. Quase toda avaliação recebeu nota mediana, nem boa o bastante pra aprovar, nem ruim o bastante pra levantar suspeita. A feature foi descartada, mas será que deveria?
+
+O sinal de sabotagem raramente vem de uma pane espalhafatosa, vem da nota morna que não muda nada pra nenhum lado.
+
+A cena é fictícia, mas nem tanto. Um estudo da Writer, em parceria com a Workplace Intelligence, ouviu 2.400 funcionários e executivos nos Estados Unidos, Reino Unido e Europa. E acredite, 29% admitem ter sabotado a estratégia de IA da própria empresa, e entre a Geração Z o número sobe pra 44%. Entre as formas citadas estão recusar a ferramenta de IA eleita pela empresa e adulterar avaliação de desempenho pra fazer a IA parecer pior do que é. Essa segunda é a versão real por trás da nota morna do início.
+
+Esse dado implica na sua pesquisa de satisfação, no relatório de testes e na reunião que aprova ou descarta as melhorias ou a criação do seu produto.
+
+76% dos executivos dizem que essa sabotagem representa uma ameaça séria ao futuro da empresa. Do ponto de vista de quem lidera produto, achar quem sabotou importa menos que achar o problema e construir a correção, porque todo resultado carrega a responsabilidade de quem liderou o processo. Nenhum resultado isolado deveria decidir sozinho. Nem pesquisa qualitativa escapa de viés: pergunta enviesada já tem resposta certa. Cruzar a nota da pesquisa com o que o mercado mostra, com reclamação direta de quem usa, entre outras coisas, ajuda a achar a discrepância. Se o concorrente lançou a mesma feature e está colhendo resultado, o problema pode estar no piloto ou pode estar nas métricas usadas. E lembre-se: silêncio educado na reunião pode ser só a objeção guardada para outra oportunidade.
+
+Confiança no processo é o que sustenta a confiança no seu produto.
+
+---
+
+Fontes: [WRITER](https://writer.com/blog/enterprise-ai-adoption-survey-results-press-release/) · [Fortune](https://fortune.com/2026/04/08/gen-z-workers-sabotage-ai-rollout-backlash/)
 
 ---
 
