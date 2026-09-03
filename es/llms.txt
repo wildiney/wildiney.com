@@ -629,7 +629,7 @@ URL: https://wildiney.com/es/articles/harrison-bergeron-nao-era-ficcao/
 Date: 2026-04-21
 Description: Los alumnos que escriben bien están siendo señalados como sospechosos de uso de IA. La señal se invirtió: la competencia se convirtió en evidencia de trampa. Esto va más allá de las escuelas.
 
-Un alumno escribió un ensayo sobre Harrison Bergeron, el cuento de Kurt Vonnegut sobre una sociedad que castiga a quienes se destacan. El ensayo fue marcado como 18% generado por IA. El motivo: una sola palabra — "devoid". Al reemplazarla por "without", la puntuación cayó a cero.
+Un alumno escribió un ensayo sobre Harrison Bergeron, el cuento de Kurt Vonnegut sobre una sociedad que castiga a quienes se destacan. El ensayo fue marcado como 18% generado por IA. El motivo: una sola palabra: "devoid". Al reemplazarla por "without", la puntuación cayó a cero.
 
 El alumno fue obligado a empobrecer su propio ensayo sobre una historia que advierte contra la supresión forzada de la excelencia.
 
@@ -1090,7 +1090,7 @@ URL: https://wildiney.com/es/articles/defeito-como-prova-de-excelencia/
 Date: 2026-01-13
 Description: Las piezas defectuosas de LEGO valen más que el original — no porque sean defectuosas, sino porque el error es rarísimo en un sistema altamente confiable. ¿Qué revela esto sobre la excelencia en producto?
 
-LEGO está obsesionada con la calidad. Sus piezas encajan perfectamente desde hace décadas, mantienen estándares industriales rigurosos y raramente fallan. Aun así, cuando ocurre una falla — una minifigura con impresión incorrecta, por ejemplo — el mercado no la rechaza. La valoriza.
+LEGO está obsesionada con la calidad. Sus piezas encajan perfectamente desde hace décadas, mantienen estándares industriales rigurosos y raramente fallan. Aun así, cuando ocurre una falla, como una minifigura con impresión incorrecta, el mercado no la rechaza. La valoriza.
 
 Las piezas defectuosas de LEGO pueden valer mucho más que el producto original. No porque sean defectuosas, sino porque el error es rarísimo dentro de un sistema extremadamente confiable. El defecto no destruye valor. Revela cuánto valor ya existía antes.
 

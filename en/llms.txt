@@ -507,7 +507,7 @@ Interfaces work the same way. The perception of a good product starts with its a
 
 The problem is that AI just democratized exactly that layer.
 
-Today any product can have a refined interface in hours. Well-built templates, consistent palettes, thoughtful typography — all of it accessible without a senior designer, without a mature design system, without years of iteration.
+Today any product can have a refined interface in hours. Well-built templates, consistent palettes, thoughtful typography. All of it accessible without a senior designer, without a mature design system, without years of iteration.
 
 The result is that everything is starting to look alike. And here is the paradox that almost no one names: more similar interfaces may actually be easier to use. Familiar patterns reduce the learning curve, eliminate friction, speed up adoption.
 
@@ -528,9 +528,9 @@ AI trainer jobs grew 642% in Brazil. Before updating your resume, understand wha
 
 Deel's report, published in March 2026, recorded this growth for 2025. Salaries range from US$15 per hour for generalist roles to over US$100 for specialists. What these numbers measure is the gap between where AI models currently stand and where they need to reach to operate without constant human judgment.
 
-Every label, every response validation, every fine-tuning pass is a decision about what "good" means in that context. Medicine, law, code, customer service. There's a human on the other end teaching the model — and if we use ChatGPT's launch as a birth date, we're talking about a 3-year-old: already has vocabulary, already walks on its own, but still needs to be taught not to stick its finger in a socket.
+Every label, every response validation, every fine-tuning pass is a decision about what "good" means in that context. Medicine, law, code, customer service. There's a human on the other end teaching the model. And if we use ChatGPT's launch as a birth date, we're talking about a 3-year-old: already has vocabulary, already walks on its own, but still needs to be taught not to stick its finger in a socket.
 
-For those working in product, this changes how you read any AI system: not as autonomous technology, but as infrastructure with embedded human labor — and all the errors that implies. The code copilot has reviewers, the medical triage model has specialists validating its outputs.
+For those working in product, this changes how you read any AI system: not as autonomous technology, but as infrastructure with embedded human labor, and all the errors that implies. The code copilot has reviewers, the medical triage model has specialists validating its outputs.
 
 This 642% growth will last until the model no longer needs them. The expiration date is built into the job design.
 
@@ -543,15 +543,15 @@ URL: https://wildiney.com/en/articles/nenhuma-votacao-nenhum-comite-apenas-um-po
 Date: 2026-05-12
 Description: In 2020, Google turned a blog post into digital product law. The Prompt API follows the same logic — only this time the model runs on the device while the rules stay with Google.
 
-In May 2020, Google published a post on the Chrome blog announcing that three performance metrics would start influencing search rankings in 2021. No vote, no standards committee — just a post.
+In May 2020, Google published a post on the Chrome blog announcing that three performance metrics would start influencing search rankings in 2021. No vote, no standards committee. Just a post.
 
 What followed were product teams rewriting roadmaps, SEO agencies repositioning their services, and Core Web Vitals becoming a permanent fixture in the backlog of any product with ambitions of appearing on Google. Not because anyone decided it was a good idea, but because Google decided it was, backed by 67% browser market share.
 
-The Prompt API follows the same logic: Chrome now allows web pages to send natural language instructions to Gemini Nano, a model that runs locally on the device without any server traffic. Mozilla filed a formal objection at the W3C arguing this fragments the open web, and they're technically right — but Firefox has less than 3% market share, so the fight is legitimate without being relevant.
+The Prompt API follows the same logic: Chrome now allows web pages to send natural language instructions to Gemini Nano, a model that runs locally on the device without any server traffic. Mozilla filed a formal objection at the W3C arguing this fragments the open web, and they're technically right, but Firefox has less than 3% market share, so the fight is legitimate without being relevant.
 
 The detail that's getting overlooked is that using the Prompt API requires accepting Google's Generative AI Prohibited Uses Policy. The model runs on the user's device, but the content rules stay with Google, without the user having signed anything.
 
-For those building products, the question isn't whether this will become standard — the track record suggests it will. The question is when you'll decide what to do with a layer that's already sitting between your product and your user, even though you never asked for it.
+For those building products, the question isn't whether this will become standard. The track record suggests it will. The question is when you'll decide what to do with a layer that's already sitting between your product and your user, even though you never asked for it.
 
 ---
 
@@ -566,9 +566,9 @@ In companies, the same mechanism is at work. The employee processes the competit
 
 For the record, each platform has its own policy: some use your inputs by default, unless you disable the option; others only use them if you authorize it, but most users never read the fine print. And most companies also don't know their employees are doing this on their behalf. Really? Or did they openly decide to look the other way hoping for better results?
 
-The overlooked data point: 96% of small Brazilian companies know about generative AI, but only 15% use it regularly (Sebrae, 2025). The feeling of falling behind doesn't reflect the market — it reflects an industry that profits from keeping that feeling alive. Researchers call it FOO, Fear of Obsolescence, which differs from FOMO because it isn't tied to any specific opportunity, but to the permanent fear of becoming professionally irrelevant. It distorts comparison because you see your colleagues' results but never their process.
+The overlooked data point: 96% of small Brazilian companies know about generative AI, but only 15% use it regularly (Sebrae, 2025). The feeling of falling behind doesn't reflect the market. It reflects an industry that profits from keeping that feeling alive. Researchers call it FOO, Fear of Obsolescence, which differs from FOMO because it isn't tied to any specific opportunity, but to the permanent fear of becoming professionally irrelevant. It distorts comparison because you see your colleagues' results but never their process.
 
-Almost none of these access decisions were evaluated as risks because the person granting access wasn't thinking about security — they were thinking about not being left behind and appearing productive.
+Almost none of these access decisions were evaluated as risks because the person granting access wasn't thinking about security. They were thinking about not being left behind and appearing productive.
 
 The question missing before the next upload: was this a decision, or did the fear of becoming obsolete decide for you?
 
@@ -629,7 +629,7 @@ URL: https://wildiney.com/en/articles/harrison-bergeron-nao-era-ficcao/
 Date: 2026-04-21
 Description: Students who write well are being flagged as suspected AI users. The signal has been inverted: competence became evidence of cheating. This goes beyond schools.
 
-A student wrote an essay about Harrison Bergeron, the Kurt Vonnegut short story about a society that punishes those who stand out. The essay was flagged as 18% AI-generated. The reason: a single word — "devoid." When they replaced it with "without," the score dropped to zero.
+A student wrote an essay about Harrison Bergeron, the Kurt Vonnegut short story about a society that punishes those who stand out. The essay was flagged as 18% AI-generated. The reason: a single word: "devoid." When they replaced it with "without," the score dropped to zero.
 
 The student was forced to impoverish their own essay about a story that warns against the forced suppression of excellence.
 
@@ -759,7 +759,7 @@ The market went from prompt engineering to vibe coding and came back to engineer
 
 But there is a problem that predates any term.
 
-Many people do not even start with an idea of their own. They do not research the problem. They do not validate whether there is real value in what they want to build. They do not test with real users. And then they have AI execute, using as reference that celebrated benchmarking from corporate presentations — which in practice means copying the competitor pixel by pixel.
+Many people do not even start with an idea of their own. They do not research the problem. They do not validate whether there is real value in what they want to build. They do not test with real users. And then they have AI execute, using as reference that celebrated benchmarking from corporate presentations, which in practice means copying the competitor pixel by pixel.
 
 The original product you are replicating already has a full team working on the problems you cannot see from the interface. You are copying the facade and inheriting all the structural defects they are already racing to fix.
 
@@ -776,7 +776,7 @@ Description: When the tool, the method, or the routine becomes the goal, the pro
 
 Not because it stopped mattering. But because the problem that needs solving no longer fits inside it.
 
-I have worked with designers who would fall apart if the order of projects changed. With those who applied the same visual style to any context, because it looked good once and became a signature. With those who declared that every new technology would not work — curiously, without testing any of it.
+I have worked with designers who would fall apart if the order of projects changed. With those who applied the same visual style to any context, because it looked good once and became a signature. With those who declared that every new technology would not work, curiously, without testing any of it.
 
 And both extremes that seem opposites but share the same root: the one who treats any change as a personal offense, and the one who executes every instruction without question.
 
@@ -807,7 +807,7 @@ Mass layoffs, experienced professionals out of the market for months, falling sa
 
 The problem is not the economy. It is the metric.
 
-The unemployment rate measures only people without work who are actively searching. It ignores underemployment, informality, precarious conditions, and highly qualified people working well below their level. Brazil's own IBGE treats this as workforce underutilization — a number significantly larger than the unemployment rate alone.
+The unemployment rate measures only people without work who are actively searching. It ignores underemployment, informality, precarious conditions, and highly qualified people working well below their level. Brazil's own IBGE treats this as workforce underutilization, a number significantly larger than the unemployment rate alone.
 
 The labor market is also not homogeneous.
 
@@ -851,13 +851,13 @@ But the question that actually matters is different. If I can build faster, fail
 
 If launching has become cheap, why bother structuring hypotheses carefully, mapping journeys, interviewing users, prioritizing with rigor?
 
-Here is the central point: not every mistake is cheap. There is the small, reversible mistake that fits inside a controlled experiment. But there is also the structural mistake — the one that misaligns the product from its value proposition, that adds complexity without real impact, that fragments the strategic narrative and accumulates invisible debt.
+Here is the central point: not every mistake is cheap. There is the small, reversible mistake that fits inside a controlled experiment. But there is also the structural mistake, the one that misaligns the product from its value proposition, that adds complexity without real impact, that fragments the strategic narrative and accumulates invisible debt.
 
 AI drastically reduced the cost of execution, but not the cost of decision-making. And poorly made decisions only scale waste more efficiently.
 
 What got faster was producing screens, generating variations, writing initial code. What remains rare is choosing the right problem, prioritizing under real constraints, sustaining product coherence, managing expectations when urgent demands arise, balancing commercial promises with long-term strategy, avoiding the temptation to add AI just to keep up with the market when it diverts focus from what actually generates value.
 
-Process will certainly change — less ritual, less formalism, less attachment to rigid stages. But structured thinking does not become obsolete just because execution got faster. The lower the barrier to execution, the greater the impact of a poorly made decision.
+Process will certainly change: less ritual, less formalism, less attachment to rigid stages. But structured thinking does not become obsolete just because execution got faster. The lower the barrier to execution, the greater the impact of a poorly made decision.
 
 Maybe the new balance is: enough discovery to reduce critical risks, fast execution to validate hypotheses, continuous observability to learn from real behavior. Neither analysis paralysis nor impulsive shipping.
 
@@ -918,7 +918,7 @@ Several recent articles are raising alarms about **OpenClaw**: an open-source AI
 
 **OpenClaw** is not succeeding just because it is technically impressive. It is succeeding because it promises something many people have been quietly wanting: to delegate everything. Not just tasks, but responsibility. Not just execution, but decision-making.
 
-It is not a copilot. It is an operator. It uses the computer like a human does — navigating tools, accessing files, connecting systems, and simply solving. Or at least appearing to solve. The mental model behind it is simple and dangerously seductive: "just handle it." No clear brief. No explicit criteria. No metrics. No plan.
+It is not a copilot. It is an operator. It uses the computer like a human does: navigating tools, accessing files, connecting systems, and simply solving. Or at least appearing to solve. The mental model behind it is simple and dangerously seductive: "just handle it." No clear brief. No explicit criteria. No metrics. No plan.
 
 From a Product Management perspective, this is not disruptive innovation. It is an uncomfortable mirror. It shows how willing we are to trade clarity for convenience and thinking for speed.
 
@@ -1090,7 +1090,7 @@ URL: https://wildiney.com/en/articles/defeito-como-prova-de-excelencia/
 Date: 2026-01-13
 Description: Defective LEGO pieces are worth more than the original — not because they are defective, but because the error is extremely rare within a highly reliable system. What does this reveal about excellence in product?
 
-LEGO is obsessed with quality. Its pieces have fit together perfectly for decades, maintain rigorous industrial standards, and rarely fail. Yet when a failure does happen — a minifigure with the wrong print, for example — the market does not reject it. It values it.
+LEGO is obsessed with quality. Its pieces have fit together perfectly for decades, maintain rigorous industrial standards, and rarely fail. Yet when a failure does happen, like a minifigure with the wrong print, the market does not reject it. It values it.
 
 Defective LEGO pieces can be worth far more than the original product. Not because they are defective, but because the error is extremely rare within a highly reliable system. The defect does not destroy value. It reveals how much value already existed before it.
 
