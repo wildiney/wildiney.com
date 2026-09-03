@@ -6,7 +6,7 @@ tags: ["qualidade", "excelência", "produto", "branding", "estratégia"]
 thumbnail: "/images/articles/defeito-como-prova-de-excelencia/cover.webp"
 ---
 
-LEGO is obsessed with quality. Its pieces have fit together perfectly for decades, maintain rigorous industrial standards, and rarely fail. Yet when a failure does happen — a minifigure with the wrong print, for example — the market does not reject it. It values it.
+LEGO is obsessed with quality. Its pieces have fit together perfectly for decades, maintain rigorous industrial standards, and rarely fail. Yet when a failure does happen, like a minifigure with the wrong print, the market does not reject it. It values it.
 
 Defective LEGO pieces can be worth far more than the original product. Not because they are defective, but because the error is extremely rare within a highly reliable system. The defect does not destroy value. It reveals how much value already existed before it.
 

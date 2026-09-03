@@ -6,7 +6,7 @@ tags: ["qualidade", "excelência", "produto", "branding", "estratégia"]
 thumbnail: "/images/articles/defeito-como-prova-de-excelencia/cover.webp"
 ---
 
-LEGO está obsesionada con la calidad. Sus piezas encajan perfectamente desde hace décadas, mantienen estándares industriales rigurosos y raramente fallan. Aun así, cuando ocurre una falla — una minifigura con impresión incorrecta, por ejemplo — el mercado no la rechaza. La valoriza.
+LEGO está obsesionada con la calidad. Sus piezas encajan perfectamente desde hace décadas, mantienen estándares industriales rigurosos y raramente fallan. Aun así, cuando ocurre una falla, como una minifigura con impresión incorrecta, el mercado no la rechaza. La valoriza.
 
 Las piezas defectuosas de LEGO pueden valer mucho más que el producto original. No porque sean defectuosas, sino porque el error es rarísimo dentro de un sistema extremadamente confiable. El defecto no destruye valor. Revela cuánto valor ya existía antes.
 

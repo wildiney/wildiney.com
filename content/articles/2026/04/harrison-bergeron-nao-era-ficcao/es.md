@@ -6,7 +6,7 @@ tags: ["inteligência artificial", "educação", "trabalho", "habilidades", "com
 thumbnail: "/images/articles/harrison-bergeron-nao-era-ficcao/cover.webp"
 ---
 
-Un alumno escribió un ensayo sobre Harrison Bergeron, el cuento de Kurt Vonnegut sobre una sociedad que castiga a quienes se destacan. El ensayo fue marcado como 18% generado por IA. El motivo: una sola palabra — "devoid". Al reemplazarla por "without", la puntuación cayó a cero.
+Un alumno escribió un ensayo sobre Harrison Bergeron, el cuento de Kurt Vonnegut sobre una sociedad que castiga a quienes se destacan. El ensayo fue marcado como 18% generado por IA. El motivo: una sola palabra: "devoid". Al reemplazarla por "without", la puntuación cayó a cero.
 
 El alumno fue obligado a empobrecer su propio ensayo sobre una historia que advierte contra la supresión forzada de la excelencia.
 

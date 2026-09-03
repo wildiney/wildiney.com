@@ -6,7 +6,7 @@ tags: ["inteligência artificial", "educação", "trabalho", "habilidades", "com
 thumbnail: "/images/articles/harrison-bergeron-nao-era-ficcao/cover.webp"
 ---
 
-A student wrote an essay about Harrison Bergeron, the Kurt Vonnegut short story about a society that punishes those who stand out. The essay was flagged as 18% AI-generated. The reason: a single word — "devoid." When they replaced it with "without," the score dropped to zero.
+A student wrote an essay about Harrison Bergeron, the Kurt Vonnegut short story about a society that punishes those who stand out. The essay was flagged as 18% AI-generated. The reason: a single word: "devoid." When they replaced it with "without," the score dropped to zero.
 
 The student was forced to impoverish their own essay about a story that warns against the forced suppression of excellence.
 

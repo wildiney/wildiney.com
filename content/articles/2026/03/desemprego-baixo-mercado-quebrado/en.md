@@ -12,7 +12,7 @@ Mass layoffs, experienced professionals out of the market for months, falling sa
 
 The problem is not the economy. It is the metric.
 
-The unemployment rate measures only people without work who are actively searching. It ignores underemployment, informality, precarious conditions, and highly qualified people working well below their level. Brazil's own IBGE treats this as workforce underutilization — a number significantly larger than the unemployment rate alone.
+The unemployment rate measures only people without work who are actively searching. It ignores underemployment, informality, precarious conditions, and highly qualified people working well below their level. Brazil's own IBGE treats this as workforce underutilization, a number significantly larger than the unemployment rate alone.
 
 The labor market is also not homogeneous.
 

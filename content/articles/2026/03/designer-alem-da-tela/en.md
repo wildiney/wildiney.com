@@ -8,7 +8,7 @@ thumbnail: "/images/articles/designer-alem-da-tela/cover.webp"
 
 Not because it stopped mattering. But because the problem that needs solving no longer fits inside it.
 
-I have worked with designers who would fall apart if the order of projects changed. With those who applied the same visual style to any context, because it looked good once and became a signature. With those who declared that every new technology would not work — curiously, without testing any of it.
+I have worked with designers who would fall apart if the order of projects changed. With those who applied the same visual style to any context, because it looked good once and became a signature. With those who declared that every new technology would not work, curiously, without testing any of it.
 
 And both extremes that seem opposites but share the same root: the one who treats any change as a personal offense, and the one who executes every instruction without question.
 

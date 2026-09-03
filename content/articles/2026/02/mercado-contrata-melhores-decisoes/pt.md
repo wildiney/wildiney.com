@@ -63,6 +63,6 @@ Mas quem está preparado para decidir quando não há resposta óbvia.
 
 Porque, em produtos digitais maduros, quase nunca há.
 
-—
+---
 
 Este artigo foi inspirado nos dados publicados pelo LinkedIn em "Empregos em alta em 2026".

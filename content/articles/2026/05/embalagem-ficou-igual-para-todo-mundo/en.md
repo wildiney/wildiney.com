@@ -12,7 +12,7 @@ Interfaces work the same way. The perception of a good product starts with its a
 
 The problem is that AI just democratized exactly that layer.
 
-Today any product can have a refined interface in hours. Well-built templates, consistent palettes, thoughtful typography — all of it accessible without a senior designer, without a mature design system, without years of iteration.
+Today any product can have a refined interface in hours. Well-built templates, consistent palettes, thoughtful typography. All of it accessible without a senior designer, without a mature design system, without years of iteration.
 
 The result is that everything is starting to look alike. And here is the paradox that almost no one names: more similar interfaces may actually be easier to use. Familiar patterns reduce the learning curve, eliminate friction, speed up adoption.
 

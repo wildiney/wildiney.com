@@ -10,7 +10,7 @@ Several recent articles are raising alarms about **OpenClaw**: an open-source AI
 
 **OpenClaw** is not succeeding just because it is technically impressive. It is succeeding because it promises something many people have been quietly wanting: to delegate everything. Not just tasks, but responsibility. Not just execution, but decision-making.
 
-It is not a copilot. It is an operator. It uses the computer like a human does — navigating tools, accessing files, connecting systems, and simply solving. Or at least appearing to solve. The mental model behind it is simple and dangerously seductive: "just handle it." No clear brief. No explicit criteria. No metrics. No plan.
+It is not a copilot. It is an operator. It uses the computer like a human does: navigating tools, accessing files, connecting systems, and simply solving. Or at least appearing to solve. The mental model behind it is simple and dangerously seductive: "just handle it." No clear brief. No explicit criteria. No metrics. No plan.
 
 From a Product Management perspective, this is not disruptive innovation. It is an uncomfortable mirror. It shows how willing we are to trade clarity for convenience and thinking for speed.
 
