@@ -1,5 +1,5 @@
 ---
-title: "Digital Solutions & Brand Management — Indra Minsait"
+title: "Digital Solutions & Brand Management at Indra Minsait"
 description: "Eight years as Senior Designer at Indra Minsait, leading brand governance and corporate digital solutions in an international context."
 company: "Indra / Minsait"
 role: "Senior Designer"

@@ -14,13 +14,13 @@
   },
   "about": {
     "pageTitle": "About me",
-    "description": "Product Manager with 15 years in digital products. I work across the full cycle — discovery, strategy, and delivery — with a track record in high-complexity contexts: gov tech, regulatory, e-commerce, and enterprise.\nI've worked at Brazil's largest financial institution, on a redesign that reached 14 million families, and on projects subject to Central Bank regulatory compliance. My design background gives me an edge in cross-functional communication and decision quality.\nI write about product, decision-making, and what should not be built.",
+    "description": "Product Manager with 15 years in digital products. I work across the full cycle (discovery, strategy, and delivery) with a track record in high-complexity contexts: gov tech, regulatory, e-commerce, and enterprise.\nI've worked at Brazil's largest financial institution, on a redesign that reached 14 million families, and on projects subject to Central Bank regulatory compliance. My design background gives me an edge in cross-functional communication and decision quality.\nI write about product, decision-making, and what should not be built.",
     "experience": {
       "title": "Experience",
       "nttdata": {
         "position": "Senior Product Designer | Product Strategy",
         "date": "2025 – present",
-        "impact": "Design system for Brazil’s largest financial institution — governance, scalability and WCAG AA"
+        "impact": "Design system for Brazil’s largest financial institution: governance, scalability and WCAG AA"
       },
       "globalweb": {
         "position": "Senior Product Designer | Product Strategy & Discovery",
@@ -35,7 +35,7 @@
       "sanrio": {
         "position": "Senior Product Designer",
         "date": "2009 – 2013",
-        "impact": "First Hello Kitty e-commerce in Brazil — from scratch: product, logistics, analytics and integrations"
+        "impact": "First Hello Kitty e-commerce in Brazil, built from scratch: product, logistics, analytics and integrations"
       },
       "estacio": {
         "position": "UI/UX Designer",

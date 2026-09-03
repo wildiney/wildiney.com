@@ -14,13 +14,13 @@
   },
   "about": {
     "pageTitle": "About me",
-    "description": "Product Manager con 15 años en productos digitales. Trabajo en el ciclo completo — discovery, estrategia y entrega — con historial en contextos de alta complejidad: gov tech, regulatorio, e-commerce y enterprise.\nTrabajé en la mayor institución financiera de Brasil, en el rediseño que impactó a 14 millones de familias y en proyectos con conformidad regulatoria del Banco Central. Mi formación en diseño me da ventaja en la comunicación con equipos de producto y en la calidad de las decisiones.\nEscribo sobre producto, toma de decisiones y lo que no debe construirse.",
+    "description": "Product Manager con 15 años en productos digitales. Trabajo en el ciclo completo (discovery, estrategia y entrega) con historial en contextos de alta complejidad: gov tech, regulatorio, e-commerce y enterprise.\nTrabajé en la mayor institución financiera de Brasil, en el rediseño que impactó a 14 millones de familias y en proyectos con conformidad regulatoria del Banco Central. Mi formación en diseño me da ventaja en la comunicación con equipos de producto y en la calidad de las decisiones.\nEscribo sobre producto, toma de decisiones y lo que no debe construirse.",
     "experience": {
       "title": "Experiencia",
       "nttdata": {
         "position": "Senior Product Designer | Estrategia de Producto",
         "date": "2025 – actual",
-        "impact": "Sistema de diseño para la mayor IF de Brasil — gobernanza, escalabilidad y accesibilidad WCAG AA"
+        "impact": "Sistema de diseño para la mayor IF de Brasil: gobernanza, escalabilidad y accesibilidad WCAG AA"
       },
       "globalweb": {
         "position": "Senior Product Designer | Estrategia y Discovery",
@@ -35,7 +35,7 @@
       "sanrio": {
         "position": "Senior Product Designer",
         "date": "2009 – 2013",
-        "impact": "Primer e-commerce Hello Kitty en Brasil — desde cero: producto, logística, analytics e integraciones"
+        "impact": "Primer e-commerce Hello Kitty en Brasil, construido desde cero: producto, logística, analytics e integraciones"
       },
       "estacio": {
         "position": "UI/UX Designer",
