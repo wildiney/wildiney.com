@@ -6,6 +6,63 @@ Portfolio pessoal com artigos, estudos de caso e agenda de contato.
 
 ## Artigos
 
+### A Alibaba te ouviu
+URL: https://wildiney.com/articles/alibaba-te-ouviu-audio-fingerprinting/
+Date: 2026-09-10
+Description: Um desenvolvedor descobriu que o AliExpress executava fingerprinting de áudio silencioso em todos os visitantes. O efeito colateral: o grafo de áudio cortava a reprodução Bluetooth.
+
+Matt Callaghan reparou que os fones Bluetooth paravam de tocar áudio do celular toda vez que abria uma aba do AliExpress, mesmo sem vídeo ou som audível na página (som audível parece redundante, mas é esse o grande detalhe de toda a história). Fechar a aba resolvia na hora, e foi isso que o levou a abrir o código.
+
+Ele encontrou dois scripts, collina.js e fireyejs.js, associados ao stack antifraude da Alibaba. Os scripts montam um grafo de áudio silencioso que mede como o navegador processa o sinal e usa o resultado como impressão digital do dispositivo. O mesmo pacote coleta dados de tela e de WebGL, criptografa tudo e envia para os servidores da Alibaba. Em nenhum momento o visitante é informado sobre isso, e a medição não depende de suspeita alguma: acontece para todo mundo que abre a home, sem precisar de conta ou iniciar o processo de compra.
+
+A Alibaba escolheu cobrir cem por cento do tráfego em vez de acionar o fingerprinting só diante de sinal de risco, como IP suspeito ou tentativa repetida de login. A cobertura total mede todo visitante antes de qualquer indício de ameaça existir, e essa amplitude vazou para fora da tela: o grafo de áudio interferia no processamento de som do aparelho a ponto de cortar a reprodução Bluetooth em qualquer visitante. Um efeito colateral audível expôs uma coleta pensada para ser silenciosa.
+
+A coleta em si não surpreende, várias plataformas de comércio fazem algo parecido, inovam toda vez que surge uma proibição ou obstáculo. Mas isso é uma escolha, eles devem ter pesado o custo de deixar uma fraude passar, se essa era realmente a intenção, e o custo de ser descoberta.
+
+---
+
+Fontes: [Matt Callaghan (Laserphile)](https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html) · [Tom's Hardware](https://www.tomshardware.com/tech-industry/cyber-security/aliexpress-allegedly-uses-your-browsers-audio-system-to-fingerprint-your-pc-hidden-code-runs-even-when-no-sound-is-playing) · [Cybersecurity News](https://cybersecuritynews.com/aliexpress-webaudio-device-fingerprinting/)
+
+---
+
+### A pressa tem dono
+URL: https://wildiney.com/articles/model-fatigue-cadencia-lancamento-ia-imposto-engenharia/
+Date: 2026-09-10
+Description: Cinco lançamentos de modelo, quatro laboratórios, três dias. A cadência cobra de quem integra: de duas a três semanas-engenheiro por migração.
+
+A Anthropic atualizou Fable e Mythos na terça-feira. No dia seguinte, Meta e Google responderam; no outro, o OpenAI lançou o GPT-6 Astra. Cinco anúncios, quatro laboratórios, três dias. Não foi coincidência. Segundo Noah Faro, da startup Farsight, as empresas disputam capacidade de nuvem dos mesmos fornecedores e leem a disponibilidade como pista dos planos das concorrentes.
+
+Segundo Trace Cohen, investidor que acompanha essas trocas de perto, as empresas do portfólio dele gastaram de duas a três semanas-engenheiro por migração.
+
+Trocar de modelo a cada lançamento vira dívida de engenharia recorrente sem retorno proporcional. O time fixa a versão em produção e só migra quando o ganho medido supera o custo da troca, nunca quando o fornecedor anuncia novos lançamentos. Esse critério precisa existir documentado antes das atualizações chegarem, porque decidir por conta do hype só gera mais custos.
+
+---
+
+Fontes: [CNBC](https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html) · [Value Add Pulse (Trace Cohen)](https://valueaddvc.com/pulse/openai-anthropic-model-fatigue-release-cadence-2026)
+
+---
+
+### A IA ainda não aprendeu a guardar segredos
+URL: https://wildiney.com/articles/duckduckgo-segredo-privacidade-ia/
+Date: 2026-09-08
+Description: Um terço das pessoas já contou um segredo a um chatbot que nunca contou a ninguém. 53% não sabiam que o treinamento com suas conversas é padrão da indústria.
+
+Um terço das pessoas que já conversou com um chatbot de IA contou a ele um segredo que nunca contou a ninguém. Nem ao médico, nem à família.
+
+O dado é de uma pesquisa encomendada pela DuckDuckGo com 1.944 adultos nos Estados Unidos. Pais e responsáveis com filho em casa contam segredo ao chatbot quase duas vezes mais: 43%, contra 25% entre quem não tem criança na residência. Faz sentido: criar filho traz dúvidas difíceis de confessar e até o momento chatbot não faz "aquele" olhar julgador.
+
+Só que 53% dos entrevistados nem sabiam que treinar o modelo com a própria conversa é padrão da indústria, e apenas 25% sabiam que esse histórico pode virar prova em processo judicial. Confiaram porque ninguém havia contado, mas quando souberam: 58% relataram desconforto e 30% um alto desconforto.
+
+O treinamento fica ligado por padrão em vez de pedir consentimento explícito, o opt-out fica enterrado nas configurações, a conta gratuita tem política de retenção mais frouxa que a paga e tudo isso é decisão de quem projetou o produto.
+
+Quem desenha o produto tem em mente os resultados que quer alcançar, seja facilitando, dificultando ou enviesando a escolha do usuário.
+
+---
+
+Fontes: [Tecnoblog](https://tecnoblog.net/noticias/uma-em-cada-tres-pessoas-ja-contou-a-ia-um-segredo-que-ninguem-mais-sabia/) · [CyberInsider](https://cyberinsider.com/duckduckgo-finds-one-third-of-ai-users-share-secrets-they-hide-from-people/) · [9to5Mac](https://9to5mac.com/2026/08/25/duckduckgo-survey-highlights-how-much-personal-information-users-share-with-ai/)
+
+---
+
 ### O paradoxo dos agentes de IA no Brasil
 URL: https://wildiney.com/articles/brasil-agentes-ia-adocao-reversao-governanca/
 Date: 2026-09-03
@@ -49,6 +106,31 @@ Antes da próxima atualização do design system, vale escolher uma das 18 métr
 ---
 
 Fontes: [zeroheight - Design Systems Report 2026](https://report.zeroheight.com/) · [zeroheight - The Findings](https://zeroheight.com/blog/design-systems-report-2026-the-findings/)
+
+---
+
+### Um time de 12 PMs entregava um produto. Um time de 12 Product Builders entrega 12.
+URL: https://wildiney.com/articles/product-builder-vs-pm-decisao/
+Date: 2026-08-25
+Description: Segundo a Products That Count, PMs tradicionais caíram 70% em SaaS e Product Builders cresceram 10 vezes. O ciclo acelerou, o critério de decisão continua o mesmo.
+
+Tem uma função que as empresas de SaaS não estão mais contratando. A função está deixando de existir.
+
+O relatório saiu em maio. Products That Count ouviu 1.500 líderes de produto de todo o mundo. O dado principal: PMs tradicionais caíram 30% em todas as indústrias. Em SaaS especificamente, 70%. No mesmo período, Product Builders cresceram 10 vezes.
+
+A lógica por trás disso é direta: um time de 12 PMs entregava um produto. Um time de 12 Product Builders entrega 12. O que mudou foi a capacidade de executar sem intermediário. O PM que existia para traduzir intenção em backlog sumiu porque a tradução ficou automática.
+
+Só que velocidade de entrega e qualidade de decisão são coisas diferentes.
+
+Você pode ter 12 Product Builders entregando 12 produtos em paralelo e ainda assim repetir os mesmos erros de julgamento num ritmo 10 vezes mais rápido. O que acelerou foi o ciclo, mas o critério de decisão continua sendo o que era.
+
+O PM que some até 2030 nunca decidiu de verdade. Gerenciava calendário, alinhava stakeholder. O julgamento sobre o que construir, e por quê, sempre foi de outra pessoa.
+
+O que o mercado quer agora é quem julga e constrói ao mesmo tempo. A pergunta que o relatório não fez: entregar 12 produtos com o mesmo critério de antes resolve alguma coisa?
+
+---
+
+Fontes: [Products That Count / PR Newswire](https://www.prnewswire.com/news-releases/2026-cpo-insights-report-predicts-product-managers-will-disappear-by-2030-302782732.html) · [Products That Count](https://productsthatcount.com/the-2026-cpo-insights-report-from-builder-to-investor-the-new-product-mandate/)
 
 ---
 
