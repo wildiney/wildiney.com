@@ -6,7 +6,7 @@ tags: ["privacy", "fingerprinting", "data collection", "decision", "e-commerce"]
 thumbnail: "/images/articles/alibaba-te-ouviu-audio-fingerprinting/cover.webp"
 ---
 
-Matt Callaghan noticed that his Bluetooth headphones stopped playing audio from his phone every time he opened an AliExpress tab, even with no video or audible sound on the page. Closing the tab fixed it immediately, and that is what led him to open the code.
+Matt Callaghan noticed that his Bluetooth headphones stopped playing audio from his phone every time he opened an AliExpress tab, even with no video or audible sound on the page (audible sound may sound redundant, but that is the key detail of the whole story). Closing the tab fixed it immediately, and that is what led him to open the code.
 
 He found two scripts, collina.js and fireyejs.js, tied to Alibaba's anti-fraud stack. The scripts build a silent audio graph that measures how the browser processes a signal and uses the result as a device fingerprint. The same package collects screen and WebGL data, encrypts everything, and sends it to Alibaba's servers. The visitor is never informed, and the measurement does not depend on any suspicion: it happens for everyone who opens the home page, without an account or any step toward a purchase.
 

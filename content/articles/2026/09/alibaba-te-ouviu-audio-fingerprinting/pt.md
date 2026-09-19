@@ -6,7 +6,7 @@ tags: ["privacidade", "fingerprinting", "coleta de dados", "decisão", "e-commer
 thumbnail: "/images/articles/alibaba-te-ouviu-audio-fingerprinting/cover.webp"
 ---
 
-Matt Callaghan reparou que os fones Bluetooth paravam de tocar áudio do celular toda vez que abria uma aba do AliExpress, mesmo sem vídeo ou som audível na página. Fechar a aba resolvia na hora, e foi isso que o levou a abrir o código.
+Matt Callaghan reparou que os fones Bluetooth paravam de tocar áudio do celular toda vez que abria uma aba do AliExpress, mesmo sem vídeo ou som audível na página (som audível parece redundante, mas é esse o grande detalhe de toda a história). Fechar a aba resolvia na hora, e foi isso que o levou a abrir o código.
 
 Ele encontrou dois scripts, collina.js e fireyejs.js, associados ao stack antifraude da Alibaba. Os scripts montam um grafo de áudio silencioso que mede como o navegador processa o sinal e usa o resultado como impressão digital do dispositivo. O mesmo pacote coleta dados de tela e de WebGL, criptografa tudo e envia para os servidores da Alibaba. Em nenhum momento o visitante é informado sobre isso, e a medição não depende de suspeita alguma: acontece para todo mundo que abre a home, sem precisar de conta ou iniciar o processo de compra.
 
