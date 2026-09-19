@@ -38,6 +38,10 @@ export default tseslint.config(
   // Configuration for TypeScript/Astro files
   {
     files: ['src/**/*.{ts,tsx,astro}'],
+    rules: {
+      // `const { content, ...meta } = x` is the idiom for omitting a field
+      '@typescript-eslint/no-unused-vars': ['error', { ignoreRestSiblings: true }],
+    },
     languageOptions: {
       globals: {
         ...globals.browser,

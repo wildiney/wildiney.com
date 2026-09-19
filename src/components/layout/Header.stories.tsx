@@ -3,9 +3,9 @@ import type { Meta, StoryObj } from '@storybook/react'
 
 function Header({ activePage = 'home' }: { activePage?: 'home' | 'articles' | 'portfolio' }) {
   const navLinks = [
-    { label: 'Sobre mim', href: '/#about' },
-    { label: 'Portfólio', href: '/#portfolio' },
-    { label: 'Artigos', href: '/articles/' },
+    { label: 'Sobre mim', href: '/#about', page: 'home' },
+    { label: 'Portfólio', href: '/#portfolio', page: 'portfolio' },
+    { label: 'Artigos', href: '/articles/', page: 'articles' },
   ]
 
   return (
@@ -20,7 +20,8 @@ function Header({ activePage = 'home' }: { activePage?: 'home' | 'articles' | 'p
             <a
               key={link.label}
               href={link.href}
-              className="text-sm text-muted hover:text-dark-text transition-colors tracking-wide uppercase"
+              aria-current={link.page === activePage ? 'page' : undefined}
+              className={`text-sm hover:text-dark-text transition-colors tracking-wide uppercase ${link.page === activePage ? 'text-dark-text' : 'text-muted'}`}
             >
               {link.label}
             </a>

@@ -70,7 +70,7 @@ export function getArticles(locale = 'pt'): ArticleMeta[] {
   const today = new Date().toISOString().slice(0, 10)
   return [...SLUG_MAP.keys()]
     .map(slug => {
-      const { content: _c, ...meta } = getArticle(slug, locale)
+      const { content, ...meta } = getArticle(slug, locale)
       return meta
     })
     .filter(meta => !meta.date || meta.date <= today)
