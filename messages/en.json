@@ -14,13 +14,13 @@
   },
   "about": {
     "pageTitle": "About me",
-    "description": "Product Manager with 15 years in digital products. I work across the full cycle (discovery, strategy, and delivery) with a track record in high-complexity contexts: gov tech, regulatory, e-commerce, and enterprise.\nI've worked at Brazil's largest financial institution, on a redesign that reached 14 million families, and on projects subject to Central Bank regulatory compliance. My design background gives me an edge in cross-functional communication and decision quality.\nI write about product, decision-making, and what should not be built.",
+    "description": "Product Designer with over 15 years in digital products, working as PM and Design Lead. I work across the full cycle (discovery, strategy, and delivery) with a track record in high-complexity contexts: gov tech, regulatory, e-commerce, and enterprise.\nI drive the transition of a design system for AI consumption, evolving without breaking legacy: tokens, documentation, skills, MCP servers and agentic workflows.\nI write about product, decision-making, and what should not be built.",
     "experience": {
       "title": "Experience",
       "nttdata": {
-        "position": "Senior Product Designer | Product Strategy",
+        "position": "Senior Product Designer | Design Systems & Product Strategy",
         "date": "2025 – present",
-        "impact": "Design system for Brazil’s largest financial institution: governance, scalability and WCAG AA"
+        "impact": "Strategy for the transition of the design system at one of Brazil’s largest financial institutions to an AI-ready model: tokens, skills and agentic workflows"
       },
       "globalweb": {
         "position": "Senior Product Designer | Product Strategy & Discovery",
@@ -53,7 +53,7 @@
     "heading": "Perspectives",
     "sub": "Thoughts on product, design and leadership.",
     "viewAll": "View all",
-    "metaDescription": "Articles about product, decision-making and what maybe shouldn't be built. Perspectives from a Product Manager with over 15 years in digital products."
+    "metaDescription": "Perspectives on product, design and leadership. Articles on decision-making, AI and what maybe shouldn't be built."
   },
   "contact": {
     "pageTitle": "Contact"

@@ -14,13 +14,13 @@
   },
   "about": {
     "pageTitle": "About me",
-    "description": "Product Manager con 15 años en productos digitales. Trabajo en el ciclo completo (discovery, estrategia y entrega) con historial en contextos de alta complejidad: gov tech, regulatorio, e-commerce y enterprise.\nTrabajé en la mayor institución financiera de Brasil, en el rediseño que impactó a 14 millones de familias y en proyectos con conformidad regulatoria del Banco Central. Mi formación en diseño me da ventaja en la comunicación con equipos de producto y en la calidad de las decisiones.\nEscribo sobre producto, toma de decisiones y lo que no debe construirse.",
+    "description": "Product Designer con más de 15 años en productos digitales y trayectoria como PM y Design Lead. Trabajo en el ciclo completo (discovery, estrategia y entrega) con historial en contextos de alta complejidad: gov tech, regulatorio, e-commerce y enterprise.\nConduzco la transición de un design system para consumo por IA, evolucionando sin romper el legado: tokens, documentación, skills, MCPs y flujos agénticos.\nEscribo sobre producto, toma de decisiones y lo que no debe construirse.",
     "experience": {
       "title": "Experiencia",
       "nttdata": {
-        "position": "Senior Product Designer | Estrategia de Producto",
+        "position": "Senior Product Designer | Design Systems y Estrategia de Producto",
         "date": "2025 – actual",
-        "impact": "Sistema de diseño para la mayor IF de Brasil: gobernanza, escalabilidad y accesibilidad WCAG AA"
+        "impact": "Estrategia de la transición del design system de una de las mayores instituciones financieras de Brasil hacia un modelo AI-ready: tokens, skills y flujos agénticos"
       },
       "globalweb": {
         "position": "Senior Product Designer | Estrategia y Discovery",
@@ -53,7 +53,7 @@
     "heading": "Perspectivas",
     "sub": "Reflexiones sobre producto, diseño y liderazgo.",
     "viewAll": "Ver todos",
-    "metaDescription": "Artículos sobre producto, decisiones y lo que tal vez no deba construirse. Perspectivas de un Product Manager con más de 15 años en productos digitales."
+    "metaDescription": "Perspectivas sobre producto, diseño y liderazgo. Artículos sobre decisiones, IA y lo que tal vez no deba construirse."
   },
   "contact": {
     "pageTitle": "Contacto"
