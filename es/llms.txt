@@ -6,6 +6,263 @@ Portafolio personal con artículos, casos de estudio y agenda de contacto.
 
 ## Artículos
 
+### La IA del día a día
+URL: https://wildiney.com/es/articles/a-ia-do-dia-a-dia/
+Date: 2026-10-23
+Description: Norman, Torvalds y Martin definen dónde queda la responsabilidad humana al usar IA. La conversación no es usarla o no, sino dónde, cuándo y cómo.
+
+Don Norman, autor de "El diseño de los objetos cotidianos", se despertó a las 3 de la mañana con la pieza que faltaba en un razonamiento sobre IA. Después de una hora de conversación con Claude, el material ya llenaba varias páginas. Como el artículo entero tomaría una semana o más, pidió un resumen de una página. Claude redactó la mayor parte y Norman revisó el texto, reescribiendo pasajes, y declaró la coautoría. Por último, avisó que normalmente no deja que la IA escriba por él, como quien ya prevé un posible daño a su propia imagen. ¿Un profesional que enseñó a generaciones tiene la obligación de probarse por haber usado una herramienta? ¿Tendría que volver a la hoja suelta y la máquina de escribir para comprobar la calidad de su trabajo?
+
+En julio, Linus Torvalds escribió que Linux "no es uno de esos proyectos anti-IA". En el kernel de Linux se permite que la IA ayude en las contribuciones, siempre que el profesional responsable firme, al fin y al cabo una herramienta no tiene autoría legal ni debe responder por el resultado. Al menos yo todavía no vi a nadie felicitando a Excel por los resultados del semestre.
+
+Robert C. Martin, autor de Clean Code, escribió en X, el 23 de julio, que su estrategia actual es no leer el código de los agentes. En su lugar, rodea a los agentes de restricciones como pruebas unitarias, escenarios en Gherkin y cobertura de pruebas. En otra respuesta del mismo hilo, dijo que los agentes escriben las herramientas que verifican esas restricciones y que son deterministas, es decir, corren igual cada vez.
+
+La IA va a ocupar cada vez más espacio y, en los tres casos, autoridades de cada área definen cómo debe usarse. Cada una pone la responsabilidad del profesional en un punto distinto. Norman se quedó con el origen, que fue el razonamiento, y con la salida, que fue la reescritura y la coautoría declarada. Bajo Linus Torvalds, el kernel fijó la responsabilidad en el profesional que revisó el código generado por la IA. Martin la puso en las restricciones que exige a los agentes, y por eso puede renunciar a leer el código.
+
+Observando estos casos, podemos decir que la conversación ya no debe ser sobre usar la IA o no, sino sobre definir dónde, cuándo y de qué forma se usará en tu proyecto.
+
+En producto y diseño, el profesional define y el agente ejecuta. Los equipos de producto ya son dueños del encuadre del problema, que corresponde al origen de Norman, y del criterio de aceptación, que es el mismo tipo de restricción que Martin impone a los agentes. Siguiendo el ejemplo de estas autoridades, te corresponde decidir en qué procesos debe actuar tu agente, siempre asumiendo la responsabilidad por el retorno, que es la parte que merece ser exigida.
+
+Y si llegaste hasta aquí pensando: "¡Basta! ¡La IA es una burbuja!", te digo: ¡seguro! No es cuestión de si va a estallar, sino de cuándo. Aun así, en 2000 estalló la burbuja de internet, y hoy está más presente que nunca en el diseño del día a día.
+
+---
+
+Fuentes: [Don Norman, Substack](https://donnorman1.substack.com/p/refinement-or-containment) · [Documentación del kernel de Linux (coding assistants)](https://docs.kernel.org/process/coding-assistants.html) · [Virtualization Review](https://virtualizationreview.com/articles/2026/07/16/linus-torvalds-says-linux-kernel-is-not-an-anti-ai-project.aspx) · [Robert C. Martin (Uncle Bob), X](https://x.com/unclebobmartin/status/2080257779395154409) · [Robert C. Martin (Uncle Bob), X, respuesta sobre herramientas deterministas](https://x.com/unclebobmartin/status/2080392677753790875)
+
+---
+
+### El 88% de las empresas brasileñas no sabe el retorno financiero de la IA
+URL: https://wildiney.com/es/articles/ia-retorno-financeiro-totvs-mit-sloan/
+Date: 2026-10-22
+Description: El 80% de las empresas brasileñas usa o prueba IA, pero el 88% no conoce el retorno. Solo el 8% la integra al ERP, el factor más decisivo según el estudio.
+
+El 80% de las empresas brasileñas prueba o usa IA de alguna forma, pero el 88% no sabe qué retorno financiero trae la IA. Son respuestas a preguntas distintas del mismo estudio de MIT SMR Brasil, encargado por TOTVS y realizado por CNEX con 583 profesionales de empresas de diversos tamaños, por eso la suma pasa de 100%.
+
+Con 80% probando o usando, la IA parece ya formar parte de la empresa. ¿Será? Solo el 7% la lleva al centro del negocio y el 86% no mide cuánto gasta en ella. Apenas el 8% integra la IA de forma amplia a los sistemas de gestión (ERP), factor que el estudio señala como el más decisivo para el éxito. Alex Meincheim, CEO de UpFlux, socia de TOTVS, dijo a Times Brasil, durante Universo TOTVS, que en la mayoría de las empresas la IA todavía está en el nivel de la persona física.
+
+La ganancia a nivel individual es de quien usa, en tareas como escribir un correo o armar una presentación. A nivel empresa, aparece en un número de la operación, como el ahorro en compras que Meincheim dio de ejemplo. Con 88% sin saber el retorno, conviene vincular cada uso de la IA a un número de la operación, para que la ganancia empiece a aparecer en los números de la empresa.
+
+---
+
+Fuentes: [Forbes Brasil](https://forbes.com.br/forbes-tech/2026/10/ia-chega-a-80-das-empresas-brasileiras-mas-so-7-usa-no-centro-do-negocio/) · [Times Brasil (Licenciatario exclusivo de CNBC)](https://timesbrasil.com.br/empresas-e-negocios/ia-precisa-sair-do-cpf-e-gerar-resultado-no-cnpj/)
+
+---
+
+### Mientras hay ganancias, hay tokens
+URL: https://wildiney.com/es/articles/roi-ia-engenharia-lucro-da-mesa/
+Date: 2026-10-22
+Description: Una empresa de trading pasó de US$ 500 mil a US$ 8 millones al mes en IA sin pedir retorno. En las demás, el conteo de pull requests aún no muestra ROI.
+
+La cuenta de IA de una empresa de trading cuantitativo pasó de US$ 500 mil por mes en enero a US$ 8 millones en septiembre. ¿Cómo se aprueba un aumento de ese tamaño?
+
+La respuesta está en el relevamiento de Gergely Orosz en Pragmatic Engineer (20/10), hecho con conversaciones en 27 empresas, la mayoría sin identificar, a pedido. La empresa de trading tiene cerca de 2.000 devs y un límite de US$ 25.000 de gasto en IA por empleado. Allí, con la ganancia de la mesa de operaciones al alza, la IA es solo una línea más de costo y nadie necesita pedir retorno por separado.
+
+Para las demás empresas, Orosz usa el pull request (PR) como regla: una métrica que casi toda empresa ya tiene y que permite comparar el antes y el después de la IA. En una empresa que cotiza en bolsa con 5.000 empleados, la frecuencia de PRs quedó estable y los PRs pasaron a tener, en promedio, tres veces más líneas. En un SaaS de unas 100 personas, con US$ 2.000 por mes por dev tratados como techo rígido, el ingeniero consultado dice que no ve nada saliendo más rápido que antes.
+
+El conteo de PRs registra cuántos cambios llegan a revisión, y un PR grande cuenta igual que uno pequeño. Solo se vuelve retorno cuando alguien lo vincula a un resultado de negocio.
+
+La ganancia de las mesas responde por los US$ 8 millones al mes. Mientras hay ganancias, hay tokens.
+
+---
+
+Fuentes: [Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers)
+
+---
+
+### La clave Pix más difícil de recordar es la más registrada
+URL: https://wildiney.com/es/articles/pix-chave-aleatoria-cadastro-nao-preferencia/
+Date: 2026-10-20
+Description: La clave aleatoria es el 52,3% de las claves Pix, pero el dato no muestra preferencia: cada persona tiene en promedio unas seis claves, y solo tres tipos son limitados.
+
+Nadie memoriza una clave Pix aleatoria, una secuencia de letras y números sin sentido, y aun así es el tipo más registrado: 526,8 millones de las 1.008 millones de claves, o 52,3%, según Tecnoblog con datos del Banco Central.
+
+Mirando solo esos números, podemos pensar que, al ser la más registrada, debe ser la preferida del público. ¿Lo es?
+
+El Banco Central exige que la app de quien recibe permita generar un código QR a partir de cualquier tipo de clave y que la app de quien paga muestre el nombre completo y el CPF enmascarado antes de la confirmación. Por lo tanto, el pagador no necesita guardar la clave de memoria. Llega por código QR o copiar y pegar, y la pantalla muestra quién va a recibir. Una clave que nadie necesita recordar puede ser tan ilegible como quiera.
+
+Además, CPF, celular y correo valen cada uno para una sola cuenta. Una persona con un CPF, un celular y un correo (o varios, si tiene más de uno) agota esos tipos, y lo que pasa de ahí solo puede ser aleatoria. Haciendo una cuenta rápida, si dividimos la tabla de Tecnoblog por los cerca de 170 millones de usuarios, llegamos a 5,9 claves por usuario. De esas, 2,7 son de CPF, celular y correo, cerca de lo que cada persona tiene para registrar, 3,1 son aleatorias y 0,1 es de CNPJ.
+
+Por eso el análisis del dato debe ser criterioso. Hay que leer el dato, entender el proceso, las limitaciones y la motivación detrás del resultado. Un número aislado induce al error: el 52,3% es una porción de claves, y cada usuario tiene, en promedio, unas seis.
+
+---
+
+Fuentes: [Tecnoblog](https://tecnoblog.net/noticias/brasileiros-ja-criaram-1-bilhao-de-chaves-pix-a-maioria-e-aleatoria/) · [Agência Brasil](https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pix-ultrapassa-1-bilhao-de-chaves-cadastradas-no-brasil) · [Banco Central (Requisitos Mínimos para la Experiencia del Usuario, v7.3)](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Regulamento_Pix/IV_RequisitosMinimosparaExperienciadoUsuario.pdf) · [Banco Central (Informe de Gestión del Pix 2021-2022)](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/relatorio_de_gestao_pix/relatorio_gestao_pix_2023.pdf)
+
+---
+
+### La etapa en que organizar mejor no es suficiente
+URL: https://wildiney.com/es/articles/ia-generativa-etapa-que-organizar-nao-resolve/
+Date: 2026-10-15
+Description: Renner usa IA para fotografiar productos infantiles. Según la teoría de las restricciones, la IA vale la pena donde organizar mejor ya no resuelve.
+
+Renner afirma que el uso de contenido con IA a escala aumentó en 60% el acceso a los productos infantiles. La herramienta, desarrollada internamente, sustituye la participación de niños y bebés en parte de las sesiones de fotos.
+
+Renner pone las autorizaciones y el poco tiempo de set entre las dificultades de fotografiar niños y bebés. Quien ya trabajó con niños sabe que llanto, berrinche, sueño y hambre no respetan el horario del set. Flavio Reis, CDO de la empresa, dice que la entrega del contenido infantil "solo se volvió viable gracias al uso de la tecnología". Por las dificultades que Renner enumera, la IA entró en la etapa en que el esfuerzo del equipo no es suficiente.
+
+La teoría de las restricciones, de Eliyahu Goldratt (The Goal, 1984), propone primero mejorar con lo que ya existe la etapa que traba el proceso, y solo después invertir en más capacidad de producción. La IA generativa entra como esa capacidad extra.
+
+Al decidir dónde implementar IA generativa en tu producto, conviene estudiar en qué etapas hay ganancia real. En algunas, una mejor organización de los procesos ya resuelve y evita el costo de la IA. En otras, como la sesión con bebé, organizar mejor no resuelve, y ahí la IA tiene su lugar. Solo intentando organizar primero se puede saber cuál es cuál.
+
+---
+
+Fuentes: [Baguete](https://www.baguete.com.br/noticias/renner-substitui-modelos-infantis-por-ia) · [Business Moment](https://businessmoment.com.br/renner-ia-catalogo-infantil-60-por-cento-acessos/)
+
+---
+
+### El tiempo de quien revisa no entra en la cuenta de la IA
+URL: https://wildiney.com/es/articles/metr-custo-conferencia-tempo-valor/
+Date: 2026-10-15
+Description: METR admite que sus nuevos datos sobre productividad con IA son débiles. El cronómetro de quien genera ignora el tiempo de quien revisa el resultado.
+
+METR, organización que evalúa modelos de IA, dice que es probable que la IA hoy acelere más a los desarrolladores que a comienzos de 2025. ¿Pero cuánto? Los datos nuevos son, en sus palabras, evidencia muy débil sobre el tamaño del aumento. Entre 30% y 50% de los desarrolladores dijeron que dejaban de enviar tareas que no querían hacer sin IA y, según METR, las tareas de mayor ganancia esperada salieron del estudio.
+
+En 2025, 16 desarrolladores experimentados listaron tareas reales, y METR sorteó cuáles se harían con IA. Estimaron, en promedio, que la IA había reducido 20% el tiempo de las tareas. El tiempo registrado mostró lo contrario: con IA tardaron 19% más. En las grabaciones de pantalla, parte del tiempo con IA se fue en revisar lo que ella devolvía.
+
+Larry Tesler formuló la ley de la conservación de la complejidad: todo software tiene una complejidad fija y alguien siempre la carga. Patrick Neeman, en UX Collective, da nombre a quien carga con la revisión de lo que genera la IA: el revisor. En METR, quien generó con la IA y quien revisó era la misma persona, así que la revisión entró en el tiempo registrado.
+
+La propia METR advierte que una diferencia de tiempo puede no ser una diferencia de valor, porque con la IA algunos desarrolladores pasaron a elegir otro tipo de tarea. En un equipo, la cuenta de tiempo sigue saliendo incompleta: quien revisa el pull request o verifica el informe generado es otra persona, y ese tiempo no entra en el cronómetro de quien generó. Medir la ganancia de una feature de IA solo por ese cronómetro muestra un lado del trabajo. El tiempo hasta la entrega aprobada, sumando a quien generó y a quien revisó, es como cierra la cuenta.
+
+---
+
+Fuentes: [METR (paper, arXiv)](https://arxiv.org/html/2507.09089v2) · [METR (actualización, feb/2026)](https://metr.org/blog/2026-02-24-uplift-update/) · [UX Collective, Patrick Neeman](https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490)
+
+---
+
+### Aro desmontó por completo su propia operación de crédito antes de crecer
+URL: https://wildiney.com/es/articles/aro-carve-out-credito-conflito-interesse/
+Date: 2026-10-06
+Description: Aro cortó la operación de crédito propia para sacar al agente de IA del conflicto de interés. La base creció 26 veces en ocho meses tras el corte.
+
+Aro nació prestando dinero directamente al cliente, con licencia bancaria de terceros. Fue una fase corta, suficiente para que el equipo aprendiera, en palabras del cofundador Yuri Mannes, "los dolores del crédito". Esa experiencia llevó a la empresa a desmontar la operación propia desde temprano, al percibir un problema estructural: el agente de IA que recomendaba la mejor oferta de crédito también vendía crédito de la propia Aro.
+
+Pedro Milanez, primer empleado de Nubank, fundó la fintech junto con Yuri Mannes para resolver el problema opuesto al de los marketplaces de crédito. "Pones tus datos y te presenta 20 ofertas, pero pocas están realmente aprobadas. Todavía hay mucha fricción y asimetría de información", describe Mannes. El agente de Aro acompaña al cliente hasta el final de la contratación, "como si fuera un gerente de banco, un socio financiero de verdad". "Hicimos el carve-out porque entendimos que teníamos un pequeño conflicto de interés", explica Mannes. Carve-out es el término de fusiones y adquisiciones para aislar una parte del negocio y separarla del resto de la empresa.
+
+Aro desmontó la operación de crédito propia al comienzo, cuando la empresa no tenía los números que hoy sostienen el modelo de recomendación. El crecimiento vino después del corte: sin originar crédito, funcionando solo como capa entre el cliente y más de 40 acreedores integrados, la base se multiplicó por 26 en ocho meses, superando el medio millón de registros. La decisión de sacar al agente del conflicto de interés antecedió al resultado, no al revés.
+
+Aro pudo hacer el carve-out sin romper los ingresos porque el modelo ya cobraba solo al acreedor desde el principio. Cortar la operación propia sacó el conflicto de la ecuación sin sacar el dinero.
+
+---
+
+Fuentes: [Exame](https://exame.com/negocios/primeiro-funcionario-do-nubank-criou-uma-ia-que-caca-credito-barato-e-cresceu-26-vezes-em-8-meses/) · [Startups](https://startups.com.br/negocios/fintech/para-a-aro-um-agente-de-ia-sera-seu-proximo-consultor-financeiro/)
+
+---
+
+### Salesforce construyó su propio modelo y mantuvo a Claude
+URL: https://wildiney.com/es/articles/salesforce-construiu-proprio-modelo-manteve-claude/
+Date: 2026-09-29
+Description: Salesforce entrenó Koa, un modelo de razonamiento propio, sobre Nemotron y mantuvo a Claude. Decidir qué tarea va a qué modelo pasó a ser trabajo de producto.
+
+Salesforce tenía acceso directo a Claude y ChatGPT dentro de su propio producto, pero construyó un modelo de razonamiento propio, bautizado Koa, entrenado sobre Nemotron, el modelo abierto de Nvidia.
+
+Un vendedor negociando un descuento y un cliente molesto en soporte no necesitan un modelo entrenado para resolver problemas de matemática imposibles, hecho para impresionar a benchmarks e inversores. Necesitan una respuesta rápida, barata y sin riesgo de filtrar datos del cliente.
+
+Koa corre dentro de Agentforce, la plataforma de agentes de Salesforce, y se ocupa del razonamiento en tareas de ventas, marketing y soporte, como responder a un cliente y agendar un compromiso. Antes, cuando un agente necesitaba razonar sobre algo complejo, la solicitud iba a un modelo de frontera como Claude o ChatGPT. Ahora Salesforce tiene un modelo propio para eso, que gasta menos tokens que los competidores.
+
+El entrenamiento usó datos sintéticos: Salesforce simuló un call center, con un cliente furioso llamando y un vendedor intentando cerrar un negocio. No entró ningún dato real de clientes.
+
+La empresa no abandonó a Anthropic: lanzó Claudeforce la misma semana, con Claude siguiendo como interfaz mientras el dato del cliente queda preso en la infraestructura de la propia Salesforce.
+
+El ahorro de tokens es el dato concreto, pero el patrón que queda merece reflexión: decidir qué tarea va a qué modelo pasa a ser también trabajo del equipo que diseña el producto, no solo del equipo de infraestructura.
+
+---
+
+Fuentes: [TechCrunch](https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/)
+
+---
+
+### El default que nadie ve
+URL: https://wildiney.com/es/articles/deepfault-defaults-skills-agentes/
+Date: 2026-09-25
+Description: Nielsen llama deepfault al default guardado fuera de la vista de quien usa el agente. Una skill pesa tanto como una pantalla y merece la misma evaluación.
+
+En 2011, Jared Spool relató un estudio con varios cientos de archivos de configuración de Word: menos del 5% de los usuarios había cambiado algún ajuste. En el mismo artículo que cita el estudio, Jakob Nielsen cuenta que escribe sus propios textos con una skill en la que registró decenas de decisiones (estilo de título, formato de número, palabra prohibida).
+
+Nielsen llama "deepfault" al default que queda guardado fuera de la vista de quien usa el agente. Un pedido para reservar un pasaje o refactorizar un código puede dejar cientos de puntos abiertos, y el agente completa cada uno por su cuenta, en una sola ejecución. Las decisiones grabadas en una skill hace meses todavía pueden valer para la salida de hoy. Nielsen vincula la revisión de ese archivo al cambio del modelo detrás del agente o al cambio de la tarea que ejecuta.
+
+Un default de pantalla pasa por crítica de diseño y prueba de usabilidad antes de salir al aire, una revisión hecha por otra persona, un proceso que corre solo. La skill depende de que el propio autor recuerde reabrir el archivo cuando cambia el modelo o la tarea. Cambiar una skill pesa tanto sobre el resultado como cambiar una pantalla, y merece el mismo tipo de evaluación: comparación de la salida antes y después del cambio, como ya se hace con las variaciones de interfaz.
+
+¿Pero cómo hago eso? Anota para investigar después: promptfoo, LangSmith y Braintrust ejecutan la skill contra un conjunto fijo de casos reales, ponen la salida antigua al lado de la nueva y aplican una nota automática. Ninguna nació exactamente para este propósito, pero ayudan a resolver el problema: saber si el cambio de texto mejoró o empeoró el resultado antes del deploy. Hay quien prefiere evaluar a mano, por feeling, pero el feeling cambia con el día: la misma salida puede recibir una nota distinta un lunes por la mañana y un viernes por la tarde.
+
+---
+
+Fuentes: [Jakob Nielsen (Substack)](https://jakobnielsenphd.substack.com/p/defaults) · [Promptfoo](https://www.promptfoo.dev/docs/intro/) · [LangSmith](https://docs.langchain.com/langsmith/evaluation-concepts) · [Braintrust](https://www.braintrust.dev/docs/evaluate)
+
+---
+
+### El dueño del agente
+URL: https://wildiney.com/es/articles/governanca-agentes-ia-brasil-roi-dono/
+Date: 2026-09-24
+Description: El 61,8% de las empresas brasileñas tiene agentes de IA en piloto u operación, pero el 55,1% no mide el ROI. Antes de escalar, todo agente necesita un dueño.
+
+Elige un agente de IA de tu empresa, en piloto o ya en operación, y pregunta quién es su dueño y cuánto cuesta por mes. En la encuesta de Zappts, el 61,8% de las empresas brasileñas tiene agentes en esas dos fases: 13,8% escaló en la operación y 48% está entre el piloto y la escala.
+
+El Panorama da IA no Brasil entrevistó a 167 ejecutivos, reclutados por los canales de la propia Zappts, consultora que vende proyectos de agentes de IA. El índice de empresas que no miden el ROI de la IA casi se duplicó en un año, de 30,6% a 55,1%. En la misma encuesta, 26,2% no tiene presupuesto definido para agentes, y 55,2% no tiene gateway de IA. Pablo Augusto, CEO de Zappts, dice que los agentes de IA "no son solo proyectos aislados de TI, pasan a componer una nueva fuerza de trabajo digital".
+
+Una fuerza de trabajo tiene gestor, y antes de que el piloto pase a producción ese gestor debe responder por el agente, con presupuesto definido y una meta de ROI que cumplir. Sin eso, nadie sabe decir si esa fuerza de trabajo se paga.
+
+---
+
+Fuentes: [Security Leaders](https://securityleaders.com.br/seis-em-cada-dez-empresas-no-brasil-desconhecem-o-retorno-sobre-investimentos-em-ia/) · [IPNews](https://ipnews.com.br/ia-avanca-nas-empresas-brasileiras-mas-apenas-138-ja-escalaram-agentes/)
+
+---
+
+### Visa, Mastercard y Ant alinearon la identidad de los agentes de IA
+URL: https://wildiney.com/es/articles/kya-identidade-agentes-ia-pagamentos/
+Date: 2026-09-24
+Description: El estándar Know Your Agent une a tres redes competidoras, pero sin especificación publicada. Casi la mitad de los compradores aún bloquea compras por recomendación de IA.
+
+Visa, Mastercard y Ant International firmaron, en São Paulo, un estándar común de identidad para agentes de IA que compran en nombre de alguien. Se llama Know Your Agent, KYA.
+
+Tres redes que compiten por la misma porción del mercado acordaron alinear sus protocolos propios: Visa Trusted Agent Protocol, Mastercard Verifiable Intent y Ant Agentic Mobile Protocol. Según el CIO de Ant International, Jiang-Ming Yang, un agente que ya se registró en Ant no necesita registrarse de nuevo en Visa o Mastercard. Eso reduce el registro duplicado entre redes competidoras, algo que cada una normalmente resuelve sola antes de hablar con las otras. McKinsey proyecta entre 3 y 5 billones de dólares en comercio orquestado por agentes hasta 2030, y este tipo de fricción de integración era parte de lo que frenaba esa cifra.
+
+Pero el anuncio no vino con especificación técnica, estructura de gobernanza ni plazo, según el propio Forkast. Para quien decide dónde entra la IA en un producto de pagos, esto importa más de lo que parece. Es un acuerdo entre ejecutivos, sin una especificación publicada que un equipo de ingeniería pueda implementar. Queda esperar.
+
+La encuesta de Product.ai con 1.463 compradores estadounidenses, de abril, muestra que 14% confía en una recomendación de IA sin volver a verificar, y 42% se niega a comprar por indicación de IA por encima de 25 dólares sin confirmar en otro lugar. Casi la mitad del mercado todavía frena a la IA en un rango de precio bajo, y ningún protocolo de identidad cambia esa cifra por sí solo.
+
+La confianza del consumidor se construye transacción por transacción. ¿Ya estás listo para que un agente haga tus compras?
+
+---
+
+Fuentes: [Forkast](https://forkast.news/ant-international-visa-and-mastercard-agree-on-agent-identity-standard-now-comes-the-hard-part/) · [PYMNTS](https://www.pymnts.com/cybersecurity/2026/visa-mastercard-team-with-ant-know-your-agent-framework) · [Product.ai](https://product.ai/research/trust-in-ai-commerce-report/)
+
+---
+
+### iFood entrena IA con el comportamiento de quienes ya son clientes
+URL: https://wildiney.com/es/articles/ifood-treina-ia-comportamento-cliente/
+Date: 2026-09-22
+Description: iFood invierte R$ 2 mil millones en agentes y en el Large Commerce Model, entrenado con pedidos, cancelaciones y reseñas. El dato de la operación pasó a ser materia prima.
+
+iFood anunció en iFood MOVE R$ 24 mil millones de inversión hasta marzo de 2027, 41% más que el ciclo anterior, para crecer más allá del delivery de comida. Dentro de ese paquete, más de R$ 2 mil millones van a agentes de IA y al Large Commerce Model.
+
+El Large Commerce Model es un modelo de IA generativa que iFood construyó con Prosus, entrenado con búsquedas, compras, cancelaciones y reseñas anonimizadas, para interpretar la intención de compra. En agosto conté aquí cómo iFood midió los resultados generados por sus 27 mil agentes de IA y cómo el equipo de desarrollo ganó 16% de productividad con esa métrica.
+
+El modelo aprendió del historial de los clientes de iFood y, según Prosus, también de las transacciones del grupo, que reúne a más de 500 millones de usuarios. Según iFood, el resultado son notificaciones y recomendaciones más precisas, a un costo inferior al de modelos propietarios equivalentes.
+
+Para quien hace producto, el dato que la operación ya genera, como pedido, cancelación y reseña, es materia prima para un modelo que lee intención de compra.
+
+---
+
+Fuentes: [Forbes Brasil](https://forbes.com.br/forbes-money/2026/09/o-plano-de-r-24-bilhoes-do-ifood-para-crescer-alem-do-delivery-de-comida/) · [Correio Braziliense](https://www.correiobraziliense.com.br/economia/2026/09/7501529-ifood-anuncia-investimento-de-rs-24-bilhoes-ate-marco-de-2027.html) · [O Tempo](https://www.otempo.com.br/economia/2026/9/16/ifood-anuncia-r-24-bilhoes-em-investimentos-no-brasil-e-amplia-aposta-em-ia) · [Prosus](https://www.prosus.com/news-insights/2025/prosus-reinvents-ecommerce-with-launch-of-a-specialist-large-commerce-model)
+
+---
+
+### El radio de daño de una cuenta con agente
+URL: https://wildiney.com/es/articles/hacktron-openai-claude-raio-de-dano/
+Date: 2026-09-19
+Description: Tres investigadores vulneraron el repositorio de OpenAI en 72 horas. El radio de daño de una cuenta con agente es todo lo que está conectado a ella.
+
+Tres investigadores de Hacktron AI vulneraron el repositorio interno de OpenAI en menos de 72 horas. La prueba del acceso fue un pull request abierto desde la cuenta de un empleado. "Somos solo tres tipos con suscripciones de Claude y Codex", dijo el cofundador Mohan Pedhapati al Wall Street Journal. OpenAI corrigió la falla unas 14 horas después del reporte y pagó una recompensa de US$ 6.500.
+
+La cadena empezó con el envío de una imagen que explotaba una falla de memoria en el foro community.openai.com, alojado en Discourse (no confundir con Discord). Se convirtió en ejecución remota de código en el servidor del foro. El inicio de sesión único de OpenAI, que el foro usa para autenticar, transformó ese acceso en acceso a cuentas de empleados en ChatGPT y Codex. Una de ellas tenía el GitHub de la organización conectado, y un prompt en esa cuenta abrió el pull request en el monorepo openai/openai. El Claude usado era la versión autorizada para ciberseguridad, con restricciones relajadas: Opus 4.8 falló, Opus 5 lo resolvió.
+
+El radio de daño de una cuenta con agente es todo lo que está conectado a ella. El programa de recompensas funcionó como debía, pero la decisión de producto viene antes: si roban la cuenta, ¿hasta dónde llega el agente? ¿Y el inicio de sesión de un servicio debería abrir la puerta de otro?
+
+---
+
+Fuentes: [Fortune](https://fortune.com/2026/09/18/open-ai-hacked-anthropic-claude-source-code-6500-reward/) · [Tom's Hardware](https://www.tomshardware.com/tech-industry/cyber-security/hackers-breach-openai-using-claude-tools-gaining-access-to-employee-accounts-and-the-companys-internal-codebase-initiating-a-harmless-pull-request-as-proof-of-the-hack) · [The Register](https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517) · [Hacktron AI](https://www.hacktron.ai/blog/hacking-openai)
+
+---
+
 ### Alibaba te escuchó
 URL: https://wildiney.com/es/articles/alibaba-te-ouviu-audio-fingerprinting/
 Date: 2026-09-10

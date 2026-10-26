@@ -6,6 +6,263 @@ Personal portfolio with articles, case studies, and contact scheduling.
 
 ## Articles
 
+### Everyday AI
+URL: https://wildiney.com/en/articles/a-ia-do-dia-a-dia/
+Date: 2026-10-23
+Description: Norman, Torvalds and Martin each define where human responsibility sits when using AI. The conversation is not whether to use it, but where, when and how.
+
+Don Norman, author of "The Design of Everyday Things," woke up at 3 a.m. with the missing piece of a line of reasoning about AI. After an hour of conversation with Claude, the material already filled several pages. Since the full article would take a week or more, he asked for a one-page summary. Claude drafted most of it and Norman revised the text, rewriting passages, and declared the co-authorship. Finally, he noted that he normally doesn't let AI write for him, like someone anticipating possible damage to his own image. Does a professional who taught generations have to prove himself for having used a tool? Would he have to go back to loose paper and a typewriter to prove the quality of his work?
+
+In July, Linus Torvalds wrote that Linux "is not one of those anti-AI projects." In the Linux kernel, AI is allowed to help with contributions, as long as the responsible professional signs off, because a tool has no legal authorship and shouldn't answer for the result. At least I haven't yet seen anyone congratulating Excel on the semester's results.
+
+Robert C. Martin, author of Clean Code, wrote on X, on July 23, that his current strategy is not to read the agents' code. Instead, he surrounds the agents with constraints such as unit tests, Gherkin scenarios and test coverage. In another reply in the same thread, he said the agents write the tools that check those constraints and that they are deterministic, meaning they run the same way every time.
+
+AI will take up more and more space and, in all three cases, authorities in each field define how it should be used. Each places the professional's responsibility at a different point. Norman kept the origin, which was the reasoning, and the output, which was the rewriting and the declared co-authorship. Under Linus Torvalds, the kernel fixed responsibility on the professional who reviewed the AI-generated code. Martin put it in the constraints he requires of the agents, which is why he can give up reading the code.
+
+Looking at these cases, we can say the conversation should no longer be about using AI or not, but about defining where, when and in what way it will be used in your project.
+
+In product and design, the professional defines and the agent executes. Product teams already own the problem framing, which matches Norman's origin, and the acceptance criteria, which is the same kind of constraint Martin imposes on agents. Following the example of these authorities, it's up to you to decide in which processes your agent should act, always taking responsibility for the return, which is the part that deserves to be held to account.
+
+And if you got this far thinking: "Stop it! AI is a bubble!", I say: absolutely! It's not a question of whether it will burst, but when. Still, in 2000 the internet bubble burst, and today the internet is more present than ever in everyday design.
+
+---
+
+Sources: [Don Norman, Substack](https://donnorman1.substack.com/p/refinement-or-containment) · [Linux kernel docs (coding assistants)](https://docs.kernel.org/process/coding-assistants.html) · [Virtualization Review](https://virtualizationreview.com/articles/2026/07/16/linus-torvalds-says-linux-kernel-is-not-an-anti-ai-project.aspx) · [Robert C. Martin (Uncle Bob), X](https://x.com/unclebobmartin/status/2080257779395154409) · [Robert C. Martin (Uncle Bob), X, reply on deterministic tools](https://x.com/unclebobmartin/status/2080392677753790875)
+
+---
+
+### 88% of Brazilian Companies Don't Know the Financial Return on AI
+URL: https://wildiney.com/en/articles/ia-retorno-financeiro-totvs-mit-sloan/
+Date: 2026-10-22
+Description: 80% of Brazilian companies use or test AI, but 88% don't know the return. Only 8% integrate it into their ERP, the most decisive factor according to the study.
+
+80% of Brazilian companies test or use AI in some way, but 88% don't know what financial return AI brings. These are answers to different questions in the same MIT SMR Brasil study, commissioned by TOTVS and conducted by CNEX with 583 professionals from companies of various sizes, which is why the total exceeds 100%.
+
+With 80% testing or using it, AI seems to already be part of the company. Is it? Only 7% bring it to the core of the business and 86% don't measure how much they spend on it. Just 8% integrate AI broadly into their management systems (ERP), a factor the study points to as the most decisive for success. Alex Meincheim, CEO of UpFlux, a TOTVS partner, told Times Brasil, during Universo TOTVS, that in most companies AI is still at the individual level.
+
+The gain at the individual level belongs to whoever uses it, in tasks like writing an email or building a presentation. At the company level, it shows up in an operational number, like the procurement savings Meincheim gave as an example. With 88% not knowing the return, it's worth tying each use of AI to an operational number, so the gain starts to show up in the company's numbers.
+
+---
+
+Sources: [Forbes Brasil](https://forbes.com.br/forbes-tech/2026/10/ia-chega-a-80-das-empresas-brasileiras-mas-so-7-usa-no-centro-do-negocio/) · [Times Brasil (CNBC exclusive licensee)](https://timesbrasil.com.br/empresas-e-negocios/ia-precisa-sair-do-cpf-e-gerar-resultado-no-cnpj/)
+
+---
+
+### While There's Profit, There Are Tokens
+URL: https://wildiney.com/en/articles/roi-ia-engenharia-lucro-da-mesa/
+Date: 2026-10-22
+Description: A trading firm went from $500K to $8M a month on AI without asking for returns. At other companies, pull request counts still don't show ROI.
+
+A quantitative trading firm's AI bill went from $500,000 a month in January to $8 million in September. How do you approve an increase that size?
+
+The answer is in Gergely Orosz's survey at the Pragmatic Engineer (Oct 20), based on conversations with 27 companies, most unnamed, at their request. The trading firm has about 2,000 devs and a $25,000 cap on AI spend per employee. There, with the trading desk's profit up, AI is just one more cost line and nobody has to ask for a separate return.
+
+For the other companies, Orosz uses the pull request (PR) as a yardstick: a metric almost every company already has and that allows comparing before and after AI. At a public company with 5,000 employees, PR frequency stayed flat and PRs became, on average, three times longer. At a SaaS of about 100 people, with $2,000 a month per dev treated as a hard ceiling, the engineer interviewed says they see nothing shipping faster than before.
+
+PR counts record how many changes reach review, and a big PR counts the same as a small one. It only becomes return when someone ties it to a business outcome.
+
+The desk's profit accounts for the $8 million a month. While there's profit, there are tokens.
+
+---
+
+Sources: [Pragmatic Engineer](https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers)
+
+---
+
+### The Hardest Pix Key to Remember Is the Most Registered One
+URL: https://wildiney.com/en/articles/pix-chave-aleatoria-cadastro-nao-preferencia/
+Date: 2026-10-20
+Description: Random keys are 52.3% of Pix keys, but the data doesn't show preference: each person holds about six keys on average, and only three types are limited.
+
+Nobody memorizes a random Pix key, a meaningless string of letters and numbers, and yet it is the most registered type: 526.8 million of the 1.008 billion keys, or 52.3%, according to Tecnoblog with data from the Central Bank.
+
+Looking at these numbers alone, we might think that, being the most registered, it must be the public's favorite. Is it?
+
+The Central Bank requires the receiver's app to generate a QR Code from any key type and the payer's app to show the full name and masked CPF before confirmation. So the payer doesn't need to keep the key in their head. It arrives through the QR Code or copy and paste, and the screen shows who will receive the money. A key nobody needs to remember can be as unreadable as it likes.
+
+Also, CPF, phone number and email each work for only one account. A person with one CPF, one phone number and one email (or several, if they have more than one) exhausts those types, and anything beyond that can only be random. Doing a quick calculation, if we divide Tecnoblog's table by the roughly 170 million users, we get 5.9 keys per user. Of those, 2.7 are CPF, phone and email, close to what each person has available to register, 3.1 are random and 0.1 is CNPJ.
+
+That's why data analysis needs to be careful. You have to read the data, understand the process, the limitations and the motivation behind the result. An isolated number misleads: the 52.3% is a slice of keys, and each user holds, on average, about six.
+
+---
+
+Sources: [Tecnoblog](https://tecnoblog.net/noticias/brasileiros-ja-criaram-1-bilhao-de-chaves-pix-a-maioria-e-aleatoria/) · [Agência Brasil](https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/pix-ultrapassa-1-bilhao-de-chaves-cadastradas-no-brasil) · [Banco Central (Minimum Requirements for User Experience, v7.3)](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Regulamento_Pix/IV_RequisitosMinimosparaExperienciadoUsuario.pdf) · [Banco Central (Pix Management Report 2021-2022)](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/relatorio_de_gestao_pix/relatorio_gestao_pix_2023.pdf)
+
+---
+
+### The Stage Where Better Organization Is Not Enough
+URL: https://wildiney.com/en/articles/ia-generativa-etapa-que-organizar-nao-resolve/
+Date: 2026-10-15
+Description: Renner uses AI to photograph children's products. By the theory of constraints, AI is worth it only at the stage where better organization no longer solves it.
+
+Renner says that using AI-generated content at scale increased access to its children's products by 60%. The tool, built in-house, replaces children and babies in part of the photo shoots.
+
+Renner lists authorizations and short set time among the difficulties of photographing children and babies. Anyone who has worked with kids knows crying, tantrums, sleep and hunger don't respect the set schedule. Flavio Reis, the company's CDO, says delivering children's content "only became viable thanks to the use of technology." Given the difficulties Renner lists, AI entered the stage where team effort is not enough.
+
+The theory of constraints, by Eliyahu Goldratt (The Goal, 1984), proposes first improving the stage that blocks the process with what you already have, and only then investing in more production capacity. Generative AI comes in as that extra capacity.
+
+When deciding where to implement generative AI in your product, it's worth studying which stages offer real gains. In some, better process organization already solves the problem and avoids the cost of AI. In others, like the baby shoot, organizing better doesn't solve it, and that's where AI has its place. Only by trying to organize first can you tell which is which.
+
+---
+
+Sources: [Baguete](https://www.baguete.com.br/noticias/renner-substitui-modelos-infantis-por-ia) · [Business Moment](https://businessmoment.com.br/renner-ia-catalogo-infantil-60-por-cento-acessos/)
+
+---
+
+### The Reviewer's Time Is Not in the AI Math
+URL: https://wildiney.com/en/articles/metr-custo-conferencia-tempo-valor/
+Date: 2026-10-15
+Description: METR admits its new data on AI productivity is weak. The stopwatch of whoever generates ignores the time of whoever reviews the result.
+
+METR, an organization that evaluates AI models, says AI likely speeds up developers more today than in early 2025. But by how much? The new data is, in its words, very weak evidence on the size of the increase. Between 30% and 50% of developers said they stopped submitting tasks they didn't want to do without AI, and, according to METR, the tasks with the highest expected gain dropped out of the study.
+
+In 2025, 16 experienced developers listed real tasks, and METR randomly chose which would be done with AI. They estimated, on average, that AI had cut task time by 20%. The recorded time showed the opposite: with AI, they took 19% longer. In the screen recordings, part of the time with AI went to checking what it returned.
+
+Larry Tesler formulated the law of conservation of complexity: every piece of software has a fixed amount of complexity, and someone always carries it. Patrick Neeman, at UX Collective, names whoever carries the checking of what AI generates: the reviewer. At METR, the person who generated with AI and the person who checked were the same, so the checking entered the recorded time.
+
+METR itself warns that a time difference may not be a value difference, because with AI some developers began choosing a different kind of task. On a team, the time math still comes out incomplete: whoever reviews the pull request or checks the generated report is someone else, and that time doesn't enter the stopwatch of whoever generated it. Measuring the gain of an AI feature by that stopwatch alone shows one side of the work. The time to approved delivery, adding up whoever generated and whoever checked, is how the math closes.
+
+---
+
+Sources: [METR (paper, arXiv)](https://arxiv.org/html/2507.09089v2) · [METR (update, Feb 2026)](https://metr.org/blog/2026-02-24-uplift-update/) · [UX Collective, Patrick Neeman](https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490)
+
+---
+
+### Aro Completely Dismantled Its Own Lending Operation Before Growing
+URL: https://wildiney.com/en/articles/aro-carve-out-credito-conflito-interesse/
+Date: 2026-10-06
+Description: Aro cut its in-house lending to take its AI agent out of a conflict of interest. The user base grew 26 times in eight months after the cut.
+
+Aro started out lending money directly to customers, under a third party's banking license. It was a short phase, long enough for the team to learn, in co-founder Yuri Mannes' words, "the pains of credit." That experience led the company to dismantle its own operation early, once it noticed a structural problem: the AI agent that recommended the best credit offer was also selling Aro's own credit.
+
+Pedro Milanez, Nubank's first employee, founded the fintech alongside Yuri Mannes to solve the opposite problem of credit marketplaces. "You put in your data and it shows you 20 offers, but few are actually approved. There is still a lot of friction and information asymmetry," Mannes describes. Aro's agent follows the customer through to the end of the contracting process, "like a bank manager, a real financial partner." "We did a carve-out because we understood we had a small conflict of interest," Mannes explains. Carve-out is the M&A term for isolating a piece of the business and separating it from the rest of the company.
+
+Aro dismantled its own lending operation early, when the company didn't yet have the numbers that now support the recommendation model. Growth came after the cut: without originating credit, working only as a layer between the customer and more than 40 integrated lenders, the base multiplied 26 times in eight months, passing half a million sign-ups. The decision to take the agent out of the conflict of interest came before the result, not the other way around.
+
+Aro could do the carve-out without breaking revenue because the model had charged only the lender from the start. Cutting the in-house operation took the conflict out of the equation without taking out the money.
+
+---
+
+Sources: [Exame](https://exame.com/negocios/primeiro-funcionario-do-nubank-criou-uma-ia-que-caca-credito-barato-e-cresceu-26-vezes-em-8-meses/) · [Startups](https://startups.com.br/negocios/fintech/para-a-aro-um-agente-de-ia-sera-seu-proximo-consultor-financeiro/)
+
+---
+
+### Salesforce Built Its Own Model and Kept Claude
+URL: https://wildiney.com/en/articles/salesforce-construiu-proprio-modelo-manteve-claude/
+Date: 2026-09-29
+Description: Salesforce trained Koa, its own reasoning model, on Nemotron and kept Claude. Deciding which task goes to which model became product work.
+
+Salesforce had direct access to Claude and ChatGPT inside its own product, but built a reasoning model of its own, called Koa, trained on top of Nemotron, Nvidia's open model.
+
+A salesperson negotiating a discount and an angry customer in support don't need a model trained to solve impossible math problems, built to impress benchmarks and investors. They need a fast, cheap answer with no risk of leaking customer data.
+
+Koa runs inside Agentforce, Salesforce's agent platform, and handles reasoning in sales, marketing and support tasks, like answering a customer and scheduling an appointment. Before, when an agent needed to reason through something complex, the request went to a frontier model like Claude or ChatGPT. Now Salesforce has its own model for that, one that spends fewer tokens than the competition.
+
+Training used synthetic data: Salesforce simulated a call center, with a furious customer calling and a salesperson trying to close a deal. No real customer data went in.
+
+The company didn't abandon Anthropic: it launched Claudeforce the same week, with Claude remaining the interface while customer data stays locked inside Salesforce's own infrastructure.
+
+The token savings are the concrete number, but the pattern that stays is worth reflecting on: deciding which task goes to which model is now also work for the team that designs the product, not only for the infrastructure team.
+
+---
+
+Sources: [TechCrunch](https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/)
+
+---
+
+### The Default Nobody Sees
+URL: https://wildiney.com/en/articles/deepfault-defaults-skills-agentes/
+Date: 2026-09-25
+Description: Nielsen calls it a deepfault: the default stored out of sight of whoever uses the agent. A skill weighs as much as a screen and deserves the same evaluation.
+
+In 2011, Jared Spool reported a study of several hundred Word configuration files: fewer than 5% of users had changed any setting. In the same article that cites the study, Jakob Nielsen says he writes his own texts with a skill in which he recorded dozens of decisions (headline style, number format, banned words).
+
+Nielsen calls a "deepfault" the default that stays stored out of sight of whoever uses the agent. A request to book a flight or refactor code can leave hundreds of points open, and the agent fills in each one on its own, in a single run. Decisions saved in a skill months ago may still shape today's output. Nielsen ties the review of that file to a change of model behind the agent or a change in the task it performs.
+
+A screen default goes through design critique and usability testing before launch, a review done by someone else, a process that runs on its own. A skill depends on its own author remembering to reopen the file when the model or the task changes. Changing a skill weighs as much on the result as changing a screen, and deserves the same kind of evaluation: comparing output before and after the change, the way interface variations are already compared.
+
+But how do I do that? Note this down to look up later: promptfoo, LangSmith and Braintrust run the skill against a fixed set of real cases, put the old output next to the new one and apply automatic scoring. None of them was built exactly for this purpose, but they help solve the problem: knowing whether the text change improved or worsened the result before deploy. Some people prefer to evaluate by hand, by feel, but feel changes with the day: the same output can get a different grade on a Monday morning and on a Friday afternoon.
+
+---
+
+Sources: [Jakob Nielsen (Substack)](https://jakobnielsenphd.substack.com/p/defaults) · [Promptfoo](https://www.promptfoo.dev/docs/intro/) · [LangSmith](https://docs.langchain.com/langsmith/evaluation-concepts) · [Braintrust](https://www.braintrust.dev/docs/evaluate)
+
+---
+
+### The Owner of the Agent
+URL: https://wildiney.com/en/articles/governanca-agentes-ia-brasil-roi-dono/
+Date: 2026-09-24
+Description: 61.8% of Brazilian companies have AI agents in pilot or operation, but 55.1% don't measure ROI. Before scaling, every agent needs an owner.
+
+Pick an AI agent at your company, in pilot or already in operation, and ask who owns it and how much it costs per month. In Zappts' survey, 61.8% of Brazilian companies have agents in those two phases: 13.8% have scaled in operations and 48% are somewhere between pilot and scale.
+
+The Panorama da IA no Brasil surveyed 167 executives, recruited through the channels of Zappts itself, a consultancy that sells AI agent projects. The share of companies that don't measure AI ROI nearly doubled in a year, from 30.6% to 55.1%. In the same survey, 26.2% have no defined budget for agents, and 55.2% have no AI gateway. Pablo Augusto, Zappts' CEO, says AI agents "are not just isolated IT projects, they become part of a new digital workforce."
+
+A workforce has a manager, and before the pilot becomes production that manager must answer for the agent, with a defined budget and an ROI target to hit. Without that, nobody can say whether this workforce pays for itself.
+
+---
+
+Sources: [Security Leaders](https://securityleaders.com.br/seis-em-cada-dez-empresas-no-brasil-desconhecem-o-retorno-sobre-investimentos-em-ia/) · [IPNews](https://ipnews.com.br/ia-avanca-nas-empresas-brasileiras-mas-apenas-138-ja-escalaram-agentes/)
+
+---
+
+### Visa, Mastercard and Ant Aligned on AI Agent Identity
+URL: https://wildiney.com/en/articles/kya-identidade-agentes-ia-pagamentos/
+Date: 2026-09-24
+Description: The Know Your Agent standard unites three competing networks, but with no published spec. Almost half of buyers still block purchases made on AI recommendations.
+
+Visa, Mastercard and Ant International signed, in São Paulo, a common identity standard for AI agents that buy on someone's behalf. It is called Know Your Agent, KYA.
+
+Three networks that compete for the same slice of the market agreed to align their own protocols: Visa Trusted Agent Protocol, Mastercard Verifiable Intent and Ant Agentic Mobile Protocol. According to Ant International's CIO, Jiang-Ming Yang, an agent already registered with Ant doesn't need to register again with Visa or Mastercard. That cuts duplicate onboarding across competing networks, something each one normally solves alone before talking to the others. McKinsey projects 3 to 5 trillion dollars in agent-orchestrated commerce by 2030, and this kind of integration friction was part of what held that number back.
+
+But the announcement came with no technical specification, governance structure or timeline, according to Forkast itself. For anyone deciding where AI enters a payment product, this matters more than it seems. It is an agreement between executives, with no published specification an engineering team can implement. For now, we wait.
+
+Product.ai's April survey of 1,463 American shoppers shows 14% trusting an AI recommendation without checking again, and 42% refusing to buy on an AI referral above 25 dollars without confirming elsewhere. Almost half the market still blocks AI at a low price point, and no identity protocol changes that number on its own.
+
+Consumer trust is built transaction by transaction. Are you ready to let an agent do your shopping?
+
+---
+
+Sources: [Forkast](https://forkast.news/ant-international-visa-and-mastercard-agree-on-agent-identity-standard-now-comes-the-hard-part/) · [PYMNTS](https://www.pymnts.com/cybersecurity/2026/visa-mastercard-team-with-ant-know-your-agent-framework) · [Product.ai](https://product.ai/research/trust-in-ai-commerce-report/)
+
+---
+
+### iFood Trains AI on the Behavior of People Who Are Already Customers
+URL: https://wildiney.com/en/articles/ifood-treina-ia-comportamento-cliente/
+Date: 2026-09-22
+Description: iFood is putting R$ 2 billion into agents and the Large Commerce Model, trained on orders, cancellations and reviews. Operational data became raw material.
+
+At iFood MOVE, iFood announced R$ 24 billion in investment through March 2027, 41% above the previous cycle, to grow beyond food delivery. Within that package, more than R$ 2 billion goes to AI agents and to the Large Commerce Model.
+
+The Large Commerce Model is a generative AI model that iFood built with Prosus, trained on anonymized searches, purchases, cancellations and reviews to interpret purchase intent. In August, I wrote here about how iFood measured the results generated by its 27,000 AI agents and how the development team gained 16% in productivity with that metric.
+
+The model learned from iFood's customer history and, according to Prosus, also from the group's transactions, which span more than 500 million users. According to iFood, the result is more precise notifications and recommendations, at a lower cost than equivalent proprietary models.
+
+For anyone building products, the data an operation already generates, such as orders, cancellations and reviews, is raw material for a model that reads purchase intent.
+
+---
+
+Sources: [Forbes Brasil](https://forbes.com.br/forbes-money/2026/09/o-plano-de-r-24-bilhoes-do-ifood-para-crescer-alem-do-delivery-de-comida/) · [Correio Braziliense](https://www.correiobraziliense.com.br/economia/2026/09/7501529-ifood-anuncia-investimento-de-rs-24-bilhoes-ate-marco-de-2027.html) · [O Tempo](https://www.otempo.com.br/economia/2026/9/16/ifood-anuncia-r-24-bilhoes-em-investimentos-no-brasil-e-amplia-aposta-em-ia) · [Prosus](https://www.prosus.com/news-insights/2025/prosus-reinvents-ecommerce-with-launch-of-a-specialist-large-commerce-model)
+
+---
+
+### The Blast Radius of an Agent Account
+URL: https://wildiney.com/en/articles/hacktron-openai-claude-raio-de-dano/
+Date: 2026-09-19
+Description: Three researchers breached OpenAI's internal repository in 72 hours. The blast radius of an agent account is everything connected to it.
+
+Three researchers at Hacktron AI broke into OpenAI's internal repository in under 72 hours. The proof of access was a pull request opened from an employee's account. "We're just three guys with Claude and Codex subscriptions," co-founder Mohan Pedhapati told the Wall Street Journal. OpenAI fixed the flaw about 14 hours after the report and paid a $6,500 bounty.
+
+The chain began with an uploaded image that exploited a memory flaw in the community.openai.com forum, hosted on Discourse (not to be confused with Discord). It became remote code execution on the forum server. OpenAI's single sign-on, which the forum uses to authenticate, turned that access into access to employee accounts on ChatGPT and Codex. One of them had the organization's GitHub connected, and a prompt in that account opened the pull request in the openai/openai monorepo. The Claude used was the version cleared for cybersecurity work, with relaxed restrictions: Opus 4.8 failed, Opus 5 got it done.
+
+The blast radius of an agent account is everything connected to it. The bounty program worked as it should, but the product decision comes first: if the account is stolen, how far can the agent reach? And should logging into one service open the door to another?
+
+---
+
+Sources: [Fortune](https://fortune.com/2026/09/18/open-ai-hacked-anthropic-claude-source-code-6500-reward/) · [Tom's Hardware](https://www.tomshardware.com/tech-industry/cyber-security/hackers-breach-openai-using-claude-tools-gaining-access-to-employee-accounts-and-the-companys-internal-codebase-initiating-a-harmless-pull-request-as-proof-of-the-hack) · [The Register](https://www.theregister.com/security/2026/09/18/researchers-used-claude-to-hack-openai-employees-chatgpt-accounts/5297517) · [Hacktron AI](https://www.hacktron.ai/blog/hacking-openai)
+
+---
+
 ### Alibaba Was Listening
 URL: https://wildiney.com/en/articles/alibaba-te-ouviu-audio-fingerprinting/
 Date: 2026-09-10
