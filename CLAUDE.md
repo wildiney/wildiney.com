@@ -18,7 +18,7 @@ There are no automated tests in this project.
 
 ## Architecture
 
-**Stack:** Astro 7 + TypeScript + Tailwind CSS 4 + Storybook 10 (parked — see TODO)
+**Stack:** Astro 7 + TypeScript + Tailwind CSS 4 + Storybook 10
 
 **Routing:** Astro file-based routing with static output. Pages in `src/pages/`. i18n via Astro native routing — PT default at `/`, EN at `/en/`, ES at `/es/`.
 
@@ -57,12 +57,10 @@ Deploys to GitHub Pages via `gh-pages -d dist --dotfiles`. The `--dotfiles` flag
 
 Route `/agenda` (and `/en/agenda`, `/es/agenda`) has `noindex` robots meta and is not in the nav or sitemap — it can be shared directly for scheduling.
 
-## TODO — Storybook parked (Vite 8 / rolldown incompatibility)
+## Storybook (funcionando desde 2026-10-25)
 
-**Astro is now on 7.1.x. Storybook (`pnpm storybook`, `pnpm build-storybook`) is currently broken and parked.**
+`pnpm storybook` e `pnpm build-storybook` funcionam com Astro 7 / Vite 8 / Storybook 10.6.3.
 
-- Root cause: Astro 7 requires `vite@^8`. Vite 8's production builds use `rolldown`. `@storybook/builder-vite` (storybook 10.5.5, tested 2026-07-28) fails at runtime transform on every `.stories.tsx` — `[plugin storybook:inject-export-order-plugin] Error: Parse error`. **peerDep ranges are NOT a valid signal** — they advertised `^8.0.0` but it still breaks.
-- **When to recheck:** Watch `@storybook/builder-vite` release notes for explicit rolldown/Vite 8 fix. When ready:
-  1. `rm -rf node_modules pnpm-lock.yaml && pnpm install` (fresh resolve).
-  2. Verify `pnpm build-storybook` passes — don't trust peerDeps alone.
-  3. Optionally load a story in `pnpm storybook` dev mode in a browser to confirm.
+- **Causa do erro antigo** (`[plugin storybook:inject-export-order-plugin] Error: Parse error`): não era bug do Storybook. Sem `@vitejs/plugin-react` em `viteFinal`, o Vite 8 (rolldown/oxc) entregava TS/JSX sem transpilar ao plugin `inject-export-order` (`enforce: 'post'`), que faz parse como JS. Corrigido adicionando `react()` em `.storybook/main.ts`.
+- **Pendência em toda rodada de atualização de dependências:** depois de atualizar, rodar `pnpm build-storybook` e confirmar que passa (sem `Parse error`). Se quebrar, checar primeiro se `@vitejs/plugin-react` e o `react()` em `viteFinal` continuam compatíveis com a versão do Vite/Storybook.
+- `storybook-static/` é saída de build (ignorada pelo eslint); pode apagar depois de testar.

@@ -6,7 +6,7 @@ import globals from 'globals';
 export default tseslint.config(
   {
     // Global ignores
-    ignores: ['dist/', '.astro/'],
+    ignores: ['dist/', '.astro/', 'storybook-static/'],
   },
   // Base configurations
   js.configs.recommended,
