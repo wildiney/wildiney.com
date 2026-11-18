@@ -21,6 +21,8 @@ overrides:
   'flatted@<3.4.2': '3.4.2'
   'picomatch@<2.3.2': '2.3.2'
   'picomatch@>=4.0.0 <4.0.4': '4.0.4'
+  # glob@13 (via storybook docgen plugin) caps minimatch at ^10; GHSA-3g3m-2fjr-6pw4 + GHSA-g3hv-75wg-m249. Remove once the plugin moves to glob>=14.0.2
+  'glob@>=13.0.0 <14.0.2': '14.0.6'
   'js-yaml@>=4.0.0 <4.3.2': '4.3.2'
   'nanoid@<3.3.18': '3.3.18'
   '@babel/core@>=7.28.0 <7.29.6': '7.29.6'
